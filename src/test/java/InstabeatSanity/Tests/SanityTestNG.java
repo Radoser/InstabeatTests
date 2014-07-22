@@ -17,13 +17,13 @@ import org.testng.annotations.Test;
 
 public class SanityTestNG extends AbstractTestClass {
 
-	@Test(priority = 0, enabled = false)
+	@Test(priority = 0, enabled = true)
 	public void checkAllLinksOnWebPage() {
 		LoginPage onLoginPage = new LoginPage(driver);
 		onLoginPage.checkAllLinksFromLoginPage();
 	}
 
-	@Test(priority = 1, enabled = false)
+	@Test(priority = 1, enabled = true)
 	public void UserCanLogin() {
 		LoginPage onLoginPage = new LoginPage(driver);
 
@@ -40,7 +40,7 @@ public class SanityTestNG extends AbstractTestClass {
 		Utils.waitPage();
 	}
 
-	@Test(priority = 2, enabled = false)
+	@Test(priority = 2, enabled = true)
 	public void UserCannotLogin() {
 		LoginPage onLoginPage = new LoginPage(driver);
 
