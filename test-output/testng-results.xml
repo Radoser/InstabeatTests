@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="34877" started-at="2014-07-22T15:06:39Z" finished-at="2014-07-22T15:07:14Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="34877" started-at="2014-07-22T15:06:39Z" finished-at="2014-07-22T15:07:14Z">
+      <class name="InstabeatSanity.Tests.SanityTestNG">
+        <test-method status="PASS" signature="BeforeTests()[pri:0, instance:InstabeatSanity.Tests.SanityTestNG@22a71081]" name="BeforeTests" is-config="true" duration-ms="12066" started-at="2014-07-22T18:06:39Z" finished-at="2014-07-22T18:06:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeTests -->
+        <test-method status="PASS" signature="UserForgotPassword()[pri:0, instance:InstabeatSanity.Tests.SanityTestNG@22a71081]" name="UserForgotPassword" duration-ms="21941" started-at="2014-07-22T18:06:51Z" finished-at="2014-07-22T18:07:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserForgotPassword -->
+        <test-method status="PASS" signature="AfterTests()[pri:0, instance:InstabeatSanity.Tests.SanityTestNG@22a71081]" name="AfterTests" is-config="true" duration-ms="863" started-at="2014-07-22T18:07:13Z" finished-at="2014-07-22T18:07:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterTests -->
+      </class> <!-- InstabeatSanity.Tests.SanityTestNG -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
