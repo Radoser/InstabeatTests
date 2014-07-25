@@ -1,6 +1,7 @@
 package instabeat.utils;
 
 import java.util.List;
+import java.util.NoSuchElementException;
 import java.util.Random;
 
 import org.apache.commons.lang3.RandomStringUtils;
@@ -8,18 +9,106 @@ import org.json.JSONObject;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.How;
+import org.openqa.selenium.support.PageFactory;
 
 public class MainPagesFunc {
+
 
 	protected WebDriver driver;
 	protected ParametersManager parameters;
 	Random random = new Random();
 
+	@FindBy(xpath = "//div[@onclick='logOut()']")
+	WebElement LogoutLink;
+	
+	/*Login Page*/
+	@FindBy(id = "email")
+	public static WebElement EmailField;
+	
+	@FindBy(id = "passwordInput")
+	public WebElement PasswordField;
+	
+	@FindBy(xpath = "//button[@type='submit']")
+	public WebElement LoginButton;
+	
+	@FindBy(xpath = "//a[@href='/user/register']")
+	public WebElement GetStartedLink;
+	
+	@FindBy(xpath = "//a[@href='/user/restore']")
+	public WebElement ForgotPasswordLink;
+		
+	/*Reset Password Page*/
+	@FindBy(id = "passwordInput")
+	public WebElement NewPasswordField;
+	
+	@FindBy(id = "password_conf")
+	public WebElement ConfirmNewPasswordField;
+	
+	@FindBy(xpath = "//button[@type='submit']")
+	public WebElement ResetPasswordButton;
+	
+	/*Get Started Page*/
+	@FindBy(xpath = "//button[@type='submit']")
+	public WebElement SignUpButton;
+	
+	@FindBy(id = "firstName")
+	public WebElement FirstNameField;
+	
+	@FindBy(id = "lastName")
+	public WebElement LastNameField;
+	
+	@FindBy(id = "birthdate")
+	public WebElement DateOfBirthField;
+	
+	@FindBy(id = "heightCm")
+	public WebElement HeightField;
+	
+	@FindBy(id = "weight")
+	public WebElement WeightField;
+	
+	/*Heart Rate Zones Page*/
+	@FindBy(id = "MHR")
+	public WebElement RHRField;
+	
+	@FindBy(id = "calcButton")
+	public WebElement CalculateHRButton;
+	
+	@FindBy(xpath = "//input[@class='ibt-button']")
+	public WebElement UpdateButton;
+	
+	/*Home Page*/
+	@FindBy(xpath = "//div[@class='float-right calendar']")
+	public WebElement CalendarButton;
+	
+	@FindBy(xpath = "//span[@class='cal-day']")
+	public WebElement CalendarButtonDate;
+	
+	@FindBy(xpath = "//span[@class='cal-month']")
+	public WebElement CalendarButtonMonth;
+	
+	@FindBy(xpath = "//*[@class = 'day ']")
+	public WebElement DateContainsSessions;  
+	
+	@FindBy(how = How.CSS, using = ".day.active")
+	public WebElement ActiveDateWithSession;
+	
+	@FindBy(xpath = ".//*[@id='cong-text']")
+	public WebElement CongratsMessage;
+	
+	@FindBy(xpath = ".//*[@id='s2id_parentNode']/a")
+	public WebElement ContextMenu;
+	
+	
+	
 	public MainPagesFunc(WebDriver driver) {
 		parameters = new ParametersManager();
 		parameters.getPropertyFields();
+		PageFactory.initElements(driver, this);
 		this.driver = driver;
 	}
+	
 
 	public String randomUser;// = "testusergl"+random.nextInt()+"@ukr.net";
 	public String randomValues; // ="Name"+RandomStringUtils.randomAlphabetic(5);
@@ -33,15 +122,10 @@ public class MainPagesFunc {
 		randomValues = "Name" + RandomStringUtils.randomAlphabetic(5);
 	}
 
-	/*public boolean fields(By by) {
-		 WebElement  by = driver.findElement(by);
-		return by; 
-	}*/
-
 	public void values(By by, String values) {
 		WebElement element = driver.findElement(by);
 		element.sendKeys(values);
-	}
+		}
 
 	public void click(By by) {
 		driver.findElement(by).click();
@@ -50,12 +134,9 @@ public class MainPagesFunc {
 	public boolean verifyPageContent(String data) {
 		return driver.getPageSource().contains(data);
 	}
-	
-
-	
+		
 	public void logout() {
-		driver.findElement(By.xpath(parameters.LogoutLink)).click();
-
+		LogoutLink.click();
 	}
 
 	public void GoToIMAPServer() throws Exception {
@@ -94,28 +175,19 @@ public class MainPagesFunc {
 
 	}
 	
+	public boolean verificationOfElementsOnPages(WebElement element) {
+        try {
+            element.isDisplayed();
+            System.out.println("Element"+element+"is PRESENT!!!");
+            return true;
+        } catch (NoSuchElementException e) {
+            return false;
+        }
+    }
+	
+	
 	
 }
 
-// login page
 
-/*
- * By email_Field = By.id(EmailField); By password_Field = By.id(PasswordField);
- * //public By login_Button = By.xpath(LoginButton);
- * 
- * By get_started_link = By.linkText("Get started here"); //By get_started_Link
- * = By.xpath(""); By forgotPassword_link = By.xpath(""); By logout_link =
- * By.xpath("");
- * 
- * //forgot password page By existingEmail_Field = By.id("email"); By
- * forgot_Button =
- * By.xpath(".//*[@id='response-false']/form/div[3]/div[2]/button");
- * 
- * //reset password page By newPassword_Field = By.xpath("//div[
- */// text()='New Password']/descendant::input[@id='passwordInput']");
-// By confirmPassword_Field =
-// By.xpath("//div[*/text() = 'Confirm New Password']/descendant::input[@id='password_conf']");
-// By reset_Button =
-// By.xpath("html/body/div[4]/div/div[2]/form/div[1]/div[3]/button");*/
 
-// ////////

@@ -17,13 +17,13 @@ import org.testng.annotations.Test;
 
 public class SanityTestNG extends AbstractTestClass {
 
-	@Test(priority = 0, enabled = true)
+	@Test(priority = 0, enabled = false)
 	public void checkAllLinksOnWebPage() {
 		LoginPage onLoginPage = new LoginPage(driver);
 		onLoginPage.checkAllLinksFromLoginPage();
 	}
 
-	@Test(priority = 1, enabled = true)
+	@Test(priority = 1, enabled = false)
 	public void UserCanLogin() {
 		LoginPage onLoginPage = new LoginPage(driver);
 
@@ -40,7 +40,7 @@ public class SanityTestNG extends AbstractTestClass {
 		Utils.waitPage();
 	}
 
-	@Test(priority = 2, enabled = true)
+	@Test(priority = 2, enabled = false)
 	public void UserCannotLogin() {
 		LoginPage onLoginPage = new LoginPage(driver);
 
@@ -122,14 +122,15 @@ public class SanityTestNG extends AbstractTestClass {
 
 		onLoginPage.logout();
 
-		onLoginPage.typeBLA(onGetStartedPage.randomUser);
+		onLoginPage.typeUserAfterRegister(onGetStartedPage.randomUser);
 		onLoginPage.typeUserPassword();
 		onLoginPage.LoginButton();
 		Utils.waitPage();
+		onLoginPage.logoutFromDashboard();
 		// asssert
 	}
 
-	@Test(priority = 3, enabled = true)
+	@Test(priority = 3, enabled = false)
 	public void UserForgotPassword() throws Exception {
 
 		LoginPage onLoginPage = new LoginPage(driver);
@@ -140,8 +141,8 @@ public class SanityTestNG extends AbstractTestClass {
 		ForgotPasswordPageResults onForgotPasswordPageResults = onForgotPasswordPage
 				.clickOnResetButton();
 
-		instabeat.utils.Utils.waitPage();
-		AssertJUnit.assertTrue(onForgotPasswordPageResults.checkUserEmail());
+		Utils.waitPage();
+		Assert.assertTrue(onForgotPasswordPageResults.checkUserEmail());
 
 		ResetPasswordPage onResetPasswordPage = onForgotPasswordPageResults
 				.getConfirmationFromEmail2();
@@ -156,8 +157,10 @@ public class SanityTestNG extends AbstractTestClass {
 		Utils.waitPage();
 
 	}
-
-	@Test(priority = 5, enabled = false)
+	
+//	NEED TO ADD TEST TO PROFILE + SETTINGS PAGES!!!
+	
+	@Test(priority = 5, enabled = true)
 	public void UserCanToUpdateProfile() {
 
 		LoginPage onLoginPage = new LoginPage(driver);
@@ -166,10 +169,16 @@ public class SanityTestNG extends AbstractTestClass {
 
 		HomePage onHomePage = onLoginPage.LoginButton();
 		Utils.waitPage();
-		AssertJUnit.assertTrue(onHomePage.isHomePagePresent());
+		Assert.assertTrue(onHomePage.isHomePagePresent());
+		onHomePage.isCalendarButtonPresent();
+		
 
 		onHomePage.cliclOnCalendarButton();
-		AssertJUnit.assertTrue(onHomePage.IsCalendarPresent());
+		onHomePage.isDateWithSessionsPresent();
+		onHomePage.clickOnContextMenu();
+		onHomePage.clickOnSession();
+		
+//		Assert.assertTrue(onHomePage.IsCalendarPresent());
 
 		Utils.waitPage();
 

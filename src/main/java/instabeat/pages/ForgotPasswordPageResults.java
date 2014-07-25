@@ -3,6 +3,7 @@ package instabeat.pages;
 import instabeat.utils.MainPagesFunc;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.PageFactory;
 
 public class ForgotPasswordPageResults extends MainPagesFunc {
 
@@ -23,7 +24,7 @@ public class ForgotPasswordPageResults extends MainPagesFunc {
 
 	public boolean checkUserEmail() {
 		return driver.findElement(By.tagName("span")).getText()
-				.contains("fortestgl@gmail.com");
+				.contains("fortestgl+2@gmail.com");
 	}
 
 	public boolean verifyTextPresent(String text) {
@@ -32,7 +33,7 @@ public class ForgotPasswordPageResults extends MainPagesFunc {
 
 	public ResetPasswordPage getConfirmationFromEmail2() throws Exception {
 		GoToIMAPServer();
-		return new ResetPasswordPage(driver);
+		return PageFactory.initElements(driver, ResetPasswordPage.class);
 
 	}
 

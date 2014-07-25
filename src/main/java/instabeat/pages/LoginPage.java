@@ -3,8 +3,11 @@ package instabeat.pages;
 import instabeat.dashboard.HomePage;
 import instabeat.dashboard.ProfilePage;
 import instabeat.utils.MainPagesFunc;
+import instabeat.utils.PagesWebElements;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.PageFactory;
 
 public class LoginPage extends MainPagesFunc {
 
@@ -26,36 +29,36 @@ public class LoginPage extends MainPagesFunc {
 	}
 
 	public void typeUserEmail() {
-		values(By.id(parameters.EmailField), parameters.UserEmail);
+		EmailField.sendKeys(parameters.UserEmail);
 	}
 
 	public void typeWrongUserEmail() {
-		values(By.id(parameters.EmailField), randomUser);
+		EmailField.sendKeys(randomUser);
 	}
 
-	public void typeBLA(String data) {
-		values(By.id(parameters.EmailField), data);
+	public void typeUserAfterRegister(String data) {
+		EmailField.sendKeys(data);
 	}
 
 	public void typeUserPassword() {
-		values(By.id(parameters.PasswordField), parameters.UserPassword);
+		PasswordField.sendKeys(parameters.UserPassword);
 	}
 
 	public HomePage LoginButton() {
 		click(By.xpath(parameters.LoginButton));
-		return new HomePage(driver);
+		return PageFactory.initElements(driver, HomePage.class);
 	}
 
 	public ForgotPasswordPage clickOnForgotPasswordLink() {
 		click(By.xpath(parameters.ForgotPasswordLink));
 		// driver.findElement(By.linkText("Click here")).click();
-		return new ForgotPasswordPage(driver);
+		return PageFactory.initElements(driver, ForgotPasswordPage.class);
 	}
 
 	public GetStartedPage clickOnGetStartedLink() {
 		click(By.xpath(parameters.GetStartedLink));
 		// driver.findElement(By.linkText("Get started here")).click();
-		return new GetStartedPage(driver);
+		return PageFactory.initElements(driver, GetStartedPage.class);
 	}
 	
 	public void checkAllLinksFromLoginPage(){

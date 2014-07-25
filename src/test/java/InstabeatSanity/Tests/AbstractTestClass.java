@@ -26,7 +26,7 @@ public class AbstractTestClass {
 		driver = new FirefoxDriver();
 		driver.manage().window().maximize();
 		driver.get("http://user.instabeat.me/user/");
-		// driver.get("http://ibeat.pub.globallogic.com/user/");
+//		 driver.get("http://ibeat.pub.globallogic.com/user/");
 		driver.manage().timeouts().implicitlyWait(50, TimeUnit.SECONDS);
 	}
 

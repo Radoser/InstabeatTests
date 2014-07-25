@@ -3,6 +3,7 @@ package instabeat.pages;
 import instabeat.utils.MainPagesFunc;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.PageFactory;
 
 public class GetStartedSecondStep extends MainPagesFunc {
 
@@ -30,7 +31,7 @@ public class GetStartedSecondStep extends MainPagesFunc {
 	public GetStartedThirdStep loginByApp(String value) throws Exception
 	{
 		LoginApp(value);
-		return new GetStartedThirdStep(driver);
+		return PageFactory.initElements(driver, GetStartedThirdStep.class);
 	}
 	
 }

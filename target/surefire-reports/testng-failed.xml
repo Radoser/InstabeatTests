@@ -6,8 +6,8 @@
       <class name="InstabeatSanity.Tests.SanityTestNG">
         <methods>
           <include name="BeforeTests"/>
+          <include name="UserCanRegister"/>
           <include name="AfterTests"/>
-          <include name="UserCanToUpdateProfile"/>
         </methods>
       </class>
     </classes>

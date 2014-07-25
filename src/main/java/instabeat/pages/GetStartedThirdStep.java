@@ -4,6 +4,7 @@ import instabeat.dashboard.HomePage;
 import instabeat.utils.MainPagesFunc;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.PageFactory;
 
 public class GetStartedThirdStep extends MainPagesFunc {
 
@@ -21,15 +22,15 @@ public class GetStartedThirdStep extends MainPagesFunc {
 	}
 
 	public void typeRHRValue() {
-		values(By.id(parameters.RHRField), "25");
+		RHRField.sendKeys("25");
 	}
 
 	public void clickOnCalculateButton() {
-		click(By.id(parameters.CalculateHRButton));
+		CalculateHRButton.click();
 	}
 	
 	public HomePage clickOnUpdateButton(){
-		click(By.xpath(parameters.UpdateButton));
-		return new HomePage(driver);
+		UpdateButton.click();
+		return PageFactory.initElements(driver, HomePage.class);
 	}
 }

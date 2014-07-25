@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestSuite" time="89.323" tests="4" errors="0" skipped="0" failures="0">
+<testsuite name="TestSuite" time="59.086" tests="1" errors="0" skipped="0" failures="1">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files (x86)\Java\jdk1.8.0_05\jre\bin"/>
@@ -43,11 +43,11 @@
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="32"/>
     <property name="java.home" value="C:\Program Files (x86)\Java\jdk1.8.0_05\jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test site"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
-    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vm.info" value="mixed mode"/>
     <property name="java.version" value="1.8.0_05"/>
     <property name="java.ext.dirs" value="C:\Program Files (x86)\Java\jdk1.8.0_05\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
     <property name="sun.boot.class.path" value="C:\Program Files (x86)\Java\jdk1.8.0_05\jre\lib\resources.jar;C:\Program Files (x86)\Java\jdk1.8.0_05\jre\lib\rt.jar;C:\Program Files (x86)\Java\jdk1.8.0_05\jre\lib\sunrsasign.jar;C:\Program Files (x86)\Java\jdk1.8.0_05\jre\lib\jsse.jar;C:\Program Files (x86)\Java\jdk1.8.0_05\jre\lib\jce.jar;C:\Program Files (x86)\Java\jdk1.8.0_05\jre\lib\charsets.jar;C:\Program Files (x86)\Java\jdk1.8.0_05\jre\lib\jfr.jar;C:\Program Files (x86)\Java\jdk1.8.0_05\jre\classes"/>
@@ -62,8 +62,34 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
   </properties>
-  <testcase name="checkAllLinksOnWebPage" classname="InstabeatSanity.Tests.SanityTestNG" time="49.666"/>
-  <testcase name="UserCanLogin" classname="InstabeatSanity.Tests.SanityTestNG" time="11.469"/>
-  <testcase name="UserCannotLogin" classname="InstabeatSanity.Tests.SanityTestNG" time="5.411"/>
-  <testcase name="UserForgotPassword" classname="InstabeatSanity.Tests.SanityTestNG" time="22.777"/>
+  <testcase name="UserCanRegister" classname="InstabeatSanity.Tests.SanityTestNG" time="59.086">
+    <failure message="Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;usermail&quot;}&#10;Command duration or timeout: 50.08 seconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;2.41.0&apos;, revision: &apos;3192d8a6c4449dc285928ba024779344f5423c58&apos;, time: &apos;2014-03-27 11:29:39&apos;&#10;System info: host: &apos;LWO1-DHP-F54947&apos;, ip: &apos;172.24.206.7&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_05&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=30.0, platform=XP, browserConnectionEnabled=true, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]&#10;Session ID: 082008f0-221f-4c4c-b2f2-de5dfd7e9cd7" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"id","selector":"usermail"}
+Command duration or timeout: 50.08 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.41.0', revision: '3192d8a6c4449dc285928ba024779344f5423c58', time: '2014-03-27 11:29:39'
+System info: host: 'LWO1-DHP-F54947', ip: '172.24.206.7', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_05'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=30.0, platform=XP, browserConnectionEnabled=true, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 082008f0-221f-4c4c-b2f2-de5dfd7e9cd7
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:389)
+	at org.openqa.selenium.By$ById.findElement(By.java:214)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:340)
+	at instabeat.pages.GetSartedFirstStep.checkUserEmail(GetSartedFirstStep.java:18)
+	at InstabeatSanity.Tests.SanityTestNG.UserCanRegister(SanityTestNG.java:101)
+Caused by: org.openqa.selenium.remote.ErrorHandler$UnknownServerException: Unable to locate element: {"method":"id","selector":"usermail"}
+Build info: version: '2.41.0', revision: '3192d8a6c4449dc285928ba024779344f5423c58', time: '2014-03-27 11:29:39'
+System info: host: 'LWO1-DHP-F54947', ip: '172.24.206.7', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_05'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/ROMAN~1.MYK/AppData/Local/Temp/anonymous7207066561201685201webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:8905:7)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/ROMAN~1.MYK/AppData/Local/Temp/anonymous7207066561201685201webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:396:5)
+]]></failure>
+  </testcase>
 </testsuite>

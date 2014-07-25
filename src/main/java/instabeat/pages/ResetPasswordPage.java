@@ -5,6 +5,7 @@ import instabeat.utils.MainPagesFunc;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.PageFactory;
 
 public class ResetPasswordPage extends MainPagesFunc{
 
@@ -21,24 +22,19 @@ public class ResetPasswordPage extends MainPagesFunc{
 	
 	public void typeNewPassword() 
 	{
-		values(By.id(parameters.NewPasswordField), parameters.UserPassword);
-		/*WebElement newPasswordField = driver.findElement(By.id("passwordInput"));
-		newPasswordField.sendKeys(userEmail);*/
+		NewPasswordField.sendKeys(parameters.UserPassword);
 	}
 
 
 	public void typeConfirmPassword() 
 	{
-		values(By.id(parameters.ConfirmNewPasswordField), parameters.UserPassword);
-		/*WebElement confirmPasswordField = driver.findElement(By.id("password_conf"));
-		confirmPasswordField.sendKeys(password);		*/
+		ConfirmNewPasswordField.sendKeys(parameters.UserPassword);
 	}
 
 
 	public LoginPage afterResetPassword(){
-		click(By.xpath(parameters.ResetPasswordButton));
-		//driver.findElement(By.xpath("//button[@type='submit']")).click();
-		return new LoginPage(driver);
+		ResetPasswordButton.click();
+		return PageFactory.initElements(driver, LoginPage.class);
 	}
 	
 	public void ResetButton() 

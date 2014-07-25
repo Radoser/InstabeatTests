@@ -6,6 +6,7 @@ import java.util.Map;
 import instabeat.utils.MainPagesFunc;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.PageFactory;
 
 public class GetStartedPage extends MainPagesFunc {
 
@@ -31,8 +32,9 @@ public class GetStartedPage extends MainPagesFunc {
 	}
 
 	public GetSartedFirstStep clickOnSignUpButton() {
-		click(By.xpath(parameters.SignUpButton));
-		return new GetSartedFirstStep(driver);
+		SignUpButton.click();
+//		click(By.xpath(parameters.SignUpButton));
+		return PageFactory.initElements(driver, GetSartedFirstStep.class);
 	}
 
 	public void randomUserValues() {

@@ -7,8 +7,8 @@ import java.util.Properties;
 
 public class ParametersManager {
 
-	public String EmailField = "";
-	public String PasswordField = "";
+	public String EmailField;
+	public String PasswordField;
 	public String LoginButton;
 	public String GetStartedLink;
 	public String ForgotPasswordLink;
@@ -33,6 +33,9 @@ public class ParametersManager {
 	public String CalendarButton;
 	public String CalculateHRButton;
 	public String UpdateButton;
+	
+	public String GL_URL;
+	public String Amazon_URL;
 
 	public void getPropertyFields() {
 
@@ -42,7 +45,8 @@ public class ParametersManager {
 		try {
 			input = new FileInputStream("src/parameters.properties");
 			prop.load(input);
-
+			
+					
 			/*Login Page*/
 			EmailField = prop.get("UserEmailField").toString();
 			PasswordField = prop.get("PasswordField").toString();
@@ -77,12 +81,17 @@ public class ParametersManager {
 			/*Dashboard*/
 			CalendarButton = prop.get("CalendarButton").toString();
 			
-			
+			/* URL's */
+			GL_URL = prop.get("GL_URL").toString();
+			Amazon_URL = prop.get("Amazon_URL").toString();
 			
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
 	}
+
+	
+
 
 	/*
 	 * public void getPropertyValues () { Properties prop = new Properties();

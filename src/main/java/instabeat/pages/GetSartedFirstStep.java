@@ -3,6 +3,7 @@ package instabeat.pages;
 import instabeat.utils.MainPagesFunc;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.PageFactory;
 
 public class GetSartedFirstStep extends MainPagesFunc {
 
@@ -20,6 +21,6 @@ public class GetSartedFirstStep extends MainPagesFunc {
 
 	public GetStartedSecondStep getConfirmationLink() throws Exception {
 		GoToIMAPServer();
-		return new GetStartedSecondStep(driver);
+		return PageFactory.initElements(driver, GetStartedSecondStep.class);
 	}
 }
