@@ -1,9 +1,7 @@
 package instabeat.pages;
 
 import instabeat.dashboard.HomePage;
-import instabeat.dashboard.ProfilePage;
 import instabeat.utils.MainPagesFunc;
-import instabeat.utils.PagesWebElements;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -18,10 +16,6 @@ public class LoginPage extends MainPagesFunc {
 
 	public boolean verifyLoginPage() {
 		return verifyPageContent("Login");
-	}
-
-	public void logoutFromDashboard() {
-		logout();
 	}
 
 	public boolean isUserLoggedIn() {
@@ -43,7 +37,12 @@ public class LoginPage extends MainPagesFunc {
 	public void typeUserPassword() {
 		PasswordField.sendKeys(parameters.UserPassword);
 	}
-
+	
+	public void fullLogin(){
+		EmailField.sendKeys(parameters.UserEmail);
+		PasswordField.sendKeys(parameters.UserPassword);
+	}
+	
 	public HomePage LoginButton() {
 		click(By.xpath(parameters.LoginButton));
 		return PageFactory.initElements(driver, HomePage.class);

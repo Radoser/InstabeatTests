@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="20866" started-at="2014-07-25T16:34:50Z" finished-at="2014-07-25T16:35:11Z">
+  <suite name="Default suite" duration-ms="58687" started-at="2014-07-31T17:24:44Z" finished-at="2014-07-31T17:25:43Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="20866" started-at="2014-07-25T16:34:50Z" finished-at="2014-07-25T16:35:11Z">
+    <test name="Default test" duration-ms="58687" started-at="2014-07-31T17:24:44Z" finished-at="2014-07-31T17:25:43Z">
       <class name="InstabeatSanity.Tests.SanityTestNG">
-        <test-method status="PASS" signature="BeforeTests()[pri:0, instance:InstabeatSanity.Tests.SanityTestNG@7cf10a6f]" name="BeforeTests" is-config="true" duration-ms="8506" started-at="2014-07-25T19:34:50Z" finished-at="2014-07-25T19:34:59Z">
+        <test-method status="PASS" signature="BeforeTests()[pri:0, instance:InstabeatSanity.Tests.SanityTestNG@7cf10a6f]" name="BeforeTests" is-config="true" duration-ms="13024" started-at="2014-07-31T20:24:44Z" finished-at="2014-07-31T20:24:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeTests -->
-        <test-method status="PASS" signature="UserCanToUpdateProfile()[pri:0, instance:InstabeatSanity.Tests.SanityTestNG@7cf10a6f]" name="UserCanToUpdateProfile" duration-ms="11437" started-at="2014-07-25T19:34:59Z" finished-at="2014-07-25T19:35:10Z">
+        <test-method status="PASS" signature="UserCanRegister()[pri:0, instance:InstabeatSanity.Tests.SanityTestNG@7cf10a6f]" name="UserCanRegister" duration-ms="44751" started-at="2014-07-31T20:24:57Z" finished-at="2014-07-31T20:25:42Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- UserCanToUpdateProfile -->
-        <test-method status="PASS" signature="AfterTests()[pri:0, instance:InstabeatSanity.Tests.SanityTestNG@7cf10a6f]" name="AfterTests" is-config="true" duration-ms="915" started-at="2014-07-25T19:35:10Z" finished-at="2014-07-25T19:35:11Z">
+        </test-method> <!-- UserCanRegister -->
+        <test-method status="PASS" signature="AfterTests()[pri:0, instance:InstabeatSanity.Tests.SanityTestNG@7cf10a6f]" name="AfterTests" is-config="true" duration-ms="900" started-at="2014-07-31T20:25:42Z" finished-at="2014-07-31T20:25:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterTests -->

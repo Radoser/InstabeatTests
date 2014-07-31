@@ -1,10 +1,11 @@
 package instabeat.dashboard;
 
-import junit.framework.Assert;
 import instabeat.utils.MainPagesFunc;
+import junit.framework.Assert;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.PageFactory;
 
 public class HomePage extends MainPagesFunc {
 
@@ -47,6 +48,16 @@ public class HomePage extends MainPagesFunc {
 		driver.findElement(By.xpath(".//*[@id='select2-result-label-8']")).click();
 	}
 
+	public ProfilePage clickOnProfileTab(){
+		ProfileTab.click();
+		return PageFactory.initElements(driver, ProfilePage.class);
+	}
+	
+	public HeartRateZonesPage clickOnHRZTab(){
+		HRZTab.click();
+		return PageFactory.initElements(driver, HeartRateZonesPage.class);
+	}
+	
 	/*
 	 * public boolean IsCalendarPresent() { return
 	 * fields(By.xpath(parameters.CalendarButton)); }

@@ -12,6 +12,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
+//import org.apache.commons.lang.RandomStringUtils;
 
 public class MainPagesFunc {
 
@@ -19,6 +20,7 @@ public class MainPagesFunc {
 	protected WebDriver driver;
 	protected ParametersManager parameters;
 	Random random = new Random();
+//	RandomStringUtils randomForLetters = new RandomStringUtils();
 
 	@FindBy(xpath = "//div[@onclick='logOut()']")
 	WebElement LogoutLink;
@@ -75,7 +77,7 @@ public class MainPagesFunc {
 	@FindBy(id = "calcButton")
 	public WebElement CalculateHRButton;
 	
-	@FindBy(xpath = "//input[@class='ibt-button']")
+	@FindBy(xpath = "//*[@class='col-md-8 col-xs-8 col-md-offset-4']/input[@value='Update']")
 	public WebElement UpdateButton;
 	
 	/*Home Page*/
@@ -100,7 +102,81 @@ public class MainPagesFunc {
 	@FindBy(xpath = ".//*[@id='s2id_parentNode']/a")
 	public WebElement ContextMenu;
 	
+	@FindBy(xpath = "//*[@class='top-button'][text()='Home']")
+	public WebElement HomeTab;
 	
+	/*Profile Page*/
+	@FindBy(xpath = "//*[text()='Profile']")
+	public WebElement ProfileTab;
+	
+	@FindBy(xpath = "//*[@class='name ibt-title']")
+	public WebElement UserNameTitle;
+	
+	@FindBy(xpath = "html/body/div[4]/div/div[4]/div[2]/div[2]/form/div[2]/div[4]/button")
+	public WebElement ProfileUpdateButton;
+	
+	@FindBy(xpath = "//span[@class = 'suc-text']")
+	public WebElement MessageAboutUpdateProfile;
+	
+	@FindBy(xpath = "//span[@class = 'glyphicon glyphicon-exclamation-sign']")
+	public WebElement ExclamationMark;
+	
+	@FindBy(xpath = "//select[@name='f_level']")
+	public WebElement FitnessLevel;
+	
+	@FindBy(id = "file")
+	public WebElement UploadPictureButton;
+	
+	@FindBy(xpath = "//div[@onclick=\"goTo('.settings')\"]")
+	public WebElement ProfileSettingsLink;
+	
+	@FindBy(xpath = "//input[@name='oldpassword']")
+	public WebElement OldPasswordField;
+	
+	/*Profile Settings*/
+	@FindBy(id = "newpassword")
+	public WebElement NewUserProfilePasswordField;
+	
+	@FindBy(id = "confirm")
+	public WebElement ConfirmNewUserProfilePasswordField;
+	
+	@FindBy(xpath = "html/body/div[4]/div/div[3]/form/div[12]/div/input")
+	public WebElement UpdateUserProfileButton;
+	
+	@FindBy(xpath = "//select[@id='timezone2']")
+	public WebElement UTCzones; 
+	
+	@FindBy(xpath = "//input[@value='Erase data']")
+	public WebElement SessionsEraseButton;
+	
+	@FindBy(xpath = "//input[@value='Delete account']")
+	public WebElement AccountDeleteButton;
+	
+	@FindBy(xpath = "//*[@class='col-md-6 col-xs-6']/input[@value='OK']")
+	public WebElement OkButtonForDeleteSessions;
+	
+	@FindBy(xpath="//*[@class='col-md-6 col-xs-6']/input[@value='Cancel']")
+	public WebElement CancelButtonForDeleteAllSessions;
+	
+	@FindBy(id = "alertText")
+	public WebElement EraseTextWindow;
+	
+	@FindBy(id ="alertText")
+	public WebElement DeleteTextWindow;
+	
+	/*Heart Rate Zones Page*/
+	@FindBy(xpath = "//*[@class='top-button'][text()='Heart rate zone']")
+	public WebElement HRZTab;
+	
+	@FindBy(xpath = "//span[@class= 'suc-text'][text()='Your zones have been configured! Plug-in your device now to sync']")
+	public WebElement sucMessage;
+	
+	@FindBy(xpath = "//form[@name='heartrate']")
+	public WebElement formOfHR;
+	
+	
+	
+		
 	
 	public MainPagesFunc(WebDriver driver) {
 		parameters = new ParametersManager();
@@ -112,16 +188,25 @@ public class MainPagesFunc {
 
 	public String randomUser;// = "testusergl"+random.nextInt()+"@ukr.net";
 	public String randomValues; // ="Name"+RandomStringUtils.randomAlphabetic(5);
-
+	public String randomNumbers;
+	
 	public void createRandomUser() {
 		randomUser = "fortestgl+" + random.nextInt(Integer.MAX_VALUE)
 				+ "@gmail.com";
 	}
 
-	public void createRandomValues() {
-		randomValues = "Name" + RandomStringUtils.randomAlphabetic(5);
+	public void createRandomValues(int numberOfLetters) {
+		randomValues = "Name" + RandomStringUtils.randomAlphabetic(numberOfLetters);
 	}
 
+	public void createRandomNumbers(int minValue, int maxValue){
+		int min = minValue;
+		int max = maxValue;
+		randomNumbers = random.nextInt(max-min)+min+"";
+
+		
+	}
+	
 	public void values(By by, String values) {
 		WebElement element = driver.findElement(by);
 		element.sendKeys(values);
@@ -184,8 +269,6 @@ public class MainPagesFunc {
             return false;
         }
     }
-	
-	
 	
 }
 

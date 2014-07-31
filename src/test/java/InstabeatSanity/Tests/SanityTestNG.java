@@ -1,8 +1,9 @@
 package InstabeatSanity.Tests;
 
-import org.testng.annotations.Test;
-import org.testng.AssertJUnit;
+import instabeat.dashboard.HeartRateZonesPage;
 import instabeat.dashboard.HomePage;
+import instabeat.dashboard.ProfilePage;
+import instabeat.dashboard.ProfilePageSettings;
 import instabeat.pages.ForgotPasswordPage;
 import instabeat.pages.ForgotPasswordPageResults;
 import instabeat.pages.GetSartedFirstStep;
@@ -12,7 +13,11 @@ import instabeat.pages.GetStartedThirdStep;
 import instabeat.pages.LoginPage;
 import instabeat.pages.ResetPasswordPage;
 import instabeat.utils.Utils;
+
+import java.io.IOException;
+
 import org.testng.Assert;
+import org.testng.AssertJUnit;
 import org.testng.annotations.Test;
 
 public class SanityTestNG extends AbstractTestClass {
@@ -87,7 +92,7 @@ public class SanityTestNG extends AbstractTestClass {
 	 * }
 	 */
 
-	@Test(priority = 4, enabled = false)
+	@Test(priority = 4, enabled = true)
 	public void UserCanRegister() throws Exception {
 		LoginPage onLoginPage = new LoginPage(driver);
 		GetStartedPage onGetStartedPage = onLoginPage.clickOnGetStartedLink();
@@ -121,12 +126,21 @@ public class SanityTestNG extends AbstractTestClass {
 		Utils.delay(5000);
 
 		onLoginPage.logout();
-
+		/*Check if registered user can login*/
 		onLoginPage.typeUserAfterRegister(onGetStartedPage.randomUser);
 		onLoginPage.typeUserPassword();
 		onLoginPage.LoginButton();
+		
+		/*Delete user*/
+		ProfilePage onProfilePage = onHomePage.clickOnProfileTab();
+		ProfilePageSettings onProfilePageSettings = onProfilePage.clickOnProfilePageSettings();
+		onProfilePageSettings.clickOnDeleteAccountButton();
+		onProfilePageSettings.clickOnCancelButton();
+		onProfilePageSettings.clickOnDeleteAccountButton();
+		onProfilePageSettings.clickOnEraseDataButton();
+		
 		Utils.waitPage();
-		onLoginPage.logoutFromDashboard();
+		
 		// asssert
 	}
 
@@ -158,10 +172,8 @@ public class SanityTestNG extends AbstractTestClass {
 
 	}
 	
-//	NEED TO ADD TEST TO PROFILE + SETTINGS PAGES!!!
-	
-	@Test(priority = 5, enabled = true)
-	public void UserCanToUpdateProfile() {
+	@Test(priority = 5, enabled = false)
+	public void UserCanChooseExistSession() {
 
 		LoginPage onLoginPage = new LoginPage(driver);
 		onLoginPage.typeUserEmail();
@@ -171,19 +183,148 @@ public class SanityTestNG extends AbstractTestClass {
 		Utils.waitPage();
 		Assert.assertTrue(onHomePage.isHomePagePresent());
 		onHomePage.isCalendarButtonPresent();
-		
 
 		onHomePage.cliclOnCalendarButton();
+//		need assert
 		onHomePage.isDateWithSessionsPresent();
+//		assert if menu present
 		onHomePage.clickOnContextMenu();
 		onHomePage.clickOnSession();
-		
+//		check if graph present
 //		Assert.assertTrue(onHomePage.IsCalendarPresent());
 
 		Utils.waitPage();
 
 		onHomePage.logout();
 
+	}
+	
+	@Test(priority = 6, enabled = false)
+	public void UserCanUpdateProfile() throws IOException{
+		
+		LoginPage onLoginPage = new LoginPage(driver);
+		onLoginPage.typeUserEmail();
+		onLoginPage.typeUserPassword();
+
+		HomePage onHomePage = onLoginPage.LoginButton();
+		Utils.waitPage();
+		Assert.assertTrue(onHomePage.isHomePagePresent());
+		
+		ProfilePage onProfilePage = onHomePage.clickOnProfileTab();
+	
+		onProfilePage.updateFirstNameField();		
+		onProfilePage.updateLastNameField();
+		onProfilePage.updateBirthdateField();
+		onProfilePage.clickOnUpdateButton();
+		onProfilePage.changeFitnessLevel();
+		
+		Utils.delay(1000);
+		
+		onProfilePage.checkMessageAboutUpdate();
+		Assert.assertTrue(onProfilePage.checkIconToSyncDevice());
+		onProfilePage.isUserTitleNameEqualsUserName();
+		
+		onProfilePage.updateUserPicture();
+		
+		onProfilePage.logout();
+	}
+	
+	@Test(priority = 7, enabled = false)
+	public void userCanChangePassword(){
+		
+		LoginPage onLoginPage = new LoginPage(driver);
+		onLoginPage.fullLogin();
+		
+		HomePage onHomePage = onLoginPage.LoginButton();
+		Utils.waitPage();
+		Assert.assertTrue(onHomePage.isHomePagePresent());
+		
+		ProfilePage onProfilePage = onHomePage.clickOnProfileTab();
+		ProfilePageSettings onProfilePageSettings = onProfilePage.clickOnProfilePageSettings();
+		
+
+		onProfilePageSettings.typeOldPassword();
+		onProfilePageSettings.typeNewPassword();
+		onProfilePageSettings.typeConfirmNewPassword();
+		
+		onProfilePageSettings.clickOnUpdateButton();
+		//need to chech suc message
+		
+	}
+	
+	@Test(priority = 8, enabled = false)
+	public void userCanUpdateProfileSettings(){
+		
+		LoginPage onLoginPage = new LoginPage(driver);
+		onLoginPage.fullLogin();
+		
+		HomePage onHomePage = onLoginPage.LoginButton();
+		Utils.waitPage();
+		Assert.assertTrue(onHomePage.isHomePagePresent());
+		
+		ProfilePage onProfilePage = onHomePage.clickOnProfileTab();
+		ProfilePageSettings onProfilePageSettings = onProfilePage.clickOnProfilePageSettings();
+		
+//		need to finish -->choose a timezonee randomly
+		onProfilePageSettings.changeUTC();
+		
+		onProfilePageSettings.clickOnUpdateButton();
+		Utils.delay(2000);
+		onProfilePageSettings.changeMetrics();
+		
+	}
+	
+	@Test(priority = 9, enabled = false)
+	public void userCanDeleteAllSessions(){
+		LoginPage onLoginPage = new LoginPage(driver);
+		onLoginPage.fullLogin();
+		
+		HomePage onHomePage = onLoginPage.LoginButton();
+		Utils.waitPage();
+		Assert.assertTrue(onHomePage.isHomePagePresent());
+		
+		ProfilePage onProfilePage = onHomePage.clickOnProfileTab();
+		ProfilePageSettings onProfilePageSettings = onProfilePage.clickOnProfilePageSettings();
+		
+		onProfilePageSettings.clickOnEraseDataButton();
+		onProfilePageSettings.checkIfEraseWindowOpened();
+		onProfilePageSettings.cancelEraseAllSessions();
+		onProfilePageSettings.clickOnEraseDataButton();
+		onProfilePageSettings.confirmEraseAllSessions();
+		
+		Utils.delay(2000);
+		onHomePage.isDateWithSessionsPresent();
+		Utils.waitPage();
+		
+		onHomePage.logout();
+	}
+	
+	@Test(priority = 10, enabled = false)
+	public void userCanDeleteProfile(){
+		LoginPage onLoginPage = new LoginPage(driver);
+		
+		onLoginPage.fullLogin();
+		
+		Utils.waitPage();
+	}
+	
+	@Test(priority = 11, enabled = false)
+	public void userCanUpdateHRZPage(){
+		LoginPage onLoginPage = new LoginPage(driver);
+		onLoginPage.fullLogin();
+		
+		HomePage onHomePage = onLoginPage.LoginButton();
+		HeartRateZonesPage onHeartRateZonesPage = onHomePage.clickOnHRZTab();
+		onHeartRateZonesPage.typeRHR();
+		onHeartRateZonesPage.clickOnCalculateButton();
+		onHeartRateZonesPage.clickOnUpdateButton();
+		Utils.delay(2000);
+		onHeartRateZonesPage.isSuccessMessagePresent();
+		
+		onHeartRateZonesPage.typeHeartRateIntoBoxes();
+		
+		onHeartRateZonesPage.logout();
+		
 	}
 
 }
