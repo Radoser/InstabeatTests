@@ -13,15 +13,6 @@ public class ForgotPasswordPageResults extends MainPagesFunc {
 		super(driver);
 	}
 
-	/*
-	 * public boolean verifytext(String text){
-	 * System.out.println(verifytext("testusergl@ukr.net")); return
-	 * driver.findElement
-	 * (By.xpath(".//*[@id='emailholder']")).getText().contains(text);
-	 * 
-	 * }
-	 */
-
 	public boolean checkUserEmail() {
 		return driver.findElement(By.tagName("span")).getText()
 				.contains("fortestgl+2@gmail.com");
@@ -31,7 +22,7 @@ public class ForgotPasswordPageResults extends MainPagesFunc {
 		return driver.getPageSource().contains(text);
 	}
 
-	public ResetPasswordPage getConfirmationFromEmail2() throws Exception {
+	public ResetPasswordPage getConfirmationFromEmailIMAP() throws Exception {
 		GoToIMAPServer();
 		return PageFactory.initElements(driver, ResetPasswordPage.class);
 

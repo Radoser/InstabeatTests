@@ -40,6 +40,19 @@ public class HomePage extends MainPagesFunc {
 		}
 	}
 	
+	public void encewcwec(){
+		if (DateContainsSessions.isDisplayed()){
+			DateContainsSessions.click();
+			System.out.println(DateContainsSessions.getText());
+			System.out.println(oldDay.getText());
+		}else if (oldDay.isDisplayed()){
+			System.out.println(oldDay);
+			oldDay.click();
+		}else{
+			System.out.println("___________________");
+		}
+	}
+	
 	public void clickOnContextMenu() {
 		ContextMenu.click();
 		}

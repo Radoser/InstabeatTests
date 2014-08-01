@@ -13,8 +13,8 @@ public class GetStartedThirdStep extends MainPagesFunc {
 	}
 
 	public void printPageTitle() {
-		System.out
-				.println("------------------>GetStarted 3 Page<------------------");
+		System.out.println("------------------>GetStarted 3 Page<------------------");
+		System.out.println("--------------->"+driver.getTitle()+"<---------------");
 	}
 
 	public void verifyTextPresentOnPage() {

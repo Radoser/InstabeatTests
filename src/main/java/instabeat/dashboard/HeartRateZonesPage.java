@@ -1,5 +1,6 @@
 package instabeat.dashboard;
 
+import java.io.BufferedReader;
 import java.util.List;
 
 import instabeat.utils.MainPagesFunc;
@@ -14,7 +15,7 @@ public class HeartRateZonesPage extends MainPagesFunc{
 	
 	public HeartRateZonesPage(WebDriver driver) {
 		super(driver);
-		createRandomNumbers(25,119);
+		createRandomNumbers(30,119);
 	}
 
 	public void typeRHR() {
@@ -46,6 +47,7 @@ public class HeartRateZonesPage extends MainPagesFunc{
 		      System.out.println(element.getAttribute("name"));//getText());
 		      element.clear();
 		      element.sendKeys(randomNumbers);
+		      randomNumbers=Integer.toString(Integer.parseInt(randomNumbers)+5);
          }
 	}
 }

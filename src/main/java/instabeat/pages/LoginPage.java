@@ -2,10 +2,12 @@ package instabeat.pages;
 
 import instabeat.dashboard.HomePage;
 import instabeat.utils.MainPagesFunc;
+import instabeat.utils.Utils;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.Assert;
 
 public class LoginPage extends MainPagesFunc {
 
@@ -14,12 +16,21 @@ public class LoginPage extends MainPagesFunc {
 		createRandomUser();
 	}
 
-	public boolean verifyLoginPage() {
-		return verifyPageContent("Login");
+	public void verifyPageTitle() {
+		String	expected = "Login";
+		String	actual = driver.getTitle();
+			Assert.assertEquals(expected, actual);
+			System.out.println("------------------>" + actual+" Page" + "<------------------");
+		}
+	
+	public void verifyLoginPage() {
+		Utils.delay(2000);
+		Assert.assertTrue(verifyPageContent("Login"));
 	}
 
-	public boolean isUserLoggedIn() {
-		return verifyPageContent("Home");
+	public void isUserLoggedIn() {
+		Utils.delay(2000);
+		Assert.assertTrue(verifyPageContent("Home"));
 	}
 
 	public void typeUserEmail() {

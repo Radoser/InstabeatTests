@@ -57,11 +57,11 @@ public class ProfilePageSettings extends MainPagesFunc {
 	}
 	
 	public void confirmEraseAllSessions() {
-		OkButtonForDeleteSessions.click();
+		OkButtonForDelete.click();
 	}
 
-	public void cancelEraseAllSessions() {
-		CancelButtonForDeleteAllSessions.click();
+	public void clickOnCancelButton() {
+		CancelButton.click();
 	}
 
 	public HomePage clickOnHomeTab() {
@@ -78,8 +78,8 @@ public class ProfilePageSettings extends MainPagesFunc {
 		Assert.assertEquals(text, EraseTextWindow.getText());
 	}
 	
-	public void clickOnCancelButton(){
-		
+	public void confirmDeleteAccout(){
+		OkButtonForDelete.click();
 	}
 	
 	

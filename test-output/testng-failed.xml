@@ -7,6 +7,7 @@
         <methods>
           <include name="BeforeTests"/>
           <include name="UserCanRegister"/>
+          <include name="UserForgotPassword"/>
           <include name="AfterTests"/>
         </methods>
       </class> <!-- InstabeatSanity.Tests.SanityTestNG -->

@@ -13,14 +13,15 @@ public class GetStartedPage extends MainPagesFunc {
 	public GetStartedPage(WebDriver driver) {
 		super(driver);
 		createRandomUser();
+		createRandomNumbers(100, 250);
 		map.put(parameters.FirstNameField, "TestAuto");
 		map.put(parameters.LastNameField, "User");
 		map.put(parameters.EmailField, randomUser);
 		map.put(parameters.PasswordField, parameters.UserPassword);
 		map.put(parameters.ConfirmNewPasswordField, parameters.UserPassword);
 		map.put(parameters.DateOfBirthField, "5/5/2000");
-		map.put(parameters.HeightField, "123");
-		map.put(parameters.WeightField, "123");
+		map.put(parameters.HeightField, randomNumbers);
+		map.put(parameters.WeightField, randomNumbers);
 	}
 
 	private Map<String, String> map = new HashMap();

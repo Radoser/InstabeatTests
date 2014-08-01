@@ -12,8 +12,9 @@ public class GetStartedSecondStep extends MainPagesFunc {
 	}
 
 	public void printPageTitle() {
-			System.out.println("------------------>GetStarted 2 Page<------------------");
-		}
+		System.out.println("------------------>GetStarted 2 Page<------------------");
+		System.out.println("--------------->"+driver.getTitle()+"<---------------");
+	}
 	
 	public void verifyGetInstabeatConnectText(){
 		verifyPageContent("Get InstabeatConnect");
