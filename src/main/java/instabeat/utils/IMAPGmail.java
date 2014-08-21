@@ -27,9 +27,10 @@ public class IMAPGmail {
 
 		/* Mention the folder name which you want to read. */
 		inbox = store.getFolder("Inbox");
-		System.out.println("No of Unread Messages : "
-				+ inbox.getUnreadMessageCount());
-
+//		System.out.println("No of Unread Messages : "
+//				+ inbox.getUnreadMessageCount());
+		Utils.Log.info("|Number of Unread Messages : " + inbox.getUnreadMessageCount());
+		
 		/* Open the inbox using store. */
 		inbox.open(Folder.READ_ONLY);
 
@@ -38,30 +39,35 @@ public class IMAPGmail {
 
 			String from = InternetAddress.toString(msg.getFrom());
 			if (from != null) {
-				System.out.println("From: " + from);
+//				System.out.println("From: " + from);
+				Utils.Log.info("|From: " + from);
 			}
 
 			String replyTo = InternetAddress.toString(msg.getReplyTo());
 			if (replyTo != null) {
-				System.out.println("Reply-to: " + replyTo);
+//				System.out.println("Reply-to: " + replyTo);
+				Utils.Log.info("|Reply-to: " + replyTo);
 			}
 			String to = InternetAddress.toString(msg
 					.getRecipients(Message.RecipientType.TO));
 			if (to != null) {
-				System.out.println("To: " + to);
+//				System.out.println("To: " + to);
+				Utils.Log.info("|To: " + to);
 			}
 
 			String subject = msg.getSubject();
 			if (subject != null) {
-				System.out.println("Subject: " + subject);
+//				System.out.println("Subject: " + subject);
+				Utils.Log.info("|Subject: " + subject);
 			}
 			Date sent = msg.getSentDate();
 			if (sent != null) {
-				System.out.println("Sent: " + sent);
+//				System.out.println("Sent: " + sent);
+				Utils.Log.info("|Sent: " + sent);
 			}
 
-			System.out.println();
-			System.out.print("LINK : ");
+		/*	System.out.println();
+			System.out.print("LINK : ");*/
 			
 			
 			
@@ -79,7 +85,8 @@ public class IMAPGmail {
 
 			link = "http://user."
 					+ rawText.split("http://user.")[1].split("\"")[0];
-			System.out.println(link);
+//			System.out.println(link);
+			Utils.Log.info("|Link is: "+link);
 			
 					/*
 			 * link = "http://ibeat.pub.globallogic.com" +

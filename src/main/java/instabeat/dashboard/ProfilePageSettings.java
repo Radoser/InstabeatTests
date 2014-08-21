@@ -1,5 +1,8 @@
 package instabeat.dashboard;
 
+import java.util.List;
+import java.util.Random;
+
 import instabeat.utils.MainPagesFunc;
 import instabeat.utils.Utils;
 
@@ -7,6 +10,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 
 public class ProfilePageSettings extends MainPagesFunc {
@@ -32,14 +36,41 @@ public class ProfilePageSettings extends MainPagesFunc {
 	}
 
 	public void changeUTC() {
-		UTCzones.click();
-		Utils.waitPage();
-
-		WebElement element = Utils.getRandomFromList(UTCzones.findElements(By
+		
+/*//		UTCzones.click();
+		WebElement button = driver.findElement(By.xpath("//span[@id='select2-chosen-6'][@class='select2-chosen']"));
+		button.click();
+		Utils.waitPage();*/
+				
+/*		WebElement element = Utils.getRandomFromList(((WebDriver) oSelection).findElements(By
 				.tagName("option")));
 		System.out.println(element.getAttribute("value"));
-		element.submit();
+		element.submit();*/
+
+		List<WebElement> options = new Select(UTCzones).getOptions();
+		for(WebElement city:options)
+		{
+		    city.equals(new Random().nextInt());
+		   
+		    city.click();
+//			System.out.println(city.getText());    //It will return the text of each option
+//		      System.out.println(city.getAttribute("option"));    //it will return the value attribute of each option
+		}
+		
+	/*	List<WebElement> options = UTCzones.findElements(By.tagName("option"));
+		Random r = new Random();*/
+//		options.get(new Random().nextInt()).click();
+		
+		
+		
 		Utils.waitPage();
+	}
+	
+	public int RandomSelectInt(List<WebElement> elements)
+	{
+	    int options = elements.size();
+	    Random random = new Random();
+	    return random.nextInt(options);
 	}
 
 	public void changeMetrics() {
@@ -82,5 +113,18 @@ public class ProfilePageSettings extends MainPagesFunc {
 		OkButtonForDelete.click();
 	}
 	
-	
+	public void FaceBookConnect(){
+		String parent = driver.getWindowHandle();
+		ConnectToFBButton.click();
+		for (String child : driver.getWindowHandles())
+		{
+			
+			driver.switchTo().window(child);
+			Utils.waitPage();
+		}
+		FBEmailField.sendKeys(parameters.FBUserEmail);
+		FBPasswordField.sendKeys(parameters.UserPassword);
+		FBLoginButton.click();
+			driver.switchTo().window(parent);
+	}
 }

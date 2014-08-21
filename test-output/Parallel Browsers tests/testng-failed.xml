@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Parallel Browsers tests]" parallel="tests">
+  <parameter name="browser" value="ie"/>
+  <test name="IETest(failed)" parallel="tests">
+    <parameter name="browser" value="ie"/>
+    <classes>
+      <class name="InstabeatSanity.Tests.SanityTestNG">
+        <methods>
+          <include name="AfterTests"/>
+          <include name="AfterTests"/>
+          <include name="AfterTests"/>
+          <include name="BeforeTests"/>
+          <include name="BeforeTests"/>
+          <include name="BeforeTests"/>
+          <include name="UserCanLogin"/>
+        </methods>
+      </class> <!-- InstabeatSanity.Tests.SanityTestNG -->
+    </classes>
+  </test> <!-- IETest(failed) -->
+</suite> <!-- Failed suite [Parallel Browsers tests] -->

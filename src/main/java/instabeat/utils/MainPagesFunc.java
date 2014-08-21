@@ -1,5 +1,7 @@
 package instabeat.utils;
 
+import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 import java.util.NoSuchElementException;
 import java.util.Random;
@@ -21,7 +23,8 @@ public class MainPagesFunc {
 	protected ParametersManager parameters;
 	Random random = new Random();
 	// RandomStringUtils randomForLetters = new RandomStringUtils();
-
+	
+	
 	@FindBy(xpath = "//div[@onclick='logOut()']")
 	WebElement LogoutLink;
 
@@ -107,6 +110,12 @@ public class MainPagesFunc {
 
 	@FindBy(xpath = "//*[@class='top-button'][text()='Home']")
 	public WebElement HomeTab;
+	
+	@FindBy(xpath = "//*[text()='+']")
+	public WebElement PlusButton;
+	
+	@FindBy(xpath = "//*[@class='col-md-4 col-xs-4 face']")
+	public WebElement FBShareGraphButton;
 
 	/* Profile Page */
 	@FindBy(xpath = "//*[text()='Profile']")
@@ -167,6 +176,9 @@ public class MainPagesFunc {
 	@FindBy(id = "alertText")
 	public WebElement DeleteTextWindow;
 
+	@FindBy(xpath = "//input[@class='ibt-button f-disc']")
+	public WebElement ConnectToFBButton;
+	
 	/* Heart Rate Zones Page */
 	@FindBy(xpath = "//*[@class='top-button'][text()='Heart rate zone']")
 	public WebElement HRZTab;
@@ -176,12 +188,25 @@ public class MainPagesFunc {
 
 	@FindBy(xpath = "//form[@name='heartrate']")
 	public WebElement formOfHR;
+	
+	/*Facebook window*/
+	@FindBy(id = "email")
+	public WebElement FBEmailField;
 
+	@FindBy(id = "pass")
+	public WebElement FBPasswordField;
+	
+	@FindBy(name = "login")
+	public WebElement FBLoginButton;
+	
+	
 	public MainPagesFunc(WebDriver driver) {
+		Utils.logFile();
 		parameters = new ParametersManager();
 		parameters.getPropertyFields();
 		PageFactory.initElements(driver, this);
 		this.driver = driver;
+		
 	}
 
 	public String randomUser;// = "testusergl"+random.nextInt()+"@ukr.net";
@@ -234,37 +259,61 @@ public class MainPagesFunc {
 				+ "&token=" + usertoken + "&status=PARTIAL");
 	}
 
-	public void GetAllLinksOnPage(String title) {
+	public void GetAllLinksOnPage() {
+		
+		List<WebElement> linkElement = driver.findElements(By.tagName("a"));
+		String [] elements = new String [linkElement.size()]; 
+		int i = 0;
+		
+		for (WebElement e : linkElement) {
+			elements[i] = e.getAttribute("href");
+			i++;
+		}
+
+		for (int a = 0; a<elements.length; a++){
+			driver.navigate().to(elements[a]);
+			driver.navigate().back();
+			Utils.Log.info("|Got to page " + driver.getTitle() + " by link " + elements[a]);
+		}
+	}
+	
+	
+	
+	public void linksTest() {
+		
 		List<WebElement> linkElement = driver.findElements(By.tagName("a"));
 		String[] linkText = new String[linkElement.size()];
 		int i = 0;
-
+		
 		for (WebElement e : linkElement) {
 			linkText[i] = e.getText();
 			i++;
 		}
-
+		
 		for (String t : linkText) {
+			
+			driver.navigate().to(t);
 			driver.findElement(By.linkText(t)).click();
-			if (driver.getTitle().equals(title)) {
-
+			if (driver.getTitle().equals("Login")) {
+				
 				System.out.println("\"" + t + "\"" + "--------->is out");
 			} else {
 				System.out.println("\"" + t + "\"" + "--------->>is working");
 			}
 			driver.navigate().back();
 		}
-
+		
 	}
-
 	public boolean verificationOfElementsOnPages(WebElement element) {
 		try {
 			element.isDisplayed();
-			System.out.println("Element" + element + "is PRESENT!!!");
+			Utils.Log.info("|Element" + element + "is PRESENT!!!");
+//			System.out.println("Element" + element + "is PRESENT!!!");
 			return true;
 		} catch (NoSuchElementException e) {
 			return false;
 		}
 	}
-
+	
+	
 }

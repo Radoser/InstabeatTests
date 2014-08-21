@@ -53,7 +53,8 @@ public class HTTPMethod {
 		List<NameValuePair> credentials = new ArrayList<NameValuePair>();
 
 		credentials.add(new BasicNameValuePair("user[email]", value));
-		System.out.println("username is " + value);
+//		System.out.println("username is " + value);
+		Utils.Log.info("|username is " + value);
 		credentials.add(new BasicNameValuePair("user[password]", "123456"));
 //		credentials.add(new BasicNameValuePair("user[device-id]",
 //				"2d10323430333135003b0036")); //25 symbols
@@ -66,21 +67,25 @@ public class HTTPMethod {
 
 		String output;
 		String buffer = "";
-		System.out.println("Output from Server .... \n");
+//		System.out.println("Output from Server .... \n");
+		Utils.Log.info("|Output from Server...");
 		while ((output = br.readLine()) != null) {
 			buffer += output;
 		}
 
-		System.out.println(buffer);
-
+//		System.out.println(buffer);
+		Utils.Log.info(buffer);
+		
 		JSONObject jObject = new JSONObject(buffer);
 		JSONObject data = jObject.getJSONObject("user");
 		String username = data.getString("user");
 		String usertoken = data.getString("token");
 
-		System.out.println(username);
-		System.out.println(usertoken);
-
+//		System.out.println(username);
+		Utils.Log.info("|UserID is: "+username);
+//		System.out.println(usertoken);
+		Utils.Log.info("|User token is: "+usertoken);
+		
 		response2.close();
 		httpclient.close();
 

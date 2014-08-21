@@ -1,6 +1,10 @@
 package instabeat.pages;
 
+import java.io.IOException;
+
 import instabeat.utils.MainPagesFunc;
+import instabeat.utils.Utils;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
@@ -12,8 +16,8 @@ public class GetStartedSecondStep extends MainPagesFunc {
 	}
 
 	public void printPageTitle() {
-		System.out.println("------------------>GetStarted 2 Page<------------------");
-		System.out.println("--------------->"+driver.getTitle()+"<---------------");
+		Utils.Log.info("|Actual Page is: "+driver.getTitle());
+		
 	}
 	
 	public void verifyGetInstabeatConnectText(){
@@ -27,6 +31,15 @@ public class GetStartedSecondStep extends MainPagesFunc {
 			driver.findElement(By.linkText("WINDOWS")).click();
 			System.out.println("CLIKED BY LINK");
 		}
+	}
+
+//	Access denied --> Parity =(
+	public void clickOnSave() throws IOException{
+		
+		Utils.delay(2000);
+		Process proc = Runtime.getRuntime().exec(
+				"D:\\eclipse-java-juno-SR1-win32-x86_64\\eclipse\\a (2).exe");
+		Utils.waitPage();
 	}
 	
 	public GetStartedThirdStep loginByApp(String value) throws Exception

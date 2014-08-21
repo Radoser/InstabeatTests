@@ -36,6 +36,7 @@ public class ParametersManager {
 	
 	public String GL_URL;
 	public String Amazon_URL;
+	public String FBUserEmail;
 
 	public void getPropertyFields() {
 
@@ -80,6 +81,9 @@ public class ParametersManager {
 			
 			/*Dashboard*/
 			CalendarButton = prop.get("CalendarButton").toString();
+			
+			/*FaceBook*/
+			FBUserEmail = prop.get("FBUserEmail").toString();
 			
 			/* URL's */
 			GL_URL = prop.get("GL_URL").toString();

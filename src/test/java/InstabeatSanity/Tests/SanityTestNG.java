@@ -17,130 +17,119 @@ import instabeat.utils.Utils;
 import java.io.IOException;
 
 import org.testng.Assert;
-import org.testng.AssertJUnit;
+import org.testng.SkipException;
 import org.testng.annotations.Test;
 
-public class SanityTestNG extends AbstractTestClass {
-
-
+public class SanityTestNG extends AbstractTestClass /*ParallelBrowserSanity*/ {
+	
+	
+		
 	@Test(priority = 0, enabled = false)
 	public void checkAllLinksOnWebPage() {
+		Utils.Log.info("<<----------Started running-------<");
 		LoginPage onLoginPage = new LoginPage(driver);
 		onLoginPage.checkAllLinksFromLoginPage();
+		Utils.Log.info("<<-----Finishing running test-----< \n---------------------------------------------------");
 	}
 
 	@Test(priority = 1, enabled = false)
 	public void UserCanLogin() {
-		
+		Utils.Log.info("<<----------Started running-------<");
 		LoginPage onLoginPage = new LoginPage(driver);
 		
 		onLoginPage.verifyPageTitle();
 		onLoginPage.verifyLoginPage();
 
+		Utils.Log.info("|Typing user credentials...");
 		onLoginPage.typeUserEmail();
 		onLoginPage.typeUserPassword();
 		onLoginPage.LoginButton();
 		
+		Utils.Log.info("|Checking if user successfully logged in");
 		onLoginPage.isUserLoggedIn();
 
+		Utils.Log.info("|Logging out...");
 		onLoginPage.logout();
 		Utils.waitPage();
+		Utils.Log.info("<<-----Finishing running test-----< \n---------------------------------------------------");
+//		throw new SkipException("Skipping - This is not ready for testing ");
 	}
 
 	@Test(priority = 2, enabled = false)
 	public void UserCannotLogin() {
-		
+		Utils.Log.info("<<----------Started running-------<");
 		LoginPage onLoginPage = new LoginPage(driver);
 		
 		onLoginPage.verifyPageTitle();
 		
+		Utils.Log.info("|Typing wrong user credentials...");
 		onLoginPage.typeWrongUserEmail();
 		onLoginPage.typeUserPassword();
 		onLoginPage.LoginButton();
 
 		Utils.waitPage();
-		AssertJUnit.assertTrue(onLoginPage
+		Utils.Log.info("|Checking if error message appear");
+		Assert.assertTrue(onLoginPage
 				.verifyPageContent("Incorrect username or password"));
+		Utils.Log.info("<<-----Finishing running test-----< \n---------------------------------------------------");
 	}
-
-	/*
-	 * @Test public void UserForgotPassword () throws IOException { LoginPage
-	 * onLoginPage = new LoginPage(driver); ForgotPasswordPage
-	 * onForgotPasswordPage = onLoginPage.clickOnForgotPasswordLink();
-	 * 
-	 * onForgotPasswordPage.typeExistingUserEmail(); ForgotPasswordPageResults
-	 * onForgotPasswordPageResults = onForgotPasswordPage.clickOnResetButton();
-	 * 
-	 * //Assert.assertTrue(onForgotPasswordPageResults.verifyTextPresent(
-	 * "testusergl@ukr.net"));
-	 * //Assert.assertTrue(driver.findElement(By.xpath(".//*[@id='emailholder']"
-	 * )).getText().contains("testusergl@ukr.net"));
-	 * org.instabeat.sanity.utils.Utils.waitPage();
-	 * Assert.assertTrue(onForgotPasswordPageResults.checkUserEmail());
-	 * 
-	 * GoToEmail onEmail =
-	 * onForgotPasswordPageResults.getConfirmationFromEmail();
-	 * 
-	 * onEmail.getConfirmationFromEmailTest();
-	 * 
-	 * ResetPasswordPage onResetPasswordPage = onEmail.clickOnConfirmLink();
-	 * 
-	 * org.instabeat.sanity.utils.Utils.waitPage();
-	 * 
-	 * Assert.assertTrue(onResetPasswordPage.resetPasswordConfirmText());
-	 * 
-	 * onResetPasswordPage.typeNewPassword();
-	 * onResetPasswordPage.typeConfirmPassword();
-	 * onResetPasswordPage.afterResetPassword(); Utils.delay(3000);
-	 * Assert.assertTrue(onLoginPage.verifyLoginPage());
-	 * 
-	 * }
-	 */
-
-	@Test(priority = 4, enabled = true)
+	
+	@Test(priority = 4, enabled = false)
 	public void UserCanRegister() throws Exception {
+		Utils.Log.info("<<----------Started running-------<");
 		
 		LoginPage onLoginPage = new LoginPage(driver);
 		GetStartedPage onGetStartedPage = onLoginPage.clickOnGetStartedLink();
 		
 		/*First step of register*/
+		Utils.Log.info("|Filling in user data...");
 		onGetStartedPage.typeUserValues();
 		GetSartedFirstStep onGetSartedFirstStep = onGetStartedPage
 				.clickOnSignUpButton();
 		Utils.waitPage();
-
-		AssertJUnit.assertTrue(onGetSartedFirstStep
+		Utils.Log.info("|Checking user email");
+		Assert.assertTrue(onGetSartedFirstStep
 				.checkUserEmail(onGetStartedPage.randomUser));
 		
 		/*Second step of register*/
+		Utils.Log.info("|Getting confirmation link from IMAP server...");
 		GetStartedSecondStep onGetStartedSecondStep = onGetSartedFirstStep
 				.getConfirmationLink();
 		onGetStartedSecondStep.printPageTitle();
+		Utils.Log.info("|Check second step of register - Download page");
 		onGetStartedSecondStep.verifyGetInstabeatConnectText();
 		onGetStartedSecondStep.downloadApp();
+//		onGetStartedSecondStep.clickOnSave();
 		
 		/*Login from App*/
+		Utils.Log.info("|Logging from App using new created user...");
 		GetStartedThirdStep onGetStartedThirdStep = onGetStartedSecondStep
 				.loginByApp(onGetStartedPage.randomUser);
 		onGetStartedThirdStep.printPageTitle();
+		Utils.Log.info("|Check for success login from App");
 		onGetStartedThirdStep.verifyTextPresentOnPage();
 		
 		/*Third step of register*/
+		Utils.Log.info("|Filling in RHR data");
 		onGetStartedThirdStep.typeRHRValue();
 		onGetStartedThirdStep.clickOnCalculateButton();
 		HomePage onHomePage = onGetStartedThirdStep.clickOnUpdateButton(); 
+		Utils.Log.info("|Check if registration is successfully");
 		onHomePage.isCongratsPresent();
 		onHomePage.isHomePagePresent();
 				
 		Utils.delay(5000);
+		Utils.Log.info("|Logging out...");
 		onLoginPage.logout();
 		
 		/*Check if registered random user can login*/
+		Utils.Log.info("|Logging by new created Random user");
 		onLoginPage.typeUserAfterRegister(onGetStartedPage.randomUser);
 		onLoginPage.typeUserPassword();
 		onLoginPage.LoginButton();
 		
 		/*Delete random user*/
+		Utils.Log.info("|Deleting created Random User...");
 		ProfilePage onProfilePage = onHomePage.clickOnProfileTab();
 		ProfilePageSettings onProfilePageSettings = onProfilePage.clickOnProfilePageSettings();
 		onProfilePageSettings.clickOnDeleteAccountButton();
@@ -149,74 +138,94 @@ public class SanityTestNG extends AbstractTestClass {
 		onProfilePageSettings.confirmDeleteAccout();
 		
 		Utils.waitPage();
+		Utils.Log.info("<<-----Finishing running test-----< \n---------------------------------------------------");
 	}
 
-	@Test(priority = 3, enabled = true)
+	@Test(priority = 3, enabled = false)
 	public void UserForgotPassword() throws Exception {
-
+		Utils.Log.info("<<----------Started running-------<");
+		
 		LoginPage onLoginPage = new LoginPage(driver);
 		ForgotPasswordPage onForgotPasswordPage = onLoginPage
 				.clickOnForgotPasswordLink();
 		
 		/*Forgot password page --> type user email*/
+		Utils.Log.info("|Filling in user email...");
 		onForgotPasswordPage.typeExistingUserEmail();
 		ForgotPasswordPageResults onForgotPasswordPageResults = onForgotPasswordPage
 				.clickOnResetButton();
 
+		
+		Utils.Log.info("|Checking for proper user email");
 		Utils.waitPage();
 		Assert.assertTrue(onForgotPasswordPageResults.checkUserEmail());
 
 		/*Get confirm message from email*/
+		Utils.Log.info("|Getting Reset link from IMAP server...");
 		ResetPasswordPage onResetPasswordPage = onForgotPasswordPageResults
 				.getConfirmationFromEmailIMAP();
-
+		
+		Utils.Log.info("|Check for proper page");
 		Assert.assertTrue(onResetPasswordPage.resetPasswordConfirmText());
 		
 		/*Reset password page --> new password*/
+		Utils.Log.info("|Filling in new password");
 		onResetPasswordPage.typeNewPassword();
 		onResetPasswordPage.typeConfirmPassword();
 		onResetPasswordPage.afterResetPassword();
 		Utils.delay(3000);
 		onLoginPage.verifyLoginPage();
+		
 		Utils.waitPage();
+		Utils.Log.info("<<-----Finishing running test-----< \n---------------------------------------------------");
 	}
 	
 //	need to fix dates with id "...old"
-	@Test(priority = 5, enabled = true)
+	@Test(priority = 5, enabled = false)
 	public void UserCanChooseExistSession() {
-
+		Utils.Log.info("<<----------Started running-------<");
+		
+		Utils.Log.info("|Logging in...");
 		LoginPage onLoginPage = new LoginPage(driver);
 		onLoginPage.fullLogin();
 		
 		HomePage onHomePage = onLoginPage.LoginButton();
 		Utils.waitPage();
+		Utils.Log.info("|Check if user logged in");
 		Assert.assertTrue(onHomePage.isHomePagePresent());
 		onHomePage.isCalendarButtonPresent();
 
+		Utils.Log.info("|Choosing date with sessions...");
 		onHomePage.cliclOnCalendarButton();
 //		need assert
 		onHomePage.isDateWithSessionsPresent();
 //		assert if menu present
+		Utils.Log.info("|Choose session");
 		onHomePage.clickOnContextMenu();
 		onHomePage.clickOnSession();
 
 		Utils.waitPage();
 		onHomePage.logout();
+		Utils.Log.info("<<-----Finishing running test-----< \n---------------------------------------------------");
 	}
 	
-	@Test(priority = 6, enabled = true)
+	@Test(priority = 6, enabled = false)
 	public void UserCanUpdateProfile() throws IOException{
+		Utils.Log.info("<<----------Started running-------<");
 		
 		LoginPage onLoginPage = new LoginPage(driver);
+		Utils.Log.info("|Logging in...");
 		onLoginPage.typeUserEmail();
 		onLoginPage.typeUserPassword();
 
 		HomePage onHomePage = onLoginPage.LoginButton();
 		Utils.waitPage();
+		Utils.Log.info("|Check if user logged in");
 		Assert.assertTrue(onHomePage.isHomePagePresent());
 		
 		ProfilePage onProfilePage = onHomePage.clickOnProfileTab();
-	
+		
+		Utils.Log.info("|Updating user data...");
 		onProfilePage.updateFirstNameField();		
 		onProfilePage.updateLastNameField();
 		onProfilePage.updateBirthdateField();
@@ -225,53 +234,64 @@ public class SanityTestNG extends AbstractTestClass {
 		
 		Utils.delay(1000);
 		
+		Utils.Log.info("|Check if updating successfull");
 		onProfilePage.checkMessageAboutUpdate();
 		Assert.assertTrue(onProfilePage.checkIconToSyncDevice());
 		onProfilePage.isUserTitleNameEqualsUserName();
 		
+		Utils.Log.info("|Uploading new user's profile picture");
 		onProfilePage.updateUserPicture();
 		
+		Utils.Log.info("|Logging out...");
 		onProfilePage.logout();
+		Utils.Log.info("<<-----Finishing running test-----< \n---------------------------------------------------");
 	}
 	
-	@Test(priority = 7, enabled = true)
+	@Test(priority = 7, enabled = false)
 	public void userCanChangePassword(){
+		Utils.Log.info("<<----------Started running-------<");
 		
 		LoginPage onLoginPage = new LoginPage(driver);
+		Utils.Log.info("|Logging in...");
 		onLoginPage.fullLogin();
 		
 		HomePage onHomePage = onLoginPage.LoginButton();
 		Utils.waitPage();
+		Utils.Log.info("|Check if user logged in");
 		Assert.assertTrue(onHomePage.isHomePagePresent());
 		
 		ProfilePage onProfilePage = onHomePage.clickOnProfileTab();
 		ProfilePageSettings onProfilePageSettings = onProfilePage.clickOnProfilePageSettings();
 		
-
+		Utils.Log.info("|Changing user's password...");
 		onProfilePageSettings.typeOldPassword();
 		onProfilePageSettings.typeNewPassword();
 		onProfilePageSettings.typeConfirmNewPassword();
 		
 		onProfilePageSettings.clickOnUpdateButton();
 		//need to chech suc message
+		Utils.Log.info("|Logging out...");
 		onProfilePageSettings.logout();
+		Utils.Log.info("<<-----Finishing running test-----< \n---------------------------------------------------");
 	}
 	
-	@Test(priority = 8, enabled = true)
+	@Test(priority = 8, enabled = false)
 	public void userCanUpdateProfileSettings(){
-		
+//		Need update --> wait for update in page
 		LoginPage onLoginPage = new LoginPage(driver);
+		Utils.Log.info("|Logging in...");
 		onLoginPage.fullLogin();
 		
 		HomePage onHomePage = onLoginPage.LoginButton();
 		Utils.waitPage();
+		Utils.Log.info("|Check if user logged in");
 		Assert.assertTrue(onHomePage.isHomePagePresent());
 		
 		ProfilePage onProfilePage = onHomePage.clickOnProfileTab();
 		ProfilePageSettings onProfilePageSettings = onProfilePage.clickOnProfilePageSettings();
 		
 //		need to finish -->choose a timezonee randomly
-		onProfilePageSettings.changeUTC();
+//		onProfilePageSettings.changeUTC();
 		
 		onProfilePageSettings.clickOnUpdateButton();
 		Utils.delay(2000);
@@ -279,18 +299,23 @@ public class SanityTestNG extends AbstractTestClass {
 		onProfilePageSettings.logout();
 	}
 	
-	@Test(priority = 9, enabled = true)
+	@Test(priority = 9, enabled = false)
 	public void userCanDeleteAllSessions(){
+		Utils.Log.info("<<----------Started running-------<");
+		
 		LoginPage onLoginPage = new LoginPage(driver);
+		Utils.Log.info("|Logging in...");
 		onLoginPage.fullLogin();
 		
 		HomePage onHomePage = onLoginPage.LoginButton();
 		Utils.waitPage();
+		Utils.Log.info("|Check if user logged in");
 		Assert.assertTrue(onHomePage.isHomePagePresent());
 		
 		ProfilePage onProfilePage = onHomePage.clickOnProfileTab();
 		ProfilePageSettings onProfilePageSettings = onProfilePage.clickOnProfilePageSettings();
 		
+		Utils.Log.info("|Deleting all sessions...");
 		onProfilePageSettings.clickOnEraseDataButton();
 		onProfilePageSettings.checkIfEraseWindowOpened();
 		onProfilePageSettings.clickOnCancelButton();
@@ -298,36 +323,72 @@ public class SanityTestNG extends AbstractTestClass {
 		onProfilePageSettings.confirmEraseAllSessions();
 		
 		Utils.delay(2000);
+		Utils.Log.info("|Check if sessions exist");
 		onHomePage.isDateWithSessionsPresent();
 		Utils.waitPage();
 		
+		Utils.Log.info("|Logging out...");
 		onHomePage.logout();
+		Utils.Log.info("<<-----Finishing running test-----< \n---------------------------------------------------");
 	}
 	
-	
-	@Test(priority = 10, enabled = true)
+	@Test(priority = 10, enabled = false)
 	public void userCanUpdateHRZPage(){
+		Utils.Log.info("<<----------Started running-------<");
+		
 		LoginPage onLoginPage = new LoginPage(driver);
+		Utils.Log.info("|Logging in...");
 		onLoginPage.fullLogin();
 		
 		HomePage onHomePage = onLoginPage.LoginButton();
 		HeartRateZonesPage onHeartRateZonesPage = onHomePage.clickOnHRZTab();
 		
 		/*Change heart rate using RHR field*/
+		Utils.Log.info("|Change HR zones using RHR field");
 		onHeartRateZonesPage.typeRHR();
 		onHeartRateZonesPage.clickOnCalculateButton();
 		onHeartRateZonesPage.clickOnUpdateButton();
 		Utils.delay(2000);
+		Utils.Log.info("|Check if HR updated");
 		onHeartRateZonesPage.isSuccessMessagePresent();
 		
 		/*Change heart rate in boxes randomly*/
+		Utils.Log.info("|Change HR zones using boxes with random data");
 		onHeartRateZonesPage.typeHeartRateIntoBoxes();
 		Utils.waitPage();
 		onHeartRateZonesPage.clickOnUpdateButton();
+		Utils.Log.info("|Check if HR updated");
 		onHeartRateZonesPage.isSuccessMessagePresent();
 		
+		Utils.Log.info("|Logging out...");
 		onHeartRateZonesPage.logout();
+		Utils.Log.info("<<-----Finishing running test-----< \n---------------------------------------------------");
 		
 	}
 
+	@Test(priority = 11, enabled = true)
+	public void userCanConnectToFB(){	
+		Utils.Log.info("<<----------Started running-------<");
+		
+		LoginPage onLoginPage = new LoginPage(driver);
+		Utils.Log.info("|Logging in...");
+		onLoginPage.fullLogin();
+		
+		HomePage onHomePage = onLoginPage.LoginButton();
+		Utils.waitPage();
+		Utils.Log.info("|Check if user logged in");
+		Assert.assertTrue(onHomePage.isHomePagePresent());
+		
+		ProfilePage onProfilePage = onHomePage.clickOnProfileTab();
+		ProfilePageSettings onProfilePageSettings = onProfilePage.clickOnProfilePageSettings();
+		Utils.Log.info("|Click on Connect button to FB");
+		onProfilePageSettings.FaceBookConnect();
+		onProfilePageSettings.clickOnHomeTab();
+		
+		onHomePage.shareGraphByFB();
+		Utils.delay(5000);
+		
+
+	}
+	
 }

@@ -2,6 +2,8 @@ package instabeat.pages;
 
 import instabeat.dashboard.HomePage;
 import instabeat.utils.MainPagesFunc;
+import instabeat.utils.Utils;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
@@ -13,8 +15,7 @@ public class GetStartedThirdStep extends MainPagesFunc {
 	}
 
 	public void printPageTitle() {
-		System.out.println("------------------>GetStarted 3 Page<------------------");
-		System.out.println("--------------->"+driver.getTitle()+"<---------------");
+		Utils.Log.info("|Actual Page is: "+driver.getTitle());
 	}
 
 	public void verifyTextPresentOnPage() {

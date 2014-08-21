@@ -58,7 +58,7 @@ public class HomePage extends MainPagesFunc {
 		}
 	
 	public void clickOnSession(){
-		driver.findElement(By.xpath(".//*[@id='select2-result-label-8']")).click();
+		driver.findElement(By.xpath("//*[@role='option']")).click();
 	}
 
 	public ProfilePage clickOnProfileTab(){
@@ -69,6 +69,11 @@ public class HomePage extends MainPagesFunc {
 	public HeartRateZonesPage clickOnHRZTab(){
 		HRZTab.click();
 		return PageFactory.initElements(driver, HeartRateZonesPage.class);
+	}
+	
+	public void shareGraphByFB(){
+		PlusButton.click();
+		FBShareGraphButton.click();
 	}
 	
 	/*

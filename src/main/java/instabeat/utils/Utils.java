@@ -1,5 +1,7 @@
 package instabeat.utils;
 
+import org.apache.log4j.Logger;
+import org.apache.log4j.xml.DOMConfigurator;
 import org.openqa.selenium.WebElement;
 
 import java.util.List;
@@ -35,5 +37,11 @@ public class Utils {
 		    
 		}
 		return null;
+	}
+	
+	public static Logger Log = Logger.getLogger(MainPagesFunc.class.getName());
+	
+	public static void logFile(){
+		DOMConfigurator.configure("log4j.xml");
 	}
 }

@@ -14,13 +14,14 @@ public class LoginPage extends MainPagesFunc {
 	public LoginPage(WebDriver driver) {
 		super(driver);
 		createRandomUser();
+		
 	}
 
 	public void verifyPageTitle() {
 		String	expected = "Login";
 		String	actual = driver.getTitle();
 			Assert.assertEquals(expected, actual);
-			System.out.println("------------------>" + actual+" Page" + "<------------------");
+			Utils.Log.info("|Actual Page is: "+actual);
 		}
 	
 	public void verifyLoginPage() {
@@ -72,6 +73,7 @@ public class LoginPage extends MainPagesFunc {
 	}
 	
 	public void checkAllLinksFromLoginPage(){
-		GetAllLinksOnPage("Login");
+//		GetAllLinksOnPage();	
+		linksTest();
 	}
 }

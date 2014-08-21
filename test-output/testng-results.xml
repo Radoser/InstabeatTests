@@ -1,165 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="2" total="11" passed="9">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="258449" started-at="2014-08-01T12:32:13Z" finished-at="2014-08-01T12:36:32Z">
+  <suite name="Default suite" duration-ms="40078" started-at="2014-08-21T16:24:43Z" finished-at="2014-08-21T16:25:23Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="258449" started-at="2014-08-01T12:32:13Z" finished-at="2014-08-01T12:36:32Z">
+    <test name="Default test" duration-ms="40078" started-at="2014-08-21T16:24:43Z" finished-at="2014-08-21T16:25:23Z">
       <class name="InstabeatSanity.Tests.SanityTestNG">
-        <test-method status="PASS" signature="BeforeTests()[pri:0, instance:InstabeatSanity.Tests.SanityTestNG@7cf10a6f]" name="BeforeTests" is-config="true" duration-ms="8205" started-at="2014-08-01T15:32:13Z" finished-at="2014-08-01T15:32:22Z">
+        <test-method status="PASS" signature="BeforeTests()[pri:0, instance:InstabeatSanity.Tests.SanityTestNG@2ff4f00f]" name="BeforeTests" is-config="true" duration-ms="9666" started-at="2014-08-21T19:24:43Z" finished-at="2014-08-21T19:24:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeTests -->
-        <test-method status="PASS" signature="checkAllLinksOnWebPage()[pri:0, instance:InstabeatSanity.Tests.SanityTestNG@7cf10a6f]" name="checkAllLinksOnWebPage" duration-ms="60012" started-at="2014-08-01T15:32:22Z" finished-at="2014-08-01T15:33:22Z">
+        <test-method status="PASS" signature="userCanConnectToFB()[pri:0, instance:InstabeatSanity.Tests.SanityTestNG@2ff4f00f]" name="userCanConnectToFB" duration-ms="29308" started-at="2014-08-21T19:24:52Z" finished-at="2014-08-21T19:25:22Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- checkAllLinksOnWebPage -->
-        <test-method status="PASS" signature="UserCanLogin()[pri:0, instance:InstabeatSanity.Tests.SanityTestNG@7cf10a6f]" name="UserCanLogin" duration-ms="11346" started-at="2014-08-01T15:33:22Z" finished-at="2014-08-01T15:33:33Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- UserCanLogin -->
-        <test-method status="PASS" signature="UserCannotLogin()[pri:0, instance:InstabeatSanity.Tests.SanityTestNG@7cf10a6f]" name="UserCannotLogin" duration-ms="5475" started-at="2014-08-01T15:33:33Z" finished-at="2014-08-01T15:33:38Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- UserCannotLogin -->
-        <test-method status="FAIL" signature="UserForgotPassword()[pri:0, instance:InstabeatSanity.Tests.SanityTestNG@7cf10a6f]" name="UserForgotPassword" duration-ms="6602" started-at="2014-08-01T15:33:38Z" finished-at="2014-08-01T15:33:45Z">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.failNotEquals(Assert.java:494)
-	at org.testng.Assert.assertTrue(Assert.java:42)
-	at org.testng.Assert.assertTrue(Assert.java:52)
-	at InstabeatSanity.Tests.SanityTestNG.UserForgotPassword(SanityTestNG.java:167)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
-	at org.testng.TestNG.run(TestNG.java:1057)
-	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- UserForgotPassword -->
-        <test-method status="FAIL" signature="UserCanRegister()[pri:0, instance:InstabeatSanity.Tests.SanityTestNG@7cf10a6f]" name="UserCanRegister" duration-ms="66318" started-at="2014-08-01T15:33:45Z" finished-at="2014-08-01T15:34:51Z">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[Unable to locate element: {"method":"link text","selector":"WINDOWS"}
-Command duration or timeout: 50.02 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
-System info: host: 'LWO1-DHP-F54947', ip: '172.24.206.7', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_05'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=31.0, platform=XP, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 6f38322e-2afc-4b45-a4f4-43fbd45c6d48]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"link text","selector":"WINDOWS"}
-Command duration or timeout: 50.02 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
-System info: host: 'LWO1-DHP-F54947', ip: '172.24.206.7', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_05'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=31.0, platform=XP, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 6f38322e-2afc-4b45-a4f4-43fbd45c6d48
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:401)
-	at org.openqa.selenium.By$ByLinkText.findElement(By.java:242)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-	at instabeat.pages.GetStartedSecondStep.downloadApp(GetStartedSecondStep.java:24)
-	at InstabeatSanity.Tests.SanityTestNG.UserCanRegister(SanityTestNG.java:120)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
-	at org.testng.TestNG.run(TestNG.java:1057)
-	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
-Caused by: org.openqa.selenium.remote.ErrorHandler$UnknownServerException: Unable to locate element: {"method":"link text","selector":"WINDOWS"}
-Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:30'
-System info: host: 'LWO1-DHP-F54947', ip: '172.24.206.7', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_05'
-Driver info: driver.version: unknown
-	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/ROMAN~1.MYK/AppData/Local/Temp/anonymous3997127860819612582webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:9470:133)
-	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/ROMAN~1.MYK/AppData/Local/Temp/anonymous3997127860819612582webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:407:5)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- UserCanRegister -->
-        <test-method status="PASS" signature="UserCanChooseExistSession()[pri:0, instance:InstabeatSanity.Tests.SanityTestNG@7cf10a6f]" name="UserCanChooseExistSession" duration-ms="11091" started-at="2014-08-01T15:34:51Z" finished-at="2014-08-01T15:35:02Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- UserCanChooseExistSession -->
-        <test-method status="PASS" signature="UserCanUpdateProfile()[pri:0, instance:InstabeatSanity.Tests.SanityTestNG@7cf10a6f]" name="UserCanUpdateProfile" duration-ms="20781" started-at="2014-08-01T15:35:02Z" finished-at="2014-08-01T15:35:23Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- UserCanUpdateProfile -->
-        <test-method status="PASS" signature="userCanChangePassword()[pri:0, instance:InstabeatSanity.Tests.SanityTestNG@7cf10a6f]" name="userCanChangePassword" duration-ms="9820" started-at="2014-08-01T15:35:23Z" finished-at="2014-08-01T15:35:33Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- userCanChangePassword -->
-        <test-method status="PASS" signature="userCanUpdateProfileSettings()[pri:0, instance:InstabeatSanity.Tests.SanityTestNG@7cf10a6f]" name="userCanUpdateProfileSettings" duration-ms="21722" started-at="2014-08-01T15:35:33Z" finished-at="2014-08-01T15:35:55Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- userCanUpdateProfileSettings -->
-        <test-method status="PASS" signature="userCanDeleteAllSessions()[pri:0, instance:InstabeatSanity.Tests.SanityTestNG@7cf10a6f]" name="userCanDeleteAllSessions" duration-ms="18553" started-at="2014-08-01T15:35:55Z" finished-at="2014-08-01T15:36:13Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- userCanDeleteAllSessions -->
-        <test-method status="PASS" signature="userCanUpdateHRZPage()[pri:0, instance:InstabeatSanity.Tests.SanityTestNG@7cf10a6f]" name="userCanUpdateHRZPage" duration-ms="16752" started-at="2014-08-01T15:36:13Z" finished-at="2014-08-01T15:36:30Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- userCanUpdateHRZPage -->
-        <test-method status="PASS" signature="AfterTests()[pri:0, instance:InstabeatSanity.Tests.SanityTestNG@7cf10a6f]" name="AfterTests" is-config="true" duration-ms="1747" started-at="2014-08-01T15:36:30Z" finished-at="2014-08-01T15:36:32Z">
+        </test-method> <!-- userCanConnectToFB -->
+        <test-method status="PASS" signature="AfterTests()[pri:0, instance:InstabeatSanity.Tests.SanityTestNG@2ff4f00f]" name="AfterTests" is-config="true" duration-ms="1096" started-at="2014-08-21T19:25:22Z" finished-at="2014-08-21T19:25:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterTests -->
