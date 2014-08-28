@@ -71,14 +71,31 @@ public class HomePage extends MainPagesFunc {
 		return PageFactory.initElements(driver, HeartRateZonesPage.class);
 	}
 	
-	public void shareGraphByFB(){
+	public void clickOnPlusButton(){
 		PlusButton.click();
+	}
+	
+	public void clickOnFBShareButton(){
 		FBShareGraphButton.click();
 	}
 	
-	/*
-	 * public boolean IsCalendarPresent() { return
-	 * fields(By.xpath(parameters.CalendarButton)); }
-	 */
+	public void checkIfShareWindowOpened(){
+		String shareName = "Sandra Amffajgefgaa Bushakson";
+		String text = "Do you want to share this swimming session on Facebook as "+shareName+"?";
+		Assert.assertEquals(text, EraseTextWindow.getText());
+	}
+	
+	public void confirmShareDataFB(){
+		System.out.println(OkButtonForDelete);
+		System.out.println(driver.findElement(By.xpath("//input[@value='OK']")));
+		//		OkButtonForDelete.click();
+		driver.findElement(By.xpath("//input[@value='OK']")).click();
+	}
+	
+	public void cancelShareDataFB(){
+		CancelButton.click();
+		
+	}
+	
 
 }

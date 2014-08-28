@@ -1,10 +1,10 @@
 package instabeat.utils;
 
-import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.List;
 import java.util.NoSuchElementException;
 import java.util.Random;
+
+import junit.framework.Assert;
 
 import org.apache.commons.lang3.RandomStringUtils;
 import org.json.JSONObject;
@@ -38,7 +38,7 @@ public class MainPagesFunc {
 	@FindBy(xpath = "//button[@type='submit']")
 	public WebElement LoginButton;
 
-	@FindBy(xpath = "//a[@href='/user/register']")
+	@FindBy(xpath = "//a[@href='/go']")
 	public WebElement GetStartedLink;
 
 	@FindBy(xpath = "//a[@href='/user/restore']")
@@ -55,7 +55,7 @@ public class MainPagesFunc {
 	public WebElement ResetPasswordButton;
 
 	/* Get Started Page */
-	@FindBy(xpath = "//button[@type='submit']")
+	@FindBy(xpath = "//button[@class = 'ibt-button subbut']")
 	public WebElement SignUpButton;
 
 	@FindBy(id = "firstName")
@@ -152,7 +152,7 @@ public class MainPagesFunc {
 	@FindBy(id = "confirm")
 	public WebElement ConfirmNewUserProfilePasswordField;
 
-	@FindBy(xpath = "html/body/div[4]/div/div[3]/form/div[12]/div/input")
+	@FindBy(xpath = "//*[@class='col-md-12 col-xs-12']/button[@class='ibt-button']")
 	public WebElement UpdateUserProfileButton;
 
 	@FindBy(xpath = "//select[@id='timezone2']")
@@ -199,6 +199,17 @@ public class MainPagesFunc {
 	@FindBy(name = "login")
 	public WebElement FBLoginButton;
 	
+	@FindBy(xpath = "//*[@class='col-md-6 col-xs-6 error-message']")
+	public WebElement ErrorMessages;
+	
+	@FindBy(xpath = "html/body/div[4]/div/div[4]/div[1]/div[3]")
+	public WebElement DashboardErrorMessages;
+	
+	@FindBy(xpath = "//*[@class='col-md-5 col-xs-5 error-message']")
+	public WebElement ResetPassErrorMessages;
+	
+	@FindBy(xpath = "//*[@class = 'float-right header-button']/a[@href = '/user/']")
+	public WebElement LoginLink;
 	
 	public MainPagesFunc(WebDriver driver) {
 		Utils.logFile();
@@ -315,5 +326,15 @@ public class MainPagesFunc {
 		}
 	}
 	
-	
+	public void typeValuesForValidation(String error, List<String> values, WebElement field, WebElement button, WebElement errorElement){
+
+		for (int i = 0; i < values.size(); ++i) {
+			Utils.clearField(field);
+			field.sendKeys(values.get(i));		
+			button.click();
+			Utils.delay(500);
+			Assert.assertEquals(error, errorElement.getText());
+			field.clear();
+		}
+	}
 }

@@ -38,7 +38,7 @@ public class GetStartedSecondStep extends MainPagesFunc {
 		
 		Utils.delay(2000);
 		Process proc = Runtime.getRuntime().exec(
-				"D:\\eclipse-java-juno-SR1-win32-x86_64\\eclipse\\a (2).exe");
+				"D:\\Projects\\clickDownload.exe");
 		Utils.waitPage();
 	}
 	

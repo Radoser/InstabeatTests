@@ -91,4 +91,40 @@ public class ProfilePage extends MainPagesFunc {
 		return PageFactory.initElements(driver, ProfilePageSettings.class);
 	}
 
+	public void firstNameValidation() {
+//		Utils.clearField(FirstNameField);
+		typeValuesForValidation(parameters.EMonlyLettersFirstName, Utils.dataForTextFieldsInput, FirstNameField, UpdateUserProfileButton, DashboardErrorMessages);
+		FirstNameField.sendKeys(randomValues);		
+	}
+
+	public void lastNameValidation() {
+		typeValuesForValidation(parameters.EMonlyLettersLastName, Utils.dataForTextFieldsInput, LastNameField, UpdateUserProfileButton, DashboardErrorMessages);
+		LastNameField.sendKeys(randomValues);		
+	}
+
+	public void dateOfBirthValidation() {
+		typeValuesForValidation(parameters.EMwrongBirthdate, Utils.dataForDateFieldInput, DateOfBirthField, UpdateUserProfileButton, DashboardErrorMessages);
+		DateOfBirthField.sendKeys("1/1/1990");		
+	}
+
+	public void minHeightFieldValidation() {
+		typeValuesForValidation(parameters.EMminimumNumberHeight, Utils.dataForMinHeightFieldInput, HeightField, UpdateUserProfileButton, DashboardErrorMessages);		
+	}
+
+	public void maxHeightFieldValidation() {
+		typeValuesForValidation(parameters.EMmaximumNumberHeight, Utils.dataForMaxHeightFieldInput, HeightField, UpdateUserProfileButton, DashboardErrorMessages);
+		HeightField.sendKeys(randomNumbers);		
+	}
+
+	public void minWeightFieldValidation() {
+		typeValuesForValidation(parameters.EMminimumNumberWeight, Utils.dataForMinWeightFieldInput, WeightField, UpdateUserProfileButton, DashboardErrorMessages);		
+	}
+
+	public void maxWeightFieldValidation() {
+		typeValuesForValidation(parameters.EMmaximumNumberWeight, Utils.dataForMaxWeightFieldInput, WeightField, UpdateUserProfileButton, DashboardErrorMessages);
+		WeightField.sendKeys(randomNumbers);		
+	}
+	
+	
+	
 }

@@ -1,6 +1,7 @@
 package instabeat.pages;
 
 import instabeat.utils.MainPagesFunc;
+import instabeat.utils.Utils;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
@@ -12,6 +13,7 @@ public class ForgotPasswordPage extends MainPagesFunc{
 	
 	public ForgotPasswordPage(WebDriver driver){
 		super(driver);
+		createRandomUser();
 	}
 	
 	
@@ -33,4 +35,24 @@ public class ForgotPasswordPage extends MainPagesFunc{
 //		click(By.xpath(parameters.ResetPasswordButton));
 		return PageFactory.initElements(driver, ForgotPasswordPageResults.class);
 	}
+
+
+	public void emailFieldValidation() {
+		typeValuesForValidation(parameters.EMinvalidEmail, Utils.dataForEmailFieldInput, EmailField, ResetPasswordButton, ResetPassErrorMessages);
+//		EmailField.sendKeys(randomUser);
+	}
+
+
+	public void typeWrongUserEmail() {
+		EmailField.sendKeys(randomUser);
+		ResetPasswordButton.click();
+		Utils.delay(2000);
+	}
+
+
+	public void checkErrorMessage() {
+		Assert.assertEquals(parameters.EMuserNotFound, ResetPassErrorMessages.getText());
+	}
+	
+	
 }

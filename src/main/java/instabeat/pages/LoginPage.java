@@ -4,7 +4,6 @@ import instabeat.dashboard.HomePage;
 import instabeat.utils.MainPagesFunc;
 import instabeat.utils.Utils;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
@@ -35,6 +34,7 @@ public class LoginPage extends MainPagesFunc {
 	}
 
 	public void typeUserEmail() {
+		Utils.clearField(EmailField);
 		EmailField.sendKeys(parameters.UserEmail);
 	}
 
@@ -56,18 +56,19 @@ public class LoginPage extends MainPagesFunc {
 	}
 	
 	public HomePage LoginButton() {
-		click(By.xpath(parameters.LoginButton));
+//		click(By.xpath(parameters.LoginButton));
+		LoginButton.click();
 		return PageFactory.initElements(driver, HomePage.class);
 	}
 
 	public ForgotPasswordPage clickOnForgotPasswordLink() {
-		click(By.xpath(parameters.ForgotPasswordLink));
-		// driver.findElement(By.linkText("Click here")).click();
+//		click(By.xpath(parameters.ForgotPasswordLink));
+		ForgotPasswordLink.click();
 		return PageFactory.initElements(driver, ForgotPasswordPage.class);
 	}
 
 	public GetStartedPage clickOnGetStartedLink() {
-		click(By.xpath(parameters.GetStartedLink));
+		GetStartedLink.click();
 		// driver.findElement(By.linkText("Get started here")).click();
 		return PageFactory.initElements(driver, GetStartedPage.class);
 	}
@@ -75,5 +76,20 @@ public class LoginPage extends MainPagesFunc {
 	public void checkAllLinksFromLoginPage(){
 //		GetAllLinksOnPage();	
 		linksTest();
+	}
+
+	public void checkErrorMessage() {
+		Assert.assertEquals(parameters.EMincorrectCredentials, ErrorMessages.getText());
+	}
+
+	public void typeWrongUserPassword() {
+		PasswordField.sendKeys("123");		
+	}
+
+	public void typeInvalidEmail() {
+//		Utils.clearField(EmailField);
+		typeValuesForValidation(parameters.EMinvalidEmail, Utils.dataForEmailFieldInput, EmailField, LoginButton, ErrorMessages);
+		EmailField.sendKeys(randomUser);
+		
 	}
 }

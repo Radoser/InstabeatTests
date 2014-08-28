@@ -1,6 +1,8 @@
 
  package InstabeatSanity.Tests;
 
+import instabeat.utils.Utils;
+
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
@@ -20,20 +22,28 @@ public class ParallelBrowserSanity {
 	@Parameters({"browser"})
 	public void BeforeTests(/*@Optional("browsers.xml")*/String browser ) {
 	
+		Utils.logFile();
+		Utils.Log.info("*===========================================*");
+		Utils.Log.info("*        Start running test cases...        *");
+		Utils.Log.info("*===========================================*");
+		
 		if (browser.equalsIgnoreCase("firefox")) {
-            driver = new FirefoxDriver();
+            Utils.Log.info("|FF running");
+			driver = new FirefoxDriver();
      } else if (browser.equalsIgnoreCase("chrome")) {
             // Set Path for the executable file
             System.setProperty("webdriver.chrome.driver",
                          "D:\\eclipse-java-juno-SR1-win32-x86_64\\chromedriver_win32\\chromedriver.exe");
+            Utils.Log.info("|Chrome running");
             driver = new ChromeDriver();
      } else if (browser.equalsIgnoreCase("ie")) {
             // Set Path for the executable file
             System.setProperty("webdriver.ie.driver", "D:\\eclipse-java-juno-SR1-win32-x86_64\\IEDriverServer.exe");
+            Utils.Log.info("|IE running");
             driver = new InternetExplorerDriver();
      }else
-     {System.out.println("-------------");
-     
+     {
+    	 Utils.Log.info("Unknown error O_o");
      }
 	
 		driver.manage().window().maximize();
@@ -44,6 +54,11 @@ public class ParallelBrowserSanity {
 
 	@AfterTest
 	public void AfterTests() {
+		
+		Utils.Log.info("*===========================================*");
+		Utils.Log.info("*       Finish running test cases...        *");
+		Utils.Log.info("*===========================================*");
+		Utils.Log.info("\n");
 		
 		driver.close();
 		driver.quit();
