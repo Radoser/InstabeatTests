@@ -4,10 +4,15 @@ import instabeat.utils.MainPagesFunc;
 import instabeat.utils.Utils;
 
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
+import java.util.Random;
+
+import junit.framework.Assert;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
 
 public class GetStartedPage extends MainPagesFunc {
@@ -98,4 +103,5 @@ public class GetStartedPage extends MainPagesFunc {
 	public void goToLoginPage() {
 	LoginLink.click();		
 	}
+	
 }

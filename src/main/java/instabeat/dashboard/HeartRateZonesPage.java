@@ -50,4 +50,6 @@ public class HeartRateZonesPage extends MainPagesFunc{
 		      randomNumbers=Integer.toString(Integer.parseInt(randomNumbers)+5);
          }
 	}
+	
+	
 }

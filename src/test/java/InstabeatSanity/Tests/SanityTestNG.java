@@ -246,7 +246,7 @@ public class SanityTestNG extends AbstractTestClass /*ParallelBrowserSanity*/ {
 		Utils.Log.info("<<-----Finishing running test-----< \n---------------------------------------------------");
 	}
 	
-	@Test(priority = 7, enabled = false)
+	@Test(priority = 7, enabled = true)
 	public void userCanChangePassword(){
 		Utils.Log.info("<<========Started running=====<<");
 		
@@ -399,7 +399,7 @@ public class SanityTestNG extends AbstractTestClass /*ParallelBrowserSanity*/ {
 
 	}
 	
-	@Test(priority = 12, enabled = true)
+	@Test(priority = 12, enabled = false)
 	public void UserCanShareGraphFB(){
 		
 		userCanConnectToFB();

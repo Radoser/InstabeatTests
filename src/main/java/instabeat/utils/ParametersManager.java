@@ -33,12 +33,15 @@ public class ParametersManager {
 	public String EMonlyLettersFirstName;
 	public String EMshortLengthFirstName;
 	public String EMincorrectCredentials;
+	public String EMnewPasswordRequiered;
+	public String EMwrongCurrentPassword;
 	public String EMshortLengthLastName;
 	public String EMminimumNumberHeight;
 	public String EMminimumNumberWeight;
 	public String EMonlyLettersLastName;
 	public String EMmaximumNumberHeight;
 	public String EMmaximumNumberWeight;
+	public String EMoldPasswordRequired;
 	public String EMrequiredFirstName;
 	public String EMrequiredLastName;
 	public String EMpasswordRequired;
@@ -50,6 +53,8 @@ public class ParametersManager {
 	public String EMprovideWeight;
 	public String EMinvalidEmail;
 	public String EMuserNotFound;
+	
+	
 
 	public void getPropertyFields() {
 
@@ -93,12 +98,15 @@ public class ParametersManager {
 			EMshortLengthFirstName = prop.get("shortLengthFirstName").toString();
 			EMonlyLettersFirstName = prop.get("onlyLettersFirstName").toString();
 			EMincorrectCredentials = prop.get("incorrectCredentials").toString();
+			EMnewPasswordRequiered = prop.get("newPasswordRequiered").toString();
+			EMwrongCurrentPassword = prop.get("wrongCurrentPassword").toString();
 			EMshortLengthLastName = prop.get("shortLengthLastName").toString();
 			EMonlyLettersLastName = prop.get("onlyLettersLastName").toString();
 			EMminimumNumberHeight = prop.get("minimumNumberHeight").toString();
 			EMminimumNumberWeight = prop.get("minimumNumberWeight").toString();
 			EMmaximumNumberHeight = prop.get("maximumNumberHeight").toString();
 			EMmaximumNumberWeight = prop.get("maximumNumberWeight").toString();			
+			EMoldPasswordRequired = prop.get("oldPasswordRequired").toString();
 			EMrequiredFirstName = prop.get("requiredFirstName").toString();
 			EMpasswordNotMatch = prop.get("passwordNotMatch").toString();
 			EMpasswordRequired = prop.get("passwordRequired").toString();
@@ -110,6 +118,7 @@ public class ParametersManager {
 			EMprovideWeight = prop.get("provideWeight").toString();
 			EMinvalidEmail = prop.get("invalidEmail").toString();
 			EMuserNotFound = prop.get("userNotFound").toString();
+			
 			
 		} catch (IOException e) {
 			e.printStackTrace();

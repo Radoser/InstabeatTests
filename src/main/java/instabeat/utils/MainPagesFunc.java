@@ -152,7 +152,7 @@ public class MainPagesFunc {
 	@FindBy(id = "confirm")
 	public WebElement ConfirmNewUserProfilePasswordField;
 
-	@FindBy(xpath = "//*[@class='col-md-12 col-xs-12']/button[@class='ibt-button']")
+	@FindBy(xpath = "//*[@class= 'col-md-6 col-xs-6 col-md-offset-6']/input[@value = 'Update']")
 	public WebElement UpdateUserProfileButton;
 
 	@FindBy(xpath = "//select[@id='timezone2']")
@@ -202,7 +202,7 @@ public class MainPagesFunc {
 	@FindBy(xpath = "//*[@class='col-md-6 col-xs-6 error-message']")
 	public WebElement ErrorMessages;
 	
-	@FindBy(xpath = "html/body/div[4]/div/div[4]/div[1]/div[3]")
+	@FindBy(xpath = "//*[@class = 'error-message'][text()]")
 	public WebElement DashboardErrorMessages;
 	
 	@FindBy(xpath = "//*[@class='col-md-5 col-xs-5 error-message']")
@@ -288,8 +288,6 @@ public class MainPagesFunc {
 		}
 	}
 	
-	
-	
 	public void linksTest() {
 		
 		List<WebElement> linkElement = driver.findElements(By.tagName("a"));
@@ -313,7 +311,6 @@ public class MainPagesFunc {
 			}
 			driver.navigate().back();
 		}
-		
 	}
 	public boolean verificationOfElementsOnPages(WebElement element) {
 		try {

@@ -1,7 +1,9 @@
 package InstabeatSanity.Tests;
 
+import instabeat.dashboard.HeartRateZonesPage;
 import instabeat.dashboard.HomePage;
 import instabeat.dashboard.ProfilePage;
+import instabeat.dashboard.ProfilePageSettings;
 import instabeat.pages.ForgotPasswordPage;
 import instabeat.pages.GetStartedPage;
 import instabeat.pages.LoginPage;
@@ -9,7 +11,7 @@ import instabeat.utils.Utils;
 
 import org.testng.annotations.Test;
 
-public class FieldsValidationTests extends AbstractTestClass{
+public class FieldsValidationTests extends /*ParallelBrowserSanity*/ AbstractTestClass {
 
 	
 	@Test(priority = 1, enabled = false)
@@ -82,6 +84,8 @@ public class FieldsValidationTests extends AbstractTestClass{
 		Utils.Log.info("<<========Started running=====<<");
 		
 		LoginPage onLoginPage = new LoginPage(driver);
+		
+		Utils.Log.info("|Logging in...");
 		onLoginPage.fullLogin();
 		HomePage onHomePage = onLoginPage.LoginButton();
 		ProfilePage onProfilePage = onHomePage.clickOnProfileTab();
@@ -98,8 +102,40 @@ public class FieldsValidationTests extends AbstractTestClass{
 		Utils.Log.info("<<-----Finishing running test-----< \n---------------------------------------------------");
 	}
 	
-	@Test(priority = 5, enabled = false)
+	@Test(priority = 5, enabled = true)
 	public void ProfileSettingsValidation(){
+		Utils.Log.info("<<========Started running=====<<");
+		
+		LoginPage onLoginPage = new LoginPage(driver);
+		
+		Utils.Log.info("|Logging in...");
+		onLoginPage.fullLogin();
+		HomePage onHomePage = onLoginPage.LoginButton();
+		ProfilePage onProfilePage = onHomePage.clickOnProfileTab();
+		ProfilePageSettings onProfilePageSettings = onProfilePage.clickOnProfilePageSettings();
+		
+		Utils.Log.info("|Checking password fields with random data");
+		onProfilePageSettings.passwordsFieldsValidation();
+		
+		Utils.Log.info("|Checking password fields in a different order");
+		onProfilePageSettings.passwordsFieldsValidationForDifferentCases();
+		
+		Utils.Log.info("|Fields are checked");		
+		Utils.Log.info("<<-----Finishing running test-----< \n---------------------------------------------------");
+	}
+	
+	@Test(priority = 5, enabled = true)
+	public void HeartRateZonesValidation(){
+		Utils.Log.info("<<========Started running=====<<");
+		
+		LoginPage onLoginPage = new LoginPage(driver);
+		Utils.Log.info("|Logging in...");
+		onLoginPage.fullLogin();
+		
+		HomePage onHomePage = onLoginPage.LoginButton();
+		HeartRateZonesPage onHeartRateZonesPage = onHomePage.clickOnHRZTab();
+		
+		Utils.Log.info("|Checking HR zones using RHR field");
 		
 	}
 }

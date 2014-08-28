@@ -6,8 +6,8 @@
       <class name="InstabeatSanity.Tests.FieldsValidationTests">
         <methods>
           <include name="BeforeTests"/>
+          <include name="ProfileSettingsValidation"/>
           <include name="AfterTests"/>
-          <include name="ProfileValidation"/>
         </methods>
       </class> <!-- InstabeatSanity.Tests.FieldsValidationTests -->
     </classes>

@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="27456" started-at="2014-08-28T07:21:55Z" finished-at="2014-08-28T07:22:22Z">
+  <suite name="Default suite" duration-ms="24191" started-at="2014-08-28T16:12:44Z" finished-at="2014-08-28T16:13:09Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="27456" started-at="2014-08-28T07:21:55Z" finished-at="2014-08-28T07:22:22Z">
+    <test name="Default test" duration-ms="24191" started-at="2014-08-28T16:12:44Z" finished-at="2014-08-28T16:13:09Z">
       <class name="InstabeatSanity.Tests.FieldsValidationTests">
-        <test-method status="PASS" signature="BeforeTests()[pri:0, instance:InstabeatSanity.Tests.FieldsValidationTests@2ff4f00f]" name="BeforeTests" is-config="true" duration-ms="13215" started-at="2014-08-28T10:21:55Z" finished-at="2014-08-28T10:22:08Z">
+        <test-method status="PASS" signature="BeforeTests()[pri:0, instance:InstabeatSanity.Tests.FieldsValidationTests@2ff4f00f]" name="BeforeTests" is-config="true" duration-ms="12181" started-at="2014-08-28T19:12:44Z" finished-at="2014-08-28T19:12:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeTests -->
-        <test-method status="PASS" signature="LoginValidation()[pri:0, instance:InstabeatSanity.Tests.FieldsValidationTests@2ff4f00f]" name="LoginValidation" duration-ms="13289" started-at="2014-08-28T10:22:08Z" finished-at="2014-08-28T10:22:21Z">
+        <test-method status="PASS" signature="ProfileSettingsValidation()[pri:0, instance:InstabeatSanity.Tests.FieldsValidationTests@2ff4f00f]" name="ProfileSettingsValidation" duration-ms="11051" started-at="2014-08-28T19:12:57Z" finished-at="2014-08-28T19:13:08Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LoginValidation -->
-        <test-method status="PASS" signature="AfterTests()[pri:0, instance:InstabeatSanity.Tests.FieldsValidationTests@2ff4f00f]" name="AfterTests" is-config="true" duration-ms="943" started-at="2014-08-28T10:22:21Z" finished-at="2014-08-28T10:22:22Z">
+        </test-method> <!-- ProfileSettingsValidation -->
+        <test-method status="PASS" signature="AfterTests()[pri:0, instance:InstabeatSanity.Tests.FieldsValidationTests@2ff4f00f]" name="AfterTests" is-config="true" duration-ms="952" started-at="2014-08-28T19:13:08Z" finished-at="2014-08-28T19:13:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterTests -->
