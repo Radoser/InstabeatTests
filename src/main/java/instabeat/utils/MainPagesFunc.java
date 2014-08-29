@@ -153,6 +153,9 @@ public class MainPagesFunc {
 	public WebElement ConfirmNewUserProfilePasswordField;
 
 	@FindBy(xpath = "//*[@class= 'col-md-6 col-xs-6 col-md-offset-6']/input[@value = 'Update']")
+	public WebElement UpdateUserProfileSettingsButton;
+	
+	@FindBy(xpath = "//*[@class = 'col-md-12 col-xs-12']/button[@type = 'submit'][text() = 'Update']")
 	public WebElement UpdateUserProfileButton;
 
 	@FindBy(xpath = "//select[@id='timezone2']")
@@ -283,8 +286,8 @@ public class MainPagesFunc {
 
 		for (int a = 0; a<elements.length; a++){
 			driver.navigate().to(elements[a]);
-			driver.navigate().back();
 			Utils.Log.info("|Got to page " + driver.getTitle() + " by link " + elements[a]);
+			driver.navigate().back();
 		}
 	}
 	

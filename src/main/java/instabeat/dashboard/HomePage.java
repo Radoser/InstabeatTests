@@ -1,6 +1,7 @@
 package instabeat.dashboard;
 
 import instabeat.utils.MainPagesFunc;
+import instabeat.utils.Utils;
 import junit.framework.Assert;
 
 import org.openqa.selenium.By;
@@ -80,6 +81,7 @@ public class HomePage extends MainPagesFunc {
 	}
 	
 	public void checkIfShareWindowOpened(){
+		Utils.waitPage();
 		String shareName = "Sandra Amffajgefgaa Bushakson";
 		String text = "Do you want to share this swimming session on Facebook as "+shareName+"?";
 		Assert.assertEquals(text, EraseTextWindow.getText());

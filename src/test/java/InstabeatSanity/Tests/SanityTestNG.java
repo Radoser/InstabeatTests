@@ -246,7 +246,7 @@ public class SanityTestNG extends AbstractTestClass /*ParallelBrowserSanity*/ {
 		Utils.Log.info("<<-----Finishing running test-----< \n---------------------------------------------------");
 	}
 	
-	@Test(priority = 7, enabled = true)
+	@Test(priority = 7, enabled = false)
 	public void userCanChangePassword(){
 		Utils.Log.info("<<========Started running=====<<");
 		
@@ -383,6 +383,10 @@ public class SanityTestNG extends AbstractTestClass /*ParallelBrowserSanity*/ {
 		ProfilePageSettings onProfilePageSettings = onProfilePage.clickOnProfilePageSettings();
 		Utils.Log.info("|Connecting to FB...");
 		onProfilePageSettings.FaceBookConnect();
+		
+		Utils.Log.info("|Logging out...");
+		onProfilePageSettings.logout();
+		Utils.Log.info("<<-----Finishing running test-----< \n---------------------------------------------------");
 	/*	onProfilePageSettings.clickOnHomeTab();
 		
 		Utils.Log.info("|Sharing data to FB...");
@@ -399,16 +403,27 @@ public class SanityTestNG extends AbstractTestClass /*ParallelBrowserSanity*/ {
 
 	}
 	
-	@Test(priority = 12, enabled = false)
+	@Test(priority = 12, enabled = true)
 	public void UserCanShareGraphFB(){
-		
-		userCanConnectToFB();
 		
 		Utils.Log.info("<<========Started running=====<<");
 		
-		ProfilePageSettings onProfilePageSettings = new ProfilePageSettings(driver);
-		HomePage onHomePage = onProfilePageSettings.clickOnHomeTab();
+		LoginPage onLoginPage = new LoginPage(driver);
+		Utils.Log.info("|Logging in...");
+		onLoginPage.fullLogin();
 		
+		HomePage onHomePage = onLoginPage.LoginButton();
+		Utils.waitPage();
+		Utils.Log.info("|Check if user logged in");
+		Assert.assertTrue(onHomePage.isHomePagePresent());
+		
+		ProfilePage onProfilePage = onHomePage.clickOnProfileTab();
+		ProfilePageSettings onProfilePageSettings = onProfilePage.clickOnProfilePageSettings();
+		Utils.Log.info("|Connecting to FB...");
+		onProfilePageSettings.FaceBookConnect();
+		
+		onProfilePageSettings.clickOnHomeTab();
+				
 		Utils.Log.info("|Sharing data to FB...");
 		onHomePage.clickOnPlusButton();
 		onHomePage.clickOnFBShareButton();

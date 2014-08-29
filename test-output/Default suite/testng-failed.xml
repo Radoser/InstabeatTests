@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="InstabeatSanity.Tests.FieldsValidationTests">
+      <class name="InstabeatSanity.Tests.SanityTestNG">
         <methods>
           <include name="BeforeTests"/>
-          <include name="ProfileSettingsValidation"/>
           <include name="AfterTests"/>
+          <include name="UserCanShareGraphFB"/>
         </methods>
-      </class> <!-- InstabeatSanity.Tests.FieldsValidationTests -->
+      </class> <!-- InstabeatSanity.Tests.SanityTestNG -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

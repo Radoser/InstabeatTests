@@ -34,7 +34,7 @@ public class ProfilePageSettings extends MainPagesFunc {
 	}
 
 	public void clickOnUpdateButton() {
-		UpdateUserProfileButton.click();
+		UpdateUserProfileSettingsButton.click();
 	}
 
 	public void changeCountry() {
@@ -113,7 +113,7 @@ public class ProfilePageSettings extends MainPagesFunc {
 		for(int i = 0; i<fields.size(); i++){
 			do {	
 				fields.get(i).sendKeys(randomNumbers);	
-				UpdateUserProfileButton.click();
+				UpdateUserProfileSettingsButton.click();
 //				Utils.waitPage();
 			}
 			while(DashboardErrorMessages.getText() == errors.get(i));
@@ -124,19 +124,19 @@ public class ProfilePageSettings extends MainPagesFunc {
 		
 		Utils.clearField(OldPasswordField);
 		do {
-			UpdateUserProfileButton.click();
+			UpdateUserProfileSettingsButton.click();
 		}while(DashboardErrorMessages.getText() == parameters.EMoldPasswordRequired);
 		
 		do{
 			OldPasswordField.sendKeys(parameters.UserPassword);
 			Utils.clearField(NewUserProfilePasswordField);
-			UpdateUserProfileButton.click();
+			UpdateUserProfileSettingsButton.click();
 		}while (DashboardErrorMessages.getText() == parameters.EMconfirmRequired);
 		
 		do{
 			NewUserProfilePasswordField.sendKeys(parameters.UserPassword);
 			Utils.clearField(ConfirmNewUserProfilePasswordField);
-			UpdateUserProfileButton.click();
+			UpdateUserProfileSettingsButton.click();
 		}while(DashboardErrorMessages.getText() == parameters.EMconfirmRequired);
 	}
 }

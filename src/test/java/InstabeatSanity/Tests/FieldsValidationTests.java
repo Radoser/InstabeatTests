@@ -14,7 +14,7 @@ import org.testng.annotations.Test;
 public class FieldsValidationTests extends /*ParallelBrowserSanity*/ AbstractTestClass {
 
 	
-	@Test(priority = 1, enabled = false)
+	@Test(priority = 1, enabled = true)
 	public void LoginValidation(){
 		Utils.Log.info("<<========Started running=====<<");
 		
@@ -39,7 +39,7 @@ public class FieldsValidationTests extends /*ParallelBrowserSanity*/ AbstractTes
 		Utils.Log.info("<<-----Finishing running test-----< \n---------------------------------------------------");
 	}
 	
-	@Test(priority = 2, enabled = false)
+	@Test(priority = 2, enabled = true)
 	public void ResetPasswordValidation(){
 		Utils.Log.info("<<========Started running=====<<");
 		
@@ -56,7 +56,7 @@ public class FieldsValidationTests extends /*ParallelBrowserSanity*/ AbstractTes
 		Utils.Log.info("<<-----Finishing running test-----< \n---------------------------------------------------");
 	}
 	
-	@Test(priority = 3, enabled = false)
+	@Test(priority = 3, enabled = true)
 	public void GetStartedValidation(){
 		Utils.Log.info("<<========Started running=====<<");
 		
@@ -79,7 +79,7 @@ public class FieldsValidationTests extends /*ParallelBrowserSanity*/ AbstractTes
 		Utils.Log.info("<<-----Finishing running test-----< \n---------------------------------------------------");
 	}
 	
-	@Test(priority = 4, enabled = false)
+	@Test(priority = 4, enabled = true)
 	public void ProfileValidation(){
 		Utils.Log.info("<<========Started running=====<<");
 		
@@ -99,6 +99,7 @@ public class FieldsValidationTests extends /*ParallelBrowserSanity*/ AbstractTes
 		onProfilePage.minWeightFieldValidation();
 		onProfilePage.maxWeightFieldValidation();
 		Utils.Log.info("|Fields are checked");		
+		onProfilePage.logout();
 		Utils.Log.info("<<-----Finishing running test-----< \n---------------------------------------------------");
 	}
 	
@@ -124,7 +125,7 @@ public class FieldsValidationTests extends /*ParallelBrowserSanity*/ AbstractTes
 		Utils.Log.info("<<-----Finishing running test-----< \n---------------------------------------------------");
 	}
 	
-	@Test(priority = 5, enabled = true)
+	@Test(priority = 5, enabled = false)
 	public void HeartRateZonesValidation(){
 		Utils.Log.info("<<========Started running=====<<");
 		

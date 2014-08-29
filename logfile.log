@@ -446,3 +446,532 @@
 28-08-2014 19:13:08 INFO  36: 'AfterTests' *===========================================* 
 28-08-2014 19:13:08 INFO  37: 'AfterTests' 
  
+29-08-2014 15:48:54 INFO  21: 'BeforeTests' *===========================================* 
+29-08-2014 15:48:54 INFO  22: 'BeforeTests' *        Start running test cases...        * 
+29-08-2014 15:48:54 INFO  23: 'BeforeTests' *===========================================* 
+29-08-2014 15:49:07 INFO  19: 'LoginValidation' <<========Started running=====<< 
+29-08-2014 15:49:07 INFO  23: 'LoginValidation' |Checking wrong user email 
+29-08-2014 15:49:09 INFO  30: 'LoginValidation' |Checking wrong user password 
+29-08-2014 15:49:12 INFO  37: 'LoginValidation' |Checking incorrect user email 
+29-08-2014 15:49:21 INFO  39: 'LoginValidation' <<-----Finishing running test-----< 
+--------------------------------------------------- 
+29-08-2014 15:49:21 INFO  44: 'ResetPasswordValidation' <<========Started running=====<< 
+29-08-2014 15:49:21 INFO  49: 'ResetPasswordValidation' |Checking not existing user email 
+29-08-2014 15:49:25 INFO  53: 'ResetPasswordValidation' |Checking incorrect user email 
+29-08-2014 15:49:33 INFO  56: 'ResetPasswordValidation' <<-----Finishing running test-----< 
+--------------------------------------------------- 
+29-08-2014 15:49:33 INFO  61: 'GetStartedValidation' <<========Started running=====<< 
+29-08-2014 15:49:36 INFO  66: 'GetStartedValidation' |Checking all fields... 
+29-08-2014 15:50:27 INFO  78: 'GetStartedValidation' |Fields are checked 
+29-08-2014 15:50:27 INFO  79: 'GetStartedValidation' <<-----Finishing running test-----< 
+--------------------------------------------------- 
+29-08-2014 15:50:27 INFO  84: 'ProfileValidation' <<========Started running=====<< 
+29-08-2014 15:50:27 INFO  88: 'ProfileValidation' |Logging in... 
+29-08-2014 15:50:34 INFO  93: 'ProfileValidation' |Checking all fields... 
+29-08-2014 15:51:27 INFO  107: 'ProfileSettingsValidation' <<========Started running=====<< 
+29-08-2014 15:51:27 INFO  111: 'ProfileSettingsValidation' |Logging in... 
+29-08-2014 15:57:04 INFO  21: 'BeforeTests' *===========================================* 
+29-08-2014 15:57:04 INFO  22: 'BeforeTests' *        Start running test cases...        * 
+29-08-2014 15:57:04 INFO  23: 'BeforeTests' *===========================================* 
+29-08-2014 15:57:18 INFO  19: 'LoginValidation' <<========Started running=====<< 
+29-08-2014 15:57:18 INFO  23: 'LoginValidation' |Checking wrong user email 
+29-08-2014 15:57:20 INFO  30: 'LoginValidation' |Checking wrong user password 
+29-08-2014 15:57:22 INFO  37: 'LoginValidation' |Checking incorrect user email 
+29-08-2014 15:57:31 INFO  39: 'LoginValidation' <<-----Finishing running test-----< 
+--------------------------------------------------- 
+29-08-2014 15:57:31 INFO  44: 'ResetPasswordValidation' <<========Started running=====<< 
+29-08-2014 15:57:31 INFO  49: 'ResetPasswordValidation' |Checking not existing user email 
+29-08-2014 15:57:35 INFO  53: 'ResetPasswordValidation' |Checking incorrect user email 
+29-08-2014 15:57:44 INFO  56: 'ResetPasswordValidation' <<-----Finishing running test-----< 
+--------------------------------------------------- 
+29-08-2014 15:57:44 INFO  61: 'GetStartedValidation' <<========Started running=====<< 
+29-08-2014 15:57:44 INFO  66: 'GetStartedValidation' |Checking all fields... 
+29-08-2014 15:58:38 INFO  78: 'GetStartedValidation' |Fields are checked 
+29-08-2014 15:58:38 INFO  79: 'GetStartedValidation' <<-----Finishing running test-----< 
+--------------------------------------------------- 
+29-08-2014 15:58:38 INFO  84: 'ProfileValidation' <<========Started running=====<< 
+29-08-2014 15:58:38 INFO  88: 'ProfileValidation' |Logging in... 
+29-08-2014 15:58:46 INFO  93: 'ProfileValidation' |Checking all fields... 
+29-08-2014 15:59:21 INFO  101: 'ProfileValidation' |Fields are checked 
+29-08-2014 15:59:21 INFO  102: 'ProfileValidation' <<-----Finishing running test-----< 
+--------------------------------------------------- 
+29-08-2014 15:59:21 INFO  107: 'ProfileSettingsValidation' <<========Started running=====<< 
+29-08-2014 15:59:21 INFO  111: 'ProfileSettingsValidation' |Logging in... 
+29-08-2014 16:00:07 INFO  21: 'BeforeTests' *===========================================* 
+29-08-2014 16:00:07 INFO  22: 'BeforeTests' *        Start running test cases...        * 
+29-08-2014 16:00:07 INFO  23: 'BeforeTests' *===========================================* 
+29-08-2014 16:00:21 INFO  19: 'LoginValidation' <<========Started running=====<< 
+29-08-2014 16:00:21 INFO  23: 'LoginValidation' |Checking wrong user email 
+29-08-2014 16:00:23 INFO  30: 'LoginValidation' |Checking wrong user password 
+29-08-2014 16:00:25 INFO  37: 'LoginValidation' |Checking incorrect user email 
+29-08-2014 16:00:34 INFO  39: 'LoginValidation' <<-----Finishing running test-----< 
+--------------------------------------------------- 
+29-08-2014 16:00:34 INFO  44: 'ResetPasswordValidation' <<========Started running=====<< 
+29-08-2014 16:00:34 INFO  49: 'ResetPasswordValidation' |Checking not existing user email 
+29-08-2014 16:00:39 INFO  53: 'ResetPasswordValidation' |Checking incorrect user email 
+29-08-2014 16:00:47 INFO  56: 'ResetPasswordValidation' <<-----Finishing running test-----< 
+--------------------------------------------------- 
+29-08-2014 16:00:47 INFO  61: 'GetStartedValidation' <<========Started running=====<< 
+29-08-2014 16:00:50 INFO  66: 'GetStartedValidation' |Checking all fields... 
+29-08-2014 16:01:42 INFO  78: 'GetStartedValidation' |Fields are checked 
+29-08-2014 16:01:42 INFO  79: 'GetStartedValidation' <<-----Finishing running test-----< 
+--------------------------------------------------- 
+29-08-2014 16:01:42 INFO  84: 'ProfileValidation' <<========Started running=====<< 
+29-08-2014 16:01:42 INFO  88: 'ProfileValidation' |Logging in... 
+29-08-2014 16:01:50 INFO  93: 'ProfileValidation' |Checking all fields... 
+29-08-2014 16:02:25 INFO  101: 'ProfileValidation' |Fields are checked 
+29-08-2014 16:02:25 INFO  103: 'ProfileValidation' <<-----Finishing running test-----< 
+--------------------------------------------------- 
+29-08-2014 16:02:25 INFO  108: 'ProfileSettingsValidation' <<========Started running=====<< 
+29-08-2014 16:02:25 INFO  112: 'ProfileSettingsValidation' |Logging in... 
+29-08-2014 16:02:33 INFO  118: 'ProfileSettingsValidation' |Checking password fields with random data 
+29-08-2014 16:02:37 INFO  121: 'ProfileSettingsValidation' |Checking password fields in a different order 
+29-08-2014 16:02:38 INFO  124: 'ProfileSettingsValidation' |Fields are checked 
+29-08-2014 16:02:38 INFO  125: 'ProfileSettingsValidation' <<-----Finishing running test-----< 
+--------------------------------------------------- 
+29-08-2014 16:02:38 INFO  34: 'AfterTests' *===========================================* 
+29-08-2014 16:02:38 INFO  35: 'AfterTests' *       Finish running test cases...        * 
+29-08-2014 16:02:38 INFO  36: 'AfterTests' *===========================================* 
+29-08-2014 16:02:38 INFO  37: 'AfterTests' 
+ 
+29-08-2014 16:03:13 INFO  21: 'BeforeTests' *===========================================* 
+29-08-2014 16:03:13 INFO  22: 'BeforeTests' *        Start running test cases...        * 
+29-08-2014 16:03:13 INFO  23: 'BeforeTests' *===========================================* 
+29-08-2014 16:03:27 INFO  28: 'checkAllLinksOnWebPage' <<========Started running=====<< 
+29-08-2014 16:05:00 INFO  251: 'userCanChangePassword' <<========Started running=====<< 
+29-08-2014 16:05:00 INFO  254: 'userCanChangePassword' |Logging in... 
+29-08-2014 16:05:02 INFO  21: 'BeforeTests' *===========================================* 
+29-08-2014 16:05:02 INFO  22: 'BeforeTests' *        Start running test cases...        * 
+29-08-2014 16:05:02 INFO  23: 'BeforeTests' *===========================================* 
+29-08-2014 16:05:07 INFO  34: 'AfterTests' *===========================================* 
+29-08-2014 16:05:07 INFO  35: 'AfterTests' *       Finish running test cases...        * 
+29-08-2014 16:05:07 INFO  36: 'AfterTests' *===========================================* 
+29-08-2014 16:05:07 INFO  37: 'AfterTests' 
+ 
+29-08-2014 16:05:16 INFO  28: 'checkAllLinksOnWebPage' <<========Started running=====<< 
+29-08-2014 16:05:21 INFO  290: 'GetAllLinksOnPage' |Got to page Login by link http://www.instabeat.me/ 
+29-08-2014 16:05:24 INFO  290: 'GetAllLinksOnPage' |Got to page Login by link http://www.instabeat.me/preorder 
+29-08-2014 16:05:27 INFO  290: 'GetAllLinksOnPage' |Got to page Login by link http://www.instabeat.me/about 
+29-08-2014 16:05:30 INFO  290: 'GetAllLinksOnPage' |Got to page Login by link http://www.instabeat.me/pressroom 
+29-08-2014 16:06:12 INFO  21: 'BeforeTests' *===========================================* 
+29-08-2014 16:06:12 INFO  22: 'BeforeTests' *        Start running test cases...        * 
+29-08-2014 16:06:12 INFO  23: 'BeforeTests' *===========================================* 
+29-08-2014 16:06:26 INFO  28: 'checkAllLinksOnWebPage' <<========Started running=====<< 
+29-08-2014 16:06:31 INFO  289: 'GetAllLinksOnPage' |Got to page Instabeat :: Master your swim! by link http://www.instabeat.me/ 
+29-08-2014 16:06:34 INFO  289: 'GetAllLinksOnPage' |Got to page Instabeat :: Master your swim! by link http://www.instabeat.me/preorder 
+29-08-2014 16:06:36 INFO  289: 'GetAllLinksOnPage' |Got to page Instabeat :: Master your swim! by link http://www.instabeat.me/about 
+29-08-2014 16:06:39 INFO  289: 'GetAllLinksOnPage' |Got to page Instabeat :: Master your swim! by link http://www.instabeat.me/pressroom 
+29-08-2014 16:06:45 INFO  289: 'GetAllLinksOnPage' |Got to page Instabeat by link http://www.instabeat.me/blog 
+29-08-2014 16:06:48 INFO  289: 'GetAllLinksOnPage' |Got to page Registration by link http://user.instabeat.me/go 
+29-08-2014 16:06:49 INFO  289: 'GetAllLinksOnPage' |Got to page Login by link http://user.instabeat.me/user/# 
+29-08-2014 16:06:50 INFO  289: 'GetAllLinksOnPage' |Got to page Instabeat :: Master your swim! by link http://www.instabeat.me/preorder 
+29-08-2014 16:06:53 INFO  289: 'GetAllLinksOnPage' |Got to page Registration by link http://user.instabeat.me/go 
+29-08-2014 16:06:56 INFO  289: 'GetAllLinksOnPage' |Got to page  by link http://user.instabeat.me/user/restore 
+29-08-2014 16:06:57 INFO  289: 'GetAllLinksOnPage' |Got to page Instabeat :: Master your swim! by link http://www.instabeat.me/about 
+29-08-2014 16:06:59 INFO  289: 'GetAllLinksOnPage' |Got to page Instabeat :: Master your swim! by link http://www.instabeat.me/preorder 
+29-08-2014 16:07:00 INFO  289: 'GetAllLinksOnPage' |Got to page Login by link http://user.instabeat.me/user/# 
+29-08-2014 16:07:01 INFO  289: 'GetAllLinksOnPage' |Got to page Instabeat :: Master your swim! by link http://www.instabeat.me/pressroom 
+29-08-2014 16:07:05 INFO  289: 'GetAllLinksOnPage' |Got to page Instabeat by link http://www.instabeat.me/blog 
+29-08-2014 16:07:17 INFO  289: 'GetAllLinksOnPage' |Got to page Instabeat by link https://myinstabeat.zendesk.com/hc/en-us 
+29-08-2014 16:07:18 INFO  289: 'GetAllLinksOnPage' |Got to page Login by link http://user.instabeat.me/user/# 
+29-08-2014 16:07:18 INFO  289: 'GetAllLinksOnPage' |Got to page Login by link http://user.instabeat.me/user/# 
+29-08-2014 16:07:18 INFO  289: 'GetAllLinksOnPage' |Got to page Terms and Conditions of Sale – Instabeat by link https://myinstabeat.zendesk.com/hc/en-us/articles/200686132-Terms-and-Conditions-of-Sale 
+29-08-2014 16:07:19 INFO  289: 'GetAllLinksOnPage' |Got to page Privacy Policy – Instabeat by link https://myinstabeat.zendesk.com/hc/en-us/articles/200686202-Privacy-Policy 
+29-08-2014 16:07:21 INFO  289: 'GetAllLinksOnPage' |Got to page Terms and Conditions of Use – Instabeat by link https://myinstabeat.zendesk.com/hc/en-us/articles/200686122-Terms-and-Conditions-of-Use 
+29-08-2014 16:07:35 INFO  289: 'GetAllLinksOnPage' |Got to page Instabeat - Β³δεξ - Google+ by link https://plus.google.com/105815489580555106540/ 
+29-08-2014 16:07:39 INFO  289: 'GetAllLinksOnPage' |Got to page Instabeat on Vimeo by link http://vimeo.com/instabeat 
+29-08-2014 16:07:47 INFO  289: 'GetAllLinksOnPage' |Got to page myinstabeat on Instagram by link http://instagram.com/myinstabeat# 
+29-08-2014 16:07:53 INFO  289: 'GetAllLinksOnPage' |Got to page Instabeat | Facebook by link https://www.facebook.com/myinstabeat 
+29-08-2014 16:08:01 INFO  289: 'GetAllLinksOnPage' |Got to page Instabeat (myinstabeat) on Twitter by link https://twitter.com/myinstabeat 
+29-08-2014 16:08:03 INFO  289: 'GetAllLinksOnPage' |Got to page Login by link http://www.linkedin.com/company/2562190?goback=.fcs_GLHD_instabeat_false_*2_*2_*2_*2_*2_*2_*2_*2_*2_*2_*2_*2&trk=ncsrch_hits 
+29-08-2014 16:08:03 INFO  31: 'checkAllLinksOnWebPage' <<-----Finishing running test-----< 
+--------------------------------------------------- 
+29-08-2014 16:08:03 INFO  251: 'userCanChangePassword' <<========Started running=====<< 
+29-08-2014 16:08:03 INFO  254: 'userCanChangePassword' |Logging in... 
+29-08-2014 16:08:08 INFO  259: 'userCanChangePassword' |Check if user logged in 
+29-08-2014 16:08:11 INFO  265: 'userCanChangePassword' |Changing user's password... 
+29-08-2014 16:08:14 INFO  272: 'userCanChangePassword' |Logging out... 
+29-08-2014 16:08:14 INFO  274: 'userCanChangePassword' <<-----Finishing running test-----< 
+--------------------------------------------------- 
+29-08-2014 16:08:14 INFO  34: 'AfterTests' *===========================================* 
+29-08-2014 16:08:14 INFO  35: 'AfterTests' *       Finish running test cases...        * 
+29-08-2014 16:08:14 INFO  36: 'AfterTests' *===========================================* 
+29-08-2014 16:08:14 INFO  37: 'AfterTests' 
+ 
+29-08-2014 16:10:08 INFO  21: 'BeforeTests' *===========================================* 
+29-08-2014 16:10:08 INFO  22: 'BeforeTests' *        Start running test cases...        * 
+29-08-2014 16:10:08 INFO  23: 'BeforeTests' *===========================================* 
+29-08-2014 16:10:22 INFO  36: 'UserCanLogin' <<========Started running=====<< 
+29-08-2014 16:10:22 INFO  23: 'verifyPageTitle' |Actual Page is: Login 
+29-08-2014 16:10:24 INFO  42: 'UserCanLogin' |Typing user credentials... 
+29-08-2014 16:10:25 INFO  47: 'UserCanLogin' |Checking if user successfully logged in 
+29-08-2014 16:10:30 INFO  50: 'UserCanLogin' |Logging out... 
+29-08-2014 16:10:35 INFO  53: 'UserCanLogin' <<-----Finishing running test-----< 
+--------------------------------------------------- 
+29-08-2014 16:10:35 INFO  59: 'UserCannotLogin' <<========Started running=====<< 
+29-08-2014 16:10:35 INFO  23: 'verifyPageTitle' |Actual Page is: Login 
+29-08-2014 16:10:35 INFO  64: 'UserCannotLogin' |Typing wrong user credentials... 
+29-08-2014 16:10:41 INFO  70: 'UserCannotLogin' |Checking if error message appear 
+29-08-2014 16:10:41 INFO  73: 'UserCannotLogin' <<-----Finishing running test-----< 
+--------------------------------------------------- 
+29-08-2014 16:10:41 INFO  145: 'UserForgotPassword' <<========Started running=====<< 
+29-08-2014 16:10:41 INFO  152: 'UserForgotPassword' |Filling in user email... 
+29-08-2014 16:10:43 INFO  158: 'UserForgotPassword' |Checking for proper user email 
+29-08-2014 16:10:48 INFO  163: 'UserForgotPassword' |Getting Reset link from IMAP server... 
+29-08-2014 16:10:51 INFO  32: 'GetConfirmationLink' |Number of Unread Messages : 40 
+29-08-2014 16:10:52 INFO  43: 'GetConfirmationLink' |From: infectiveip@gmail.com 
+29-08-2014 16:10:52 INFO  49: 'GetConfirmationLink' |Reply-to: infectiveip@gmail.com 
+29-08-2014 16:10:52 INFO  55: 'GetConfirmationLink' |To: fortestgl+2@gmail.com 
+29-08-2014 16:10:52 INFO  61: 'GetConfirmationLink' |Subject: admin@instabeat.me - Reset Password 
+29-08-2014 16:10:52 INFO  66: 'GetConfirmationLink' |Sent: Fri Aug 29 16:10:44 EEST 2014 
+29-08-2014 16:10:53 INFO  89: 'GetConfirmationLink' |Link is: http://user.instabeat.me/user/passrestore/a99fb20075393307a691e7be18ad1e36 
+29-08-2014 16:10:56 INFO  167: 'UserForgotPassword' |Check for proper page 
+29-08-2014 16:10:56 INFO  171: 'UserForgotPassword' |Filling in new password 
+29-08-2014 16:11:06 INFO  179: 'UserForgotPassword' <<-----Finishing running test-----< 
+--------------------------------------------------- 
+29-08-2014 16:11:06 INFO  78: 'UserCanRegister' <<========Started running=====<< 
+29-08-2014 16:11:08 INFO  84: 'UserCanRegister' |Filling in user data... 
+29-08-2014 16:11:15 INFO  89: 'UserCanRegister' |Checking user email 
+29-08-2014 16:11:16 INFO  94: 'UserCanRegister' |Getting confirmation link from IMAP server... 
+29-08-2014 16:11:18 INFO  32: 'GetConfirmationLink' |Number of Unread Messages : 41 
+29-08-2014 16:11:19 INFO  43: 'GetConfirmationLink' |From: infectiveip@gmail.com 
+29-08-2014 16:11:19 INFO  49: 'GetConfirmationLink' |Reply-to: infectiveip@gmail.com 
+29-08-2014 16:11:19 INFO  55: 'GetConfirmationLink' |To: fortestgl+1080396783@gmail.com 
+29-08-2014 16:11:19 INFO  61: 'GetConfirmationLink' |Subject: admin@instabeat.me - Confirm Email 
+29-08-2014 16:11:19 INFO  66: 'GetConfirmationLink' |Sent: Fri Aug 29 16:11:13 EEST 2014 
+29-08-2014 16:11:20 INFO  89: 'GetConfirmationLink' |Link is: http://user.instabeat.me/user/confirm/6c24de672df584b1192a4b2ad69701f1 
+29-08-2014 16:11:22 INFO  19: 'printPageTitle' |Actual Page is:  
+29-08-2014 16:11:22 INFO  98: 'UserCanRegister' |Check second step of register - Download page 
+29-08-2014 16:11:30 INFO  104: 'UserCanRegister' |Logging from App using new created user... 
+29-08-2014 16:11:30 INFO  57: 'AppLogin' |username is fortestgl+1080396783@gmail.com 
+29-08-2014 16:11:31 INFO  71: 'AppLogin' |Output from Server... 
+29-08-2014 16:11:31 INFO  77: 'AppLogin' {  "success": true,  "user": {    "token": "2f3bb79f687cf9923fb8b43bc645c2ff69db2d34",    "user": "f6088e6fe1cc27afaa70642eb62f2a65"  }} 
+29-08-2014 16:11:31 INFO  85: 'AppLogin' |UserID is: f6088e6fe1cc27afaa70642eb62f2a65 
+29-08-2014 16:11:31 INFO  87: 'AppLogin' |User token is: 2f3bb79f687cf9923fb8b43bc645c2ff69db2d34 
+29-08-2014 16:11:33 INFO  18: 'printPageTitle' |Actual Page is:  
+29-08-2014 16:11:33 INFO  108: 'UserCanRegister' |Check for success login from App 
+29-08-2014 16:11:33 INFO  112: 'UserCanRegister' |Filling in RHR data 
+29-08-2014 16:11:34 INFO  116: 'UserCanRegister' |Check if registration is successfully 
+29-08-2014 16:11:37 INFO  321: 'verificationOfElementsOnPages' |Element[[FirefoxDriver: firefox on XP (35926a9a-bcc1-489a-88b0-68fad7f80dae)] -> xpath: .//*[@id='cong-text']]is PRESENT!!! 
+29-08-2014 16:11:42 INFO  121: 'UserCanRegister' |Logging out... 
+29-08-2014 16:11:43 INFO  125: 'UserCanRegister' |Logging by new created Random user 
+29-08-2014 16:11:46 INFO  131: 'UserCanRegister' |Deleting created Random User... 
+29-08-2014 16:11:59 INFO  140: 'UserCanRegister' <<-----Finishing running test-----< 
+--------------------------------------------------- 
+29-08-2014 16:11:59 INFO  185: 'UserCanChooseExistSession' <<========Started running=====<< 
+29-08-2014 16:11:59 INFO  187: 'UserCanChooseExistSession' |Logging in... 
+29-08-2014 16:12:05 INFO  193: 'UserCanChooseExistSession' |Check if user logged in 
+29-08-2014 16:12:05 INFO  321: 'verificationOfElementsOnPages' |Element[[FirefoxDriver: firefox on XP (35926a9a-bcc1-489a-88b0-68fad7f80dae)] -> xpath: //div[@class='float-right calendar']]is PRESENT!!! 
+29-08-2014 16:12:05 INFO  197: 'UserCanChooseExistSession' |Choosing date with sessions... 
+29-08-2014 16:12:05 INFO  202: 'UserCanChooseExistSession' |Choose session 
+29-08-2014 16:12:11 INFO  208: 'UserCanChooseExistSession' <<-----Finishing running test-----< 
+--------------------------------------------------- 
+29-08-2014 16:12:11 INFO  213: 'UserCanUpdateProfile' <<========Started running=====<< 
+29-08-2014 16:12:11 INFO  216: 'UserCanUpdateProfile' |Logging in... 
+29-08-2014 16:12:19 INFO  222: 'UserCanUpdateProfile' |Check if user logged in 
+29-08-2014 16:12:20 INFO  227: 'UserCanUpdateProfile' |Updating user data... 
+29-08-2014 16:12:24 INFO  236: 'UserCanUpdateProfile' |Check if updating successfull 
+29-08-2014 16:12:24 INFO  321: 'verificationOfElementsOnPages' |Element[[FirefoxDriver: firefox on XP (35926a9a-bcc1-489a-88b0-68fad7f80dae)] -> xpath: //span[@class = 'glyphicon glyphicon-exclamation-sign']]is PRESENT!!! 
+29-08-2014 16:12:24 INFO  241: 'UserCanUpdateProfile' |Uploading new user's profile picture 
+29-08-2014 16:12:30 INFO  244: 'UserCanUpdateProfile' |Logging out... 
+29-08-2014 16:12:32 INFO  246: 'UserCanUpdateProfile' <<-----Finishing running test-----< 
+--------------------------------------------------- 
+29-08-2014 16:12:32 INFO  251: 'userCanChangePassword' <<========Started running=====<< 
+29-08-2014 16:12:32 INFO  254: 'userCanChangePassword' |Logging in... 
+29-08-2014 16:12:40 INFO  259: 'userCanChangePassword' |Check if user logged in 
+29-08-2014 16:12:41 INFO  265: 'userCanChangePassword' |Changing user's password... 
+29-08-2014 16:12:41 INFO  272: 'userCanChangePassword' |Logging out... 
+29-08-2014 16:12:42 INFO  274: 'userCanChangePassword' <<-----Finishing running test-----< 
+--------------------------------------------------- 
+29-08-2014 16:12:42 INFO  281: 'userCanUpdateProfileSettings' |Logging in... 
+29-08-2014 16:12:50 INFO  286: 'userCanUpdateProfileSettings' |Check if user logged in 
+29-08-2014 16:12:50 INFO  292: 'userCanUpdateProfileSettings' |Select Country randomly 
+29-08-2014 16:12:56 INFO  294: 'userCanUpdateProfileSettings' |Updating profile settings 
+29-08-2014 16:12:56 INFO  297: 'userCanUpdateProfileSettings' |Logging out... 
+29-08-2014 16:12:56 INFO  299: 'userCanUpdateProfileSettings' <<-----Finishing running test-----< 
+--------------------------------------------------- 
+29-08-2014 16:12:56 INFO  337: 'userCanUpdateHRZPage' <<========Started running=====<< 
+29-08-2014 16:12:56 INFO  340: 'userCanUpdateHRZPage' |Logging in... 
+29-08-2014 16:13:03 INFO  347: 'userCanUpdateHRZPage' |Change HR zones using RHR field 
+29-08-2014 16:13:05 INFO  352: 'userCanUpdateHRZPage' |Check if HR updated 
+29-08-2014 16:13:05 INFO  356: 'userCanUpdateHRZPage' |Change HR zones using boxes with random data 
+29-08-2014 16:13:12 INFO  360: 'userCanUpdateHRZPage' |Check if HR updated 
+29-08-2014 16:13:13 INFO  363: 'userCanUpdateHRZPage' |Logging out... 
+29-08-2014 16:13:13 INFO  365: 'userCanUpdateHRZPage' <<-----Finishing running test-----< 
+--------------------------------------------------- 
+29-08-2014 16:13:13 INFO  371: 'userCanConnectToFB' <<========Started running=====<< 
+29-08-2014 16:13:13 INFO  374: 'userCanConnectToFB' |Logging in... 
+29-08-2014 16:13:21 INFO  379: 'userCanConnectToFB' |Check if user logged in 
+29-08-2014 16:13:21 INFO  384: 'userCanConnectToFB' |Connecting to FB... 
+29-08-2014 16:14:10 INFO  371: 'userCanConnectToFB' <<========Started running=====<< 
+29-08-2014 16:14:10 INFO  374: 'userCanConnectToFB' |Logging in... 
+29-08-2014 16:15:02 INFO  34: 'AfterTests' *===========================================* 
+29-08-2014 16:15:02 INFO  35: 'AfterTests' *       Finish running test cases...        * 
+29-08-2014 16:15:02 INFO  36: 'AfterTests' *===========================================* 
+29-08-2014 16:15:02 INFO  37: 'AfterTests' 
+ 
+29-08-2014 16:16:57 INFO  21: 'BeforeTests' *===========================================* 
+29-08-2014 16:16:57 INFO  22: 'BeforeTests' *        Start running test cases...        * 
+29-08-2014 16:16:57 INFO  23: 'BeforeTests' *===========================================* 
+29-08-2014 16:17:12 INFO  371: 'userCanConnectToFB' <<========Started running=====<< 
+29-08-2014 16:17:12 INFO  374: 'userCanConnectToFB' |Logging in... 
+29-08-2014 16:17:18 INFO  379: 'userCanConnectToFB' |Check if user logged in 
+29-08-2014 16:17:22 INFO  384: 'userCanConnectToFB' |Connecting to FB... 
+29-08-2014 16:17:36 INFO  387: 'userCanConnectToFB' |Logging out... 
+29-08-2014 16:17:38 INFO  389: 'userCanConnectToFB' <<-----Finishing running test-----< 
+--------------------------------------------------- 
+29-08-2014 16:17:38 INFO  371: 'userCanConnectToFB' <<========Started running=====<< 
+29-08-2014 16:17:38 INFO  374: 'userCanConnectToFB' |Logging in... 
+29-08-2014 16:17:47 INFO  379: 'userCanConnectToFB' |Check if user logged in 
+29-08-2014 16:17:47 INFO  384: 'userCanConnectToFB' |Connecting to FB... 
+29-08-2014 16:18:43 INFO  34: 'AfterTests' *===========================================* 
+29-08-2014 16:18:43 INFO  35: 'AfterTests' *       Finish running test cases...        * 
+29-08-2014 16:18:43 INFO  36: 'AfterTests' *===========================================* 
+29-08-2014 16:18:43 INFO  37: 'AfterTests' 
+ 
+29-08-2014 17:13:10 INFO  21: 'BeforeTests' *===========================================* 
+29-08-2014 17:13:10 INFO  22: 'BeforeTests' *        Start running test cases...        * 
+29-08-2014 17:13:10 INFO  23: 'BeforeTests' *===========================================* 
+29-08-2014 17:13:23 INFO  371: 'userCanConnectToFB' <<========Started running=====<< 
+29-08-2014 17:13:23 INFO  374: 'userCanConnectToFB' |Logging in... 
+29-08-2014 17:13:29 INFO  379: 'userCanConnectToFB' |Check if user logged in 
+29-08-2014 17:13:32 INFO  384: 'userCanConnectToFB' |Connecting to FB... 
+29-08-2014 17:13:47 INFO  387: 'userCanConnectToFB' |Logging out... 
+29-08-2014 17:13:48 INFO  389: 'userCanConnectToFB' <<-----Finishing running test-----< 
+--------------------------------------------------- 
+29-08-2014 17:13:48 INFO  371: 'userCanConnectToFB' <<========Started running=====<< 
+29-08-2014 17:13:48 INFO  374: 'userCanConnectToFB' |Logging in... 
+29-08-2014 17:13:56 INFO  379: 'userCanConnectToFB' |Check if user logged in 
+29-08-2014 17:13:57 INFO  384: 'userCanConnectToFB' |Connecting to FB... 
+29-08-2014 17:14:53 INFO  34: 'AfterTests' *===========================================* 
+29-08-2014 17:14:53 INFO  35: 'AfterTests' *       Finish running test cases...        * 
+29-08-2014 17:14:53 INFO  36: 'AfterTests' *===========================================* 
+29-08-2014 17:14:53 INFO  37: 'AfterTests' 
+ 
+29-08-2014 17:15:33 INFO  21: 'BeforeTests' *===========================================* 
+29-08-2014 17:15:33 INFO  22: 'BeforeTests' *        Start running test cases...        * 
+29-08-2014 17:15:33 INFO  23: 'BeforeTests' *===========================================* 
+29-08-2014 17:15:51 INFO  21: 'BeforeTests' *===========================================* 
+29-08-2014 17:15:51 INFO  22: 'BeforeTests' *        Start running test cases...        * 
+29-08-2014 17:15:51 INFO  23: 'BeforeTests' *===========================================* 
+29-08-2014 17:16:09 INFO  371: 'userCanConnectToFB' <<========Started running=====<< 
+29-08-2014 17:16:09 INFO  374: 'userCanConnectToFB' |Logging in... 
+29-08-2014 17:16:15 INFO  379: 'userCanConnectToFB' |Check if user logged in 
+29-08-2014 17:16:18 INFO  384: 'userCanConnectToFB' |Connecting to FB... 
+29-08-2014 17:16:34 INFO  387: 'userCanConnectToFB' |Logging out... 
+29-08-2014 17:16:34 INFO  389: 'userCanConnectToFB' <<-----Finishing running test-----< 
+--------------------------------------------------- 
+29-08-2014 17:16:34 INFO  411: 'UserCanShareGraphFB' <<========Started running=====<< 
+29-08-2014 17:16:34 INFO  416: 'UserCanShareGraphFB' |Sharing data to FB... 
+29-08-2014 17:16:37 INFO  34: 'AfterTests' *===========================================* 
+29-08-2014 17:16:37 INFO  35: 'AfterTests' *       Finish running test cases...        * 
+29-08-2014 17:16:37 INFO  36: 'AfterTests' *===========================================* 
+29-08-2014 17:16:37 INFO  37: 'AfterTests' 
+ 
+29-08-2014 17:22:47 INFO  21: 'BeforeTests' *===========================================* 
+29-08-2014 17:22:47 INFO  22: 'BeforeTests' *        Start running test cases...        * 
+29-08-2014 17:22:47 INFO  23: 'BeforeTests' *===========================================* 
+29-08-2014 17:22:57 INFO  371: 'userCanConnectToFB' <<========Started running=====<< 
+29-08-2014 17:22:57 INFO  374: 'userCanConnectToFB' |Logging in... 
+29-08-2014 17:23:03 INFO  379: 'userCanConnectToFB' |Check if user logged in 
+29-08-2014 17:23:07 INFO  384: 'userCanConnectToFB' |Connecting to FB... 
+29-08-2014 17:23:21 INFO  387: 'userCanConnectToFB' |Logging out... 
+29-08-2014 17:23:21 INFO  389: 'userCanConnectToFB' <<-----Finishing running test-----< 
+--------------------------------------------------- 
+29-08-2014 17:23:21 INFO  409: 'UserCanShareGraphFB' <<========Started running=====<< 
+29-08-2014 17:23:21 INFO  412: 'UserCanShareGraphFB' |Logging in... 
+29-08-2014 17:23:29 INFO  417: 'UserCanShareGraphFB' |Check if user logged in 
+29-08-2014 17:23:30 INFO  422: 'UserCanShareGraphFB' |Connecting to FB... 
+29-08-2014 17:23:37 INFO  34: 'AfterTests' *===========================================* 
+29-08-2014 17:23:37 INFO  35: 'AfterTests' *       Finish running test cases...        * 
+29-08-2014 17:23:37 INFO  36: 'AfterTests' *===========================================* 
+29-08-2014 17:23:37 INFO  37: 'AfterTests' 
+ 
+29-08-2014 17:41:39 INFO  21: 'BeforeTests' *===========================================* 
+29-08-2014 17:41:39 INFO  22: 'BeforeTests' *        Start running test cases...        * 
+29-08-2014 17:41:39 INFO  23: 'BeforeTests' *===========================================* 
+29-08-2014 17:41:53 INFO  28: 'checkAllLinksOnWebPage' <<========Started running=====<< 
+29-08-2014 17:41:57 INFO  289: 'GetAllLinksOnPage' |Got to page Instabeat :: Master your swim! by link http://www.instabeat.me/ 
+29-08-2014 17:42:00 INFO  289: 'GetAllLinksOnPage' |Got to page Instabeat :: Master your swim! by link http://www.instabeat.me/preorder 
+29-08-2014 17:42:03 INFO  289: 'GetAllLinksOnPage' |Got to page Instabeat :: Master your swim! by link http://www.instabeat.me/about 
+29-08-2014 17:42:05 INFO  289: 'GetAllLinksOnPage' |Got to page Instabeat :: Master your swim! by link http://www.instabeat.me/pressroom 
+29-08-2014 17:42:11 INFO  289: 'GetAllLinksOnPage' |Got to page Instabeat by link http://www.instabeat.me/blog 
+29-08-2014 17:42:15 INFO  289: 'GetAllLinksOnPage' |Got to page Registration by link http://user.instabeat.me/go 
+29-08-2014 17:42:16 INFO  289: 'GetAllLinksOnPage' |Got to page Login by link http://user.instabeat.me/user/# 
+29-08-2014 17:42:17 INFO  289: 'GetAllLinksOnPage' |Got to page Instabeat :: Master your swim! by link http://www.instabeat.me/preorder 
+29-08-2014 17:42:20 INFO  289: 'GetAllLinksOnPage' |Got to page Registration by link http://user.instabeat.me/go 
+29-08-2014 17:42:22 INFO  289: 'GetAllLinksOnPage' |Got to page  by link http://user.instabeat.me/user/restore 
+29-08-2014 17:42:24 INFO  289: 'GetAllLinksOnPage' |Got to page Instabeat :: Master your swim! by link http://www.instabeat.me/about 
+29-08-2014 17:42:26 INFO  289: 'GetAllLinksOnPage' |Got to page Instabeat :: Master your swim! by link http://www.instabeat.me/preorder 
+29-08-2014 17:42:27 INFO  289: 'GetAllLinksOnPage' |Got to page Login by link http://user.instabeat.me/user/# 
+29-08-2014 17:42:28 INFO  289: 'GetAllLinksOnPage' |Got to page Instabeat :: Master your swim! by link http://www.instabeat.me/pressroom 
+29-08-2014 17:42:33 INFO  289: 'GetAllLinksOnPage' |Got to page Instabeat by link http://www.instabeat.me/blog 
+29-08-2014 17:42:44 INFO  289: 'GetAllLinksOnPage' |Got to page Instabeat by link https://myinstabeat.zendesk.com/hc/en-us 
+29-08-2014 17:42:45 INFO  289: 'GetAllLinksOnPage' |Got to page Login by link http://user.instabeat.me/user/# 
+29-08-2014 17:42:45 INFO  289: 'GetAllLinksOnPage' |Got to page Login by link http://user.instabeat.me/user/# 
+29-08-2014 17:42:45 INFO  289: 'GetAllLinksOnPage' |Got to page Terms and Conditions of Sale – Instabeat by link https://myinstabeat.zendesk.com/hc/en-us/articles/200686132-Terms-and-Conditions-of-Sale 
+29-08-2014 17:42:47 INFO  289: 'GetAllLinksOnPage' |Got to page Privacy Policy – Instabeat by link https://myinstabeat.zendesk.com/hc/en-us/articles/200686202-Privacy-Policy 
+29-08-2014 17:42:48 INFO  289: 'GetAllLinksOnPage' |Got to page Terms and Conditions of Use – Instabeat by link https://myinstabeat.zendesk.com/hc/en-us/articles/200686122-Terms-and-Conditions-of-Use 
+29-08-2014 17:43:02 INFO  289: 'GetAllLinksOnPage' |Got to page Instabeat - Β³δεξ - Google+ by link https://plus.google.com/105815489580555106540/ 
+29-08-2014 17:43:06 INFO  289: 'GetAllLinksOnPage' |Got to page Instabeat on Vimeo by link http://vimeo.com/instabeat 
+29-08-2014 17:43:15 INFO  289: 'GetAllLinksOnPage' |Got to page myinstabeat on Instagram by link http://instagram.com/myinstabeat# 
+29-08-2014 17:43:22 INFO  289: 'GetAllLinksOnPage' |Got to page Instabeat | Facebook by link https://www.facebook.com/myinstabeat 
+29-08-2014 17:43:35 INFO  289: 'GetAllLinksOnPage' |Got to page Instabeat (myinstabeat) on Twitter by link https://twitter.com/myinstabeat 
+29-08-2014 17:43:37 INFO  289: 'GetAllLinksOnPage' |Got to page Login by link http://www.linkedin.com/company/2562190?goback=.fcs_GLHD_instabeat_false_*2_*2_*2_*2_*2_*2_*2_*2_*2_*2_*2_*2&trk=ncsrch_hits 
+29-08-2014 17:43:37 INFO  31: 'checkAllLinksOnWebPage' <<-----Finishing running test-----< 
+--------------------------------------------------- 
+29-08-2014 17:43:37 INFO  36: 'UserCanLogin' <<========Started running=====<< 
+29-08-2014 17:43:37 INFO  23: 'verifyPageTitle' |Actual Page is: Login 
+29-08-2014 17:43:39 INFO  42: 'UserCanLogin' |Typing user credentials... 
+29-08-2014 17:43:40 INFO  47: 'UserCanLogin' |Checking if user successfully logged in 
+29-08-2014 17:43:46 INFO  50: 'UserCanLogin' |Logging out... 
+29-08-2014 17:43:51 INFO  53: 'UserCanLogin' <<-----Finishing running test-----< 
+--------------------------------------------------- 
+29-08-2014 17:43:51 INFO  59: 'UserCannotLogin' <<========Started running=====<< 
+29-08-2014 17:43:51 INFO  23: 'verifyPageTitle' |Actual Page is: Login 
+29-08-2014 17:43:51 INFO  64: 'UserCannotLogin' |Typing wrong user credentials... 
+29-08-2014 17:43:56 INFO  70: 'UserCannotLogin' |Checking if error message appear 
+29-08-2014 17:43:56 INFO  73: 'UserCannotLogin' <<-----Finishing running test-----< 
+--------------------------------------------------- 
+29-08-2014 17:43:56 INFO  145: 'UserForgotPassword' <<========Started running=====<< 
+29-08-2014 17:43:56 INFO  152: 'UserForgotPassword' |Filling in user email... 
+29-08-2014 17:43:59 INFO  158: 'UserForgotPassword' |Checking for proper user email 
+29-08-2014 17:44:04 INFO  163: 'UserForgotPassword' |Getting Reset link from IMAP server... 
+29-08-2014 17:44:07 INFO  32: 'GetConfirmationLink' |Number of Unread Messages : 42 
+29-08-2014 17:44:07 INFO  43: 'GetConfirmationLink' |From: infectiveip@gmail.com 
+29-08-2014 17:44:07 INFO  49: 'GetConfirmationLink' |Reply-to: infectiveip@gmail.com 
+29-08-2014 17:44:07 INFO  55: 'GetConfirmationLink' |To: fortestgl+2@gmail.com 
+29-08-2014 17:44:07 INFO  61: 'GetConfirmationLink' |Subject: admin@instabeat.me - Reset Password 
+29-08-2014 17:44:07 INFO  66: 'GetConfirmationLink' |Sent: Fri Aug 29 17:44:00 EEST 2014 
+29-08-2014 17:44:08 INFO  89: 'GetConfirmationLink' |Link is: http://user.instabeat.me/user/passrestore/20973e80562d939dec6f885ee60ef649 
+29-08-2014 17:44:11 INFO  167: 'UserForgotPassword' |Check for proper page 
+29-08-2014 17:44:11 INFO  171: 'UserForgotPassword' |Filling in new password 
+29-08-2014 17:44:21 INFO  179: 'UserForgotPassword' <<-----Finishing running test-----< 
+--------------------------------------------------- 
+29-08-2014 17:44:21 INFO  78: 'UserCanRegister' <<========Started running=====<< 
+29-08-2014 17:44:24 INFO  84: 'UserCanRegister' |Filling in user data... 
+29-08-2014 17:44:31 INFO  89: 'UserCanRegister' |Checking user email 
+29-08-2014 17:44:31 INFO  94: 'UserCanRegister' |Getting confirmation link from IMAP server... 
+29-08-2014 17:44:33 INFO  32: 'GetConfirmationLink' |Number of Unread Messages : 43 
+29-08-2014 17:44:33 INFO  43: 'GetConfirmationLink' |From: infectiveip@gmail.com 
+29-08-2014 17:44:33 INFO  49: 'GetConfirmationLink' |Reply-to: infectiveip@gmail.com 
+29-08-2014 17:44:33 INFO  55: 'GetConfirmationLink' |To: fortestgl+1606567041@gmail.com 
+29-08-2014 17:44:33 INFO  61: 'GetConfirmationLink' |Subject: admin@instabeat.me - Confirm Email 
+29-08-2014 17:44:33 INFO  66: 'GetConfirmationLink' |Sent: Fri Aug 29 17:44:27 EEST 2014 
+29-08-2014 17:44:34 INFO  89: 'GetConfirmationLink' |Link is: http://user.instabeat.me/user/confirm/64ba097638d742519c4f7f948c3412cc 
+29-08-2014 17:44:37 INFO  19: 'printPageTitle' |Actual Page is:  
+29-08-2014 17:44:37 INFO  98: 'UserCanRegister' |Check second step of register - Download page 
+29-08-2014 17:44:44 INFO  104: 'UserCanRegister' |Logging from App using new created user... 
+29-08-2014 17:44:44 INFO  57: 'AppLogin' |username is fortestgl+1606567041@gmail.com 
+29-08-2014 17:44:45 INFO  71: 'AppLogin' |Output from Server... 
+29-08-2014 17:44:45 INFO  77: 'AppLogin' {  "success": true,  "user": {    "token": "0865707338c5b76617b48f0169f284c228e9679b",    "user": "8e730b75be8926d969a808d77da12ad2"  }} 
+29-08-2014 17:44:45 INFO  85: 'AppLogin' |UserID is: 8e730b75be8926d969a808d77da12ad2 
+29-08-2014 17:44:45 INFO  87: 'AppLogin' |User token is: 0865707338c5b76617b48f0169f284c228e9679b 
+29-08-2014 17:44:47 INFO  18: 'printPageTitle' |Actual Page is:  
+29-08-2014 17:44:47 INFO  108: 'UserCanRegister' |Check for success login from App 
+29-08-2014 17:44:47 INFO  112: 'UserCanRegister' |Filling in RHR data 
+29-08-2014 17:44:48 INFO  116: 'UserCanRegister' |Check if registration is successfully 
+29-08-2014 17:44:52 INFO  321: 'verificationOfElementsOnPages' |Element[[FirefoxDriver: firefox on XP (fa4a63b9-37d3-40db-a329-d130ef63025c)] -> xpath: .//*[@id='cong-text']]is PRESENT!!! 
+29-08-2014 17:44:57 INFO  121: 'UserCanRegister' |Logging out... 
+29-08-2014 17:44:57 INFO  125: 'UserCanRegister' |Logging by new created Random user 
+29-08-2014 17:45:01 INFO  131: 'UserCanRegister' |Deleting created Random User... 
+29-08-2014 17:45:12 INFO  140: 'UserCanRegister' <<-----Finishing running test-----< 
+--------------------------------------------------- 
+29-08-2014 17:45:12 INFO  185: 'UserCanChooseExistSession' <<========Started running=====<< 
+29-08-2014 17:45:12 INFO  187: 'UserCanChooseExistSession' |Logging in... 
+29-08-2014 17:45:18 INFO  193: 'UserCanChooseExistSession' |Check if user logged in 
+29-08-2014 17:45:18 INFO  321: 'verificationOfElementsOnPages' |Element[[FirefoxDriver: firefox on XP (fa4a63b9-37d3-40db-a329-d130ef63025c)] -> xpath: //div[@class='float-right calendar']]is PRESENT!!! 
+29-08-2014 17:45:18 INFO  197: 'UserCanChooseExistSession' |Choosing date with sessions... 
+29-08-2014 17:45:18 INFO  202: 'UserCanChooseExistSession' |Choose session 
+29-08-2014 17:45:24 INFO  208: 'UserCanChooseExistSession' <<-----Finishing running test-----< 
+--------------------------------------------------- 
+29-08-2014 17:45:24 INFO  213: 'UserCanUpdateProfile' <<========Started running=====<< 
+29-08-2014 17:45:24 INFO  216: 'UserCanUpdateProfile' |Logging in... 
+29-08-2014 17:45:32 INFO  222: 'UserCanUpdateProfile' |Check if user logged in 
+29-08-2014 17:45:32 INFO  227: 'UserCanUpdateProfile' |Updating user data... 
+29-08-2014 17:45:37 INFO  236: 'UserCanUpdateProfile' |Check if updating successfull 
+29-08-2014 17:45:37 INFO  321: 'verificationOfElementsOnPages' |Element[[FirefoxDriver: firefox on XP (fa4a63b9-37d3-40db-a329-d130ef63025c)] -> xpath: //span[@class = 'glyphicon glyphicon-exclamation-sign']]is PRESENT!!! 
+29-08-2014 17:45:37 INFO  241: 'UserCanUpdateProfile' |Uploading new user's profile picture 
+29-08-2014 17:45:43 INFO  244: 'UserCanUpdateProfile' |Logging out... 
+29-08-2014 17:45:46 INFO  246: 'UserCanUpdateProfile' <<-----Finishing running test-----< 
+--------------------------------------------------- 
+29-08-2014 17:45:46 INFO  251: 'userCanChangePassword' <<========Started running=====<< 
+29-08-2014 17:45:46 INFO  254: 'userCanChangePassword' |Logging in... 
+29-08-2014 17:45:54 INFO  259: 'userCanChangePassword' |Check if user logged in 
+29-08-2014 17:45:55 INFO  265: 'userCanChangePassword' |Changing user's password... 
+29-08-2014 17:45:56 INFO  272: 'userCanChangePassword' |Logging out... 
+29-08-2014 17:45:56 INFO  274: 'userCanChangePassword' <<-----Finishing running test-----< 
+--------------------------------------------------- 
+29-08-2014 17:45:56 INFO  281: 'userCanUpdateProfileSettings' |Logging in... 
+29-08-2014 17:46:04 INFO  286: 'userCanUpdateProfileSettings' |Check if user logged in 
+29-08-2014 17:46:05 INFO  292: 'userCanUpdateProfileSettings' |Select Country randomly 
+29-08-2014 17:46:10 INFO  294: 'userCanUpdateProfileSettings' |Updating profile settings 
+29-08-2014 17:46:10 INFO  297: 'userCanUpdateProfileSettings' |Logging out... 
+29-08-2014 17:46:11 INFO  299: 'userCanUpdateProfileSettings' <<-----Finishing running test-----< 
+--------------------------------------------------- 
+29-08-2014 17:46:11 INFO  337: 'userCanUpdateHRZPage' <<========Started running=====<< 
+29-08-2014 17:46:11 INFO  340: 'userCanUpdateHRZPage' |Logging in... 
+29-08-2014 17:46:17 INFO  347: 'userCanUpdateHRZPage' |Change HR zones using RHR field 
+29-08-2014 17:46:20 INFO  352: 'userCanUpdateHRZPage' |Check if HR updated 
+29-08-2014 17:46:20 INFO  356: 'userCanUpdateHRZPage' |Change HR zones using boxes with random data 
+29-08-2014 17:46:27 INFO  360: 'userCanUpdateHRZPage' |Check if HR updated 
+29-08-2014 17:46:27 INFO  363: 'userCanUpdateHRZPage' |Logging out... 
+29-08-2014 17:46:27 INFO  365: 'userCanUpdateHRZPage' <<-----Finishing running test-----< 
+--------------------------------------------------- 
+29-08-2014 17:46:27 INFO  34: 'AfterTests' *===========================================* 
+29-08-2014 17:46:27 INFO  35: 'AfterTests' *       Finish running test cases...        * 
+29-08-2014 17:46:27 INFO  36: 'AfterTests' *===========================================* 
+29-08-2014 17:46:27 INFO  37: 'AfterTests' 
+ 
+29-08-2014 18:46:27 INFO  21: 'BeforeTests' *===========================================* 
+29-08-2014 18:46:27 INFO  22: 'BeforeTests' *        Start running test cases...        * 
+29-08-2014 18:46:27 INFO  23: 'BeforeTests' *===========================================* 
+29-08-2014 18:46:41 INFO  409: 'UserCanShareGraphFB' <<========Started running=====<< 
+29-08-2014 18:46:41 INFO  412: 'UserCanShareGraphFB' |Logging in... 
+29-08-2014 18:46:47 INFO  417: 'UserCanShareGraphFB' |Check if user logged in 
+29-08-2014 18:46:48 INFO  426: 'UserCanShareGraphFB' |Sharing data to FB... 
+29-08-2014 18:46:48 INFO  34: 'AfterTests' *===========================================* 
+29-08-2014 18:46:48 INFO  35: 'AfterTests' *       Finish running test cases...        * 
+29-08-2014 18:46:48 INFO  36: 'AfterTests' *===========================================* 
+29-08-2014 18:46:48 INFO  37: 'AfterTests' 
+ 
+29-08-2014 18:47:13 INFO  21: 'BeforeTests' *===========================================* 
+29-08-2014 18:47:13 INFO  22: 'BeforeTests' *        Start running test cases...        * 
+29-08-2014 18:47:13 INFO  23: 'BeforeTests' *===========================================* 
+29-08-2014 18:47:25 INFO  409: 'UserCanShareGraphFB' <<========Started running=====<< 
+29-08-2014 18:47:25 INFO  412: 'UserCanShareGraphFB' |Logging in... 
+29-08-2014 18:47:31 INFO  417: 'UserCanShareGraphFB' |Check if user logged in 
+29-08-2014 18:47:31 INFO  426: 'UserCanShareGraphFB' |Sharing data to FB... 
+29-08-2014 18:47:32 INFO  34: 'AfterTests' *===========================================* 
+29-08-2014 18:47:32 INFO  35: 'AfterTests' *       Finish running test cases...        * 
+29-08-2014 18:47:32 INFO  36: 'AfterTests' *===========================================* 
+29-08-2014 18:47:32 INFO  37: 'AfterTests' 
+ 
+29-08-2014 18:48:55 INFO  21: 'BeforeTests' *===========================================* 
+29-08-2014 18:48:55 INFO  22: 'BeforeTests' *        Start running test cases...        * 
+29-08-2014 18:48:55 INFO  23: 'BeforeTests' *===========================================* 
+29-08-2014 18:49:07 INFO  409: 'UserCanShareGraphFB' <<========Started running=====<< 
+29-08-2014 18:49:07 INFO  412: 'UserCanShareGraphFB' |Logging in... 
+29-08-2014 18:49:13 INFO  417: 'UserCanShareGraphFB' |Check if user logged in 
+29-08-2014 18:49:14 INFO  426: 'UserCanShareGraphFB' |Sharing data to FB... 
+29-08-2014 18:49:19 INFO  34: 'AfterTests' *===========================================* 
+29-08-2014 18:49:19 INFO  35: 'AfterTests' *       Finish running test cases...        * 
+29-08-2014 18:49:19 INFO  36: 'AfterTests' *===========================================* 
+29-08-2014 18:49:19 INFO  37: 'AfterTests' 
+ 
+29-08-2014 18:50:06 INFO  21: 'BeforeTests' *===========================================* 
+29-08-2014 18:50:06 INFO  22: 'BeforeTests' *        Start running test cases...        * 
+29-08-2014 18:50:06 INFO  23: 'BeforeTests' *===========================================* 
+29-08-2014 18:50:19 INFO  409: 'UserCanShareGraphFB' <<========Started running=====<< 
+29-08-2014 18:50:19 INFO  412: 'UserCanShareGraphFB' |Logging in... 
+29-08-2014 18:50:25 INFO  417: 'UserCanShareGraphFB' |Check if user logged in 
+29-08-2014 18:50:29 INFO  422: 'UserCanShareGraphFB' |Connecting to FB... 
+29-08-2014 18:50:49 INFO  427: 'UserCanShareGraphFB' |Sharing data to FB... 
+29-08-2014 18:51:05 INFO  438: 'UserCanShareGraphFB' |Logging out... 
+29-08-2014 18:51:05 INFO  440: 'UserCanShareGraphFB' <<-----Finishing running test-----< 
+--------------------------------------------------- 
+29-08-2014 18:51:05 INFO  34: 'AfterTests' *===========================================* 
+29-08-2014 18:51:05 INFO  35: 'AfterTests' *       Finish running test cases...        * 
+29-08-2014 18:51:05 INFO  36: 'AfterTests' *===========================================* 
+29-08-2014 18:51:05 INFO  37: 'AfterTests' 
+ 

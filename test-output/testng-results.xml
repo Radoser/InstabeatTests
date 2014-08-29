@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="24191" started-at="2014-08-28T16:12:44Z" finished-at="2014-08-28T16:13:09Z">
+  <suite name="Default suite" duration-ms="60499" started-at="2014-08-29T15:50:06Z" finished-at="2014-08-29T15:51:06Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="24191" started-at="2014-08-28T16:12:44Z" finished-at="2014-08-28T16:13:09Z">
-      <class name="InstabeatSanity.Tests.FieldsValidationTests">
-        <test-method status="PASS" signature="BeforeTests()[pri:0, instance:InstabeatSanity.Tests.FieldsValidationTests@2ff4f00f]" name="BeforeTests" is-config="true" duration-ms="12181" started-at="2014-08-28T19:12:44Z" finished-at="2014-08-28T19:12:57Z">
+    <test name="Default test" duration-ms="60499" started-at="2014-08-29T15:50:06Z" finished-at="2014-08-29T15:51:06Z">
+      <class name="InstabeatSanity.Tests.SanityTestNG">
+        <test-method status="PASS" signature="BeforeTests()[pri:0, instance:InstabeatSanity.Tests.SanityTestNG@2ff4f00f]" name="BeforeTests" is-config="true" duration-ms="13104" started-at="2014-08-29T18:50:06Z" finished-at="2014-08-29T18:50:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeTests -->
-        <test-method status="PASS" signature="ProfileSettingsValidation()[pri:0, instance:InstabeatSanity.Tests.FieldsValidationTests@2ff4f00f]" name="ProfileSettingsValidation" duration-ms="11051" started-at="2014-08-28T19:12:57Z" finished-at="2014-08-28T19:13:08Z">
+        <test-method status="PASS" signature="UserCanShareGraphFB()[pri:0, instance:InstabeatSanity.Tests.SanityTestNG@2ff4f00f]" name="UserCanShareGraphFB" duration-ms="46224" started-at="2014-08-29T18:50:19Z" finished-at="2014-08-29T18:51:05Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ProfileSettingsValidation -->
-        <test-method status="PASS" signature="AfterTests()[pri:0, instance:InstabeatSanity.Tests.FieldsValidationTests@2ff4f00f]" name="AfterTests" is-config="true" duration-ms="952" started-at="2014-08-28T19:13:08Z" finished-at="2014-08-28T19:13:09Z">
+        </test-method> <!-- UserCanShareGraphFB -->
+        <test-method status="PASS" signature="AfterTests()[pri:0, instance:InstabeatSanity.Tests.SanityTestNG@2ff4f00f]" name="AfterTests" is-config="true" duration-ms="1164" started-at="2014-08-29T18:51:05Z" finished-at="2014-08-29T18:51:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterTests -->
-      </class> <!-- InstabeatSanity.Tests.FieldsValidationTests -->
+      </class> <!-- InstabeatSanity.Tests.SanityTestNG -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

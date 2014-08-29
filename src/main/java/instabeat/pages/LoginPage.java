@@ -74,8 +74,8 @@ public class LoginPage extends MainPagesFunc {
 	}
 	
 	public void checkAllLinksFromLoginPage(){
-//		GetAllLinksOnPage();	
-		linksTest();
+		GetAllLinksOnPage();	
+//		linksTest();
 	}
 
 	public void checkErrorMessage() {
