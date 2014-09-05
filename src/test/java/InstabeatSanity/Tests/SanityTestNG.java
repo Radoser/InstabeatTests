@@ -23,7 +23,7 @@ public class SanityTestNG extends AbstractTestClass /*ParallelBrowserSanity*/ {
 	
 	
 		
-	@Test(priority = 0, enabled = false)
+	@Test(priority = 0, enabled = true)
 	public void checkAllLinksOnWebPage() {
 		Utils.Log.info("<<========Started running=====<<");
 		LoginPage onLoginPage = new LoginPage(driver);
@@ -31,7 +31,7 @@ public class SanityTestNG extends AbstractTestClass /*ParallelBrowserSanity*/ {
 		Utils.Log.info("<<-----Finishing running test-----< \n---------------------------------------------------");
 	}
 
-	@Test(priority = 1, enabled = false)
+	@Test(priority = 1, enabled = true)
 	public void UserCanLogin() {
 		Utils.Log.info("<<========Started running=====<<");
 		LoginPage onLoginPage = new LoginPage(driver);
@@ -54,7 +54,7 @@ public class SanityTestNG extends AbstractTestClass /*ParallelBrowserSanity*/ {
 //		throw new SkipException("Skipping - This is not ready for testing ");
 	}
 
-	@Test(priority = 2, enabled = false)
+	@Test(priority = 2, enabled = true)
 	public void UserCannotLogin() {
 		Utils.Log.info("<<========Started running=====<<");
 		LoginPage onLoginPage = new LoginPage(driver);
@@ -73,7 +73,7 @@ public class SanityTestNG extends AbstractTestClass /*ParallelBrowserSanity*/ {
 		Utils.Log.info("<<-----Finishing running test-----< \n---------------------------------------------------");
 	}
 	
-	@Test(priority = 4, enabled = false)
+	@Test(priority = 4, enabled = true)
 	public void UserCanRegister() throws Exception {
 		Utils.Log.info("<<========Started running=====<<");
 		
@@ -140,7 +140,7 @@ public class SanityTestNG extends AbstractTestClass /*ParallelBrowserSanity*/ {
 		Utils.Log.info("<<-----Finishing running test-----< \n---------------------------------------------------");
 	}
 
-	@Test(priority = 3, enabled = false)
+	@Test(priority = 3, enabled = true)
 	public void UserForgotPassword() throws Exception {
 		Utils.Log.info("<<========Started running=====<<");
 		
@@ -180,7 +180,7 @@ public class SanityTestNG extends AbstractTestClass /*ParallelBrowserSanity*/ {
 	}
 	
 //	need to fix dates with id "...old"
-	@Test(priority = 5, enabled = false)
+	@Test(priority = 5, enabled = true)
 	public void UserCanChooseExistSession() {
 		Utils.Log.info("<<========Started running=====<<");
 		
@@ -208,7 +208,7 @@ public class SanityTestNG extends AbstractTestClass /*ParallelBrowserSanity*/ {
 		Utils.Log.info("<<-----Finishing running test-----< \n---------------------------------------------------");
 	}
 	
-	@Test(priority = 6, enabled = false)
+	@Test(priority = 6, enabled = true)
 	public void UserCanUpdateProfile() throws IOException{
 		Utils.Log.info("<<========Started running=====<<");
 		
@@ -246,7 +246,7 @@ public class SanityTestNG extends AbstractTestClass /*ParallelBrowserSanity*/ {
 		Utils.Log.info("<<-----Finishing running test-----< \n---------------------------------------------------");
 	}
 	
-	@Test(priority = 7, enabled = false)
+	@Test(priority = 7, enabled = true)
 	public void userCanChangePassword(){
 		Utils.Log.info("<<========Started running=====<<");
 		
@@ -274,7 +274,7 @@ public class SanityTestNG extends AbstractTestClass /*ParallelBrowserSanity*/ {
 		Utils.Log.info("<<-----Finishing running test-----< \n---------------------------------------------------");
 	}
 	
-	@Test(priority = 8, enabled = false)
+	@Test(priority = 8, enabled = true)
 	public void userCanUpdateProfileSettings(){
 //		Need update --> wait for update in page
 		LoginPage onLoginPage = new LoginPage(driver);
@@ -332,7 +332,7 @@ public class SanityTestNG extends AbstractTestClass /*ParallelBrowserSanity*/ {
 		Utils.Log.info("<<-----Finishing running test-----< \n---------------------------------------------------");
 	}
 	
-	@Test(priority = 10, enabled = false)
+	@Test(priority = 10, enabled = true)
 	public void userCanUpdateHRZPage(){
 		Utils.Log.info("<<========Started running=====<<");
 		
@@ -366,7 +366,7 @@ public class SanityTestNG extends AbstractTestClass /*ParallelBrowserSanity*/ {
 		
 	}
 
-	@Test(priority = 11, enabled = false)
+	@Test(priority = 11, enabled = true)
 	public void userCanConnectToFB(){	
 		Utils.Log.info("<<========Started running=====<<");
 		
@@ -383,6 +383,8 @@ public class SanityTestNG extends AbstractTestClass /*ParallelBrowserSanity*/ {
 		ProfilePageSettings onProfilePageSettings = onProfilePage.clickOnProfilePageSettings();
 		Utils.Log.info("|Connecting to FB...");
 		onProfilePageSettings.FaceBookConnect();
+		
+		onProfilePageSettings.checkIfFBConnectionSuc();
 		
 		Utils.Log.info("|Logging out...");
 		onProfilePageSettings.logout();
@@ -427,7 +429,7 @@ public class SanityTestNG extends AbstractTestClass /*ParallelBrowserSanity*/ {
 		Utils.Log.info("|Sharing data to FB...");
 		onHomePage.clickOnPlusButton();
 		onHomePage.clickOnFBShareButton();
-		onHomePage.checkIfShareWindowOpened();
+		onHomePage.checkIfFBShareWindowOpened();
 		Utils.waitPage();
 		
 		onHomePage.cancelShareDataFB();
@@ -441,14 +443,70 @@ public class SanityTestNG extends AbstractTestClass /*ParallelBrowserSanity*/ {
 		
 	}
 	
-	@Test(priority = 13, enabled = false)
+	@Test(priority = 13, enabled = true)
 	public void UserCanConnectToTwitter(){
-		UserCanLogin();
+		Utils.Log.info("<<========Started running=====<<");
 		
+		LoginPage onLoginPage = new LoginPage(driver);
+		Utils.Log.info("|Logging in...");
+		onLoginPage.fullLogin();
+		
+		HomePage onHomePage = onLoginPage.LoginButton();
+		Utils.waitPage();
+		Utils.Log.info("|Check if user logged in");
+		Assert.assertTrue(onHomePage.isHomePagePresent());
+		
+		ProfilePage onProfilePage = onHomePage.clickOnProfileTab();
+		ProfilePageSettings onProfilePageSettings = onProfilePage.clickOnProfilePageSettings();
+		
+		Utils.Log.info("|Connecting to Twitter...");
+		onProfilePageSettings.TwitterConnect();
+		
+		Utils.Log.info("|Checking if connection is success");
+		onHomePage.clickOnProfileTab();
+		onProfilePage.clickOnProfilePageSettings();
+		
+		onProfilePageSettings.checkIfTwitterConnectionSuc();
+		
+		Utils.Log.info("|Logging out...");
+		onHomePage.logout();
+		Utils.Log.info("<<-----Finishing running test-----< \n---------------------------------------------------");
 	}
 	
-	@Test(priority = 14, enabled = false)
+	@Test(priority = 14, enabled = true)
 	public void UserCanShareGraphTwitter(){
+		Utils.Log.info("<<========Started running=====<<");
 		
+		LoginPage onLoginPage = new LoginPage(driver);
+		Utils.Log.info("|Logging in...");
+		onLoginPage.fullLogin();
+		
+		HomePage onHomePage = onLoginPage.LoginButton();
+		Utils.waitPage();
+		Utils.Log.info("|Check if user logged in");
+		Assert.assertTrue(onHomePage.isHomePagePresent());
+		
+		ProfilePage onProfilePage = onHomePage.clickOnProfileTab();
+		ProfilePageSettings onProfilePageSettings = onProfilePage.clickOnProfilePageSettings();
+		
+		Utils.Log.info("|Connecting to Twitter...");
+		onProfilePageSettings.TwitterConnect();
+		
+		onProfilePageSettings.clickOnHomeTab();
+		
+		Utils.Log.info("|Sharing data to Twitter...");
+		onHomePage.clickOnPlusButton();
+		onHomePage.clickOnTwitterShareButton();
+		onHomePage.checkIfTwitterShareWindowOpened();
+		
+		onHomePage.cancelShareDataFB();
+		onHomePage.clickOnTwitterShareButton();
+		onHomePage.confirmShareDataFB();
+		
+		onHomePage.checkIfShareIsSucced();
+		
+		Utils.Log.info("|Logging out...");
+		onHomePage.logout();
+		Utils.Log.info("<<-----Finishing running test-----< \n---------------------------------------------------");
 	}
 }

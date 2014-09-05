@@ -7,7 +7,6 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Random;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
@@ -93,6 +92,7 @@ public class ProfilePageSettings extends MainPagesFunc {
 		String parent = driver.getWindowHandle();
 		ConnectToFBButton.click();
 		for (String child : driver.getWindowHandles()) {
+			System.out.println("--------vrevervre");
 			driver.switchTo().window(child);
 			Utils.waitPage();
 		}
@@ -101,42 +101,60 @@ public class ProfilePageSettings extends MainPagesFunc {
 		FBLoginButton.click();
 		driver.switchTo().window(parent);
 	}
-	
+
 	public void checkErrorMessage() {
 		Assert.assertEquals(parameters.EMuserNotFound, ResetPassErrorMessages.getText());
 	}
-	
+
 	public void passwordsFieldsValidation(){
 		List<WebElement> fields = Arrays.asList(OldPasswordField, NewUserProfilePasswordField, ConfirmNewUserProfilePasswordField);
 		List<String> errors = Arrays.asList(parameters.EMnewPasswordRequiered, parameters.EMnewPasswordRequiered, parameters.EMconfirmRequired);
-		
+
 		for(int i = 0; i<fields.size(); i++){
 			do {	
 				fields.get(i).sendKeys(randomNumbers);	
 				UpdateUserProfileSettingsButton.click();
-//				Utils.waitPage();
+				//				Utils.waitPage();
 			}
 			while(DashboardErrorMessages.getText() == errors.get(i));
-			}
+		}
 	}
-	
+
 	public void passwordsFieldsValidationForDifferentCases(){
-		
+
 		Utils.clearField(OldPasswordField);
 		do {
 			UpdateUserProfileSettingsButton.click();
 		}while(DashboardErrorMessages.getText() == parameters.EMoldPasswordRequired);
-		
+
 		do{
 			OldPasswordField.sendKeys(parameters.UserPassword);
 			Utils.clearField(NewUserProfilePasswordField);
 			UpdateUserProfileSettingsButton.click();
 		}while (DashboardErrorMessages.getText() == parameters.EMconfirmRequired);
-		
+
 		do{
 			NewUserProfilePasswordField.sendKeys(parameters.UserPassword);
 			Utils.clearField(ConfirmNewUserProfilePasswordField);
 			UpdateUserProfileSettingsButton.click();
 		}while(DashboardErrorMessages.getText() == parameters.EMconfirmRequired);
+	}
+
+	public void checkIfFBConnectionSuc(){
+		Assert.assertTrue(ConnectToTwitterButton.getAttribute("value").contains("Click to unlink"));
+	}
+
+	public void TwitterConnect() {
+		if (ConnectToTwitterButton.getAttribute("value").contains("Click to unlink")){
+			ConnectToTwitterButton.click();
+		}
+		ConnectToTwitterButton.click();
+		TwitterEmailField.sendKeys(parameters.TwitterUserEmail);
+		TwitterPasswordField.sendKeys(parameters.TwitterUserPassword);
+		TwitterAuthorizeButton.click();		
+	}
+
+	public void checkIfTwitterConnectionSuc() {
+		Assert.assertTrue(ConnectToTwitterButton.getAttribute("value").contains("Click to unlink"));
 	}
 }

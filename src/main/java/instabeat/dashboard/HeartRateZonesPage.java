@@ -1,9 +1,10 @@
 package instabeat.dashboard;
 
-import java.io.BufferedReader;
+import instabeat.utils.MainPagesFunc;
+
+import java.util.Arrays;
 import java.util.List;
 
-import instabeat.utils.MainPagesFunc;
 import junit.framework.Assert;
 
 import org.openqa.selenium.By;
@@ -50,6 +51,43 @@ public class HeartRateZonesPage extends MainPagesFunc{
 		      randomNumbers=Integer.toString(Integer.parseInt(randomNumbers)+5);
          }
 	}
-	
+
+	public void RHZFieldsValidation() {
+		WebElement a =  formOfHR;
+		List<WebElement> b = a.findElements(By.xpath("//*[@class='col-md-4 col-xs-4']/input[@name]"));
+		List<String> wrongValues = Arrays.asList("-1", "29", "251", "999999");		 
+		
+		for(WebElement element : b){
+			element.clear();
+		}
+			for (WebElement element: b) {			 
+				for(String c : wrongValues){
+					element.clear();
+					element.sendKeys(c);
+					UpdateButton.click();
+					if(parameters.EMwrongDataInHRZBox.equals(DashboardErrorMessages.getText())){
+						Assert.assertEquals(parameters.EMwrongDataInHRZBox, DashboardErrorMessages.getText());
+					}else{
+						Assert.assertEquals(parameters.EMascendingOrderRequire, DashboardErrorMessages.getText());
+					}
+				}
+				element.clear();
+				element.sendKeys(randomNumbers);
+				randomNumbers=Integer.toString(Integer.parseInt(randomNumbers)+5);
+			}
+	}
+
+	public void RHRFieldValidation() {
+		List<String> a = Arrays.asList("-1","0001", "24","212");
+		List<String> b = Arrays.asList("121", "+1", "9999999");
+		RHRField.sendKeys("0");
+		CalculateHRButton.click();
+		if(parameters.EMRHRIsLessThenRequire.equals(DashboardErrorMessages.getText())){
+			typeValuesForValidation(parameters.EMRHRIsLessThenRequire, a, RHRField, CalculateHRButton, DashboardErrorMessages);	
+		}else if(parameters.EMRHRIsMoreThenRequire.equals(DashboardErrorMessages.getText())){
+			typeValuesForValidation(parameters.EMRHRIsMoreThenRequire, b, RHRField, CalculateHRButton, DashboardErrorMessages);
+		}
+	}
+
 	
 }

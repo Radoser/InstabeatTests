@@ -14,7 +14,7 @@ import org.testng.annotations.Test;
 public class FieldsValidationTests extends /*ParallelBrowserSanity*/ AbstractTestClass {
 
 	
-	@Test(priority = 1, enabled = true)
+	@Test(priority = 1, enabled = false)
 	public void LoginValidation(){
 		Utils.Log.info("<<========Started running=====<<");
 		
@@ -39,7 +39,7 @@ public class FieldsValidationTests extends /*ParallelBrowserSanity*/ AbstractTes
 		Utils.Log.info("<<-----Finishing running test-----< \n---------------------------------------------------");
 	}
 	
-	@Test(priority = 2, enabled = true)
+	@Test(priority = 2, enabled = false)
 	public void ResetPasswordValidation(){
 		Utils.Log.info("<<========Started running=====<<");
 		
@@ -56,7 +56,7 @@ public class FieldsValidationTests extends /*ParallelBrowserSanity*/ AbstractTes
 		Utils.Log.info("<<-----Finishing running test-----< \n---------------------------------------------------");
 	}
 	
-	@Test(priority = 3, enabled = true)
+	@Test(priority = 3, enabled = false)
 	public void GetStartedValidation(){
 		Utils.Log.info("<<========Started running=====<<");
 		
@@ -79,7 +79,7 @@ public class FieldsValidationTests extends /*ParallelBrowserSanity*/ AbstractTes
 		Utils.Log.info("<<-----Finishing running test-----< \n---------------------------------------------------");
 	}
 	
-	@Test(priority = 4, enabled = true)
+	@Test(priority = 4, enabled = false)
 	public void ProfileValidation(){
 		Utils.Log.info("<<========Started running=====<<");
 		
@@ -103,7 +103,7 @@ public class FieldsValidationTests extends /*ParallelBrowserSanity*/ AbstractTes
 		Utils.Log.info("<<-----Finishing running test-----< \n---------------------------------------------------");
 	}
 	
-	@Test(priority = 5, enabled = true)
+	@Test(priority = 5, enabled = false)
 	public void ProfileSettingsValidation(){
 		Utils.Log.info("<<========Started running=====<<");
 		
@@ -125,7 +125,7 @@ public class FieldsValidationTests extends /*ParallelBrowserSanity*/ AbstractTes
 		Utils.Log.info("<<-----Finishing running test-----< \n---------------------------------------------------");
 	}
 	
-	@Test(priority = 5, enabled = false)
+	@Test(priority = 5, enabled = true)
 	public void HeartRateZonesValidation(){
 		Utils.Log.info("<<========Started running=====<<");
 		
@@ -137,6 +137,9 @@ public class FieldsValidationTests extends /*ParallelBrowserSanity*/ AbstractTes
 		HeartRateZonesPage onHeartRateZonesPage = onHomePage.clickOnHRZTab();
 		
 		Utils.Log.info("|Checking HR zones using RHR field");
+//		NEED TO FINISH
+//		onHeartRateZonesPage.RHRFieldValidation();
 		
+		onHeartRateZonesPage.RHZFieldsValidation();
 	}
 }

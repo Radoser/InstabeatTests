@@ -18,12 +18,9 @@ public class HomePage extends MainPagesFunc {
 		return verifyPageContent("Home");
 	}
 
-	public boolean isCongratsPresent() {
-		Assert.assertTrue(verificationOfElementsOnPages(CongratsMessage));
-		return verifyPageContent("Congratulations! Please sync your device and you are ready to swim!");
-
-		// xpath .//*[@id='cong-text']
-	}
+	public void isCongratsPresent() {
+	isCongratsMessagePresent("Congratulations! Please sync your device and you are ready to swim!", CongratsMessage);
+		}
 
 	public void cliclOnCalendarButton() {
 		CalendarButton.click();
@@ -80,7 +77,7 @@ public class HomePage extends MainPagesFunc {
 		FBShareGraphButton.click();
 	}
 	
-	public void checkIfShareWindowOpened(){
+	public void checkIfFBShareWindowOpened(){
 		Utils.waitPage();
 		String shareName = "Sandra Amffajgefgaa Bushakson";
 		String text = "Do you want to share this swimming session on Facebook as "+shareName+"?";
@@ -88,16 +85,27 @@ public class HomePage extends MainPagesFunc {
 	}
 	
 	public void confirmShareDataFB(){
-		System.out.println(OkButtonForDelete);
-		System.out.println(driver.findElement(By.xpath("//input[@value='OK']")));
-		//		OkButtonForDelete.click();
-		driver.findElement(By.xpath("//input[@value='OK']")).click();
+		OkButtonForDelete.click();
+//		driver.findElement(By.xpath("//input[@value='OK']")).click();
 	}
 	
 	public void cancelShareDataFB(){
-		CancelButton.click();
-		
+		CancelButton.click();	
+	}
+
+	public void clickOnTwitterShareButton() {
+		TwitterShareButton.click();		
 	}
 	
-
+	public void checkIfTwitterShareWindowOpened(){
+		String shareName = "testusergl1";
+		String text = "Do you want to share this swimming session on Twitter as "+shareName+"?";
+		Assert.assertEquals(text, EraseTextWindow.getText());
+	}
+	
+	public void checkIfShareIsSucced(){
+		Utils.waitPage();
+		Assert.assertTrue(isCongratsMessagePresent("Your swiming activity was successfully shared!", CongratsMessage));
+	}
+	
 }

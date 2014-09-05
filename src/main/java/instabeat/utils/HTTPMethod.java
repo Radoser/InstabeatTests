@@ -74,7 +74,7 @@ public class HTTPMethod {
 		}
 
 //		System.out.println(buffer);
-		Utils.Log.info(buffer);
+		Utils.Log.info("|"+buffer);
 		
 		JSONObject jObject = new JSONObject(buffer);
 		JSONObject data = jObject.getJSONObject("user");

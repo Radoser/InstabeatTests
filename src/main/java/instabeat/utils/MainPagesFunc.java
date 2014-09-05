@@ -80,7 +80,7 @@ public class MainPagesFunc {
 	@FindBy(id = "calcButton")
 	public WebElement CalculateHRButton;
 
-	@FindBy(xpath = "//*[@class='col-md-8 col-xs-8 col-md-offset-4']/input[@value='Update']")
+	@FindBy(xpath = "//*[@class='col-md-12 col-xs-12']/input[@value='Update']")
 	public WebElement UpdateButton;
 
 	/* Home Page */
@@ -116,6 +116,9 @@ public class MainPagesFunc {
 	
 	@FindBy(xpath = "//*[@class='col-md-4 col-xs-4 face']")
 	public WebElement FBShareGraphButton;
+	
+	@FindBy(xpath = "//*[@onclick = 'alertToTwitter()']")
+	public WebElement TwitterShareButton;
 
 	/* Profile Page */
 	@FindBy(xpath = "//*[text()='Profile']")
@@ -167,9 +170,12 @@ public class MainPagesFunc {
 	@FindBy(xpath = "//input[@value='Delete account']")
 	public WebElement AccountDeleteButton;
 
-	@FindBy(xpath = "//*[@class='col-md-6 col-xs-6']/input[@value='OK']")
-	public WebElement OkButtonForDelete;
+	/*@FindBy(xpath = "//*[@class='col-md-6 col-xs-6']/input[@value='OK']")
+	public WebElement OkButtonForDelete;*/
 
+	@FindBy(xpath = "//input[@value='OK']")
+	public WebElement OkButtonForDelete;
+	
 	@FindBy(xpath = "//*[@class='col-md-6 col-xs-6']/input[@value='Cancel']")
 	public WebElement CancelButton;
 
@@ -181,6 +187,9 @@ public class MainPagesFunc {
 
 	@FindBy(xpath = "//input[@class='ibt-button f-disc']")
 	public WebElement ConnectToFBButton;
+	
+	@FindBy(xpath = "//input[@class='ibt-button t-disc']")
+	public WebElement ConnectToTwitterButton;
 	
 	/* Heart Rate Zones Page */
 	@FindBy(xpath = "//*[@class='top-button'][text()='Heart rate zone']")
@@ -201,6 +210,15 @@ public class MainPagesFunc {
 	
 	@FindBy(name = "login")
 	public WebElement FBLoginButton;
+	
+	@FindBy(id = "username_or_email")
+	public WebElement TwitterEmailField;
+	
+	@FindBy(id = "password")
+	public WebElement TwitterPasswordField;
+	
+	@FindBy(id = "allow")
+	public WebElement TwitterAuthorizeButton;
 	
 	@FindBy(xpath = "//*[@class='col-md-6 col-xs-6 error-message']")
 	public WebElement ErrorMessages;
@@ -336,5 +354,10 @@ public class MainPagesFunc {
 			Assert.assertEquals(error, errorElement.getText());
 			field.clear();
 		}
+	}
+	
+	public boolean isCongratsMessagePresent(String text, WebElement message){
+		verificationOfElementsOnPages(message);
+		return verifyPageContent(text);
 	}
 }

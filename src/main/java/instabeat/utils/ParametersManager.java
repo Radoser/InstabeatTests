@@ -14,27 +14,34 @@ public class ParametersManager {
 	public String ConfirmNewPasswordField;
 
 	public String UserEmail;
-	public String UserPassword = "";
+	public String UserPassword;
 
+	public String DateOfBirthField;
 	public String FirstNameField;
 	public String LastNameField;
-	public String DateOfBirthField;
+	public String SignUpButton;
 	public String HeightField;
 	public String WeightField;
-	public String SignUpButton;
+	
 		
 	public String GL_URL;
 	public String Amazon_URL;
 	public String FBUserEmail;
+	public String TwitterUserEmail;
+	public String TwitterUserPassword;
+	
 	
 	public String EMmaximumNumberWeightLbs;
 	public String EMmaximumNumberHeightFt;
 	public String EMmaximumNumberHeightIn;
+	public String EMascendingOrderRequire;
 	public String EMonlyLettersFirstName;
 	public String EMshortLengthFirstName;
 	public String EMincorrectCredentials;
 	public String EMnewPasswordRequiered;
 	public String EMwrongCurrentPassword;
+	public String EMRHRIsLessThenRequire;
+	public String EMRHRIsMoreThenRequire;
 	public String EMshortLengthLastName;
 	public String EMminimumNumberHeight;
 	public String EMminimumNumberWeight;
@@ -43,19 +50,18 @@ public class ParametersManager {
 	public String EMmaximumNumberWeight;
 	public String EMoldPasswordRequired;
 	public String EMrequiredFirstName;
+	public String EMwrongDataInHRZBox;
 	public String EMrequiredLastName;
 	public String EMpasswordRequired;
 	public String EMpasswordNotMatch;
 	public String EMinvalidPassword;
 	public String EMconfirmRequired;
-	public String EMwrongBirthdate;
+	public String EMwrongBirthdate;	
 	public String EMprovideHeight;
 	public String EMprovideWeight;
 	public String EMinvalidEmail;
 	public String EMuserNotFound;
 	
-	
-
 	public void getPropertyFields() {
 
 		Properties prop = new Properties();
@@ -87,6 +93,10 @@ public class ParametersManager {
 			/*FaceBook*/
 			FBUserEmail = prop.get("FBUserEmail").toString();
 			
+			/*Twitter*/
+			TwitterUserEmail = prop.get("TwitterUserEmail").toString();
+			TwitterUserPassword = prop.get("TwitterUserPassword").toString();
+			
 			/* URL's */
 			Amazon_URL = prop.get("Amazon_URL").toString();
 			GL_URL = prop.get("GL_URL").toString();
@@ -95,19 +105,23 @@ public class ParametersManager {
 			EMmaximumNumberWeightLbs = prop.get("maximumNumberWeightLbs").toString();
 			EMmaximumNumberHeightFt = prop.get("maximumNumberHeightFt").toString();
 			EMmaximumNumberHeightIn = prop.get("maximumNumberHeightIn").toString();
+			EMascendingOrderRequire = prop.get("ascendingOrderRequire").toString();
 			EMshortLengthFirstName = prop.get("shortLengthFirstName").toString();
 			EMonlyLettersFirstName = prop.get("onlyLettersFirstName").toString();
 			EMincorrectCredentials = prop.get("incorrectCredentials").toString();
 			EMnewPasswordRequiered = prop.get("newPasswordRequiered").toString();
 			EMwrongCurrentPassword = prop.get("wrongCurrentPassword").toString();
+			EMRHRIsLessThenRequire = prop.get("RHRIsLessThenRequire").toString();
+			EMRHRIsMoreThenRequire = prop.get("RHRIsMoreThenRequire").toString();
 			EMshortLengthLastName = prop.get("shortLengthLastName").toString();
 			EMonlyLettersLastName = prop.get("onlyLettersLastName").toString();
 			EMminimumNumberHeight = prop.get("minimumNumberHeight").toString();
 			EMminimumNumberWeight = prop.get("minimumNumberWeight").toString();
 			EMmaximumNumberHeight = prop.get("maximumNumberHeight").toString();
 			EMmaximumNumberWeight = prop.get("maximumNumberWeight").toString();			
-			EMoldPasswordRequired = prop.get("oldPasswordRequired").toString();
+			EMoldPasswordRequired = prop.get("oldPasswordRequired").toString();			
 			EMrequiredFirstName = prop.get("requiredFirstName").toString();
+			EMwrongDataInHRZBox = prop.get("wrongDataInHRZBox").toString();
 			EMpasswordNotMatch = prop.get("passwordNotMatch").toString();
 			EMpasswordRequired = prop.get("passwordRequired").toString();
 			EMrequiredLastName = prop.get("requiredLastName").toString();
