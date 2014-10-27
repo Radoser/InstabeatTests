@@ -15,7 +15,7 @@ public class ForgotPasswordPageResults extends MainPagesFunc {
 
 	public boolean checkUserEmail() {
 		return driver.findElement(By.tagName("span")).getText()
-				.contains("fortestgl+2@gmail.com");
+				.contains("fortestgl+1@gmail.com");
 	}
 
 	public boolean verifyTextPresent(String text) {

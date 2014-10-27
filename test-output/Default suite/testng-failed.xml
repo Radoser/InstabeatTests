@@ -6,8 +6,8 @@
       <class name="InstabeatSanity.Tests.SanityTestNG">
         <methods>
           <include name="BeforeTests"/>
+          <include name="ValidateValuesInFooter"/>
           <include name="AfterTests"/>
-          <include name="UserCanShareGraphFB"/>
         </methods>
       </class> <!-- InstabeatSanity.Tests.SanityTestNG -->
     </classes>

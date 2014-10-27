@@ -23,7 +23,7 @@ public class SanityTestNG extends AbstractTestClass /*ParallelBrowserSanity*/ {
 	
 	
 		
-	@Test(priority = 0, enabled = true)
+	@Test(priority = 0, enabled = false)
 	public void checkAllLinksOnWebPage() {
 		Utils.Log.info("<<========Started running=====<<");
 		LoginPage onLoginPage = new LoginPage(driver);
@@ -31,7 +31,7 @@ public class SanityTestNG extends AbstractTestClass /*ParallelBrowserSanity*/ {
 		Utils.Log.info("<<-----Finishing running test-----< \n---------------------------------------------------");
 	}
 
-	@Test(priority = 1, enabled = true)
+	@Test(priority = 1, enabled = false)
 	public void UserCanLogin() {
 		Utils.Log.info("<<========Started running=====<<");
 		LoginPage onLoginPage = new LoginPage(driver);
@@ -54,7 +54,7 @@ public class SanityTestNG extends AbstractTestClass /*ParallelBrowserSanity*/ {
 //		throw new SkipException("Skipping - This is not ready for testing ");
 	}
 
-	@Test(priority = 2, enabled = true)
+	@Test(priority = 2, enabled = false)
 	public void UserCannotLogin() {
 		Utils.Log.info("<<========Started running=====<<");
 		LoginPage onLoginPage = new LoginPage(driver);
@@ -73,7 +73,7 @@ public class SanityTestNG extends AbstractTestClass /*ParallelBrowserSanity*/ {
 		Utils.Log.info("<<-----Finishing running test-----< \n---------------------------------------------------");
 	}
 	
-	@Test(priority = 4, enabled = true)
+	@Test(priority = 4, enabled = false)
 	public void UserCanRegister() throws Exception {
 		Utils.Log.info("<<========Started running=====<<");
 		
@@ -83,17 +83,23 @@ public class SanityTestNG extends AbstractTestClass /*ParallelBrowserSanity*/ {
 		/*First step of register*/
 		Utils.Log.info("|Filling in user data...");
 		onGetStartedPage.typeUserValues();
-		GetSartedFirstStep onGetSartedFirstStep = onGetStartedPage
-				.clickOnSignUpButton();
+		
+		Utils.Log.info("|Chossing user's date of birth...");
+		onGetStartedPage.chooseMonthOfBitrh();
+		onGetStartedPage.chooseDayOfBitrh();
+		onGetStartedPage.chooseYearOfBitrh();
+		
+		Utils.Log.info("|Chossing user's country...");
+		onGetStartedPage.chooseCountry();
+		
+		GetSartedFirstStep onGetSartedFirstStep = onGetStartedPage.clickOnSignUpButton();
 		Utils.waitPage();
 		Utils.Log.info("|Checking user email");
-		Assert.assertTrue(onGetSartedFirstStep
-				.checkUserEmail(onGetStartedPage.randomUser));
+		Assert.assertTrue(onGetSartedFirstStep.checkUserEmail(onGetStartedPage.randomUser));
 		
 		/*Second step of register*/
 		Utils.Log.info("|Getting confirmation link from IMAP server...");
-		GetStartedSecondStep onGetStartedSecondStep = onGetSartedFirstStep
-				.getConfirmationLink();
+		GetStartedSecondStep onGetStartedSecondStep = onGetSartedFirstStep.getConfirmationLink();
 		onGetStartedSecondStep.printPageTitle();
 		Utils.Log.info("|Check second step of register - Download page");
 		onGetStartedSecondStep.verifyGetInstabeatConnectText();
@@ -102,8 +108,7 @@ public class SanityTestNG extends AbstractTestClass /*ParallelBrowserSanity*/ {
 		
 		/*Login from App*/
 		Utils.Log.info("|Logging from App using new created user...");
-		GetStartedThirdStep onGetStartedThirdStep = onGetStartedSecondStep
-				.loginByApp(onGetStartedPage.randomUser);
+		GetStartedThirdStep onGetStartedThirdStep = onGetStartedSecondStep.loginByApp(onGetStartedPage.randomUser);
 		onGetStartedThirdStep.printPageTitle();
 		Utils.Log.info("|Check for success login from App");
 		onGetStartedThirdStep.verifyTextPresentOnPage();
@@ -140,20 +145,17 @@ public class SanityTestNG extends AbstractTestClass /*ParallelBrowserSanity*/ {
 		Utils.Log.info("<<-----Finishing running test-----< \n---------------------------------------------------");
 	}
 
-	@Test(priority = 3, enabled = true)
+	@Test(priority = 3, enabled = false)
 	public void UserForgotPassword() throws Exception {
 		Utils.Log.info("<<========Started running=====<<");
 		
 		LoginPage onLoginPage = new LoginPage(driver);
-		ForgotPasswordPage onForgotPasswordPage = onLoginPage
-				.clickOnForgotPasswordLink();
+		ForgotPasswordPage onForgotPasswordPage = onLoginPage.clickOnForgotPasswordLink();
 		
 		/*Forgot password page --> type user email*/
 		Utils.Log.info("|Filling in user email...");
 		onForgotPasswordPage.typeExistingUserEmail();
-		ForgotPasswordPageResults onForgotPasswordPageResults = onForgotPasswordPage
-				.clickOnResetButton();
-
+		ForgotPasswordPageResults onForgotPasswordPageResults = onForgotPasswordPage.clickOnResetButton();
 		
 		Utils.Log.info("|Checking for proper user email");
 		Utils.waitPage();
@@ -161,8 +163,7 @@ public class SanityTestNG extends AbstractTestClass /*ParallelBrowserSanity*/ {
 
 		/*Get confirm message from email*/
 		Utils.Log.info("|Getting Reset link from IMAP server...");
-		ResetPasswordPage onResetPasswordPage = onForgotPasswordPageResults
-				.getConfirmationFromEmailIMAP();
+		ResetPasswordPage onResetPasswordPage = onForgotPasswordPageResults.getConfirmationFromEmailIMAP();
 		
 		Utils.Log.info("|Check for proper page");
 		Assert.assertTrue(onResetPasswordPage.resetPasswordConfirmText());
@@ -172,15 +173,14 @@ public class SanityTestNG extends AbstractTestClass /*ParallelBrowserSanity*/ {
 		onResetPasswordPage.typeNewPassword();
 		onResetPasswordPage.typeConfirmPassword();
 		onResetPasswordPage.afterResetPassword();
-		Utils.delay(3000);
+//		Utils.delay(3000);
 		onLoginPage.verifyLoginPage();
 		
-		Utils.waitPage();
+//		Utils.waitPage();
 		Utils.Log.info("<<-----Finishing running test-----< \n---------------------------------------------------");
 	}
 	
-//	need to fix dates with id "...old"
-	@Test(priority = 5, enabled = true)
+	@Test(priority = 5, enabled = false)
 	public void UserCanChooseExistSession() {
 		Utils.Log.info("<<========Started running=====<<");
 		
@@ -194,11 +194,14 @@ public class SanityTestNG extends AbstractTestClass /*ParallelBrowserSanity*/ {
 		Assert.assertTrue(onHomePage.isHomePagePresent());
 		onHomePage.isCalendarButtonPresent();
 
-		Utils.Log.info("|Choosing date with sessions...");
+		Utils.Log.info("|Check if user has date with sessions...");
 		onHomePage.cliclOnCalendarButton();
-//		need assert
 		onHomePage.isDateWithSessionsPresent();
-//		assert if menu present
+		
+		Utils.Log.info("|Choosing date with sessions...");
+		onHomePage.showDatesWithSessions();
+		onHomePage.chooseDateWithSessionRandomly();
+		
 		Utils.Log.info("|Choose session");
 		onHomePage.clickOnContextMenu();
 		onHomePage.clickOnSession();
@@ -208,7 +211,7 @@ public class SanityTestNG extends AbstractTestClass /*ParallelBrowserSanity*/ {
 		Utils.Log.info("<<-----Finishing running test-----< \n---------------------------------------------------");
 	}
 	
-	@Test(priority = 6, enabled = true)
+	@Test(priority = 6, enabled = false) //=====> need to check random numbers for weight and height
 	public void UserCanUpdateProfile() throws IOException{
 		Utils.Log.info("<<========Started running=====<<");
 		
@@ -227,9 +230,13 @@ public class SanityTestNG extends AbstractTestClass /*ParallelBrowserSanity*/ {
 		Utils.Log.info("|Updating user data...");
 		onProfilePage.updateFirstNameField();		
 		onProfilePage.updateLastNameField();
+		onProfilePage.updateHeightfield();
+		onProfilePage.updateWeightField();
 		onProfilePage.updateBirthdateField();
-		onProfilePage.clickOnUpdateButton();
+		onProfilePage.updateCountryField();
 		onProfilePage.changeFitnessLevel();
+		
+		onProfilePage.clickOnUpdateButton();
 		
 		Utils.delay(1000);
 		
@@ -246,7 +253,7 @@ public class SanityTestNG extends AbstractTestClass /*ParallelBrowserSanity*/ {
 		Utils.Log.info("<<-----Finishing running test-----< \n---------------------------------------------------");
 	}
 	
-	@Test(priority = 7, enabled = true)
+	@Test(priority = 7, enabled = false)
 	public void userCanChangePassword(){
 		Utils.Log.info("<<========Started running=====<<");
 		
@@ -267,16 +274,20 @@ public class SanityTestNG extends AbstractTestClass /*ParallelBrowserSanity*/ {
 		onProfilePageSettings.typeNewPassword();
 		onProfilePageSettings.typeConfirmNewPassword();
 		
-		onProfilePageSettings.clickOnUpdateButton();
-		//need to chech suc message
+		onProfilePageSettings.clickOnChangePasswordButton();
+		Utils.waitPage();
+		onProfilePageSettings.checkIfPasswordSucChanged();
+		Utils.Log.info("|Password was successfully changed");
+		
 		Utils.Log.info("|Logging out...");
 		onProfilePageSettings.logout();
 		Utils.Log.info("<<-----Finishing running test-----< \n---------------------------------------------------");
 	}
 	
-	@Test(priority = 8, enabled = true)
+	@Test(priority = 8, enabled = false)
 	public void userCanUpdateProfileSettings(){
-//		Need update --> wait for update in page
+		Utils.Log.info("<<========Started running=====<<");
+		
 		LoginPage onLoginPage = new LoginPage(driver);
 		Utils.Log.info("|Logging in...");
 		onLoginPage.fullLogin();
@@ -289,11 +300,11 @@ public class SanityTestNG extends AbstractTestClass /*ParallelBrowserSanity*/ {
 		ProfilePage onProfilePage = onHomePage.clickOnProfileTab();
 		ProfilePageSettings onProfilePageSettings = onProfilePage.clickOnProfilePageSettings();
 		
-		Utils.Log.info("|Select Country randomly");
-		onProfilePageSettings.changeCountry();
 		Utils.Log.info("|Updating profile settings");
-		onProfilePageSettings.clickOnUpdateButton();
-				
+		onProfilePageSettings.changeSettingsRandomly();
+		Utils.waitPage();		
+		onProfilePageSettings.clickOnMetricUpdate();
+		
 		Utils.Log.info("|Logging out...");
 		onProfilePageSettings.logout();
 		Utils.Log.info("<<-----Finishing running test-----< \n---------------------------------------------------");
@@ -332,7 +343,7 @@ public class SanityTestNG extends AbstractTestClass /*ParallelBrowserSanity*/ {
 		Utils.Log.info("<<-----Finishing running test-----< \n---------------------------------------------------");
 	}
 	
-	@Test(priority = 10, enabled = true)
+	@Test(priority = 10, enabled = false)
 	public void userCanUpdateHRZPage(){
 		Utils.Log.info("<<========Started running=====<<");
 		
@@ -366,7 +377,7 @@ public class SanityTestNG extends AbstractTestClass /*ParallelBrowserSanity*/ {
 		
 	}
 
-	@Test(priority = 11, enabled = true)
+	@Test(priority = 11, enabled = false)
 	public void userCanConnectToFB(){	
 		Utils.Log.info("<<========Started running=====<<");
 		
@@ -389,23 +400,9 @@ public class SanityTestNG extends AbstractTestClass /*ParallelBrowserSanity*/ {
 		Utils.Log.info("|Logging out...");
 		onProfilePageSettings.logout();
 		Utils.Log.info("<<-----Finishing running test-----< \n---------------------------------------------------");
-	/*	onProfilePageSettings.clickOnHomeTab();
-		
-		Utils.Log.info("|Sharing data to FB...");
-		onHomePage.clickOnPlusButton();
-		onHomePage.clickOnFBShareButton();
-		onHomePage.checkIfShareWindowOpened();
-		Utils.waitPage();
-		
-		onHomePage.cancelShareDataFB();
-		onHomePage.clickOnFBShareButton();
-		onHomePage.confirmShareDataFB();
-		Utils.waitPage();
-		Utils.Log.info("|SUC");*/
-
 	}
 	
-	@Test(priority = 12, enabled = true)
+	@Test(priority = 12, enabled = false)
 	public void UserCanShareGraphFB(){
 		
 		Utils.Log.info("<<========Started running=====<<");
@@ -443,7 +440,7 @@ public class SanityTestNG extends AbstractTestClass /*ParallelBrowserSanity*/ {
 		
 	}
 	
-	@Test(priority = 13, enabled = true)
+	@Test(priority = 13, enabled = false)
 	public void UserCanConnectToTwitter(){
 		Utils.Log.info("<<========Started running=====<<");
 		
@@ -473,7 +470,7 @@ public class SanityTestNG extends AbstractTestClass /*ParallelBrowserSanity*/ {
 		Utils.Log.info("<<-----Finishing running test-----< \n---------------------------------------------------");
 	}
 	
-	@Test(priority = 14, enabled = true)
+	@Test(priority = 14, enabled = false)
 	public void UserCanShareGraphTwitter(){
 		Utils.Log.info("<<========Started running=====<<");
 		
@@ -508,5 +505,53 @@ public class SanityTestNG extends AbstractTestClass /*ParallelBrowserSanity*/ {
 		Utils.Log.info("|Logging out...");
 		onHomePage.logout();
 		Utils.Log.info("<<-----Finishing running test-----< \n---------------------------------------------------");
+	}
+	
+	@Test(priority = 14, enabled = true)
+	public void ValidateValuesInFooter() throws Exception{
+		Utils.Log.info("<<========Started running=====<<");
+		
+		LoginPage onLoginPage = new LoginPage(driver);
+		
+		Utils.Log.info("|Sending session to the server...");
+		onLoginPage.sendSession();
+		
+		Utils.Log.info("|Logging in...");
+		onLoginPage.fullLogin();
+		HomePage onHomePage = onLoginPage.LoginButton();
+		
+		Utils.Log.info("|Checking if duration time is proper...");
+		onHomePage.checkIfDurationTimeIsProper();
+		
+		Utils.Log.info("|Checking if total distance is proper...");
+		onHomePage.chheckIfTotalDistanceIsProper();
+		
+		//====>T O D O<====
+		onHomePage.checkIfAvaragePaceIsProper(); /*need access to total laps duration on the server side*/
+		
+		Utils.Log.info("|Logging out...");
+		onHomePage.logout();
+		Utils.Log.info("<<-----Finishing running test-----< \n---------------------------------------------------");
+	}
+	
+	@Test(priority = 15, enabled = false)
+	public void editActivityCheck(){
+		Utils.Log.info("<<========Started running=====<<");
+		
+		LoginPage onLoginPage = new LoginPage(driver);
+		Utils.Log.info("|Logging in...");
+		onLoginPage.fullLogin();
+		
+		HomePage onHomePage = onLoginPage.LoginButton();
+		Utils.waitPage();
+		Utils.Log.info("|Check if user logged in");
+		Assert.assertTrue(onHomePage.isHomePagePresent());
+		
+		/*........*/
+	}
+	
+	@Test(priority = 16, enabled = false)
+	public void checkMetricsSettings() {
+		
 	}
 }

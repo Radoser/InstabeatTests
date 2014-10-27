@@ -90,6 +90,10 @@ public class LoginPage extends MainPagesFunc {
 //		Utils.clearField(EmailField);
 		typeValuesForValidation(parameters.EMinvalidEmail, Utils.dataForEmailFieldInput, EmailField, LoginButton, ErrorMessages);
 		EmailField.sendKeys(randomUser);
-		
+	}
+	
+	public HomePage sendSession() throws Exception{
+		sendSessionFromDevice();
+		return PageFactory.initElements(driver, HomePage.class);
 	}
 }

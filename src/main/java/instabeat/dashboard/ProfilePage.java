@@ -30,8 +30,13 @@ public class ProfilePage extends MainPagesFunc {
 	}
 
 	public void updateBirthdateField() {
-		DateOfBirthField.clear();
-		DateOfBirthField.sendKeys("5/5/1990");
+		chooseRandomValuesFromDropDownList(MonthSelectOnProfile);
+		chooseRandomValuesFromDropDownList(DaySelectOnProfile);
+		chooseRandomValuesFromDropDownList(YearSelectOnProfile);
+	}
+	
+	public void updateCountryField() {
+		chooseRandomValuesFromDropDownList(UTCzones);
 	}
 
 	public void updateHeightfield() {
@@ -80,7 +85,7 @@ public class ProfilePage extends MainPagesFunc {
 
 	public void updateUserPicture() throws IOException {
 		Process proc = Runtime.getRuntime().exec(
-				"D:\\eclipse-java-juno-SR1-win32-x86_64\\eclipse\\a.exe");
+				"D:\\eclipse-java-juno-SR1-win32-x86_64\\eclipse-jee-kepler-SR2-win32-x86_64\\eclipse\\a.exe");
 		driver.findElement(By.xpath("//div[@onclick=\"$('#file').click()\"]"))
 				.click();
 		Utils.waitPage();

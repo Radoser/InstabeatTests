@@ -16,19 +16,23 @@ public class ParametersManager {
 	public String UserEmail;
 	public String UserPassword;
 
+	public String DefaultPoolLength;
 	public String DateOfBirthField;
 	public String FirstNameField;
 	public String LastNameField;
 	public String SignUpButton;
 	public String HeightField;
 	public String WeightField;
-	
 		
 	public String GL_URL;
 	public String Amazon_URL;
 	public String FBUserEmail;
 	public String TwitterUserEmail;
 	public String TwitterUserPassword;
+	public String Amazon_Web_Testing_URL;
+	public String Amazon_App_Testing_URL;
+	public String Amazon_Web_Production_URL;
+	public String Amazon_App_Production_URL;
 	
 	
 	public String EMmaximumNumberWeightLbs;
@@ -62,6 +66,12 @@ public class ParametersManager {
 	public String EMinvalidEmail;
 	public String EMuserNotFound;
 	
+	public String ChromeDriver;
+	public String IEDriver;
+	
+
+	
+	
 	public void getPropertyFields() {
 
 		Properties prop = new Properties();
@@ -83,6 +93,7 @@ public class ParametersManager {
 			NewPasswordField = prop.get("NewPasswordField").toString();
 	
 			/*GetStarted Page*/
+			DefaultPoolLength = prop.get("DefaultPoolLength").toString();
 			DateOfBirthField = prop.get("DateOfBirthField").toString();
 			FirstNameField = prop.get("FirstNameField").toString();
 			LastNameField = prop.get("LastNameField").toString();
@@ -98,8 +109,12 @@ public class ParametersManager {
 			TwitterUserPassword = prop.get("TwitterUserPassword").toString();
 			
 			/* URL's */
-			Amazon_URL = prop.get("Amazon_URL").toString();
 			GL_URL = prop.get("GL_URL").toString();
+			Amazon_URL = prop.get("Amazon_URL").toString();
+			Amazon_Web_Testing_URL = prop.get("Amazon_Web_Testing_URL").toString();
+			Amazon_App_Testing_URL = prop.get("Amazon_App_Testing_URL").toString();
+			Amazon_Web_Production_URL = prop.get("Amazon_Web_Production_URL").toString();
+			Amazon_App_Production_URL = prop.get("Amazon_App_Production_URL").toString();
 					
 			/*Error messages*/
 			EMmaximumNumberWeightLbs = prop.get("maximumNumberWeightLbs").toString();
@@ -133,6 +148,9 @@ public class ParametersManager {
 			EMinvalidEmail = prop.get("invalidEmail").toString();
 			EMuserNotFound = prop.get("userNotFound").toString();
 			
+			/*Drivers
+			IEDriver = prop.get("IEDriver").toString();
+			ChromeDriver = prop.get("ChromeDriver").toString();*/
 			
 		} catch (IOException e) {
 			e.printStackTrace();

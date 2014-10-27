@@ -4,15 +4,10 @@ import instabeat.utils.MainPagesFunc;
 import instabeat.utils.Utils;
 
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
-import java.util.Random;
-
-import junit.framework.Assert;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
 
 public class GetStartedPage extends MainPagesFunc {
@@ -29,9 +24,9 @@ public class GetStartedPage extends MainPagesFunc {
 		map.put(parameters.EmailField, randomUser);
 		map.put(parameters.PasswordField, parameters.UserPassword);
 		map.put(parameters.ConfirmNewPasswordField, parameters.UserPassword);
-		map.put(parameters.DateOfBirthField, "5/5/2000");
 		map.put(parameters.HeightField, randomNumbers);
 		map.put(parameters.WeightField, randomNumbers);
+		map.put(parameters.DefaultPoolLength, randomNumbers);
 	}
 
 	private Map<String, String> map = new HashMap();
@@ -44,12 +39,39 @@ public class GetStartedPage extends MainPagesFunc {
 
 	public GetSartedFirstStep clickOnSignUpButton() {
 		SignUpButton.click();
-		//		click(By.xpath(parameters.SignUpButton));
 		return PageFactory.initElements(driver, GetSartedFirstStep.class);
 	}
 
 	public void randomUserValues() {
 		FirstNameField.sendKeys(randomValues);
+	}
+	
+	public void chooseMonthOfBitrh() {
+		chooseRandomValuesFromDropDownList(MonthSelect);
+	}
+	
+	public void chooseDayOfBitrh() {
+		chooseRandomValuesFromDropDownList(DaySelect);
+	}
+	
+	public void chooseYearOfBitrh() {
+		chooseRandomValuesFromDropDownList(YearSelect);
+	}
+	
+	public void chooseHeightMetric() {
+		chooseRandomValuesFromDropDownList(HeightMetric);
+	}
+	
+	public void chooseWeightMetric() {
+		chooseRandomValuesFromDropDownList(WeightMetric);
+	}
+	
+	public void choosePoolDistanceMetric() {
+		chooseRandomValuesFromDropDownList(PoolDistanceMetric);
+	}
+	
+	public void chooseCountry() {
+		chooseRandomValuesFromDropDownList(ChooseCountry);
 	}
 
 	public void firstNameValidation() {
@@ -77,6 +99,7 @@ public class GetStartedPage extends MainPagesFunc {
 		ConfirmNewPasswordField.sendKeys(parameters.UserPassword);
 	}
 	
+	/*need a rework*/
 	public void dateOfBirthValidation(){
 		typeValuesForValidation(parameters.EMwrongBirthdate, Utils.dataForDateFieldInput, DateOfBirthField, SignUpButton, ErrorMessages);
 		DateOfBirthField.sendKeys("1/1/1990");
@@ -103,5 +126,5 @@ public class GetStartedPage extends MainPagesFunc {
 	public void goToLoginPage() {
 	LoginLink.click();		
 	}
-	
+
 }

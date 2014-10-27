@@ -1,9 +1,9 @@
 package instabeat.pages;
 
-import java.io.IOException;
-
 import instabeat.utils.MainPagesFunc;
 import instabeat.utils.Utils;
+
+import java.io.IOException;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -26,14 +26,15 @@ public class GetStartedSecondStep extends MainPagesFunc {
 	
 	public void downloadApp(){
 		if (driver.findElement(By.linkText("WINDOWS")).isDisplayed()){
-			click(By.xpath("//a[@href='/user/files/Instabeat.exe']"));
+			click(By.xpath("//a[@href='/user/files/InstabeatConnect.exe']"));
 		}else{
 			driver.findElement(By.linkText("WINDOWS")).click();
 			System.out.println("CLIKED BY LINK");
 		}
 	}
 
-//	Access denied --> Parity =(
+//	Access denied --> Parity =( in case if to execute file in C
+//	File should be available in Project folder
 	public void clickOnSave() throws IOException{
 		
 		Utils.delay(2000);
@@ -47,5 +48,4 @@ public class GetStartedSecondStep extends MainPagesFunc {
 		LoginApp(value);
 		return PageFactory.initElements(driver, GetStartedThirdStep.class);
 	}
-	
 }

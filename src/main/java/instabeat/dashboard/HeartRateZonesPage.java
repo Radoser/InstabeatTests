@@ -78,15 +78,16 @@ public class HeartRateZonesPage extends MainPagesFunc{
 	}
 
 	public void RHRFieldValidation() {
-		List<String> a = Arrays.asList("-1","0001", "24","212");
-		List<String> b = Arrays.asList("121", "+1", "9999999");
+		List<String> a = Arrays.asList("-1","0001", "24");
+		List<String> b = Arrays.asList("121", "222", "9999999");
+		
 		RHRField.sendKeys("0");
 		CalculateHRButton.click();
-		if(parameters.EMRHRIsLessThenRequire.equals(DashboardErrorMessages.getText())){
-			typeValuesForValidation(parameters.EMRHRIsLessThenRequire, a, RHRField, CalculateHRButton, DashboardErrorMessages);	
-		}else if(parameters.EMRHRIsMoreThenRequire.equals(DashboardErrorMessages.getText())){
-			typeValuesForValidation(parameters.EMRHRIsMoreThenRequire, b, RHRField, CalculateHRButton, DashboardErrorMessages);
-		}
+
+		do{
+			typeValuesForValidation(parameters.EMRHRIsLessThenRequire, a, RHRField, CalculateHRButton, DashboardErrorMessages);
+		}while(parameters.EMRHRIsMoreThenRequire.equals(DashboardErrorMessages.getText()));
+				typeValuesForValidation(parameters.EMRHRIsMoreThenRequire, b, RHRField, CalculateHRButton, DashboardErrorMessages);
 	}
 
 	

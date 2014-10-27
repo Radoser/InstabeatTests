@@ -10,7 +10,6 @@
           <include name="AfterTests"/>
           <include name="AfterTests"/>
           <include name="AfterTests"/>
-          <include name="UserCannotLogin"/>
           <include name="BeforeTests"/>
           <include name="BeforeTests"/>
           <include name="BeforeTests"/>

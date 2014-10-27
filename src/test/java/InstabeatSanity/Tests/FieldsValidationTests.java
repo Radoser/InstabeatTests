@@ -56,7 +56,7 @@ public class FieldsValidationTests extends /*ParallelBrowserSanity*/ AbstractTes
 		Utils.Log.info("<<-----Finishing running test-----< \n---------------------------------------------------");
 	}
 	
-	@Test(priority = 3, enabled = false)
+	@Test(priority = 3, enabled = false)//======> need to rework
 	public void GetStartedValidation(){
 		Utils.Log.info("<<========Started running=====<<");
 		
@@ -79,7 +79,7 @@ public class FieldsValidationTests extends /*ParallelBrowserSanity*/ AbstractTes
 		Utils.Log.info("<<-----Finishing running test-----< \n---------------------------------------------------");
 	}
 	
-	@Test(priority = 4, enabled = false)
+	@Test(priority = 4, enabled = false)//======> need to rework
 	public void ProfileValidation(){
 		Utils.Log.info("<<========Started running=====<<");
 		
@@ -103,7 +103,7 @@ public class FieldsValidationTests extends /*ParallelBrowserSanity*/ AbstractTes
 		Utils.Log.info("<<-----Finishing running test-----< \n---------------------------------------------------");
 	}
 	
-	@Test(priority = 5, enabled = false)
+	@Test(priority = 5, enabled = false)//======> need to rework
 	public void ProfileSettingsValidation(){
 		Utils.Log.info("<<========Started running=====<<");
 		
@@ -122,10 +122,11 @@ public class FieldsValidationTests extends /*ParallelBrowserSanity*/ AbstractTes
 		onProfilePageSettings.passwordsFieldsValidationForDifferentCases();
 		
 		Utils.Log.info("|Fields are checked");		
+		onProfilePageSettings.logout();
 		Utils.Log.info("<<-----Finishing running test-----< \n---------------------------------------------------");
 	}
 	
-	@Test(priority = 5, enabled = true)
+	@Test(priority = 5, enabled = false)
 	public void HeartRateZonesValidation(){
 		Utils.Log.info("<<========Started running=====<<");
 		
@@ -137,9 +138,13 @@ public class FieldsValidationTests extends /*ParallelBrowserSanity*/ AbstractTes
 		HeartRateZonesPage onHeartRateZonesPage = onHomePage.clickOnHRZTab();
 		
 		Utils.Log.info("|Checking HR zones using RHR field");
-//		NEED TO FINISH
-//		onHeartRateZonesPage.RHRFieldValidation();
+		onHeartRateZonesPage.RHRFieldValidation();
 		
+		Utils.Log.info("|Checking HR zones using HR fields");
 		onHeartRateZonesPage.RHZFieldsValidation();
+		
+		Utils.Log.info("|Fields are checked");		
+		onHeartRateZonesPage.logout();
+		Utils.Log.info("<<-----Finishing running test-----< \n---------------------------------------------------");
 	}
 }
