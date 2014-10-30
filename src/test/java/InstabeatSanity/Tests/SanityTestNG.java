@@ -507,7 +507,7 @@ public class SanityTestNG extends AbstractTestClass /*ParallelBrowserSanity*/ {
 		Utils.Log.info("<<-----Finishing running test-----< \n---------------------------------------------------");
 	}
 	
-	@Test(priority = 14, enabled = true)
+	@Test(priority = 14, enabled = false)
 	public void ValidateValuesInFooter() throws Exception{
 		Utils.Log.info("<<========Started running=====<<");
 		
@@ -550,8 +550,50 @@ public class SanityTestNG extends AbstractTestClass /*ParallelBrowserSanity*/ {
 		/*........*/
 	}
 	
-	@Test(priority = 16, enabled = false)
-	public void checkMetricsSettings() {
+	@Test(priority = 16, enabled = true)
+	public void checkMetricsSettings() throws Exception {
+		Utils.Log.info("<<========Started running=====<<");
 		
+		LoginPage onLoginPage = new LoginPage(driver);
+		Utils.Log.info("|Logging in...");
+		onLoginPage.fullLogin();
+		
+		HomePage onHomePage = onLoginPage.LoginButton();
+		Utils.waitPage();
+		Utils.Log.info("|Check if user logged in");
+		Assert.assertTrue(onHomePage.isHomePagePresent());
+		
+		ProfilePage onProfilePage = onHomePage.clickOnProfileTab();
+		ProfilePageSettings onProfilePageSettings = onProfilePage.clickOnProfilePageSettings();
+		
+		Utils.Log.info("|Change Height metric");
+		onProfilePageSettings.changeHeightUnit();
+		Utils.Log.info("|Check if the Height metric is proper in the Profile page");
+		
+		Utils.Log.info("|Change Weight metric");
+		
+		Utils.Log.info("|Check if the Weight metric is proper in the Profile page");
+		
+	
+	}
+	
+	@Test(priority = 17, enabled = false)
+	public void checkDefaultActivity () throws Exception {
+		Utils.Log.info("<<========Started running=====<<");
+		
+		LoginPage onLoginPage = new LoginPage(driver);
+		Utils.Log.info("|Logging in...");
+		onLoginPage.fullLogin();
+		
+		HomePage onHomePage = onLoginPage.LoginButton();
+		Utils.waitPage();
+		Utils.Log.info("|Check if user logged in");
+		Assert.assertTrue(onHomePage.isHomePagePresent());
+		
+		ProfilePage onProfilePage = onHomePage.clickOnProfileTab();
+		ProfilePageSettings onProfilePageSettings = onProfilePage.clickOnProfilePageSettings();
+		
+		Utils.Log.info("|Sending session to the server...");
+		onLoginPage.sendSession();
 	}
 }

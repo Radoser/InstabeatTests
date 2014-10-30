@@ -1453,3 +1453,282 @@
 27-10-2014 13:46:43 INFO  39: 'AfterTests' *===========================================* 
 27-10-2014 13:46:43 INFO  40: 'AfterTests' 
  
+27-10-2014 17:34:28 INFO  22: 'BeforeTests' *===========================================* 
+27-10-2014 17:34:28 INFO  23: 'BeforeTests' *        Start running test cases...        * 
+27-10-2014 17:34:28 INFO  24: 'BeforeTests' *===========================================* 
+27-10-2014 17:34:44 INFO  512: 'ValidateValuesInFooter' <<========Started running=====<< 
+27-10-2014 17:34:44 INFO  516: 'ValidateValuesInFooter' |Sending session to the server... 
+27-10-2014 17:34:44 INFO  63: 'AppLogin' |username is fortestgl+1@gmail.com 
+27-10-2014 17:34:45 INFO  77: 'AppLogin' |Output from Server... 
+27-10-2014 17:34:45 INFO  83: 'AppLogin' |{  "success": true,  "user": {    "token": "9a5378b5450746a0300b4797eb174ecb8ab57d82",    "user": "63f0a8a3bea4d4ecd726ff0956e3d3b5"  }} 
+27-10-2014 17:34:45 INFO  91: 'AppLogin' |UserID is: 63f0a8a3bea4d4ecd726ff0956e3d3b5 
+27-10-2014 17:34:45 INFO  93: 'AppLogin' |User token is: 9a5378b5450746a0300b4797eb174ecb8ab57d82 
+27-10-2014 17:34:45 INFO  130: 'PostSession' |Executing request: POST http://staging-web-664817575.us-west-2.elb.amazonaws.com/user/unpack HTTP/1.1 
+27-10-2014 17:34:46 INFO  133: 'PostSession' |Status of request is: HTTP/1.1 200 OK 
+27-10-2014 17:34:46 INFO  134: 'PostSession' |Response is: HttpResponseProxy{HTTP/1.1 200 OK [Content-Type: application/json; charset=utf-8, Date: Mon, 27 Oct 2014 15:34:46 GMT, Set-Cookie: i18next=en-US; path=/; expires=Tue, 27 Oct 2015 15:34:46 GMT, Set-Cookie: connect.sid=s%3Ap9jOZ7UnsQ5h6qtYLUPH7XDb.DvlJP1A%2FaultuzHteXDpzjEqh6aclhCvjM4iSXDz6fg; Path=/; HttpOnly, Set-Cookie: AWSELB=03FF654F188040D73460A02429CC778A1C99C4084F1A79E584BC25BAF66E116F6216142185BAEF9F8A6D748A171D8D458EE79F749E3CFE65B6AA7A1750D8CA9316E9250C7AA123CD19EA816B70B0981E5C3E8DAC63;PATH=/;HTTPONLY, Vary: Accept-Encoding, X-Powered-By: Express, Content-Length: 21, Connection: keep-alive]} 
+27-10-2014 17:34:46 INFO  137: 'PostSession' |Response content length: 21 
+27-10-2014 17:34:46 INFO  519: 'ValidateValuesInFooter' |Logging in... 
+27-10-2014 17:34:47 INFO  523: 'ValidateValuesInFooter' |Checking if duration time is proper... 
+27-10-2014 17:34:54 INFO  526: 'ValidateValuesInFooter' |Checking if total distance is proper... 
+27-10-2014 17:34:54 INFO  138: 'chheckIfTotalDistanceIsProper' |Pool is activated - checking total distance 
+27-10-2014 17:34:54 INFO  151: 'chheckIfTotalDistanceIsProper' |Total distance is proper 
+27-10-2014 17:34:54 INFO  532: 'ValidateValuesInFooter' |Logging out... 
+27-10-2014 17:34:54 INFO  534: 'ValidateValuesInFooter' <<-----Finishing running test-----< 
+--------------------------------------------------- 
+27-10-2014 17:34:54 INFO  37: 'AfterTests' *===========================================* 
+27-10-2014 17:34:54 INFO  38: 'AfterTests' *       Finish running test cases...        * 
+27-10-2014 17:34:54 INFO  39: 'AfterTests' *===========================================* 
+27-10-2014 17:34:54 INFO  40: 'AfterTests' 
+ 
+27-10-2014 17:40:49 INFO  22: 'BeforeTests' *===========================================* 
+27-10-2014 17:40:49 INFO  23: 'BeforeTests' *        Start running test cases...        * 
+27-10-2014 17:40:49 INFO  24: 'BeforeTests' *===========================================* 
+27-10-2014 17:41:06 INFO  512: 'ValidateValuesInFooter' <<========Started running=====<< 
+27-10-2014 17:41:06 INFO  516: 'ValidateValuesInFooter' |Sending session to the server... 
+27-10-2014 17:41:06 INFO  63: 'AppLogin' |username is fortestgl+1@gmail.com 
+27-10-2014 17:41:07 INFO  77: 'AppLogin' |Output from Server... 
+27-10-2014 17:41:07 INFO  83: 'AppLogin' |{  "success": true,  "user": {    "token": "9a5378b5450746a0300b4797eb174ecb8ab57d82",    "user": "63f0a8a3bea4d4ecd726ff0956e3d3b5"  }} 
+27-10-2014 17:41:07 INFO  91: 'AppLogin' |UserID is: 63f0a8a3bea4d4ecd726ff0956e3d3b5 
+27-10-2014 17:41:07 INFO  93: 'AppLogin' |User token is: 9a5378b5450746a0300b4797eb174ecb8ab57d82 
+27-10-2014 17:41:07 INFO  130: 'PostSession' |Executing request: POST http://staging-web-664817575.us-west-2.elb.amazonaws.com/user/unpack HTTP/1.1 
+27-10-2014 17:41:08 INFO  133: 'PostSession' |Status of request is: HTTP/1.1 200 OK 
+27-10-2014 17:41:08 INFO  134: 'PostSession' |Response is: HttpResponseProxy{HTTP/1.1 200 OK [Content-Type: application/json; charset=utf-8, Date: Mon, 27 Oct 2014 15:41:08 GMT, Set-Cookie: i18next=en-US; path=/; expires=Tue, 27 Oct 2015 15:41:08 GMT, Set-Cookie: connect.sid=s%3AfnGpqF63FjkzR7Zbx879wK8b.kHbiucnT31FL8fB2kCG6rLlLQyjm%2B%2Fmy%2BE1RcqyUK68; Path=/; HttpOnly, Set-Cookie: AWSELB=03FF654F188040D73460A02429CC778A1C99C4084FEE9F6ABAC84FEE4C836AD0A9FE4317349036F8E727477654B9824224C533A29C9CF59A5ED57EF5FC26340FC6D29115ECA123CD19EA816B70B0981E5C3E8DAC63;PATH=/;HTTPONLY, Vary: Accept-Encoding, X-Powered-By: Express, Content-Length: 21, Connection: keep-alive]} 
+27-10-2014 17:41:08 INFO  137: 'PostSession' |Response content length: 21 
+27-10-2014 17:41:08 INFO  519: 'ValidateValuesInFooter' |Logging in... 
+27-10-2014 17:41:09 INFO  523: 'ValidateValuesInFooter' |Checking if duration time is proper... 
+27-10-2014 17:41:19 INFO  526: 'ValidateValuesInFooter' |Checking if total distance is proper... 
+27-10-2014 17:41:19 INFO  138: 'chheckIfTotalDistanceIsProper' |Pool is activated - checking total distance 
+27-10-2014 17:41:19 INFO  151: 'chheckIfTotalDistanceIsProper' |Total distance is proper 
+27-10-2014 17:41:19 INFO  532: 'ValidateValuesInFooter' |Logging out... 
+27-10-2014 17:41:19 INFO  534: 'ValidateValuesInFooter' <<-----Finishing running test-----< 
+--------------------------------------------------- 
+27-10-2014 17:41:19 INFO  37: 'AfterTests' *===========================================* 
+27-10-2014 17:41:19 INFO  38: 'AfterTests' *       Finish running test cases...        * 
+27-10-2014 17:41:19 INFO  39: 'AfterTests' *===========================================* 
+27-10-2014 17:41:19 INFO  40: 'AfterTests' 
+ 
+29-10-2014 14:43:09 INFO  22: 'BeforeTests' *===========================================* 
+29-10-2014 14:43:09 INFO  23: 'BeforeTests' *        Start running test cases...        * 
+29-10-2014 14:43:09 INFO  24: 'BeforeTests' *===========================================* 
+29-10-2014 14:43:20 INFO  555: 'checkMetricsSettings' <<========Started running=====<< 
+29-10-2014 14:43:20 INFO  558: 'checkMetricsSettings' |Logging in... 
+29-10-2014 14:43:26 INFO  563: 'checkMetricsSettings' |Check if user logged in 
+29-10-2014 14:43:29 INFO  569: 'checkMetricsSettings' |Change Height metric 
+29-10-2014 14:43:30 INFO  571: 'checkMetricsSettings' |Check if the Height metric is proper in the Profile page 
+29-10-2014 14:43:30 INFO  573: 'checkMetricsSettings' |Change Weight metric 
+29-10-2014 14:43:30 INFO  575: 'checkMetricsSettings' |Check if the Weight metric is proper in the Profile page 
+29-10-2014 14:43:30 INFO  37: 'AfterTests' *===========================================* 
+29-10-2014 14:43:30 INFO  38: 'AfterTests' *       Finish running test cases...        * 
+29-10-2014 14:43:30 INFO  39: 'AfterTests' *===========================================* 
+29-10-2014 14:43:30 INFO  40: 'AfterTests' 
+ 
+29-10-2014 14:47:46 INFO  22: 'BeforeTests' *===========================================* 
+29-10-2014 14:47:46 INFO  23: 'BeforeTests' *        Start running test cases...        * 
+29-10-2014 14:47:46 INFO  24: 'BeforeTests' *===========================================* 
+29-10-2014 14:47:55 INFO  555: 'checkMetricsSettings' <<========Started running=====<< 
+29-10-2014 14:47:55 INFO  558: 'checkMetricsSettings' |Logging in... 
+29-10-2014 14:48:01 INFO  563: 'checkMetricsSettings' |Check if user logged in 
+29-10-2014 14:48:02 INFO  569: 'checkMetricsSettings' |Change Height metric 
+29-10-2014 14:48:03 INFO  571: 'checkMetricsSettings' |Check if the Height metric is proper in the Profile page 
+29-10-2014 14:48:03 INFO  573: 'checkMetricsSettings' |Change Weight metric 
+29-10-2014 14:48:03 INFO  575: 'checkMetricsSettings' |Check if the Weight metric is proper in the Profile page 
+29-10-2014 14:48:03 INFO  37: 'AfterTests' *===========================================* 
+29-10-2014 14:48:03 INFO  38: 'AfterTests' *       Finish running test cases...        * 
+29-10-2014 14:48:03 INFO  39: 'AfterTests' *===========================================* 
+29-10-2014 14:48:03 INFO  40: 'AfterTests' 
+ 
+29-10-2014 16:47:29 INFO  22: 'BeforeTests' *===========================================* 
+29-10-2014 16:47:29 INFO  23: 'BeforeTests' *        Start running test cases...        * 
+29-10-2014 16:47:29 INFO  24: 'BeforeTests' *===========================================* 
+29-10-2014 16:47:38 INFO  555: 'checkMetricsSettings' <<========Started running=====<< 
+29-10-2014 16:47:38 INFO  558: 'checkMetricsSettings' |Logging in... 
+29-10-2014 16:47:44 INFO  563: 'checkMetricsSettings' |Check if user logged in 
+29-10-2014 16:47:46 INFO  569: 'checkMetricsSettings' |Change Height metric 
+29-10-2014 16:47:46 INFO  571: 'checkMetricsSettings' |Check if the Height metric is proper in the Profile page 
+29-10-2014 16:47:46 INFO  573: 'checkMetricsSettings' |Change Weight metric 
+29-10-2014 16:47:46 INFO  575: 'checkMetricsSettings' |Check if the Weight metric is proper in the Profile page 
+29-10-2014 16:47:46 INFO  37: 'AfterTests' *===========================================* 
+29-10-2014 16:47:46 INFO  38: 'AfterTests' *       Finish running test cases...        * 
+29-10-2014 16:47:46 INFO  39: 'AfterTests' *===========================================* 
+29-10-2014 16:47:46 INFO  40: 'AfterTests' 
+ 
+29-10-2014 16:49:28 INFO  22: 'BeforeTests' *===========================================* 
+29-10-2014 16:49:28 INFO  23: 'BeforeTests' *        Start running test cases...        * 
+29-10-2014 16:49:28 INFO  24: 'BeforeTests' *===========================================* 
+29-10-2014 16:49:38 INFO  555: 'checkMetricsSettings' <<========Started running=====<< 
+29-10-2014 16:49:38 INFO  558: 'checkMetricsSettings' |Logging in... 
+29-10-2014 16:49:44 INFO  563: 'checkMetricsSettings' |Check if user logged in 
+29-10-2014 16:49:45 INFO  569: 'checkMetricsSettings' |Change Height metric 
+29-10-2014 16:49:46 INFO  571: 'checkMetricsSettings' |Check if the Height metric is proper in the Profile page 
+29-10-2014 16:49:46 INFO  573: 'checkMetricsSettings' |Change Weight metric 
+29-10-2014 16:49:46 INFO  575: 'checkMetricsSettings' |Check if the Weight metric is proper in the Profile page 
+29-10-2014 16:49:46 INFO  37: 'AfterTests' *===========================================* 
+29-10-2014 16:49:46 INFO  38: 'AfterTests' *       Finish running test cases...        * 
+29-10-2014 16:49:46 INFO  39: 'AfterTests' *===========================================* 
+29-10-2014 16:49:46 INFO  40: 'AfterTests' 
+ 
+29-10-2014 16:53:09 INFO  22: 'BeforeTests' *===========================================* 
+29-10-2014 16:53:09 INFO  23: 'BeforeTests' *        Start running test cases...        * 
+29-10-2014 16:53:09 INFO  24: 'BeforeTests' *===========================================* 
+29-10-2014 16:53:19 INFO  555: 'checkMetricsSettings' <<========Started running=====<< 
+29-10-2014 16:53:19 INFO  558: 'checkMetricsSettings' |Logging in... 
+29-10-2014 16:53:25 INFO  563: 'checkMetricsSettings' |Check if user logged in 
+29-10-2014 16:53:26 INFO  569: 'checkMetricsSettings' |Change Height metric 
+29-10-2014 16:53:27 INFO  571: 'checkMetricsSettings' |Check if the Height metric is proper in the Profile page 
+29-10-2014 16:53:27 INFO  573: 'checkMetricsSettings' |Change Weight metric 
+29-10-2014 16:53:27 INFO  575: 'checkMetricsSettings' |Check if the Weight metric is proper in the Profile page 
+29-10-2014 16:53:27 INFO  37: 'AfterTests' *===========================================* 
+29-10-2014 16:53:27 INFO  38: 'AfterTests' *       Finish running test cases...        * 
+29-10-2014 16:53:27 INFO  39: 'AfterTests' *===========================================* 
+29-10-2014 16:53:27 INFO  40: 'AfterTests' 
+ 
+29-10-2014 17:01:58 INFO  22: 'BeforeTests' *===========================================* 
+29-10-2014 17:01:58 INFO  23: 'BeforeTests' *        Start running test cases...        * 
+29-10-2014 17:01:58 INFO  24: 'BeforeTests' *===========================================* 
+29-10-2014 17:02:07 INFO  555: 'checkMetricsSettings' <<========Started running=====<< 
+29-10-2014 17:02:07 INFO  558: 'checkMetricsSettings' |Logging in... 
+29-10-2014 17:02:13 INFO  563: 'checkMetricsSettings' |Check if user logged in 
+29-10-2014 17:02:14 INFO  569: 'checkMetricsSettings' |Change Height metric 
+29-10-2014 17:02:15 INFO  571: 'checkMetricsSettings' |Check if the Height metric is proper in the Profile page 
+29-10-2014 17:02:15 INFO  573: 'checkMetricsSettings' |Change Weight metric 
+29-10-2014 17:02:15 INFO  575: 'checkMetricsSettings' |Check if the Weight metric is proper in the Profile page 
+29-10-2014 17:02:15 INFO  37: 'AfterTests' *===========================================* 
+29-10-2014 17:02:15 INFO  38: 'AfterTests' *       Finish running test cases...        * 
+29-10-2014 17:02:15 INFO  39: 'AfterTests' *===========================================* 
+29-10-2014 17:02:15 INFO  40: 'AfterTests' 
+ 
+29-10-2014 17:03:38 INFO  22: 'BeforeTests' *===========================================* 
+29-10-2014 17:03:38 INFO  23: 'BeforeTests' *        Start running test cases...        * 
+29-10-2014 17:03:38 INFO  24: 'BeforeTests' *===========================================* 
+29-10-2014 17:03:48 INFO  555: 'checkMetricsSettings' <<========Started running=====<< 
+29-10-2014 17:03:48 INFO  558: 'checkMetricsSettings' |Logging in... 
+29-10-2014 17:03:54 INFO  563: 'checkMetricsSettings' |Check if user logged in 
+29-10-2014 17:03:56 INFO  569: 'checkMetricsSettings' |Change Height metric 
+29-10-2014 17:03:56 INFO  571: 'checkMetricsSettings' |Check if the Height metric is proper in the Profile page 
+29-10-2014 17:03:56 INFO  573: 'checkMetricsSettings' |Change Weight metric 
+29-10-2014 17:03:56 INFO  575: 'checkMetricsSettings' |Check if the Weight metric is proper in the Profile page 
+29-10-2014 17:03:56 INFO  37: 'AfterTests' *===========================================* 
+29-10-2014 17:03:56 INFO  38: 'AfterTests' *       Finish running test cases...        * 
+29-10-2014 17:03:56 INFO  39: 'AfterTests' *===========================================* 
+29-10-2014 17:03:56 INFO  40: 'AfterTests' 
+ 
+29-10-2014 17:47:53 INFO  22: 'BeforeTests' *===========================================* 
+29-10-2014 17:47:53 INFO  23: 'BeforeTests' *        Start running test cases...        * 
+29-10-2014 17:47:53 INFO  24: 'BeforeTests' *===========================================* 
+29-10-2014 17:48:02 INFO  555: 'checkMetricsSettings' <<========Started running=====<< 
+29-10-2014 17:48:02 INFO  558: 'checkMetricsSettings' |Logging in... 
+29-10-2014 17:48:08 INFO  563: 'checkMetricsSettings' |Check if user logged in 
+29-10-2014 17:48:10 INFO  569: 'checkMetricsSettings' |Change Height metric 
+29-10-2014 17:48:10 INFO  571: 'checkMetricsSettings' |Check if the Height metric is proper in the Profile page 
+29-10-2014 17:48:10 INFO  573: 'checkMetricsSettings' |Change Weight metric 
+29-10-2014 17:48:10 INFO  575: 'checkMetricsSettings' |Check if the Weight metric is proper in the Profile page 
+29-10-2014 17:48:10 INFO  37: 'AfterTests' *===========================================* 
+29-10-2014 17:48:10 INFO  38: 'AfterTests' *       Finish running test cases...        * 
+29-10-2014 17:48:10 INFO  39: 'AfterTests' *===========================================* 
+29-10-2014 17:48:10 INFO  40: 'AfterTests' 
+ 
+29-10-2014 17:48:54 INFO  22: 'BeforeTests' *===========================================* 
+29-10-2014 17:48:54 INFO  23: 'BeforeTests' *        Start running test cases...        * 
+29-10-2014 17:48:54 INFO  24: 'BeforeTests' *===========================================* 
+29-10-2014 17:49:04 INFO  555: 'checkMetricsSettings' <<========Started running=====<< 
+29-10-2014 17:49:04 INFO  558: 'checkMetricsSettings' |Logging in... 
+29-10-2014 17:49:10 INFO  563: 'checkMetricsSettings' |Check if user logged in 
+29-10-2014 17:49:12 INFO  569: 'checkMetricsSettings' |Change Height metric 
+29-10-2014 17:49:12 INFO  571: 'checkMetricsSettings' |Check if the Height metric is proper in the Profile page 
+29-10-2014 17:49:12 INFO  573: 'checkMetricsSettings' |Change Weight metric 
+29-10-2014 17:49:12 INFO  575: 'checkMetricsSettings' |Check if the Weight metric is proper in the Profile page 
+29-10-2014 17:49:12 INFO  37: 'AfterTests' *===========================================* 
+29-10-2014 17:49:12 INFO  38: 'AfterTests' *       Finish running test cases...        * 
+29-10-2014 17:49:12 INFO  39: 'AfterTests' *===========================================* 
+29-10-2014 17:49:12 INFO  40: 'AfterTests' 
+ 
+29-10-2014 17:52:08 INFO  22: 'BeforeTests' *===========================================* 
+29-10-2014 17:52:08 INFO  23: 'BeforeTests' *        Start running test cases...        * 
+29-10-2014 17:52:08 INFO  24: 'BeforeTests' *===========================================* 
+29-10-2014 17:52:17 INFO  555: 'checkMetricsSettings' <<========Started running=====<< 
+29-10-2014 17:52:17 INFO  558: 'checkMetricsSettings' |Logging in... 
+29-10-2014 17:52:24 INFO  563: 'checkMetricsSettings' |Check if user logged in 
+29-10-2014 17:52:25 INFO  569: 'checkMetricsSettings' |Change Height metric 
+29-10-2014 17:52:25 INFO  571: 'checkMetricsSettings' |Check if the Height metric is proper in the Profile page 
+29-10-2014 17:52:25 INFO  573: 'checkMetricsSettings' |Change Weight metric 
+29-10-2014 17:52:25 INFO  575: 'checkMetricsSettings' |Check if the Weight metric is proper in the Profile page 
+29-10-2014 17:52:25 INFO  37: 'AfterTests' *===========================================* 
+29-10-2014 17:52:25 INFO  38: 'AfterTests' *       Finish running test cases...        * 
+29-10-2014 17:52:25 INFO  39: 'AfterTests' *===========================================* 
+29-10-2014 17:52:25 INFO  40: 'AfterTests' 
+ 
+29-10-2014 17:52:42 INFO  22: 'BeforeTests' *===========================================* 
+29-10-2014 17:52:42 INFO  23: 'BeforeTests' *        Start running test cases...        * 
+29-10-2014 17:52:42 INFO  24: 'BeforeTests' *===========================================* 
+29-10-2014 17:52:51 INFO  555: 'checkMetricsSettings' <<========Started running=====<< 
+29-10-2014 17:52:51 INFO  558: 'checkMetricsSettings' |Logging in... 
+29-10-2014 17:52:58 INFO  563: 'checkMetricsSettings' |Check if user logged in 
+29-10-2014 17:52:59 INFO  569: 'checkMetricsSettings' |Change Height metric 
+29-10-2014 17:53:00 INFO  571: 'checkMetricsSettings' |Check if the Height metric is proper in the Profile page 
+29-10-2014 17:53:00 INFO  573: 'checkMetricsSettings' |Change Weight metric 
+29-10-2014 17:53:00 INFO  575: 'checkMetricsSettings' |Check if the Weight metric is proper in the Profile page 
+29-10-2014 17:53:00 INFO  37: 'AfterTests' *===========================================* 
+29-10-2014 17:53:00 INFO  38: 'AfterTests' *       Finish running test cases...        * 
+29-10-2014 17:53:00 INFO  39: 'AfterTests' *===========================================* 
+29-10-2014 17:53:00 INFO  40: 'AfterTests' 
+ 
+29-10-2014 17:56:58 INFO  22: 'BeforeTests' *===========================================* 
+29-10-2014 17:56:58 INFO  23: 'BeforeTests' *        Start running test cases...        * 
+29-10-2014 17:56:58 INFO  24: 'BeforeTests' *===========================================* 
+29-10-2014 17:57:07 INFO  555: 'checkMetricsSettings' <<========Started running=====<< 
+29-10-2014 17:57:07 INFO  558: 'checkMetricsSettings' |Logging in... 
+29-10-2014 17:57:13 INFO  563: 'checkMetricsSettings' |Check if user logged in 
+29-10-2014 17:57:15 INFO  569: 'checkMetricsSettings' |Change Height metric 
+29-10-2014 17:57:16 INFO  571: 'checkMetricsSettings' |Check if the Height metric is proper in the Profile page 
+29-10-2014 17:57:16 INFO  573: 'checkMetricsSettings' |Change Weight metric 
+29-10-2014 17:57:16 INFO  575: 'checkMetricsSettings' |Check if the Weight metric is proper in the Profile page 
+29-10-2014 17:57:16 INFO  37: 'AfterTests' *===========================================* 
+29-10-2014 17:57:16 INFO  38: 'AfterTests' *       Finish running test cases...        * 
+29-10-2014 17:57:16 INFO  39: 'AfterTests' *===========================================* 
+29-10-2014 17:57:16 INFO  40: 'AfterTests' 
+ 
+29-10-2014 18:01:57 INFO  22: 'BeforeTests' *===========================================* 
+29-10-2014 18:01:57 INFO  23: 'BeforeTests' *        Start running test cases...        * 
+29-10-2014 18:01:57 INFO  24: 'BeforeTests' *===========================================* 
+29-10-2014 18:02:06 INFO  555: 'checkMetricsSettings' <<========Started running=====<< 
+29-10-2014 18:02:06 INFO  558: 'checkMetricsSettings' |Logging in... 
+29-10-2014 18:02:13 INFO  563: 'checkMetricsSettings' |Check if user logged in 
+29-10-2014 18:02:14 INFO  569: 'checkMetricsSettings' |Change Height metric 
+29-10-2014 18:02:14 INFO  571: 'checkMetricsSettings' |Check if the Height metric is proper in the Profile page 
+29-10-2014 18:02:14 INFO  573: 'checkMetricsSettings' |Change Weight metric 
+29-10-2014 18:02:14 INFO  575: 'checkMetricsSettings' |Check if the Weight metric is proper in the Profile page 
+29-10-2014 18:02:14 INFO  37: 'AfterTests' *===========================================* 
+29-10-2014 18:02:14 INFO  38: 'AfterTests' *       Finish running test cases...        * 
+29-10-2014 18:02:14 INFO  39: 'AfterTests' *===========================================* 
+29-10-2014 18:02:14 INFO  40: 'AfterTests' 
+ 
+29-10-2014 18:03:47 INFO  22: 'BeforeTests' *===========================================* 
+29-10-2014 18:03:48 INFO  23: 'BeforeTests' *        Start running test cases...        * 
+29-10-2014 18:03:48 INFO  24: 'BeforeTests' *===========================================* 
+29-10-2014 18:03:57 INFO  555: 'checkMetricsSettings' <<========Started running=====<< 
+29-10-2014 18:03:57 INFO  558: 'checkMetricsSettings' |Logging in... 
+29-10-2014 18:04:03 INFO  563: 'checkMetricsSettings' |Check if user logged in 
+29-10-2014 18:04:05 INFO  569: 'checkMetricsSettings' |Change Height metric 
+29-10-2014 18:04:05 INFO  571: 'checkMetricsSettings' |Check if the Height metric is proper in the Profile page 
+29-10-2014 18:04:05 INFO  573: 'checkMetricsSettings' |Change Weight metric 
+29-10-2014 18:04:05 INFO  575: 'checkMetricsSettings' |Check if the Weight metric is proper in the Profile page 
+29-10-2014 18:04:05 INFO  37: 'AfterTests' *===========================================* 
+29-10-2014 18:04:05 INFO  38: 'AfterTests' *       Finish running test cases...        * 
+29-10-2014 18:04:05 INFO  39: 'AfterTests' *===========================================* 
+29-10-2014 18:04:05 INFO  40: 'AfterTests' 
+ 
+30-10-2014 19:27:40 INFO  22: 'BeforeTests' *===========================================* 
+30-10-2014 19:27:40 INFO  23: 'BeforeTests' *        Start running test cases...        * 
+30-10-2014 19:27:40 INFO  24: 'BeforeTests' *===========================================* 
+30-10-2014 19:27:57 INFO  555: 'checkMetricsSettings' <<========Started running=====<< 
+30-10-2014 19:27:57 INFO  558: 'checkMetricsSettings' |Logging in... 
+30-10-2014 19:28:04 INFO  563: 'checkMetricsSettings' |Check if user logged in 
+30-10-2014 19:28:07 INFO  569: 'checkMetricsSettings' |Change Height metric 
+30-10-2014 19:28:07 INFO  571: 'checkMetricsSettings' |Check if the Height metric is proper in the Profile page 
+30-10-2014 19:28:07 INFO  573: 'checkMetricsSettings' |Change Weight metric 
+30-10-2014 19:28:07 INFO  575: 'checkMetricsSettings' |Check if the Weight metric is proper in the Profile page 
+30-10-2014 19:28:07 INFO  37: 'AfterTests' *===========================================* 
+30-10-2014 19:28:07 INFO  38: 'AfterTests' *       Finish running test cases...        * 
+30-10-2014 19:28:07 INFO  39: 'AfterTests' *===========================================* 
+30-10-2014 19:28:07 INFO  40: 'AfterTests' 
+ 

@@ -47,7 +47,24 @@ public class ProfilePageSettings extends MainPagesFunc {
 	}
 	
 	public void changeHeightUnit(){
+			
+		List<WebElement> a = driver.findElements(By.cssSelector(".toggle input:checked + span"));
 		
+		for (WebElement list :a)
+			System.out.println(list.getText());
+			/*if (list.getText() == "cm")
+				driver.findElement(By.xpath("//span[text() = 'ft']")).click();
+		
+			else if (list.getText() == "ft"){
+				driver.findElement(By.xpath("//span[text() = 'cm']")).click();
+			}else {
+				System.out.println("vkrebvkerbvklebr");*/
+			
+		
+	/*	if (HeightUnitCm.getText() == "cm"){
+			System.out.println("Yeeeeah");
+		}else{
+		System.out.println("FFFUUUUCK");}*/
 	}
 	
 	public void changeWeightUnit() {

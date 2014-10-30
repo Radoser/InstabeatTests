@@ -249,6 +249,18 @@ public class MainPagesFunc {
 	
 	@FindBy(id = "MetricUpdate")
 	public WebElement MetricUpdateButton;
+	
+	@FindBy(xpath = "//span[text() = 'cm']")
+	public WebElement HeightUnitCm;
+	
+	@FindBy(xpath = "")
+	public WebElement HeightUnitFt;
+	
+	@FindBy(xpath = "")
+	public WebElement WeightUnitKg;
+	
+	@FindBy(xpath = "")
+	public WebElement WeightUnitLbs;
 
 	/* Heart Rate Zones Page */
 	@FindBy(xpath = "//*[@class='top-content'][text()='Heart rate zone']")
