@@ -191,6 +191,9 @@ public class MainPagesFunc {
 
 	@FindBy(xpath = "//div[@onclick=\"goTo('.settings')\"]")
 	public WebElement ProfileSettingsLink;
+	
+	@FindBy(xpath = "//div[@onclick=\"goTo('.profile')\"]")
+	public WebElement ProfileLinkOnSettingsPage;
 
 	@FindBy(xpath = "//input[@name='oldpassword']")
 	public WebElement OldPasswordField;
@@ -206,6 +209,12 @@ public class MainPagesFunc {
 	
 	@FindBy(xpath = "//select[@id = 'year-select'][@class = 'form-control ibt-input select2-offscreen']")
 	public WebElement YearSelectOnProfile;
+	
+	@FindBy(id = "heightFt")
+	public WebElement HeightFtField;
+
+	@FindBy(id = "heightIn")
+	public WebElement HeightInchField;
 
 	/* Profile Settings */
 	@FindBy(id = "newpassword")
@@ -225,6 +234,18 @@ public class MainPagesFunc {
 
 	@FindBy(xpath = "//input[@value='Delete account']")
 	public WebElement AccountDeleteButton;
+	
+	@FindBy(css = "input[name = 'metric_height']:not(:checked) + span")
+	public WebElement NotActiveHeightUnit;
+	
+	@FindBy(css = "input[name = 'metric_weight']:not(:checked) + span")
+	public WebElement NotActiveWeightUnit;
+	
+	@FindBy(css = "input[name = 'metric_activity']:not(:checked) + span")
+	public WebElement NotActiveDefaultActivity;
+	
+	@FindBy(css = "input[name = 'metric_distance']:not(:checked) + span")
+	public WebElement NotActiveDistanceUnit;
 
 	/*@FindBy(xpath = "//*[@class='col-md-6 col-xs-6']/input[@value='OK']")
 	public WebElement OkButtonForDelete;*/
@@ -466,5 +487,69 @@ public class MainPagesFunc {
 			}
 		}
 		return sb.toString();
+	}
+	
+	public String convertCmToFt(String data){
+		Utils.Log.info("|Converting values ... ");
+		int intValue = Integer.parseInt(data);
+
+		double foot = intValue/30.48;
+		Utils.Log.info("|Ft: " + foot);
+
+		double inch = (intValue / 2.54) - ((int)foot * 12);
+		Utils.Log.info("|Inch: " + inch);
+
+		int Ft = (int)foot;
+		int In = (int)Math.round(inch);
+
+		String convertedValues = Ft + " ft " + In + " inch";
+		Utils.Log.info("|Result of converting is: " + convertedValues);
+
+		return convertedValues;
+	}
+	
+	public String convertFtToCm(String dataFoot, String dataInch){
+		Utils.Log.info("|Converting values ... ");
+		
+		int intFtValue = Integer.parseInt(dataFoot);
+		int intInchValue = Integer.parseInt(dataInch);
+
+		double footConverted = intFtValue*30.48;
+		Utils.Log.info("|Ft: " + footConverted);
+
+		double inchconverted = intInchValue*2.54;
+		Utils.Log.info("|Inch: " + inchconverted);
+
+		int Ft = (int)footConverted;
+		int In = (int)Math.round(inchconverted);
+		int resultsInCm = Ft+In;
+		
+		String convrertedResultIntoString = Integer.toString(resultsInCm);
+		System.out.println(convrertedResultIntoString);
+//		String convertedValues = Ft + " ft " + In + " inch";
+		Utils.Log.info("|Result of converting is: " + resultsInCm );
+
+		return convrertedResultIntoString;
+	}
+	
+	public String test(String feet, String inches){
+		
+		int intFtValue = Integer.parseInt(feet);
+		int intInchValue = Integer.parseInt(inches);
+		
+		double cmToFeet = (int)intFtValue * 30.48;
+		double cmToInches = intInchValue * 2.54;
+		double ConvertedCm = cmToFeet + cmToInches;
+		
+		int a = (int)ConvertedCm;
+		
+		String convrertedResultIntoString = Integer.toString(a);
+		
+		return convrertedResultIntoString;
+	}
+
+	
+	public String getTheValueFromFields(WebElement field) {
+		return field.getAttribute("value");
 	}
 }

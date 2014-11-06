@@ -46,33 +46,31 @@ public class ProfilePageSettings extends MainPagesFunc {
 		}
 	}
 	
-	public void changeHeightUnit(){
-			
-		List<WebElement> a = driver.findElements(By.cssSelector(".toggle input:checked + span"));
-		
-		for (WebElement list :a)
+	public void changeAllUnits() {
+		List<WebElement> inactiveUnits = driver.findElements(By.cssSelector(".toggle input:not(:checked) + span"));
+		List<WebElement> activeUnits  = driver.findElements(By.cssSelector(".toggle input:checked + span"));
+
+		for (WebElement listOfActive : activeUnits){
+			System.out.println(listOfActive.getText());
+		}
+
+		for (WebElement list : inactiveUnits){
+			list.click();
 			System.out.println(list.getText());
-			/*if (list.getText() == "cm")
-				driver.findElement(By.xpath("//span[text() = 'ft']")).click();
-		
-			else if (list.getText() == "ft"){
-				driver.findElement(By.xpath("//span[text() = 'cm']")).click();
-			}else {
-				System.out.println("vkrebvkerbvklebr");*/
-			
-		
-	/*	if (HeightUnitCm.getText() == "cm"){
-			System.out.println("Yeeeeah");
-		}else{
-		System.out.println("FFFUUUUCK");}*/
+		}
+	}
+	
+	public void changeHeightUnit(){
+		Utils.Log.info("|Height is changed to: " + NotActiveHeightUnit.getText());
+		NotActiveHeightUnit.click();			
 	}
 	
 	public void changeWeightUnit() {
-		
+		NotActiveWeightUnit.click();
 	}
 	
 	public void changeDefaultActivity() {
-		
+		NotActiveDefaultActivity.click();
 	}
 	
 	public void changeDefaultPoolLength() {
@@ -84,7 +82,7 @@ public class ProfilePageSettings extends MainPagesFunc {
 	}
 	
 	public void changeDistanceUnit() {
-		
+		NotActiveDefaultActivity.click();
 	}
 	
 	public void clickOnMetricUpdate() {
@@ -111,6 +109,11 @@ public class ProfilePageSettings extends MainPagesFunc {
 	public HomePage clickOnHomeTab() {
 		HomeTab.click();
 		return PageFactory.initElements(driver, HomePage.class);
+	}
+	
+	public ProfilePage clickOnProfilePageLink () {
+		ProfileLinkOnSettingsPage.click();
+		return PageFactory.initElements(driver, ProfilePage.class);
 	}
 
 	public void clickOnDeleteAccountButton() {

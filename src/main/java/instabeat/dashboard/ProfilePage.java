@@ -4,9 +4,11 @@ import instabeat.utils.MainPagesFunc;
 import instabeat.utils.Utils;
 
 import java.io.IOException;
+import java.util.NoSuchElementException;
 
 import org.junit.Assert;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
@@ -84,10 +86,8 @@ public class ProfilePage extends MainPagesFunc {
 	}
 
 	public void updateUserPicture() throws IOException {
-		Process proc = Runtime.getRuntime().exec(
-				"D:\\eclipse-java-juno-SR1-win32-x86_64\\eclipse-jee-kepler-SR2-win32-x86_64\\eclipse\\a.exe");
-		driver.findElement(By.xpath("//div[@onclick=\"$('#file').click()\"]"))
-				.click();
+		Process proc = Runtime.getRuntime().exec("D:\\Java\\eclipse-kepler\\eclipse\\a.exe");
+		driver.findElement(By.xpath("//div[@onclick=\"$('#file').click()\"]")).click();
 		Utils.waitPage();
 	}
 	
@@ -129,7 +129,80 @@ public class ProfilePage extends MainPagesFunc {
 		typeValuesForValidation(parameters.EMmaximumNumberWeight, Utils.dataForMaxWeightFieldInput, WeightField, UpdateUserProfileButton, DashboardErrorMessages);
 		WeightField.sendKeys(randomNumbers);		
 	}
+
+	public HomePage reloading() {
+		Utils.Log.info("|Reloading the page...");
+		driver.navigate().refresh();
+		return PageFactory.initElements(driver, HomePage.class);		
+	}
 	
+	public void checkChangesInHeightField() {
+		try{
+		Assert.assertEquals(heightValue, getTheValueFromFields(HeightField));
+		}catch (Exception e){
+			System.out.println(e + "THIS IS SECOND EXCEPTION!!!!!!!!!!");
+			Assert.assertEquals(getValuesTest(), getValuesFromHeightFieldFtAndInch());
+		}
+	}
+	
+	
+	public String heightValue;
+	public String getTheValueFromHeightField() throws Exception{		
+		heightValue = getTheValueFromFields(HeightField);
+		Utils.Log.info("|The value from Height field is: " + heightValue);
+		return heightValue;
+	}
+	
+	public String getValuesTest() {
+		try {
+			
+			heightValue = getTheValueFromFields(HeightField);
+			Utils.Log.info("|The value from Height field is: " + heightValue);
+			return heightValue;
+			
+		}catch (Exception e) {
+			System.out.println(e + "THIS IS EXCEPTION!!!!!!!!!!");
+			
+			heightFt = getTheValueFromFields(HeightFtField);
+			Utils.Log.info("|The value from Height field in Ft is: " + heightFt);
+			
+			heightIn = getTheValueFromFields(HeightInchField);
+			Utils.Log.info("|The value from Height field in In is: " + heightIn);
+			
+			String FtAndInchResult = heightFt + " ft " + heightIn + " inch";
+			Utils.Log.info("|The result value from Height field is: " + FtAndInchResult);
+			
+			return FtAndInchResult;
+		}
+	}
+	
+	public String heightFt;
+	public String heightIn;
+	public String FtAndInchResult;
+	public String getValuesFromHeightFieldFtAndInch() {
+		
+		heightFt = getTheValueFromFields(HeightFtField);
+		Utils.Log.info("|The value from Height field in Ft is: " + heightFt);
+		
+		heightIn = getTheValueFromFields(HeightInchField);
+		Utils.Log.info("|The value from Height field in In is: " + heightIn);
+		
+		String FtAndInchResult = heightFt + " ft " + heightIn + " inch";
+		Utils.Log.info("|The result value from Height field is: " + FtAndInchResult);
+		
+		return FtAndInchResult;
+	}
+	
+	public void checkConvertedValues() throws Exception {
+		try{
+		Utils.Log.info("|Comparing the values that was given from field");
+		Assert.assertEquals(convertCmToFt(heightValue), getValuesFromHeightFieldFtAndInch());
+		}catch(Exception e) {
+			System.out.println(e + " THIS IS THIRD EXCEPTION !!!!!!!!!!!!!!");
+			Utils.Log.info("|Comparing the values that was given from field");
+			Assert.assertEquals(test(heightFt, heightIn), getTheValueFromHeightField());
+		}
+	}
 	
 	
 }
