@@ -91,7 +91,7 @@ public class HomePage extends MainPagesFunc {
 
 	public void checkIfFBShareWindowOpened(){
 		Utils.waitPage();
-		String shareName = "Sandra Amffajgefgaa Bushakson";
+		String shareName = "Ro Ma";
 		String text = "Do you want to share this swimming session on Facebook as "+shareName+"?";
 		Assert.assertEquals(text, EraseTextWindow.getText());
 	}

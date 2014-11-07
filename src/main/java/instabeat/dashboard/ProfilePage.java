@@ -140,7 +140,7 @@ public class ProfilePage extends MainPagesFunc {
 		try{
 		Assert.assertEquals(heightValue, getTheValueFromFields(HeightField));
 		}catch (Exception e){
-			System.out.println(e + "THIS IS SECOND EXCEPTION!!!!!!!!!!");
+			System.out.println(e + "           THIS IS SECOND EXCEPTION!!!!!!!!!!");
 			Assert.assertEquals(getValuesTest(), getValuesFromHeightFieldFtAndInch());
 		}
 	}
@@ -161,7 +161,7 @@ public class ProfilePage extends MainPagesFunc {
 			return heightValue;
 			
 		}catch (Exception e) {
-			System.out.println(e + "THIS IS EXCEPTION!!!!!!!!!!");
+			System.out.println(e + "          THIS IS EXCEPTION!!!!!!!!!!");
 			
 			heightFt = getTheValueFromFields(HeightFtField);
 			Utils.Log.info("|The value from Height field in Ft is: " + heightFt);
@@ -198,7 +198,7 @@ public class ProfilePage extends MainPagesFunc {
 		Utils.Log.info("|Comparing the values that was given from field");
 		Assert.assertEquals(convertCmToFt(heightValue), getValuesFromHeightFieldFtAndInch());
 		}catch(Exception e) {
-			System.out.println(e + " THIS IS THIRD EXCEPTION !!!!!!!!!!!!!!");
+			System.out.println(e + "        THIS IS THIRD EXCEPTION !!!!!!!!!!!!!!");
 			Utils.Log.info("|Comparing the values that was given from field");
 			Assert.assertEquals(test(heightFt, heightIn), getTheValueFromHeightField());
 		}

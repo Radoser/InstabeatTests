@@ -2,26 +2,26 @@
 <testng-results skipped="0" failed="1" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="246598" started-at="2014-11-06T17:15:59Z" finished-at="2014-11-06T17:20:05Z">
+  <suite name="Default suite" duration-ms="259554" started-at="2014-11-07T17:36:25Z" finished-at="2014-11-07T17:40:44Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="246598" started-at="2014-11-06T17:15:59Z" finished-at="2014-11-06T17:20:05Z">
+    <test name="Default test" duration-ms="259554" started-at="2014-11-07T17:36:25Z" finished-at="2014-11-07T17:40:44Z">
       <class name="InstabeatSanity.Tests.SanityTestNG">
-        <test-method status="PASS" signature="BeforeTests()[pri:0, instance:InstabeatSanity.Tests.SanityTestNG@4cdbe50f]" name="BeforeTests" is-config="true" duration-ms="9241" started-at="2014-11-06T19:15:59Z" finished-at="2014-11-06T19:16:08Z">
+        <test-method status="PASS" signature="BeforeTests()[pri:0, instance:InstabeatSanity.Tests.SanityTestNG@4cdbe50f]" name="BeforeTests" is-config="true" duration-ms="10474" started-at="2014-11-07T19:36:25Z" finished-at="2014-11-07T19:36:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeTests -->
-        <test-method status="FAIL" signature="checkIfHeightIsProperAfterChanges()[pri:0, instance:InstabeatSanity.Tests.SanityTestNG@4cdbe50f]" name="checkIfHeightIsProperAfterChanges" duration-ms="236677" started-at="2014-11-06T19:16:08Z" finished-at="2014-11-06T19:20:05Z">
+        <test-method status="FAIL" signature="checkIfHeightIsProperAfterChanges()[pri:0, instance:InstabeatSanity.Tests.SanityTestNG@4cdbe50f]" name="checkIfHeightIsProperAfterChanges" duration-ms="248559" started-at="2014-11-07T19:36:35Z" finished-at="2014-11-07T19:40:44Z">
           <exception class="org.junit.ComparisonFailure">
             <message>
-              <![CDATA[expected:<[99]> but was:<[100]>]]>
+              <![CDATA[expected:<2[49]> but was:<2[50]>]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.junit.ComparisonFailure: expected:<[99]> but was:<[100]>
+              <![CDATA[org.junit.ComparisonFailure: expected:<2[49]> but was:<2[50]>
 	at org.junit.Assert.assertEquals(Assert.java:115)
 	at org.junit.Assert.assertEquals(Assert.java:144)
 	at instabeat.dashboard.ProfilePage.checkConvertedValues(ProfilePage.java:203)
-	at InstabeatSanity.Tests.SanityTestNG.checkIfHeightIsProperAfterChanges(SanityTestNG.java:602)
+	at InstabeatSanity.Tests.SanityTestNG.checkIfHeightIsProperAfterChanges(SanityTestNG.java:607)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -52,7 +52,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkIfHeightIsProperAfterChanges -->
-        <test-method status="PASS" signature="AfterTests()[pri:0, instance:InstabeatSanity.Tests.SanityTestNG@4cdbe50f]" name="AfterTests" is-config="true" duration-ms="660" started-at="2014-11-06T19:20:05Z" finished-at="2014-11-06T19:20:05Z">
+        <test-method status="PASS" signature="AfterTests()[pri:0, instance:InstabeatSanity.Tests.SanityTestNG@4cdbe50f]" name="AfterTests" is-config="true" duration-ms="511" started-at="2014-11-07T19:40:44Z" finished-at="2014-11-07T19:40:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterTests -->

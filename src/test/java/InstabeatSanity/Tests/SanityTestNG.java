@@ -200,6 +200,8 @@ public class SanityTestNG extends AbstractTestClass /*ParallelBrowserSanity*/ {
 		
 		Utils.Log.info("|Choosing date with sessions...");
 		onHomePage.showDatesWithSessions();
+		
+		//need to fix month when only one day with sessions ----------!!!!!
 		onHomePage.chooseDateWithSessionRandomly();
 		
 		Utils.Log.info("|Choose session");
@@ -559,6 +561,7 @@ public class SanityTestNG extends AbstractTestClass /*ParallelBrowserSanity*/ {
 		onLoginPage.fullLogin();
 		
 		HomePage onHomePage = onLoginPage.LoginButton();
+		
 		Utils.waitPage();
 		
 		Utils.Log.info("|Check if user logged in");
@@ -576,6 +579,7 @@ public class SanityTestNG extends AbstractTestClass /*ParallelBrowserSanity*/ {
 		
 		onProfilePageSettings.changeHeightUnit();
 		onProfilePageSettings.clickOnMetricUpdate();
+		
 		Utils.waitPage();
 		
 		Utils.Log.info("|Check if the Height metric is proper in the Profile page after changes");
@@ -584,6 +588,7 @@ public class SanityTestNG extends AbstractTestClass /*ParallelBrowserSanity*/ {
 		
 		onProfilePageSettings.changeHeightUnit();
 		onProfilePageSettings.clickOnMetricUpdate();
+		
 		Utils.waitPage();
 		
 		onHomePage.clickOnProfileTab();

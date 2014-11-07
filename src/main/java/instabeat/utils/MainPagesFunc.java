@@ -394,10 +394,10 @@ public class MainPagesFunc {
 		JSONObject response = HTTPMethod.AppLogin(value);
 		String username = response.getString("user");
 		String usertoken = response.getString("token");
-		driver.get(parameters.Amazon_Web_Testing_URL+"/appconfirm?user=" + username
-				+ "&token=" + usertoken + "&status=PARTIAL");
-		/*driver.get("http://user.instabeat.me/user/appconfirm?user=" + username
+	/*	driver.get(parameters.Amazon_Web_Testing_URL+"/appconfirm?user=" + username
 				+ "&token=" + usertoken + "&status=PARTIAL");*/
+		driver.get("http://user.instabeat.me/user/appconfirm?user=" + username
+				+ "&token=" + usertoken + "&status=PARTIAL");
 	}
 
 	public void sendSessionFromDevice() throws Exception{
@@ -535,15 +535,23 @@ public class MainPagesFunc {
 	public String test(String feet, String inches){
 		
 		int intFtValue = Integer.parseInt(feet);
+		System.out.println("FOOOOOOOOOOOOOT "+intFtValue);
 		int intInchValue = Integer.parseInt(inches);
+		System.out.println("IIIIIIIIIIINNNNCH  "+intInchValue);
 		
 		double cmToFeet = (int)intFtValue * 30.48;
+		System.out.println("converted FT to CM "+cmToFeet);
 		double cmToInches = intInchValue * 2.54;
+		System.out.println("converted INCH to CM "+cmToFeet);
 		double ConvertedCm = cmToFeet + cmToInches;
+		System.out.println("RESULT FT TO CM "+ConvertedCm +"CM");
 		
 		int a = (int)ConvertedCm;
+		int b = (int)Math.round(ConvertedCm);
 		
-		String convrertedResultIntoString = Integer.toString(a);
+		System.out.println(b + " MATH ROUND RESULT");
+		
+		String convrertedResultIntoString = Integer.toString(b);
 		
 		return convrertedResultIntoString;
 	}
