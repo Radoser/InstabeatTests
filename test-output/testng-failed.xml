@@ -5,8 +5,8 @@
     <classes>
       <class name="InstabeatSanity.Tests.SanityTestNG">
         <methods>
+          <include name="checkIfWeightIsProperConverted"/>
           <include name="BeforeTests"/>
-          <include name="checkIfHeightIsProperAfterChanges"/>
           <include name="AfterTests"/>
         </methods>
       </class> <!-- InstabeatSanity.Tests.SanityTestNG -->

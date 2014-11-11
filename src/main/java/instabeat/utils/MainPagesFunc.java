@@ -243,6 +243,9 @@ public class MainPagesFunc {
 	
 	@FindBy(css = "input[name = 'metric_activity']:not(:checked) + span")
 	public WebElement NotActiveDefaultActivity;
+
+	@FindBy(css = "input[name = 'metric_activity']:checked + span")
+	public WebElement ActiveDefaultActivity;
 	
 	@FindBy(css = "input[name = 'metric_distance']:not(:checked) + span")
 	public WebElement NotActiveDistanceUnit;
@@ -274,14 +277,14 @@ public class MainPagesFunc {
 	@FindBy(xpath = "//span[text() = 'cm']")
 	public WebElement HeightUnitCm;
 	
-	@FindBy(xpath = "")
+/*	@FindBy(xpath = "")
 	public WebElement HeightUnitFt;
 	
 	@FindBy(xpath = "")
 	public WebElement WeightUnitKg;
 	
 	@FindBy(xpath = "")
-	public WebElement WeightUnitLbs;
+	public WebElement WeightUnitLbs;*/
 
 	/* Heart Rate Zones Page */
 	@FindBy(xpath = "//*[@class='top-content'][text()='Heart rate zone']")
@@ -488,75 +491,7 @@ public class MainPagesFunc {
 		}
 		return sb.toString();
 	}
-	
-	public String convertCmToFt(String data){
-		Utils.Log.info("|Converting values ... ");
-		int intValue = Integer.parseInt(data);
-
-		double foot = intValue/30.48;
-		Utils.Log.info("|Ft: " + foot);
-
-		double inch = (intValue / 2.54) - ((int)foot * 12);
-		Utils.Log.info("|Inch: " + inch);
-
-		int Ft = (int)foot;
-		int In = (int)Math.round(inch);
-
-		String convertedValues = Ft + " ft " + In + " inch";
-		Utils.Log.info("|Result of converting is: " + convertedValues);
-
-		return convertedValues;
-	}
-	
-	public String convertFtToCm(String dataFoot, String dataInch){
-		Utils.Log.info("|Converting values ... ");
 		
-		int intFtValue = Integer.parseInt(dataFoot);
-		int intInchValue = Integer.parseInt(dataInch);
-
-		double footConverted = intFtValue*30.48;
-		Utils.Log.info("|Ft: " + footConverted);
-
-		double inchconverted = intInchValue*2.54;
-		Utils.Log.info("|Inch: " + inchconverted);
-
-		int Ft = (int)footConverted;
-		int In = (int)Math.round(inchconverted);
-		int resultsInCm = Ft+In;
-		
-		String convrertedResultIntoString = Integer.toString(resultsInCm);
-		System.out.println(convrertedResultIntoString);
-//		String convertedValues = Ft + " ft " + In + " inch";
-		Utils.Log.info("|Result of converting is: " + resultsInCm );
-
-		return convrertedResultIntoString;
-	}
-	
-	public String test(String feet, String inches){
-		
-		int intFtValue = Integer.parseInt(feet);
-		System.out.println("FOOOOOOOOOOOOOT "+intFtValue);
-		int intInchValue = Integer.parseInt(inches);
-		System.out.println("IIIIIIIIIIINNNNCH  "+intInchValue);
-		
-		double cmToFeet = (int)intFtValue * 30.48;
-		System.out.println("converted FT to CM "+cmToFeet);
-		double cmToInches = intInchValue * 2.54;
-		System.out.println("converted INCH to CM "+cmToFeet);
-		double ConvertedCm = cmToFeet + cmToInches;
-		System.out.println("RESULT FT TO CM "+ConvertedCm +"CM");
-		
-		int a = (int)ConvertedCm;
-		int b = (int)Math.round(ConvertedCm);
-		
-		System.out.println(b + " MATH ROUND RESULT");
-		
-		String convrertedResultIntoString = Integer.toString(b);
-		
-		return convrertedResultIntoString;
-	}
-
-	
 	public String getTheValueFromFields(WebElement field) {
 		return field.getAttribute("value");
 	}

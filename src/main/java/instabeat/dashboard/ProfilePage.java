@@ -20,6 +20,13 @@ public class ProfilePage extends MainPagesFunc {
 		createRandomValues(3);
 		createRandomNumbers(120, 200);
 	}
+	
+	public String heightFt;
+	public String heightIn;
+	public String heightValue;
+	public String FtAndInchResult;
+	public String weightValueInKg;
+	public String weightValueInLbs;
 
 	public void updateFirstNameField() {
 		FirstNameField.clear();
@@ -140,45 +147,26 @@ public class ProfilePage extends MainPagesFunc {
 		try{
 		Assert.assertEquals(heightValue, getTheValueFromFields(HeightField));
 		}catch (Exception e){
-			System.out.println(e + "           THIS IS SECOND EXCEPTION!!!!!!!!!!");
-			Assert.assertEquals(getValuesTest(), getValuesFromHeightFieldFtAndInch());
+			Assert.assertEquals(getValuesFromHeightField(), getValuesFromHeightFieldFtAndInch());
 		}
 	}
 	
 	
-	public String heightValue;
-	public String getTheValueFromHeightField() throws Exception{		
+	
+	public String getTheValueFromHeightField() {		
 		heightValue = getTheValueFromFields(HeightField);
 		Utils.Log.info("|The value from Height field is: " + heightValue);
 		return heightValue;
 	}
 	
-	public String getValuesTest() {
-		try {
-			
-			heightValue = getTheValueFromFields(HeightField);
-			Utils.Log.info("|The value from Height field is: " + heightValue);
-			return heightValue;
-			
-		}catch (Exception e) {
-			System.out.println(e + "          THIS IS EXCEPTION!!!!!!!!!!");
-			
-			heightFt = getTheValueFromFields(HeightFtField);
-			Utils.Log.info("|The value from Height field in Ft is: " + heightFt);
-			
-			heightIn = getTheValueFromFields(HeightInchField);
-			Utils.Log.info("|The value from Height field in In is: " + heightIn);
-			
-			String FtAndInchResult = heightFt + " ft " + heightIn + " inch";
-			Utils.Log.info("|The result value from Height field is: " + FtAndInchResult);
-			
-			return FtAndInchResult;
-		}
+	public String getValuesFromHeightField() {
+		try {				
+			return getTheValueFromHeightField();		
+			}catch (Exception e) {
+				return getValuesFromHeightFieldFtAndInch();
+			}
 	}
 	
-	public String heightFt;
-	public String heightIn;
-	public String FtAndInchResult;
 	public String getValuesFromHeightFieldFtAndInch() {
 		
 		heightFt = getTheValueFromFields(HeightFtField);
@@ -187,22 +175,61 @@ public class ProfilePage extends MainPagesFunc {
 		heightIn = getTheValueFromFields(HeightInchField);
 		Utils.Log.info("|The value from Height field in In is: " + heightIn);
 		
-		String FtAndInchResult = heightFt + " ft " + heightIn + " inch";
-		Utils.Log.info("|The result value from Height field is: " + FtAndInchResult);
+		FtAndInchResult = heightFt + " ft " + heightIn + " inch";
+		Utils.Log.info("|The result value from Height Feet and Inch fields are: " + FtAndInchResult);
 		
 		return FtAndInchResult;
 	}
-	
+		
 	public void checkConvertedValues() throws Exception {
 		try{
-		Utils.Log.info("|Comparing the values that was given from field");
-		Assert.assertEquals(convertCmToFt(heightValue), getValuesFromHeightFieldFtAndInch());
+			if(HeightField.isDisplayed()){
+				Utils.Log.info("|Comparing the values that was given from field");
+				Utils.Log.info("|Converting Cm into Feets and Inches...");
+				
+				Assert.assertEquals(Utils.conversion(driver.findElement(By.id("height-span")).getText(), heightValue), FtAndInchResult);
+			}
 		}catch(Exception e) {
-			System.out.println(e + "        THIS IS THIRD EXCEPTION !!!!!!!!!!!!!!");
 			Utils.Log.info("|Comparing the values that was given from field");
-			Assert.assertEquals(test(heightFt, heightIn), getTheValueFromHeightField());
+			Utils.Log.info("|Converting Feets and Inches into Cm...");
+			
+			Assert.assertEquals(Utils.conversion(driver.findElement(By.xpath("//*[@class = 'ibt-metric'][text() = 'ft']")).getText(), FtAndInchResult), heightValue);
+		}	
+	}
+
+	public String getTheValueFromWeightField() {
+		
+		if (driver.findElement(By.id("weight-span")).getText().equals("kg")){
+			Utils.Log.info("|The kg metric is active");
+			weightValueInKg = getTheValueFromFields(WeightField);
+			Utils.Log.info("|The value from Weight field is: " + weightValueInKg);	
+			return weightValueInKg;
+		 
+		}else {
+			Utils.Log.info("|The lbs metric is active");	
+			weightValueInLbs = getTheValueFromFields(WeightField);
+				Utils.Log.info("|The value from Weight field is: " + weightValueInLbs);
+				return weightValueInLbs;
+			}
+		}
+
+	public void checkChangesInWeightField() {
+		if(driver.findElement(By.id("weight-span")).getText().equals("kg")){
+		Assert.assertEquals(weightValueInKg, getTheValueFromFields(WeightField));
+		}else{
+			Assert.assertEquals(weightValueInLbs, getTheValueFromFields(WeightField));
 		}
 	}
 	
+	public void checkChangesInWeightAfterConvert(){
+		
+		if(driver.findElement(By.id("weight-span")).getText().equals("kg")){
+			Utils.Log.info("|Converting Kg into Lbs...");
+			Assert.assertEquals(Utils.conversion(driver.findElement(By.id("weight-span")).getText(), weightValueInKg), weightValueInLbs);
+			}else{
+				Utils.Log.info("|Converting Lbs into Kg...");
+				Assert.assertEquals(Utils.conversion(driver.findElement(By.id("weight-span")).getText(), weightValueInLbs), weightValueInKg);
+			}
+	}
 	
 }

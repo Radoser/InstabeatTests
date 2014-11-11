@@ -552,7 +552,7 @@ public class SanityTestNG extends AbstractTestClass /*ParallelBrowserSanity*/ {
 		/*........*/
 	}
 	
-	@Test(priority = 16, enabled = true)
+	@Test(priority = 16, enabled = false)
 	public void checkIfHeightIsProperAfterChanges() throws Exception {
 		Utils.Log.info("<<========Started running=====<<");
 		
@@ -570,9 +570,7 @@ public class SanityTestNG extends AbstractTestClass /*ParallelBrowserSanity*/ {
 		ProfilePage onProfilePage = onHomePage.clickOnProfileTab();
 		Utils.Log.info("|Getting value from the Height field...");
 		
-		/*FINISH WITH IF*/
-//		onProfilePage.getTheValueFromHeightField();
-		onProfilePage.getValuesTest();
+		onProfilePage.getValuesFromHeightField();
 		
 		Utils.Log.info("|Change Height metric");
 		ProfilePageSettings onProfilePageSettings = onProfilePage.clickOnProfilePageSettings();
@@ -594,16 +592,46 @@ public class SanityTestNG extends AbstractTestClass /*ParallelBrowserSanity*/ {
 		onHomePage.clickOnProfileTab();
 		onProfilePage.checkChangesInHeightField();
 		Utils.Log.info("|The Height metric was proper changed (is the same)");
+				
+		Utils.waitPage();
 		
-		Utils.Log.info("|Check if the Height metric is proper converted in the Profile page after changes");
-		onProfilePage.clickOnProfilePageSettings();
+		Utils.Log.info("|Logging out...");
+		onHomePage.logout();
+		Utils.Log.info("<<-----Finishing running test-----< \n---------------------------------------------------");
+	}
+	
+	@Test(priority = 17, enabled = false) 					 
+	public void checkIfHeightIsProperConverted() throws Exception {
+		Utils.Log.info("<<========Started running=====<<");
+		
+		LoginPage onLoginPage = new LoginPage(driver);
+		Utils.Log.info("|Logging in...");
+		onLoginPage.fullLogin();
+		
+		HomePage onHomePage = onLoginPage.LoginButton();
+		
+		Utils.waitPage();
+		
+		Utils.Log.info("|Check if user logged in");
+		Assert.assertTrue(onHomePage.isHomePagePresent());
+		
+		ProfilePage onProfilePage = onHomePage.clickOnProfileTab();
+		Utils.Log.info("|Getting value from the Height field...");
+		
+		onProfilePage.getValuesFromHeightField();
+		
+		Utils.Log.info("|Change Height metric");
+		ProfilePageSettings onProfilePageSettings = onProfilePage.clickOnProfilePageSettings();
+		
 		onProfilePageSettings.changeHeightUnit();
 		onProfilePageSettings.clickOnMetricUpdate();
 		
 		Utils.waitPage();
-
+		
+		Utils.Log.info("|Check if the Height metric is proper converted in the Profile page after changes");
+	
 		onHomePage.clickOnProfileTab();
-		onProfilePage.getValuesTest();
+		onProfilePage.getValuesFromHeightField();
 		onProfilePage.checkConvertedValues();
 		Utils.Log.info("|The Height value was proper converted");
 		
@@ -614,7 +642,7 @@ public class SanityTestNG extends AbstractTestClass /*ParallelBrowserSanity*/ {
 		Utils.Log.info("<<-----Finishing running test-----< \n---------------------------------------------------");
 	}
 	
-	@Test(priority = 17, enabled = false)
+	@Test(priority = 18, enabled = false)
 	public void checkIfWeightIsProperAfterChanges() throws Exception{
 		Utils.Log.info("<<========Started running=====<<");
 		
@@ -629,21 +657,83 @@ public class SanityTestNG extends AbstractTestClass /*ParallelBrowserSanity*/ {
 		Assert.assertTrue(onHomePage.isHomePagePresent());
 		
 		ProfilePage onProfilePage = onHomePage.clickOnProfileTab();
-		Utils.Log.info("|Getting value from the Height field...");
-		onProfilePage.getTheValueFromHeightField();
+		Utils.Log.info("|Getting value from the Weight field...");
+		
+		onProfilePage.getTheValueFromWeightField();
+		Utils.waitPage();
 		
 		ProfilePageSettings onProfilePageSettings = onProfilePage.clickOnProfilePageSettings();
 		
 		Utils.Log.info("|Change Weight metric");
-		onProfilePageSettings.changeHeightUnit();
+		onProfilePageSettings.changeWeightUnit();
 		onProfilePageSettings.clickOnMetricUpdate();
 		Utils.waitPage();
 		
 		Utils.Log.info("|Check if the Weight metric is proper in the Profile page");
 		
+		onHomePage.clickOnProfileTab();
+		onProfilePage.clickOnProfilePageSettings();
+		onProfilePageSettings.changeWeightUnit();
+		onProfilePageSettings.clickOnMetricUpdate();
+		Utils.waitPage();
+		
+		onHomePage.clickOnProfileTab();
+		onProfilePage.checkChangesInWeightField();
+		Utils.Log.info("|The Weight metric was proper changed (is the same)");
+		
+		Utils.waitPage();
+		
+		Utils.Log.info("|Logging out...");
+		onHomePage.logout();
+		Utils.Log.info("<<-----Finishing running test-----< \n---------------------------------------------------");
 	}
 	
-	@Test(priority = 18, enabled = false)
+	@Test(priority = 19, enabled = true) //NEED to add test: check the weight and height after click on Update BUT only when developer fix it
+	public void checkIfWeightIsProperConverted() {
+		Utils.Log.info("<<========Started running=====<<");
+		
+		LoginPage onLoginPage = new LoginPage(driver);
+		Utils.Log.info("|Logging in...");
+		onLoginPage.fullLogin();
+		
+		HomePage onHomePage = onLoginPage.LoginButton();
+		
+		Utils.waitPage();
+		
+		Utils.Log.info("|Check if user logged in");
+		Assert.assertTrue(onHomePage.isHomePagePresent());
+		
+		ProfilePage onProfilePage = onHomePage.clickOnProfileTab();
+		Utils.Log.info("|Getting value from the Weight field...");
+		
+		onProfilePage.getTheValueFromWeightField();
+	
+		Utils.waitPage();
+		
+		ProfilePageSettings onProfilePageSettings = onProfilePage.clickOnProfilePageSettings();
+		
+		Utils.Log.info("|Change Weight metric");
+		onProfilePageSettings.changeWeightUnit();
+		onProfilePageSettings.clickOnMetricUpdate();
+		
+		Utils.waitPage();
+		
+		Utils.Log.info("|Check if the Weight metric is proper converted in the Profile page after changes");
+		
+		onHomePage.clickOnProfileTab();
+		onProfilePage.getTheValueFromWeightField();
+		onProfilePage.checkChangesInWeightAfterConvert();
+		
+		Utils.Log.info("|The Weight value was proper converted");
+		
+		Utils.waitPage();
+		
+		Utils.Log.info("|Logging out...");
+		onHomePage.logout();
+		Utils.Log.info("<<-----Finishing running test-----< \n---------------------------------------------------");
+	}
+	
+	@Test(priority = 20, enabled = false)
 	public void checkDefaultActivity () throws Exception {
 		Utils.Log.info("<<========Started running=====<<");
 		
@@ -658,6 +748,8 @@ public class SanityTestNG extends AbstractTestClass /*ParallelBrowserSanity*/ {
 		
 		ProfilePage onProfilePage = onHomePage.clickOnProfileTab();
 		ProfilePageSettings onProfilePageSettings = onProfilePage.clickOnProfilePageSettings();
+		
+//		onProfilePageSettings.getTheActivated
 		
 		Utils.Log.info("|Sending session to the server...");
 		onLoginPage.sendSession();

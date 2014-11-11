@@ -119,5 +119,118 @@ public class Utils {
 
 	public static void clearField(WebElement field){
 		field.clear();
-	}		
+	}
+
+/*	public static void testConvert(){
+		System.out.println(a+" - test");
+		
+		String convertDouble = Double.toString(a);
+		System.out.println(convertDouble + " - this is converted double to string");
+		
+		String[] partsOfDouble = convertDouble.split("\\.");
+		
+		String part1 = partsOfDouble[0];
+		System.out.println(part1 + " - this is first part of the double");
+		
+		String part2 = partsOfDouble[1];
+		System.out.println(part2 + " - this is second part of the double");
+		
+		String an = "0."+part2;
+		double ab = Double.parseDouble(an);
+		System.out.println(ab + "vreohvkerbvkerbvkerbvkjrebvjkberkjvbrkevberbv");
+		
+		double testc = (Integer.parseInt(part1) + ab) / 2.2046226218;
+		System.out.println(testc + "testc ---------------");
+		
+		double convert = a /  2.2046226218;
+		System.out.println(convert);
+		
+		String bla = Integer.toString((int)convert); 
+		System.out.println(bla);
+		
+	}*/
+	
+	public static String result;
+	public static String conversion (String enterTheMetricField, String EnterTheValue){
+		Utils.Log.info("|Converting values ... ");
+		
+		if (enterTheMetricField.equals("cm")){
+			
+			int intValue = Integer.parseInt(EnterTheValue);
+			
+			double foot = intValue/30.48;
+			Utils.Log.info("|Ft: " + foot);
+
+			double inch = (intValue / 2.54) - ((int)foot * 12);
+			Utils.Log.info("|Inch: " + inch);
+
+			int Ft = (int)foot;
+			int In = (int)Math.round(inch);
+
+			String result = Ft + " ft " + In + " inch";
+			Utils.Log.info("|Result of converting is: " + result);
+
+			return result;
+			
+			}else if(enterTheMetricField.equals("ft")){
+				
+				String[] partsOfString = EnterTheValue.split("\\D+");
+				
+				String footInString = partsOfString[0];
+				System.out.println(footInString + " - this is first part of the double");
+				
+				String inchInString = partsOfString[1];
+				System.out.println(inchInString + " - this is second part of the double");
+				
+				int intFtValue = Integer.parseInt(footInString); //<===Foot
+				int intInchValue = Integer.parseInt(inchInString);//<===Inch
+
+				double footConverted = intFtValue*30.48;
+				Utils.Log.info("|Ft: " + footConverted);
+
+				double inchconverted = intInchValue*2.54;
+				Utils.Log.info("|Inch: " + inchconverted);
+				
+				double a = footConverted + inchconverted;
+				
+				int resultsInCm = (int)a;
+				
+				String result = Integer.toString(resultsInCm);
+				Utils.Log.info("|Result of converting is: " + result + " cm");
+
+				return result;
+				
+				}else if(enterTheMetricField.equals("kg")){
+					int intValue = Integer.parseInt(EnterTheValue);
+					
+					double a = intValue *  2.2046226218;
+					Utils.Log.info("|Lbs: " + a);
+					
+					int resultInLbs = (int)Math.round(a);
+					
+					String result = Integer.toString(resultInLbs);
+					
+					Utils.Log.info("|Result of converting is: " + result + " lbs");
+					
+					return result;
+					
+					}else if(enterTheMetricField.equals("lbs")){
+						int intValue = Integer.parseInt(EnterTheValue);
+
+						double b = intValue / 2.2046226218;
+						Utils.Log.info("|Kg: " + b);
+						
+						int resultInLbs = (int)Math.round(b);
+						
+						String result = Integer.toString(resultInLbs);
+						
+						Utils.Log.info("|Result of converting is: " + result + " kg");
+						
+						return result;
+						
+						}else{
+							Utils.Log.info("|Entered Metric was wrong!");
+							}
+		return result;
+	}
 }

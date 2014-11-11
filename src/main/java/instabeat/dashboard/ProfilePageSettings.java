@@ -66,6 +66,7 @@ public class ProfilePageSettings extends MainPagesFunc {
 	}
 	
 	public void changeWeightUnit() {
+		Utils.Log.info("|Weight is changed to: " + NotActiveWeightUnit.getText());
 		NotActiveWeightUnit.click();
 	}
 	
