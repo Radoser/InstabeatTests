@@ -4,14 +4,12 @@ import instabeat.utils.MainPagesFunc;
 import instabeat.utils.Utils;
 
 import java.io.IOException;
-import java.util.NoSuchElementException;
 
-import org.junit.Assert;
 import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.Assert;
 
 public class ProfilePage extends MainPagesFunc {
 
@@ -88,7 +86,7 @@ public class ProfilePage extends MainPagesFunc {
 	}
 
 	public void isUserTitleNameEqualsUserName() {
-		Assert.assertTrue(UserNameTitle.getText().contains(
+		org.testng.Assert.assertTrue(UserNameTitle.getText().contains(
 				FirstNameField.getText()));
 	}
 
@@ -150,9 +148,7 @@ public class ProfilePage extends MainPagesFunc {
 			Assert.assertEquals(getValuesFromHeightField(), getValuesFromHeightFieldFtAndInch());
 		}
 	}
-	
-	
-	
+		
 	public String getTheValueFromHeightField() {		
 		heightValue = getTheValueFromFields(HeightField);
 		Utils.Log.info("|The value from Height field is: " + heightValue);

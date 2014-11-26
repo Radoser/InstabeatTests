@@ -106,7 +106,7 @@ public class GetStartedPage extends MainPagesFunc {
 	}
 	
 	public void minHeightFieldValidation(){
-		typeValuesForValidation(parameters.EMminimumNumberHeight, Utils.dataForMinHeightFieldInput, HeightField, SignUpButton, ErrorMessages);
+		typeValuesForValidation(parameters.EMminimumNumberHeight, Utils.dataForMinHeightFieldInput, HeightFieldOnGo, SignUpButton, ErrorMessages);
 	}
 	
 	public void maxHeightFieldValidation(){
@@ -121,6 +121,11 @@ public class GetStartedPage extends MainPagesFunc {
 	public void maxWeightFieldValidation(){
 		typeValuesForValidation(parameters.EMmaximumNumberWeight, Utils.dataForMaxWeightFieldInput, WeightField, SignUpButton, ErrorMessages);
 		WeightField.sendKeys(randomNumbers);
+	}
+	
+	public void defaultPoolLengthValidation(){
+		typeValuesForValidation(parameters.EMdefaultPoolLength, Utils.dataForDefaultPoolLenghtInput, PoolLengthField, SignUpButton, ErrorMessages);
+		PoolLengthField.sendKeys(randomNumbers);
 	}
 
 	public void goToLoginPage() {

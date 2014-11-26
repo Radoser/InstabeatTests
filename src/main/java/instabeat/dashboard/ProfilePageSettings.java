@@ -240,5 +240,29 @@ public class ProfilePageSettings extends MainPagesFunc {
 		Assert.assertTrue(ConnectToTwitterButton.getAttribute("value").contains("Click to unlink"));
 	}
 
+	public static String textOnSettings; 
+	public String getDefaultActivityFromSettingsPage(){
+		 textOnSettings = ActiveDefaultActivity.getText();
+		System.out.println(textOnSettings +" >>>>>>>>>>>>>>> textOnSettings");
+		return textOnSettings ;
+	}
 	
+	/*public void compareDefalutActivityValues(){
+		
+		
+		Assert.assertEquals(ActiveDefaultActivity.getText(), HomePage.textOnHome);
+	}*/
+	
+	public void compareIfTheActivityIsProperAfterSessionDownload() {
+		System.out.println(HomePage.textOnHome);
+			if (HomePage.textOnHome.equals("Open water")){
+				System.out.println("THIS IS OPEN WATER");
+				Assert.assertTrue(ActiveDefaultActivity.getText().contains("Open Water"));
+			} else if (HomePage.textOnHome.equals(" yd pool") || HomePage.textOnHome.equals(" m pool")){
+				System.out.println("THIS IS POOOL");
+				Assert.assertTrue(ActiveDefaultActivity.getText().contains("Pool"));
+			}else {
+				Utils.Log.info("|Something went wrong! Go check it out!");
+		}
+	}
 }

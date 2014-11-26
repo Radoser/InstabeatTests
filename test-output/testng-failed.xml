@@ -1,15 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]">
-  <test name="Default test(failed)">
+<suite name="Failed suite [Parallel Browsers tests]" parallel="tests">
+  <parameter name="browser" value="ie"/>
+  <test name="IETest(failed)" parallel="tests">
+    <parameter name="browser" value="ie"/>
     <classes>
       <class name="InstabeatSanity.Tests.SanityTestNG">
         <methods>
-          <include name="checkIfWeightIsProperConverted"/>
-          <include name="BeforeTests"/>
           <include name="AfterTests"/>
+          <include name="AfterTests"/>
+          <include name="BeforeTests"/>
+          <include name="BeforeTests"/>
+          <include name="BeforeTests"/>
+          <include name="UserCanLogin"/>
         </methods>
       </class> <!-- InstabeatSanity.Tests.SanityTestNG -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- IETest(failed) -->
+  <test name="FirefoxTest(failed)" parallel="tests">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="InstabeatSanity.Tests.SanityTestNG">
+        <methods>
+          <include name="AfterTests"/>
+          <include name="AfterTests"/>
+          <include name="BeforeTests"/>
+          <include name="BeforeTests"/>
+          <include name="BeforeTests"/>
+          <include name="UserCanLogin"/>
+        </methods>
+      </class> <!-- InstabeatSanity.Tests.SanityTestNG -->
+    </classes>
+  </test> <!-- FirefoxTest(failed) -->
+  <test name="ChromeTest(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="InstabeatSanity.Tests.SanityTestNG">
+        <methods>
+          <include name="AfterTests"/>
+          <include name="AfterTests"/>
+          <include name="BeforeTests"/>
+          <include name="BeforeTests"/>
+          <include name="BeforeTests"/>
+          <include name="UserCanLogin"/>
+        </methods>
+      </class> <!-- InstabeatSanity.Tests.SanityTestNG -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+</suite> <!-- Failed suite [Parallel Browsers tests] -->

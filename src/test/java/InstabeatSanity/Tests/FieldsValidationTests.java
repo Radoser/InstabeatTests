@@ -14,7 +14,7 @@ import org.testng.annotations.Test;
 public class FieldsValidationTests extends /*ParallelBrowserSanity*/ AbstractTestClass {
 
 	
-	@Test(priority = 1, enabled = false)
+	@Test(priority = 1, enabled = true)
 	public void LoginValidation(){
 		Utils.Log.info("<<========Started running=====<<");
 		
@@ -39,7 +39,7 @@ public class FieldsValidationTests extends /*ParallelBrowserSanity*/ AbstractTes
 		Utils.Log.info("<<-----Finishing running test-----< \n---------------------------------------------------");
 	}
 	
-	@Test(priority = 2, enabled = false)
+	@Test(priority = 2, enabled = true)
 	public void ResetPasswordValidation(){
 		Utils.Log.info("<<========Started running=====<<");
 		
@@ -52,11 +52,12 @@ public class FieldsValidationTests extends /*ParallelBrowserSanity*/ AbstractTes
 
 		Utils.Log.info("|Checking incorrect user email");
 		onForgotPasswordPage.emailFieldValidation();
+		onForgotPasswordPage.LoginLink.click();
 		
 		Utils.Log.info("<<-----Finishing running test-----< \n---------------------------------------------------");
 	}
 	
-	@Test(priority = 3, enabled = false)//======> need to rework
+	@Test(priority = 3, enabled = true)
 	public void GetStartedValidation(){
 		Utils.Log.info("<<========Started running=====<<");
 		
@@ -64,22 +65,24 @@ public class FieldsValidationTests extends /*ParallelBrowserSanity*/ AbstractTes
 		GetStartedPage onGetStartedPage = onLoginPage.clickOnGetStartedLink();
 		
 		Utils.Log.info("|Checking all fields...");
+		
+		onGetStartedPage.minHeightFieldValidation();
+		onGetStartedPage.maxHeightFieldValidation();
 		onGetStartedPage.firstNameValidation();
 		onGetStartedPage.lastNameValidation();
 		onGetStartedPage.emailValidation();
 		onGetStartedPage.passwordValidation();
 		onGetStartedPage.confirmPasswordValidation();
-		onGetStartedPage.dateOfBirthValidation();
-		onGetStartedPage.minHeightFieldValidation();
-		onGetStartedPage.maxHeightFieldValidation();
 		onGetStartedPage.minWeightFieldValidation();
 		onGetStartedPage.maxWeightFieldValidation();
+		onGetStartedPage.defaultPoolLengthValidation();
 		onGetStartedPage.goToLoginPage();		
-		Utils.Log.info("|Fields are checked");		
+		
+		Utils.Log.info("|All fields are checked");		
 		Utils.Log.info("<<-----Finishing running test-----< \n---------------------------------------------------");
 	}
 	
-	@Test(priority = 4, enabled = false)//======> need to rework
+	@Test(priority = 4, enabled = true)
 	public void ProfileValidation(){
 		Utils.Log.info("<<========Started running=====<<");
 		
@@ -91,19 +94,20 @@ public class FieldsValidationTests extends /*ParallelBrowserSanity*/ AbstractTes
 		ProfilePage onProfilePage = onHomePage.clickOnProfileTab();
 		
 		Utils.Log.info("|Checking all fields...");
+		
 		onProfilePage.firstNameValidation();
 		onProfilePage.lastNameValidation();
-		onProfilePage.dateOfBirthValidation();
 		onProfilePage.minHeightFieldValidation();
 		onProfilePage.maxHeightFieldValidation();
 		onProfilePage.minWeightFieldValidation();
 		onProfilePage.maxWeightFieldValidation();
+		
 		Utils.Log.info("|Fields are checked");		
 		onProfilePage.logout();
 		Utils.Log.info("<<-----Finishing running test-----< \n---------------------------------------------------");
 	}
 	
-	@Test(priority = 5, enabled = false)//======> need to rework
+	@Test(priority = 5, enabled = true)
 	public void ProfileSettingsValidation(){
 		Utils.Log.info("<<========Started running=====<<");
 		
@@ -126,7 +130,7 @@ public class FieldsValidationTests extends /*ParallelBrowserSanity*/ AbstractTes
 		Utils.Log.info("<<-----Finishing running test-----< \n---------------------------------------------------");
 	}
 	
-	@Test(priority = 5, enabled = false)
+	@Test(priority = 5, enabled = true)
 	public void HeartRateZonesValidation(){
 		Utils.Log.info("<<========Started running=====<<");
 		

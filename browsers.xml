@@ -5,6 +5,7 @@
   <test name = "FirefoxTest">
               <parameter name="browser" value="firefox" />
               <classes>
+                     <!-- <class name="InstabeatSanity.Tests.FieldsValidationTests" /> -->
                      <class name="InstabeatSanity.Tests.SanityTestNG" />
               </classes>
        </test>
@@ -13,7 +14,8 @@
        <test name = "ChromeTest">
               <parameter name = "browser" value="chrome" />
               <classes>
-                     <class name = "InstabeatSanity.Tests.SanityTestNG" />
+                     <!-- <class name = "InstabeatSanity.Tests.FieldsValidationTests" /> -->
+                     <class name="InstabeatSanity.Tests.SanityTestNG" />
               </classes>
        </test>
 
@@ -21,7 +23,8 @@
        <test name = "IETest">
               <parameter name="browser" value="ie" />
               <classes>
-                     <class name = "InstabeatSanity.Tests.SanityTestNG" />
+                    <!--  <class name = "InstabeatSanity.Tests.FieldsValidationTests" /> -->
+                     <class name="InstabeatSanity.Tests.SanityTestNG" /> 
               </classes>
        </test>
 

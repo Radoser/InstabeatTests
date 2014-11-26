@@ -6,6 +6,7 @@ import java.util.Random;
 
 import org.apache.log4j.Logger;
 import org.apache.log4j.xml.DOMConfigurator;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
 public class Utils {
@@ -13,6 +14,7 @@ public class Utils {
 	public static List<String> dataForTextFieldsInput = Arrays.asList(
 			"123",
 			"!@#$%^&*()_+",
+			"!", "@", "#", "$", "%", "^", "&", "*", "(", ")", "_", "=", "+", "'", "='", "/", "\\", "?", ".",
 			"QWE123",
 			"123qwe",
 			" ",
@@ -22,7 +24,9 @@ public class Utils {
 	public static List <String> dataForDateFieldInput = Arrays.asList(
 			"123",
 			"!@#$%^&*()_+",
-			"QWE123", "123qwe",
+			"!", "@", "#", "$", "%", "^", "&", "*", "(", ")", "-", "_", "=", "+", "'", "='", "/", "\\", "?", ".",
+			"QWE123", 
+			"123qwe",
 			" ",
 			" qwe",
 			"qw er",
@@ -79,6 +83,20 @@ public class Utils {
 	public static List<String> dataForMaxWeightFieldInput = Arrays.asList(
 			"301",
 			"999"
+			);
+	
+	public static List<String> dataForDefaultPoolLenghtInput = Arrays.asList(
+			"1q",
+			"q1",
+			"1 ",
+			" 1",
+			"1 1",
+			"!", "@", "#", "$", "%", "^", "&", "*", "(", ")", "-", "_", "=", "+", "'", "='", "/", "\\", "?", ".",
+			"!@#$%^&*()_+=-|/\\'",
+			"1000000",
+			"+15",
+			"15'",
+			" q"
 			);
 
 	public static void waitPage() {
@@ -232,5 +250,9 @@ public class Utils {
 							Utils.Log.info("|Entered Metric was wrong!");
 							}
 		return result;
+	}
+	
+	public void reloadPage (WebDriver putDriver){
+		putDriver.navigate().refresh();
 	}
 }

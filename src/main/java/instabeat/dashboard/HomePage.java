@@ -130,7 +130,7 @@ public class HomePage extends MainPagesFunc {
 
 	public void chheckIfTotalDistanceIsProper() {
 
-		/*fot replace digits -  String mk = PoolLength.getText().replaceAll("[0-9 m ]",""); //("[a-z ]", "");
+		/*for replace digits -  String mk = PoolLength.getText().replaceAll("[0-9 m ]",""); //("[a-z ]", "");
 		System.out.println(mk);*/
 
 		if(PoolLength.getText().contains("pool")){
@@ -157,10 +157,64 @@ public class HomePage extends MainPagesFunc {
 	}
 
 	public void checkIfAvaragePaceIsProper() {
-		// TODO Auto-generated method stub
+		// TODO need access to the server side
 
 	}
-
+ 
+	public void compareIfTheActivityIsProperAfterSessionDownload() {
+		Assert.assertEquals(textOnHome, ProfilePageSettings.textOnSettings);
+		/*try{
+		
+			String[] partsOfString = PoolLength.getText().split("\\d+");
+			String partWithoutDigits = partsOfString[1];
+				if (partWithoutDigits.contains(" yd pool")){
+					System.out.println("THIS IS yd POOL");
+					Assert.assertEquals(partWithoutDigits, ProfilePageSettings.textOnSettings);
+				}else if (partWithoutDigits.contains(" m pool")){
+					System.out.println("THIS IS m POOL");
+					Assert.assertEquals(partWithoutDigits, ProfilePageSettings.textOnSettings);
+				}else {
+					Utils.Log.info("|Something went wrong! Go check it out!");
+					}
+		
+		}catch(ArrayIndexOutOfBoundsException e){
+			if (PoolLength.getText().contains("Open water")){
+				System.out.println("Open water ========>>> Home Page");
+				Assert.assertEquals(PoolLength.getText(), ProfilePageSettings.textOnSettings);
+			}else {
+				Utils.Log.info("|Something went wrong! Go check it out!");
+			}
+		}*/
+	}
 	
-
+	
+	
+	public static String textOnHome;
+	
+	public void akdhklh() {
+		String[] partsOfString = PoolLength.getText().split("\\d+");
+		textOnHome = partsOfString[1];
+	}
+	
+	public String getDefaultActivityFromHomePage(){
+		/*String[] partsOfString = PoolLength.getText().split("\\d+");
+		textOnHome = partsOfString[1];*/
+		if (PoolLength.getText().equals(" yd pool") || PoolLength.getText().equals(" m pool")){
+				
+				
+				System.out.println("The activity is in POOL on Home");
+				return textOnHome;
+			}else {
+				System.out.println("The activity is in Water on Home");
+				return textOnHome;
+			}
+			
+		
+	}
+	
+	public void deleteOneSession() {
+		DeleteOneSessionButton.click();
+		OkButtonForDelete.click();
+	}
+	
 }

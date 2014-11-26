@@ -71,7 +71,10 @@ public class MainPagesFunc {
 
 	@FindBy(id = "heightCm")
 	public WebElement HeightField;
-
+	
+	@FindBy(id = "height")
+	public WebElement HeightFieldOnGo;
+	
 	@FindBy(id = "weight")
 	public WebElement WeightField;
 
@@ -95,6 +98,9 @@ public class MainPagesFunc {
 	
 	@FindBy(id = "timezone")
 	public WebElement ChooseCountry;
+	
+	@FindBy(id = "pool_distance")
+	public WebElement PoolLengthField;
 	
 	/* Heart Rate Zones Page */
 	@FindBy(id = "MHR")
@@ -166,6 +172,9 @@ public class MainPagesFunc {
 	
 	@FindBy(xpath = "//*[@class = 'pool-edit']")
 	public WebElement EditActivityButton;
+	
+	@FindBy(css = ".close_ic")
+	public WebElement DeleteOneSessionButton;
 	
 	/* Profile Page */
 	@FindBy(xpath = "//*[text()='Profile']")
@@ -397,10 +406,10 @@ public class MainPagesFunc {
 		JSONObject response = HTTPMethod.AppLogin(value);
 		String username = response.getString("user");
 		String usertoken = response.getString("token");
-	/*	driver.get(parameters.Amazon_Web_Testing_URL+"/appconfirm?user=" + username
-				+ "&token=" + usertoken + "&status=PARTIAL");*/
-		driver.get("http://user.instabeat.me/user/appconfirm?user=" + username
+		driver.get(parameters.Amazon_Web_Testing_URL+"/appconfirm?user=" + username
 				+ "&token=" + usertoken + "&status=PARTIAL");
+		/*driver.get("http://user.instabeat.me/user/appconfirm?user=" + username
+				+ "&token=" + usertoken + "&status=PARTIAL");*/
 	}
 
 	public void sendSessionFromDevice() throws Exception{
@@ -469,7 +478,7 @@ public class MainPagesFunc {
 			Utils.clearField(field);
 			field.sendKeys(values.get(i));		
 			button.click();
-			Utils.delay(500);
+//			Utils.delay(500);
 			Assert.assertEquals(error, errorElement.getText());
 			field.clear();
 		}

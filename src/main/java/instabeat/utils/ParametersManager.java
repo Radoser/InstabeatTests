@@ -53,6 +53,7 @@ public class ParametersManager {
 	public String EMmaximumNumberHeight;
 	public String EMmaximumNumberWeight;
 	public String EMoldPasswordRequired;
+	public String EMdefaultPoolLength;
 	public String EMrequiredFirstName;
 	public String EMwrongDataInHRZBox;
 	public String EMrequiredLastName;
@@ -68,6 +69,7 @@ public class ParametersManager {
 	
 	public String ChromeDriver;
 	public String IEDriver;
+	
 	
 
 	
@@ -137,6 +139,7 @@ public class ParametersManager {
 			EMoldPasswordRequired = prop.get("oldPasswordRequired").toString();			
 			EMrequiredFirstName = prop.get("requiredFirstName").toString();
 			EMwrongDataInHRZBox = prop.get("wrongDataInHRZBox").toString();
+			EMdefaultPoolLength = prop.get("defaultPoolLength").toString();
 			EMpasswordNotMatch = prop.get("passwordNotMatch").toString();
 			EMpasswordRequired = prop.get("passwordRequired").toString();
 			EMrequiredLastName = prop.get("requiredLastName").toString();
@@ -147,6 +150,7 @@ public class ParametersManager {
 			EMprovideWeight = prop.get("provideWeight").toString();
 			EMinvalidEmail = prop.get("invalidEmail").toString();
 			EMuserNotFound = prop.get("userNotFound").toString();
+			
 			
 			/*Drivers
 			IEDriver = prop.get("IEDriver").toString();

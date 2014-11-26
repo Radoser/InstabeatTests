@@ -79,14 +79,16 @@ public class IMAPGmail {
 				rawText += getText(bodyPart);
 			
 			}
-			// System.out.println(rawText);
-
+//			 System.out.println(rawText);
+			
+			/* System.out.println("staging-web-"
+					+ rawText.split("staging-web-")[1].split("\"")[0]);*/
 			// System.out.println("http://user."+rawText.split("http://user.")[1].split("\"")[0]);
 
-			link = "http://user."
-					+ rawText.split("http://user.")[1].split("\"")[0];
-/*			link = "staging-web-664817575.us-west-2.elb.amazonaws.com/user/confirm"
-					+ rawText.split("staging-web-664817575.us-west-2.elb.amazonaws.com/user/confirm")[1].split("\"")[0];*/
+			/*link = "http://user."
+					+ rawText.split("http://user.")[1].split("\"")[0];*/
+			link = "staging-web-"
+					+ rawText.split("staging-web-")[1].split("\"")[0];
 //			System.out.println(link);
 			Utils.Log.info("|Link is: "+link);
 			

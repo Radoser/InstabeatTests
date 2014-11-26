@@ -26,8 +26,8 @@ public class AbstractTestClass {
 		driver = new FirefoxDriver();
 		driver.manage().window().maximize();
 //		driver.get("http://production-web-1285655940.us-west-2.elb.amazonaws.com");
-//		driver.get("http://staging-web-664817575.us-west-2.elb.amazonaws.com/user/");
-		driver.get("http://user.instabeat.me/user/");
+		driver.get("http://staging-web-664817575.us-west-2.elb.amazonaws.com/user/");
+//		driver.get("http://user.instabeat.me/user/");
 //		 driver.get("http://ibeat.pub.globallogic.com/user/");
 		driver.manage().timeouts().implicitlyWait(50, TimeUnit.SECONDS);
 	}

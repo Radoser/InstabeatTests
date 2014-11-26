@@ -31,7 +31,7 @@ public class SanityTestNG extends AbstractTestClass /*ParallelBrowserSanity*/ {
 		Utils.Log.info("<<-----Finishing running test-----< \n---------------------------------------------------");
 	}
 
-	@Test(priority = 1, enabled = false)
+	@Test(priority = 1, enabled = true)
 	public void UserCanLogin() {
 		Utils.Log.info("<<========Started running=====<<");
 		LoginPage onLoginPage = new LoginPage(driver);
@@ -100,7 +100,6 @@ public class SanityTestNG extends AbstractTestClass /*ParallelBrowserSanity*/ {
 		/*Second step of register*/
 		Utils.Log.info("|Getting confirmation link from IMAP server...");
 		GetStartedSecondStep onGetStartedSecondStep = onGetSartedFirstStep.getConfirmationLink();
-		onGetStartedSecondStep.printPageTitle();
 		Utils.Log.info("|Check second step of register - Download page");
 		onGetStartedSecondStep.verifyGetInstabeatConnectText();
 		onGetStartedSecondStep.downloadApp();
@@ -109,7 +108,6 @@ public class SanityTestNG extends AbstractTestClass /*ParallelBrowserSanity*/ {
 		/*Login from App*/
 		Utils.Log.info("|Logging from App using new created user...");
 		GetStartedThirdStep onGetStartedThirdStep = onGetStartedSecondStep.loginByApp(onGetStartedPage.randomUser);
-		onGetStartedThirdStep.printPageTitle();
 		Utils.Log.info("|Check for success login from App");
 		onGetStartedThirdStep.verifyTextPresentOnPage();
 		
@@ -209,6 +207,7 @@ public class SanityTestNG extends AbstractTestClass /*ParallelBrowserSanity*/ {
 		onHomePage.clickOnSession();
 
 		Utils.waitPage();
+		Utils.Log.info("|Logging out...");
 		onHomePage.logout();
 		Utils.Log.info("<<-----Finishing running test-----< \n---------------------------------------------------");
 	}
@@ -688,7 +687,7 @@ public class SanityTestNG extends AbstractTestClass /*ParallelBrowserSanity*/ {
 		Utils.Log.info("<<-----Finishing running test-----< \n---------------------------------------------------");
 	}
 	
-	@Test(priority = 19, enabled = true) //NEED to add test: check the weight and height after click on Update BUT only when developer fix it
+	@Test(priority = 19, enabled = false) //NEED to add test: check the weight and height after click on Update BUT only after developer fix it
 	public void checkIfWeightIsProperConverted() {
 		Utils.Log.info("<<========Started running=====<<");
 		
@@ -738,6 +737,10 @@ public class SanityTestNG extends AbstractTestClass /*ParallelBrowserSanity*/ {
 		Utils.Log.info("<<========Started running=====<<");
 		
 		LoginPage onLoginPage = new LoginPage(driver);
+		
+		Utils.Log.info("|Sending session to the server...");
+		onLoginPage.sendSession();
+		
 		Utils.Log.info("|Logging in...");
 		onLoginPage.fullLogin();
 		
@@ -746,12 +749,33 @@ public class SanityTestNG extends AbstractTestClass /*ParallelBrowserSanity*/ {
 		Utils.Log.info("|Check if user logged in");
 		Assert.assertTrue(onHomePage.isHomePagePresent());
 		
+		onHomePage.getDefaultActivityFromHomePage();
+				
 		ProfilePage onProfilePage = onHomePage.clickOnProfileTab();
 		ProfilePageSettings onProfilePageSettings = onProfilePage.clickOnProfilePageSettings();
 		
-//		onProfilePageSettings.getTheActivated
+		onProfilePageSettings.getDefaultActivityFromSettingsPage();
+		
+		onProfilePageSettings.compareIfTheActivityIsProperAfterSessionDownload();
+		
+		Utils.waitPage();
+		
+//		onProfilePageSettings.compareDefalutActivityValues();
+		
+		onProfilePageSettings.changeDefaultActivity();
+		onProfilePageSettings.clickOnMetricUpdate();
+		
+		Utils.waitPage();
+		
+		onHomePage.clickOnPlusButton();
+		onHomePage.deleteOneSession();
 		
 		Utils.Log.info("|Sending session to the server...");
 		onLoginPage.sendSession();
+
+		Utils.waitPage();
+		driver.navigate().refresh();
+		
+		onHomePage.compareIfTheActivityIsProperAfterSessionDownload();
 	}
 }
