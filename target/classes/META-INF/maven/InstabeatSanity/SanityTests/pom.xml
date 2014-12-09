@@ -15,44 +15,37 @@
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
-            <version>2.41.0</version>
-        </dependency>
+            </dependency>
         
         <dependency>
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
-            <version>6.8.8</version>
         </dependency>
         
           <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
-      <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
     
           <dependency>
           	<groupId>org.seleniumhq.selenium</groupId>
           	<artifactId>selenium-remote-driver</artifactId>
-          	<version>2.41.0</version>
           </dependency>
           
           <dependency>
           	<groupId>org.seleniumhq.selenium</groupId>
           	<artifactId>selenium-api</artifactId>
-          	<version>2.41.0</version>
           </dependency>
           
           <dependency>
           	<groupId>javax.mail</groupId>
           	<artifactId>mail</artifactId>
-          	<version>1.4.3</version>
           </dependency>
 
           <dependency>
           	<groupId>log4j</groupId>
           	<artifactId>log4j</artifactId>
-          	<version>1.2.16</version>
           </dependency>
     </dependencies>
  
@@ -109,11 +102,12 @@
                     </configuration>
       </plugin>
       
-                <plugin>
+               	<plugin>
                     <inherited>true</inherited>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-compiler-plugin</artifactId>
-                </plugin>
+                    <version>2.3.2</version>
+                </plugin> 
        
        <plugin>
         <groupId>org.apache.maven.plugins</groupId>
@@ -132,4 +126,43 @@
   
     
   
+   <dependencyManagement>
+   	<dependencies>
+   		<dependency>
+   			<groupId>org.seleniumhq.selenium</groupId>
+   			<artifactId>selenium-java</artifactId>
+   			<version>2.44.0</version>
+   		</dependency>
+   		<dependency>
+   			<groupId>org.testng</groupId>
+   			<artifactId>testng</artifactId>
+   			<version>6.8.8</version>
+   		</dependency>
+   		<dependency>
+   			<groupId>junit</groupId>
+   			<artifactId>junit</artifactId>
+   			<version>4.12-beta-3</version>
+   		</dependency>
+   		<dependency>
+   			<groupId>org.seleniumhq.selenium</groupId>
+   			<artifactId>selenium-remote-driver</artifactId>
+   			<version>2.44.0</version>
+   		</dependency>
+   		<dependency>
+   			<groupId>org.seleniumhq.selenium</groupId>
+   			<artifactId>selenium-api</artifactId>
+   			<version>2.44.0</version>
+   		</dependency>
+   		<dependency>
+   			<groupId>javax.mail</groupId>
+   			<artifactId>mail</artifactId>
+   			<version>1.5.0-b01</version>
+   		</dependency>
+   		<dependency>
+   			<groupId>log4j</groupId>
+   			<artifactId>log4j</artifactId>
+   			<version>1.2.17</version>
+   		</dependency>
+   	</dependencies>
+   </dependencyManagement>
 </project>

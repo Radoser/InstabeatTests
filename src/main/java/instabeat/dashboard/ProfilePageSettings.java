@@ -244,7 +244,7 @@ public class ProfilePageSettings extends MainPagesFunc {
 	public String getDefaultActivityFromSettingsPage(){
 		 textOnSettings = ActiveDefaultActivity.getText();
 		System.out.println(textOnSettings +" >>>>>>>>>>>>>>> textOnSettings");
-		return textOnSettings ;
+		return textOnSettings.toLowerCase() ;
 	}
 	
 	/*public void compareDefalutActivityValues(){

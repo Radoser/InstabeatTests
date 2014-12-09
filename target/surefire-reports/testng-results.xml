@@ -1,23 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="130786" started-at="2014-08-21T16:06:17Z" finished-at="2014-08-21T16:08:28Z">
+  <suite name="Suite" duration-ms="80489" started-at="2014-11-27T08:21:11Z" finished-at="2014-11-27T08:22:31Z">
     <groups>
     </groups>
-    <test name="instabeatSanity.Tests" duration-ms="130786" started-at="2014-08-21T16:06:17Z" finished-at="2014-08-21T16:08:28Z">
+    <test name="instabeatSanity.Tests" duration-ms="80489" started-at="2014-11-27T08:21:11Z" finished-at="2014-11-27T08:22:31Z">
       <class name="InstabeatSanity.Tests.SanityTestNG">
-        <test-method status="PASS" signature="BeforeTests()" name="BeforeTests" is-config="true" duration-ms="9994" started-at="2014-08-21T16:06:17Z" finished-at="2014-08-21T16:06:27Z">
-        </test-method>
-        <test-method status="PASS" signature="checkAllLinksOnWebPage()" name="checkAllLinksOnWebPage" duration-ms="96020" started-at="2014-08-21T16:06:27Z" finished-at="2014-08-21T16:08:04Z">
-        </test-method>
-        <test-method status="PASS" signature="UserCanLogin()" name="UserCanLogin" duration-ms="11767" started-at="2014-08-21T16:08:04Z" finished-at="2014-08-21T16:08:15Z">
-        </test-method>
-        <test-method status="PASS" signature="UserCannotLogin()" name="UserCannotLogin" duration-ms="5495" started-at="2014-08-21T16:08:15Z" finished-at="2014-08-21T16:08:21Z">
-        </test-method>
-        <test-method status="PASS" signature="AfterTests()" name="AfterTests" is-config="true" duration-ms="7505" started-at="2014-08-21T16:08:21Z" finished-at="2014-08-21T16:08:28Z">
-        </test-method>
-      </class>
-    </test>
-  </suite>
+        <test-method status="PASS" signature="BeforeTests()[pri:0, instance:InstabeatSanity.Tests.SanityTestNG@7a79be86]" name="BeforeTests" is-config="true" duration-ms="10662" started-at="2014-11-27T10:21:11Z" finished-at="2014-11-27T10:21:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeTests -->
+        <test-method status="PASS" signature="checkAllLinksOnWebPage()[pri:0, instance:InstabeatSanity.Tests.SanityTestNG@7a79be86]" name="checkAllLinksOnWebPage" duration-ms="68585" started-at="2014-11-27T10:21:22Z" finished-at="2014-11-27T10:22:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkAllLinksOnWebPage -->
+        <test-method status="PASS" signature="AfterTests()[pri:0, instance:InstabeatSanity.Tests.SanityTestNG@7a79be86]" name="AfterTests" is-config="true" duration-ms="1233" started-at="2014-11-27T10:22:30Z" finished-at="2014-11-27T10:22:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterTests -->
+      </class> <!-- InstabeatSanity.Tests.SanityTestNG -->
+    </test> <!-- instabeatSanity.Tests -->
+  </suite> <!-- Suite -->
 </testng-results>

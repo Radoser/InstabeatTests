@@ -8,6 +8,13 @@
 <listAttribute key="org.testng.eclipse.CLASS_TEST_LIST">
 <listEntry value="InstabeatSanity.Tests.SanityTestNG"/>
 </listAttribute>
+<listAttribute key="org.testng.eclipse.GROUP_LIST">
+<listEntry value="Sanity"/>
+</listAttribute>
+<listAttribute key="org.testng.eclipse.GROUP_LIST_CLASS">
+<listEntry value="InstabeatSanity.Tests.SanityTestNG"/>
+</listAttribute>
+<stringAttribute key="org.testng.eclipse.LOG_LEVEL" value="2"/>
 <listAttribute key="org.testng.eclipse.METHOD_TEST_LIST"/>
 <listAttribute key="org.testng.eclipse.PACKAGE_TEST_LIST"/>
 <mapAttribute key="org.testng.eclipse.PARAMETERS"/>

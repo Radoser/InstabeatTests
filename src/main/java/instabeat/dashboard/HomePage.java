@@ -11,6 +11,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.Reporter;
 
 public class HomePage extends MainPagesFunc {
 
@@ -162,7 +163,9 @@ public class HomePage extends MainPagesFunc {
 	}
  
 	public void compareIfTheActivityIsProperAfterSessionDownload() {
-		Assert.assertEquals(textOnHome, ProfilePageSettings.textOnSettings);
+		System.out.println(textOnHome.toLowerCase());
+		System.out.println(ProfilePageSettings.textOnSettings.toLowerCase());
+		Assert.assertEquals(textOnHome.toLowerCase(), ProfilePageSettings.textOnSettings.toLowerCase());
 		/*try{
 		
 			String[] partsOfString = PoolLength.getText().split("\\d+");
@@ -191,21 +194,31 @@ public class HomePage extends MainPagesFunc {
 	
 	public static String textOnHome;
 	
-	public void akdhklh() {
+	public String akdhklh() {
 		String[] partsOfString = PoolLength.getText().split("\\d+");
 		textOnHome = partsOfString[1];
+		System.out.println(textOnHome);
+		return textOnHome;
 	}
 	
 	public String getDefaultActivityFromHomePage(){
+		
 		/*String[] partsOfString = PoolLength.getText().split("\\d+");
-		textOnHome = partsOfString[1];*/
-		if (PoolLength.getText().equals(" yd pool") || PoolLength.getText().equals(" m pool")){
-				
-				
+		textOnHome = partsOfString[1];
+				*/
+		
+		
+		if (PoolLength.getText().split("\\d+")[2].equals(" yd pool") || PoolLength.getText().split("\\d+")[2].equals(" m pool")){
+			textOnHome = PoolLength.getText().split("\\d+")[2];
 				System.out.println("The activity is in POOL on Home");
+				//Reporter.log("vrvrvrvr");
 				return textOnHome;
+				
 			}else {
+				
 				System.out.println("The activity is in Water on Home");
+				System.out.println(textOnHome);
+				
 				return textOnHome;
 			}
 			

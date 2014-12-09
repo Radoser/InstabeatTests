@@ -34,6 +34,7 @@ public class GetStartedPage extends MainPagesFunc {
 	public void typeUserValues() {
 		for (String key : map.keySet()) {
 			values(By.id(key), map.get(key));
+			Utils.Log.info(map.get(key) + "ENTRED VALUE!!!!!!!!!!");
 		}
 	}
 

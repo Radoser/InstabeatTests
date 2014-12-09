@@ -10746,3 +10746,1787 @@
 26-11-2014 14:09:07 INFO  61: 'AfterTests' *===========================================* 
 26-11-2014 14:09:07 INFO  62: 'AfterTests' 
  
+26-11-2014 14:34:08 INFO  22: 'BeforeTests' *===========================================* 
+26-11-2014 14:34:08 INFO  23: 'BeforeTests' *        Start running test cases...        * 
+26-11-2014 14:34:08 INFO  24: 'BeforeTests' *===========================================* 
+26-11-2014 14:36:10 INFO  22: 'BeforeTests' *===========================================* 
+26-11-2014 14:36:10 INFO  23: 'BeforeTests' *        Start running test cases...        * 
+26-11-2014 14:36:10 INFO  24: 'BeforeTests' *===========================================* 
+26-11-2014 14:39:11 INFO  22: 'BeforeTests' *===========================================* 
+26-11-2014 14:39:11 INFO  23: 'BeforeTests' *        Start running test cases...        * 
+26-11-2014 14:39:11 INFO  24: 'BeforeTests' *===========================================* 
+26-11-2014 14:41:05 INFO  22: 'BeforeTests' *===========================================* 
+26-11-2014 14:41:05 INFO  23: 'BeforeTests' *        Start running test cases...        * 
+26-11-2014 14:41:05 INFO  24: 'BeforeTests' *===========================================* 
+26-11-2014 14:44:33 INFO  22: 'BeforeTests' *===========================================* 
+26-11-2014 14:44:33 INFO  23: 'BeforeTests' *        Start running test cases...        * 
+26-11-2014 14:44:33 INFO  24: 'BeforeTests' *===========================================* 
+26-11-2014 14:47:25 INFO  22: 'BeforeTests' *===========================================* 
+26-11-2014 14:47:25 INFO  23: 'BeforeTests' *        Start running test cases...        * 
+26-11-2014 14:47:25 INFO  24: 'BeforeTests' *===========================================* 
+26-11-2014 14:48:28 INFO  22: 'BeforeTests' *===========================================* 
+26-11-2014 14:48:28 INFO  23: 'BeforeTests' *        Start running test cases...        * 
+26-11-2014 14:48:28 INFO  24: 'BeforeTests' *===========================================* 
+26-11-2014 14:49:04 INFO  22: 'BeforeTests' *===========================================* 
+26-11-2014 14:49:04 INFO  23: 'BeforeTests' *        Start running test cases...        * 
+26-11-2014 14:49:04 INFO  24: 'BeforeTests' *===========================================* 
+26-11-2014 14:52:16 INFO  22: 'BeforeTests' *===========================================* 
+26-11-2014 14:52:16 INFO  23: 'BeforeTests' *        Start running test cases...        * 
+26-11-2014 14:52:16 INFO  24: 'BeforeTests' *===========================================* 
+26-11-2014 15:01:09 INFO  22: 'BeforeTests' *===========================================* 
+26-11-2014 15:01:09 INFO  23: 'BeforeTests' *        Start running test cases...        * 
+26-11-2014 15:01:09 INFO  24: 'BeforeTests' *===========================================* 
+26-11-2014 15:01:19 INFO  36: 'UserCanLogin' <<========Started running=====<< 
+26-11-2014 15:01:19 INFO  23: 'verifyPageTitle' |Actual Page is: Login 
+26-11-2014 15:01:21 INFO  42: 'UserCanLogin' |Typing user credentials... 
+26-11-2014 15:01:23 INFO  47: 'UserCanLogin' |Checking if user successfully logged in 
+26-11-2014 15:01:27 INFO  50: 'UserCanLogin' |Logging out... 
+26-11-2014 15:01:32 INFO  53: 'UserCanLogin' <<-----Finishing running test-----< 
+--------------------------------------------------- 
+26-11-2014 15:01:32 INFO  36: 'AfterTests' *===========================================* 
+26-11-2014 15:01:32 INFO  37: 'AfterTests' *       Finish running test cases...        * 
+26-11-2014 15:01:32 INFO  38: 'AfterTests' *===========================================* 
+26-11-2014 15:01:32 INFO  39: 'AfterTests' 
+ 
+26-11-2014 15:01:40 INFO  22: 'BeforeTests' *===========================================* 
+26-11-2014 15:01:40 INFO  23: 'BeforeTests' *        Start running test cases...        * 
+26-11-2014 15:01:40 INFO  24: 'BeforeTests' *===========================================* 
+26-11-2014 15:01:49 INFO  36: 'UserCanLogin' <<========Started running=====<< 
+26-11-2014 15:01:49 INFO  23: 'verifyPageTitle' |Actual Page is: Login 
+26-11-2014 15:01:51 INFO  42: 'UserCanLogin' |Typing user credentials... 
+26-11-2014 15:01:52 INFO  47: 'UserCanLogin' |Checking if user successfully logged in 
+26-11-2014 15:01:56 INFO  50: 'UserCanLogin' |Logging out... 
+26-11-2014 15:02:02 INFO  53: 'UserCanLogin' <<-----Finishing running test-----< 
+--------------------------------------------------- 
+26-11-2014 15:02:02 INFO  36: 'AfterTests' *===========================================* 
+26-11-2014 15:02:02 INFO  37: 'AfterTests' *       Finish running test cases...        * 
+26-11-2014 15:02:02 INFO  38: 'AfterTests' *===========================================* 
+26-11-2014 15:02:02 INFO  39: 'AfterTests' 
+ 
+26-11-2014 15:02:10 INFO  22: 'BeforeTests' *===========================================* 
+26-11-2014 15:02:10 INFO  23: 'BeforeTests' *        Start running test cases...        * 
+26-11-2014 15:02:10 INFO  24: 'BeforeTests' *===========================================* 
+26-11-2014 15:02:21 INFO  36: 'UserCanLogin' <<========Started running=====<< 
+26-11-2014 15:02:21 INFO  23: 'verifyPageTitle' |Actual Page is: Login 
+26-11-2014 15:02:23 INFO  42: 'UserCanLogin' |Typing user credentials... 
+26-11-2014 15:02:25 INFO  47: 'UserCanLogin' |Checking if user successfully logged in 
+26-11-2014 15:02:29 INFO  50: 'UserCanLogin' |Logging out... 
+26-11-2014 15:02:34 INFO  53: 'UserCanLogin' <<-----Finishing running test-----< 
+--------------------------------------------------- 
+26-11-2014 15:02:34 INFO  36: 'AfterTests' *===========================================* 
+26-11-2014 15:02:34 INFO  37: 'AfterTests' *       Finish running test cases...        * 
+26-11-2014 15:02:34 INFO  38: 'AfterTests' *===========================================* 
+26-11-2014 15:02:34 INFO  39: 'AfterTests' 
+ 
+26-11-2014 15:32:59 INFO  22: 'BeforeTests' *===========================================* 
+26-11-2014 15:32:59 INFO  23: 'BeforeTests' *        Start running test cases...        * 
+26-11-2014 15:32:59 INFO  24: 'BeforeTests' *===========================================* 
+26-11-2014 15:33:08 INFO  36: 'UserCanLogin' <<========Started running=====<< 
+26-11-2014 15:33:08 INFO  23: 'verifyPageTitle' |Actual Page is: Login 
+26-11-2014 15:33:10 INFO  42: 'UserCanLogin' |Typing user credentials... 
+26-11-2014 15:33:12 INFO  47: 'UserCanLogin' |Checking if user successfully logged in 
+26-11-2014 15:33:16 INFO  50: 'UserCanLogin' |Logging out... 
+26-11-2014 15:33:21 INFO  53: 'UserCanLogin' <<-----Finishing running test-----< 
+--------------------------------------------------- 
+26-11-2014 15:33:21 INFO  36: 'AfterTests' *===========================================* 
+26-11-2014 15:33:21 INFO  37: 'AfterTests' *       Finish running test cases...        * 
+26-11-2014 15:33:21 INFO  38: 'AfterTests' *===========================================* 
+26-11-2014 15:33:21 INFO  39: 'AfterTests' 
+ 
+26-11-2014 15:34:46 INFO  22: 'BeforeTests' *===========================================* 
+26-11-2014 15:34:46 INFO  23: 'BeforeTests' *        Start running test cases...        * 
+26-11-2014 15:34:46 INFO  24: 'BeforeTests' *===========================================* 
+26-11-2014 15:34:56 INFO  36: 'UserCanLogin' <<========Started running=====<< 
+26-11-2014 15:34:56 INFO  23: 'verifyPageTitle' |Actual Page is: Login 
+26-11-2014 15:34:58 INFO  42: 'UserCanLogin' |Typing user credentials... 
+26-11-2014 15:35:00 INFO  47: 'UserCanLogin' |Checking if user successfully logged in 
+26-11-2014 15:35:05 INFO  50: 'UserCanLogin' |Logging out... 
+26-11-2014 15:35:10 INFO  53: 'UserCanLogin' <<-----Finishing running test-----< 
+--------------------------------------------------- 
+26-11-2014 15:35:10 INFO  36: 'AfterTests' *===========================================* 
+26-11-2014 15:35:10 INFO  37: 'AfterTests' *       Finish running test cases...        * 
+26-11-2014 15:35:10 INFO  38: 'AfterTests' *===========================================* 
+26-11-2014 15:35:10 INFO  39: 'AfterTests' 
+ 
+26-11-2014 15:42:07 INFO  22: 'BeforeTests' *===========================================* 
+26-11-2014 15:42:07 INFO  23: 'BeforeTests' *        Start running test cases...        * 
+26-11-2014 15:42:07 INFO  24: 'BeforeTests' *===========================================* 
+26-11-2014 15:42:17 INFO  36: 'UserCanLogin' <<========Started running=====<< 
+26-11-2014 15:42:17 INFO  23: 'verifyPageTitle' |Actual Page is: Login 
+26-11-2014 15:42:19 INFO  42: 'UserCanLogin' |Typing user credentials... 
+26-11-2014 15:42:21 INFO  47: 'UserCanLogin' |Checking if user successfully logged in 
+26-11-2014 15:42:25 INFO  50: 'UserCanLogin' |Logging out... 
+26-11-2014 15:42:30 INFO  53: 'UserCanLogin' <<-----Finishing running test-----< 
+--------------------------------------------------- 
+26-11-2014 15:42:30 INFO  36: 'AfterTests' *===========================================* 
+26-11-2014 15:42:30 INFO  37: 'AfterTests' *       Finish running test cases...        * 
+26-11-2014 15:42:30 INFO  38: 'AfterTests' *===========================================* 
+26-11-2014 15:42:30 INFO  39: 'AfterTests' 
+ 
+26-11-2014 15:55:37 INFO  22: 'BeforeTests' *===========================================* 
+26-11-2014 15:55:37 INFO  23: 'BeforeTests' *        Start running test cases...        * 
+26-11-2014 15:55:37 INFO  24: 'BeforeTests' *===========================================* 
+26-11-2014 15:55:47 INFO  36: 'UserCanLogin' <<========Started running=====<< 
+26-11-2014 15:55:47 INFO  23: 'verifyPageTitle' |Actual Page is: Login 
+26-11-2014 15:55:49 INFO  42: 'UserCanLogin' |Typing user credentials... 
+26-11-2014 15:55:50 INFO  47: 'UserCanLogin' |Checking if user successfully logged in 
+26-11-2014 15:55:54 INFO  50: 'UserCanLogin' |Logging out... 
+26-11-2014 15:55:59 INFO  53: 'UserCanLogin' <<-----Finishing running test-----< 
+--------------------------------------------------- 
+26-11-2014 15:55:59 INFO  59: 'UserCannotLogin' <<========Started running=====<< 
+26-11-2014 15:55:59 INFO  23: 'verifyPageTitle' |Actual Page is: Login 
+26-11-2014 15:55:59 INFO  64: 'UserCannotLogin' |Typing wrong user credentials... 
+26-11-2014 15:56:05 INFO  70: 'UserCannotLogin' |Checking if error message appear 
+26-11-2014 15:56:05 INFO  73: 'UserCannotLogin' <<-----Finishing running test-----< 
+--------------------------------------------------- 
+26-11-2014 15:56:05 INFO  78: 'UserCanRegister' <<========Started running=====<< 
+26-11-2014 15:56:05 INFO  84: 'UserCanRegister' |Filling in user data... 
+26-11-2014 15:56:10 INFO  87: 'UserCanRegister' |Chossing user's date of birth... 
+26-11-2014 15:56:26 INFO  92: 'UserCanRegister' |Chossing user's country... 
+26-11-2014 15:56:37 INFO  97: 'UserCanRegister' |Checking user email 
+26-11-2014 15:56:37 INFO  101: 'UserCanRegister' |Getting confirmation link from IMAP server... 
+26-11-2014 15:56:38 INFO  32: 'GetConfirmationLink' |Number of Unread Messages : 394 
+26-11-2014 15:56:39 INFO  43: 'GetConfirmationLink' |From: Bitnami Newsletter <newsletter@bitnami.com> 
+26-11-2014 15:56:39 INFO  49: 'GetConfirmationLink' |Reply-to: newsletter@bitnami.com 
+26-11-2014 15:56:39 INFO  55: 'GetConfirmationLink' |To: fortestgl@gmail.com 
+26-11-2014 15:56:39 INFO  61: 'GetConfirmationLink' |Subject: Bitnami news: Run your Own "Dropbox", 3 New Apps!, security news, and more. 
+26-11-2014 15:56:39 INFO  66: 'GetConfirmationLink' |Sent: Wed Nov 26 00:59:40 EET 2014 
+26-11-2014 15:56:40 INFO  36: 'AfterTests' *===========================================* 
+26-11-2014 15:56:40 INFO  37: 'AfterTests' *       Finish running test cases...        * 
+26-11-2014 15:56:40 INFO  38: 'AfterTests' *===========================================* 
+26-11-2014 15:56:40 INFO  39: 'AfterTests' 
+ 
+27-11-2014 09:37:49 INFO  22: 'BeforeTests' *===========================================* 
+27-11-2014 09:37:49 INFO  23: 'BeforeTests' *        Start running test cases...        * 
+27-11-2014 09:37:49 INFO  24: 'BeforeTests' *===========================================* 
+27-11-2014 09:39:24 INFO  22: 'BeforeTests' *===========================================* 
+27-11-2014 09:39:24 INFO  23: 'BeforeTests' *        Start running test cases...        * 
+27-11-2014 09:39:24 INFO  24: 'BeforeTests' *===========================================* 
+27-11-2014 09:42:28 INFO  22: 'BeforeTests' *===========================================* 
+27-11-2014 09:42:28 INFO  23: 'BeforeTests' *        Start running test cases...        * 
+27-11-2014 09:42:28 INFO  24: 'BeforeTests' *===========================================* 
+27-11-2014 09:52:14 INFO  22: 'BeforeTests' *===========================================* 
+27-11-2014 09:52:14 INFO  23: 'BeforeTests' *        Start running test cases...        * 
+27-11-2014 09:52:14 INFO  24: 'BeforeTests' *===========================================* 
+27-11-2014 09:53:28 INFO  22: 'BeforeTests' *===========================================* 
+27-11-2014 09:53:28 INFO  23: 'BeforeTests' *        Start running test cases...        * 
+27-11-2014 09:53:28 INFO  24: 'BeforeTests' *===========================================* 
+27-11-2014 09:57:22 INFO  22: 'BeforeTests' *===========================================* 
+27-11-2014 09:57:22 INFO  23: 'BeforeTests' *        Start running test cases...        * 
+27-11-2014 09:57:22 INFO  24: 'BeforeTests' *===========================================* 
+27-11-2014 09:58:14 INFO  22: 'BeforeTests' *===========================================* 
+27-11-2014 09:58:14 INFO  23: 'BeforeTests' *        Start running test cases...        * 
+27-11-2014 09:58:14 INFO  24: 'BeforeTests' *===========================================* 
+27-11-2014 09:58:20 INFO  22: 'BeforeTests' *===========================================* 
+27-11-2014 09:58:20 INFO  23: 'BeforeTests' *        Start running test cases...        * 
+27-11-2014 09:58:20 INFO  24: 'BeforeTests' *===========================================* 
+27-11-2014 09:58:35 INFO  22: 'BeforeTests' *===========================================* 
+27-11-2014 09:58:35 INFO  23: 'BeforeTests' *        Start running test cases...        * 
+27-11-2014 09:58:35 INFO  24: 'BeforeTests' *===========================================* 
+27-11-2014 10:06:31 INFO  22: 'BeforeTests' *===========================================* 
+27-11-2014 10:06:31 INFO  23: 'BeforeTests' *        Start running test cases...        * 
+27-11-2014 10:06:31 INFO  24: 'BeforeTests' *===========================================* 
+27-11-2014 10:06:42 INFO  36: 'UserCanLogin' <<========Started running=====<< 
+27-11-2014 10:06:42 INFO  23: 'verifyPageTitle' |Actual Page is: Login 
+27-11-2014 10:06:44 INFO  42: 'UserCanLogin' |Typing user credentials... 
+27-11-2014 10:06:45 INFO  47: 'UserCanLogin' |Checking if user successfully logged in 
+27-11-2014 10:06:50 INFO  50: 'UserCanLogin' |Logging out... 
+27-11-2014 10:06:55 INFO  53: 'UserCanLogin' <<-----Finishing running test-----< 
+--------------------------------------------------- 
+27-11-2014 10:06:55 INFO  59: 'UserCannotLogin' <<========Started running=====<< 
+27-11-2014 10:06:55 INFO  23: 'verifyPageTitle' |Actual Page is: Login 
+27-11-2014 10:06:55 INFO  64: 'UserCannotLogin' |Typing wrong user credentials... 
+27-11-2014 10:07:01 INFO  70: 'UserCannotLogin' |Checking if error message appear 
+27-11-2014 10:07:01 INFO  73: 'UserCannotLogin' <<-----Finishing running test-----< 
+--------------------------------------------------- 
+27-11-2014 10:07:01 INFO  78: 'UserCanRegister' <<========Started running=====<< 
+27-11-2014 10:07:01 INFO  84: 'UserCanRegister' |Filling in user data... 
+27-11-2014 10:07:07 INFO  87: 'UserCanRegister' |Chossing user's date of birth... 
+27-11-2014 10:07:23 INFO  92: 'UserCanRegister' |Chossing user's country... 
+27-11-2014 10:07:33 INFO  97: 'UserCanRegister' |Checking user email 
+27-11-2014 10:07:34 INFO  101: 'UserCanRegister' |Getting confirmation link from IMAP server... 
+27-11-2014 10:07:35 INFO  32: 'GetConfirmationLink' |Number of Unread Messages : 395 
+27-11-2014 10:07:36 INFO  43: 'GetConfirmationLink' |From: support@instabeat.me 
+27-11-2014 10:07:36 INFO  49: 'GetConfirmationLink' |Reply-to: support@instabeat.me 
+27-11-2014 10:07:36 INFO  55: 'GetConfirmationLink' |To: fortestgl+1583751391@gmail.com 
+27-11-2014 10:07:36 INFO  61: 'GetConfirmationLink' |Subject: Welcome to Instabeat 
+27-11-2014 10:07:36 INFO  66: 'GetConfirmationLink' |Sent: Wed Nov 26 15:56:34 EET 2014 
+27-11-2014 10:07:36 INFO  93: 'GetConfirmationLink' |Link is: staging-web-664817575.us-west-2.elb.amazonaws.com/user/confirm/5fd0c6e09b294d479bd43524ff160757 
+27-11-2014 10:07:39 INFO  103: 'UserCanRegister' |Check second step of register - Download page 
+27-11-2014 10:07:46 INFO  109: 'UserCanRegister' |Logging from App using new created user... 
+27-11-2014 10:07:46 INFO  63: 'AppLogin' |username is fortestgl+28073137@gmail.com 
+27-11-2014 10:07:47 INFO  77: 'AppLogin' |Output from Server... 
+27-11-2014 10:07:47 INFO  83: 'AppLogin' |{  "success": true,  "user": {    "token": "9b307bc1c26eb4432c3126e28b10451836119200",    "user": "0b9392b4d3cd24402b185425130a5717"  }} 
+27-11-2014 10:07:47 INFO  91: 'AppLogin' |UserID is: 0b9392b4d3cd24402b185425130a5717 
+27-11-2014 10:07:47 INFO  93: 'AppLogin' |User token is: 9b307bc1c26eb4432c3126e28b10451836119200 
+27-11-2014 10:07:49 INFO  111: 'UserCanRegister' |Check for success login from App 
+27-11-2014 10:07:49 INFO  115: 'UserCanRegister' |Filling in RHR data 
+27-11-2014 10:07:50 INFO  119: 'UserCanRegister' |Check if registration is successfully 
+27-11-2014 10:08:40 INFO  36: 'AfterTests' *===========================================* 
+27-11-2014 10:08:40 INFO  37: 'AfterTests' *       Finish running test cases...        * 
+27-11-2014 10:08:40 INFO  38: 'AfterTests' *===========================================* 
+27-11-2014 10:08:40 INFO  39: 'AfterTests' 
+ 
+27-11-2014 10:15:23 INFO  22: 'BeforeTests' *===========================================* 
+27-11-2014 10:15:23 INFO  23: 'BeforeTests' *        Start running test cases...        * 
+27-11-2014 10:15:23 INFO  24: 'BeforeTests' *===========================================* 
+27-11-2014 10:15:33 INFO  78: 'UserCanRegister' <<========Started running=====<< 
+27-11-2014 10:15:33 INFO  84: 'UserCanRegister' |Filling in user data... 
+27-11-2014 10:15:38 INFO  87: 'UserCanRegister' |Chossing user's date of birth... 
+27-11-2014 10:15:54 INFO  92: 'UserCanRegister' |Chossing user's country... 
+27-11-2014 10:16:04 INFO  97: 'UserCanRegister' |Checking user email 
+27-11-2014 10:16:05 INFO  101: 'UserCanRegister' |Getting confirmation link from IMAP server... 
+27-11-2014 10:16:06 INFO  32: 'GetConfirmationLink' |Number of Unread Messages : 396 
+27-11-2014 10:16:06 INFO  43: 'GetConfirmationLink' |From: support@instabeat.me 
+27-11-2014 10:16:06 INFO  49: 'GetConfirmationLink' |Reply-to: support@instabeat.me 
+27-11-2014 10:16:06 INFO  55: 'GetConfirmationLink' |To: fortestgl+1876942730@gmail.com 
+27-11-2014 10:16:06 INFO  61: 'GetConfirmationLink' |Subject: Welcome to Instabeat 
+27-11-2014 10:16:06 INFO  66: 'GetConfirmationLink' |Sent: Thu Nov 27 10:16:02 EET 2014 
+27-11-2014 10:16:07 INFO  93: 'GetConfirmationLink' |Link is: staging-web-664817575.us-west-2.elb.amazonaws.com/user/confirm/c14bb2867d1fc2581e43d8d2c77f25bc 
+27-11-2014 10:16:10 INFO  103: 'UserCanRegister' |Check second step of register - Download page 
+27-11-2014 10:16:17 INFO  109: 'UserCanRegister' |Logging from App using new created user... 
+27-11-2014 10:16:17 INFO  63: 'AppLogin' |username is fortestgl+1876942730@gmail.com 
+27-11-2014 10:16:18 INFO  77: 'AppLogin' |Output from Server... 
+27-11-2014 10:16:18 INFO  83: 'AppLogin' |{  "success": true,  "user": {    "token": "b5f5bba5d73cb01a80e7f64dce22b436149fd38e",    "user": "2983ab33e197a1498b26f334cff0da63"  }} 
+27-11-2014 10:16:18 INFO  91: 'AppLogin' |UserID is: 2983ab33e197a1498b26f334cff0da63 
+27-11-2014 10:16:18 INFO  93: 'AppLogin' |User token is: b5f5bba5d73cb01a80e7f64dce22b436149fd38e 
+27-11-2014 10:16:20 INFO  111: 'UserCanRegister' |Check for success login from App 
+27-11-2014 10:16:20 INFO  115: 'UserCanRegister' |Filling in RHR data 
+27-11-2014 10:16:20 INFO  119: 'UserCanRegister' |Check if registration is successfully 
+27-11-2014 10:16:25 INFO  467: 'verificationOfElementsOnPages' |Element[[FirefoxDriver: firefox on WINDOWS (bf3bca90-7dad-4894-beab-031720ac1574)] -> xpath: .//*[@id='cong-text']]is PRESENT!!! 
+27-11-2014 10:16:30 INFO  124: 'UserCanRegister' |Logging out... 
+27-11-2014 10:16:30 INFO  128: 'UserCanRegister' |Logging by new created Random user 
+27-11-2014 10:16:34 INFO  134: 'UserCanRegister' |Deleting created Random User... 
+27-11-2014 10:16:45 INFO  143: 'UserCanRegister' <<-----Finishing running test-----< 
+--------------------------------------------------- 
+27-11-2014 10:16:45 INFO  36: 'AfterTests' *===========================================* 
+27-11-2014 10:16:45 INFO  37: 'AfterTests' *       Finish running test cases...        * 
+27-11-2014 10:16:45 INFO  38: 'AfterTests' *===========================================* 
+27-11-2014 10:16:45 INFO  39: 'AfterTests' 
+ 
+27-11-2014 10:21:11 INFO  22: 'BeforeTests' *===========================================* 
+27-11-2014 10:21:11 INFO  23: 'BeforeTests' *        Start running test cases...        * 
+27-11-2014 10:21:11 INFO  24: 'BeforeTests' *===========================================* 
+27-11-2014 10:21:22 INFO  28: 'checkAllLinksOnWebPage' <<========Started running=====<< 
+27-11-2014 10:21:28 INFO  432: 'GetAllLinksOnPage' |Got to page ~Instabeat~ by link http://www.instabeat.me/ 
+27-11-2014 10:21:29 INFO  432: 'GetAllLinksOnPage' |Got to page ~Instabeat~ by link http://www.instabeat.me/preorder 
+27-11-2014 10:21:31 INFO  432: 'GetAllLinksOnPage' |Got to page ~Instabeat~ by link http://www.instabeat.me/about 
+27-11-2014 10:21:32 INFO  432: 'GetAllLinksOnPage' |Got to page ~Instabeat~ by link http://www.instabeat.me/pressroom 
+27-11-2014 10:21:37 INFO  432: 'GetAllLinksOnPage' |Got to page ~Instabeat~ by link http://www.instabeat.me/blog 
+27-11-2014 10:21:40 INFO  432: 'GetAllLinksOnPage' |Got to page ~Registration~ by link http://staging-web-664817575.us-west-2.elb.amazonaws.com/go 
+27-11-2014 10:21:40 INFO  432: 'GetAllLinksOnPage' |Got to page ~Login~ by link http://staging-web-664817575.us-west-2.elb.amazonaws.com/user/# 
+27-11-2014 10:21:43 INFO  432: 'GetAllLinksOnPage' |Got to page ~Instabeat~ by link http://www.instabeat.me/preorder 
+27-11-2014 10:21:45 INFO  432: 'GetAllLinksOnPage' |Got to page ~Registration~ by link http://staging-web-664817575.us-west-2.elb.amazonaws.com/go 
+27-11-2014 10:21:47 INFO  432: 'GetAllLinksOnPage' |Got to page ~~ by link http://staging-web-664817575.us-west-2.elb.amazonaws.com/user/restore 
+27-11-2014 10:21:49 INFO  432: 'GetAllLinksOnPage' |Got to page ~Instabeat~ by link http://www.instabeat.me/about 
+27-11-2014 10:21:50 INFO  432: 'GetAllLinksOnPage' |Got to page ~Instabeat~ by link http://www.instabeat.me/preorder 
+27-11-2014 10:21:55 INFO  432: 'GetAllLinksOnPage' |Got to page ~Instabeat~ by link http://www.instabeat.me/careers 
+27-11-2014 10:21:56 INFO  432: 'GetAllLinksOnPage' |Got to page ~Instabeat~ by link http://www.instabeat.me/pressroom 
+27-11-2014 10:21:58 INFO  432: 'GetAllLinksOnPage' |Got to page ~Instabeat~ by link http://www.instabeat.me/blog 
+27-11-2014 10:22:02 INFO  432: 'GetAllLinksOnPage' |Got to page ~Instabeat~ by link https://myinstabeat.zendesk.com/hc/en-us 
+27-11-2014 10:22:03 INFO  432: 'GetAllLinksOnPage' |Got to page ~Instabeat User Manual.pdf~ by link http://staging-web-664817575.us-west-2.elb.amazonaws.com/user/files/Instabeat%20User%20Manual.pdf 
+27-11-2014 10:22:05 INFO  432: 'GetAllLinksOnPage' |Got to page ~Download~ by link http://staging-web-664817575.us-west-2.elb.amazonaws.com/downloads 
+27-11-2014 10:22:05 INFO  432: 'GetAllLinksOnPage' |Got to page ~Terms and Conditions of Sale – Instabeat~ by link https://myinstabeat.zendesk.com/hc/en-us/articles/200686132-Terms-and-Conditions-of-Sale 
+27-11-2014 10:22:06 INFO  432: 'GetAllLinksOnPage' |Got to page ~Privacy Policy – Instabeat~ by link https://myinstabeat.zendesk.com/hc/en-us/articles/200686202-Privacy-Policy 
+27-11-2014 10:22:07 INFO  432: 'GetAllLinksOnPage' |Got to page ~Terms and Conditions of Use – Instabeat~ by link https://myinstabeat.zendesk.com/hc/en-us/articles/200686122-Terms-and-Conditions-of-Use 
+27-11-2014 10:22:12 INFO  432: 'GetAllLinksOnPage' |Got to page ~Instabeat - Β³δεξ - Google+~ by link https://plus.google.com/105815489580555106540/ 
+27-11-2014 10:22:15 INFO  432: 'GetAllLinksOnPage' |Got to page ~Instabeat on Vimeo~ by link http://vimeo.com/instabeat 
+27-11-2014 10:22:19 INFO  432: 'GetAllLinksOnPage' |Got to page ~myinstabeat on Instagram~ by link http://instagram.com/myinstabeat# 
+27-11-2014 10:22:21 INFO  432: 'GetAllLinksOnPage' |Got to page ~Instabeat | Facebook~ by link https://www.facebook.com/myinstabeat 
+27-11-2014 10:22:27 INFO  432: 'GetAllLinksOnPage' |Got to page ~Instabeat (@myinstabeat) | Twitter~ by link https://twitter.com/myinstabeat 
+27-11-2014 10:22:28 INFO  432: 'GetAllLinksOnPage' |Got to page ~Login~ by link http://www.linkedin.com/company/2562190?goback=.fcs_GLHD_instabeat_false_*2_*2_*2_*2_*2_*2_*2_*2_*2_*2_*2_*2&trk=ncsrch_hits 
+27-11-2014 10:22:28 INFO  435: 'GetAllLinksOnPage' |An amount of links on the page are: 27 
+27-11-2014 10:22:28 INFO  436: 'GetAllLinksOnPage' |An amount of passed links are: 27 
+27-11-2014 10:22:30 INFO  31: 'checkAllLinksOnWebPage' <<-----Finishing running test-----< 
+--------------------------------------------------- 
+27-11-2014 10:22:30 INFO  36: 'AfterTests' *===========================================* 
+27-11-2014 10:22:30 INFO  37: 'AfterTests' *       Finish running test cases...        * 
+27-11-2014 10:22:30 INFO  38: 'AfterTests' *===========================================* 
+27-11-2014 10:22:30 INFO  39: 'AfterTests' 
+ 
+27-11-2014 10:53:34 INFO  22: 'BeforeTests' *===========================================* 
+27-11-2014 10:53:34 INFO  23: 'BeforeTests' *        Start running test cases...        * 
+27-11-2014 10:53:34 INFO  24: 'BeforeTests' *===========================================* 
+27-11-2014 10:53:45 INFO  28: 'checkAllLinksOnWebPage' <<========Started running=====<< 
+27-11-2014 10:53:51 INFO  432: 'GetAllLinksOnPage' |Got to page ~Instabeat~ by link http://www.instabeat.me/ 
+27-11-2014 10:53:53 INFO  432: 'GetAllLinksOnPage' |Got to page ~~ by link http://www.instabeat.me/preorder 
+27-11-2014 10:53:54 INFO  432: 'GetAllLinksOnPage' |Got to page ~Instabeat~ by link http://www.instabeat.me/about 
+27-11-2014 10:53:55 INFO  432: 'GetAllLinksOnPage' |Got to page ~~ by link http://www.instabeat.me/pressroom 
+27-11-2014 10:54:01 INFO  432: 'GetAllLinksOnPage' |Got to page ~Instabeat~ by link http://www.instabeat.me/blog 
+27-11-2014 10:54:03 INFO  432: 'GetAllLinksOnPage' |Got to page ~Registration~ by link http://staging-web-664817575.us-west-2.elb.amazonaws.com/go 
+27-11-2014 10:54:04 INFO  432: 'GetAllLinksOnPage' |Got to page ~Login~ by link http://staging-web-664817575.us-west-2.elb.amazonaws.com/user/# 
+27-11-2014 10:54:06 INFO  432: 'GetAllLinksOnPage' |Got to page ~Instabeat~ by link http://www.instabeat.me/preorder 
+27-11-2014 10:54:09 INFO  432: 'GetAllLinksOnPage' |Got to page ~Registration~ by link http://staging-web-664817575.us-west-2.elb.amazonaws.com/go 
+27-11-2014 10:54:11 INFO  432: 'GetAllLinksOnPage' |Got to page ~~ by link http://staging-web-664817575.us-west-2.elb.amazonaws.com/user/restore 
+27-11-2014 10:54:12 INFO  432: 'GetAllLinksOnPage' |Got to page ~Instabeat~ by link http://www.instabeat.me/about 
+27-11-2014 10:54:13 INFO  432: 'GetAllLinksOnPage' |Got to page ~Instabeat~ by link http://www.instabeat.me/preorder 
+27-11-2014 10:54:17 INFO  432: 'GetAllLinksOnPage' |Got to page ~Instabeat~ by link http://www.instabeat.me/careers 
+27-11-2014 10:54:18 INFO  432: 'GetAllLinksOnPage' |Got to page ~Instabeat~ by link http://www.instabeat.me/pressroom 
+27-11-2014 10:54:21 INFO  432: 'GetAllLinksOnPage' |Got to page ~Instabeat~ by link http://www.instabeat.me/blog 
+27-11-2014 10:54:24 INFO  432: 'GetAllLinksOnPage' |Got to page ~Instabeat~ by link https://myinstabeat.zendesk.com/hc/en-us 
+27-11-2014 10:54:24 INFO  432: 'GetAllLinksOnPage' |Got to page ~Instabeat User Manual.pdf~ by link http://staging-web-664817575.us-west-2.elb.amazonaws.com/user/files/Instabeat%20User%20Manual.pdf 
+27-11-2014 10:54:26 INFO  432: 'GetAllLinksOnPage' |Got to page ~Download~ by link http://staging-web-664817575.us-west-2.elb.amazonaws.com/downloads 
+27-11-2014 10:54:27 INFO  432: 'GetAllLinksOnPage' |Got to page ~Terms and Conditions of Sale – Instabeat~ by link https://myinstabeat.zendesk.com/hc/en-us/articles/200686132-Terms-and-Conditions-of-Sale 
+27-11-2014 10:54:28 INFO  432: 'GetAllLinksOnPage' |Got to page ~Privacy Policy – Instabeat~ by link https://myinstabeat.zendesk.com/hc/en-us/articles/200686202-Privacy-Policy 
+27-11-2014 10:54:29 INFO  432: 'GetAllLinksOnPage' |Got to page ~Terms and Conditions of Use – Instabeat~ by link https://myinstabeat.zendesk.com/hc/en-us/articles/200686122-Terms-and-Conditions-of-Use 
+27-11-2014 10:54:34 INFO  432: 'GetAllLinksOnPage' |Got to page ~Instabeat - Β³δεξ - Google+~ by link https://plus.google.com/105815489580555106540/ 
+27-11-2014 10:54:36 INFO  432: 'GetAllLinksOnPage' |Got to page ~Instabeat on Vimeo~ by link http://vimeo.com/instabeat 
+27-11-2014 10:54:40 INFO  432: 'GetAllLinksOnPage' |Got to page ~myinstabeat on Instagram~ by link http://instagram.com/myinstabeat# 
+27-11-2014 10:54:42 INFO  432: 'GetAllLinksOnPage' |Got to page ~Instabeat | Facebook~ by link https://www.facebook.com/myinstabeat 
+27-11-2014 10:54:51 INFO  432: 'GetAllLinksOnPage' |Got to page ~Instabeat (@myinstabeat) | Twitter~ by link https://twitter.com/myinstabeat 
+27-11-2014 10:54:52 INFO  432: 'GetAllLinksOnPage' |Got to page ~Download~ by link http://www.linkedin.com/company/2562190?goback=.fcs_GLHD_instabeat_false_*2_*2_*2_*2_*2_*2_*2_*2_*2_*2_*2_*2&trk=ncsrch_hits 
+27-11-2014 10:54:52 INFO  435: 'GetAllLinksOnPage' |An amount of links on the page are: 27 
+27-11-2014 10:54:52 INFO  436: 'GetAllLinksOnPage' |An amount of passed links are: 27 
+27-11-2014 10:54:52 INFO  31: 'checkAllLinksOnWebPage' <<-----Finishing running test-----< 
+--------------------------------------------------- 
+27-11-2014 10:54:52 INFO  36: 'AfterTests' *===========================================* 
+27-11-2014 10:54:52 INFO  37: 'AfterTests' *       Finish running test cases...        * 
+27-11-2014 10:54:52 INFO  38: 'AfterTests' *===========================================* 
+27-11-2014 10:54:52 INFO  39: 'AfterTests' 
+ 
+27-11-2014 11:04:07 INFO  22: 'BeforeTests' *===========================================* 
+27-11-2014 11:04:08 INFO  23: 'BeforeTests' *        Start running test cases...        * 
+27-11-2014 11:04:08 INFO  24: 'BeforeTests' *===========================================* 
+27-11-2014 11:04:18 INFO  28: 'checkAllLinksOnWebPage' <<========Started running=====<< 
+27-11-2014 11:04:25 INFO  432: 'GetAllLinksOnPage' |Got to page ~Instabeat~ by link http://www.instabeat.me/ 
+27-11-2014 11:04:28 INFO  432: 'GetAllLinksOnPage' |Got to page ~Instabeat~ by link http://www.instabeat.me/preorder 
+27-11-2014 11:04:33 INFO  432: 'GetAllLinksOnPage' |Got to page ~Instabeat~ by link http://www.instabeat.me/about 
+27-11-2014 11:04:37 INFO  432: 'GetAllLinksOnPage' |Got to page ~Instabeat~ by link http://www.instabeat.me/pressroom 
+27-11-2014 11:04:45 INFO  432: 'GetAllLinksOnPage' |Got to page ~Instabeat~ by link http://www.instabeat.me/blog 
+27-11-2014 11:04:47 INFO  432: 'GetAllLinksOnPage' |Got to page ~Registration~ by link http://staging-web-664817575.us-west-2.elb.amazonaws.com/go 
+27-11-2014 11:04:47 INFO  432: 'GetAllLinksOnPage' |Got to page ~Registration~ by link http://staging-web-664817575.us-west-2.elb.amazonaws.com/user/# 
+27-11-2014 11:04:48 INFO  432: 'GetAllLinksOnPage' |Got to page ~Instabeat~ by link http://www.instabeat.me/preorder 
+27-11-2014 11:04:50 INFO  432: 'GetAllLinksOnPage' |Got to page ~Registration~ by link http://staging-web-664817575.us-west-2.elb.amazonaws.com/go 
+27-11-2014 11:04:52 INFO  432: 'GetAllLinksOnPage' |Got to page ~~ by link http://staging-web-664817575.us-west-2.elb.amazonaws.com/user/restore 
+27-11-2014 11:04:56 INFO  432: 'GetAllLinksOnPage' |Got to page ~Instabeat~ by link http://www.instabeat.me/about 
+27-11-2014 11:04:58 INFO  432: 'GetAllLinksOnPage' |Got to page ~Instabeat~ by link http://www.instabeat.me/preorder 
+27-11-2014 11:05:01 INFO  432: 'GetAllLinksOnPage' |Got to page ~Instabeat~ by link http://www.instabeat.me/careers 
+27-11-2014 11:05:03 INFO  432: 'GetAllLinksOnPage' |Got to page ~Instabeat~ by link http://www.instabeat.me/pressroom 
+27-11-2014 11:05:05 INFO  432: 'GetAllLinksOnPage' |Got to page ~Instabeat~ by link http://www.instabeat.me/blog 
+27-11-2014 11:05:08 INFO  432: 'GetAllLinksOnPage' |Got to page ~Instabeat~ by link https://myinstabeat.zendesk.com/hc/en-us 
+27-11-2014 11:05:08 INFO  432: 'GetAllLinksOnPage' |Got to page ~Instabeat User Manual.pdf~ by link http://staging-web-664817575.us-west-2.elb.amazonaws.com/user/files/Instabeat%20User%20Manual.pdf 
+27-11-2014 11:05:10 INFO  432: 'GetAllLinksOnPage' |Got to page ~Download~ by link http://staging-web-664817575.us-west-2.elb.amazonaws.com/downloads 
+27-11-2014 11:05:11 INFO  432: 'GetAllLinksOnPage' |Got to page ~Terms and Conditions of Sale – Instabeat~ by link https://myinstabeat.zendesk.com/hc/en-us/articles/200686132-Terms-and-Conditions-of-Sale 
+27-11-2014 11:05:12 INFO  432: 'GetAllLinksOnPage' |Got to page ~Privacy Policy – Instabeat~ by link https://myinstabeat.zendesk.com/hc/en-us/articles/200686202-Privacy-Policy 
+27-11-2014 11:05:12 INFO  432: 'GetAllLinksOnPage' |Got to page ~Terms and Conditions of Use – Instabeat~ by link https://myinstabeat.zendesk.com/hc/en-us/articles/200686122-Terms-and-Conditions-of-Use 
+27-11-2014 11:05:18 INFO  432: 'GetAllLinksOnPage' |Got to page ~Instabeat - Β³δεξ - Google+~ by link https://plus.google.com/105815489580555106540/ 
+27-11-2014 11:05:20 INFO  432: 'GetAllLinksOnPage' |Got to page ~Instabeat on Vimeo~ by link http://vimeo.com/instabeat 
+27-11-2014 11:05:23 INFO  432: 'GetAllLinksOnPage' |Got to page ~myinstabeat on Instagram~ by link http://instagram.com/myinstabeat# 
+27-11-2014 11:05:28 INFO  432: 'GetAllLinksOnPage' |Got to page ~Instabeat | Facebook~ by link https://www.facebook.com/myinstabeat 
+27-11-2014 11:05:32 INFO  432: 'GetAllLinksOnPage' |Got to page ~Instabeat (@myinstabeat) | Twitter~ by link https://twitter.com/myinstabeat 
+27-11-2014 11:05:41 INFO  432: 'GetAllLinksOnPage' |Got to page ~Instabeat | LinkedIn~ by link http://www.linkedin.com/company/2562190?goback=.fcs_GLHD_instabeat_false_*2_*2_*2_*2_*2_*2_*2_*2_*2_*2_*2_*2&trk=ncsrch_hits 
+27-11-2014 11:05:41 INFO  435: 'GetAllLinksOnPage' |An amount of links on the page are: 27 
+27-11-2014 11:05:41 INFO  436: 'GetAllLinksOnPage' |An amount of passed links are: 27 
+27-11-2014 11:05:43 INFO  31: 'checkAllLinksOnWebPage' <<-----Finishing running test-----< 
+--------------------------------------------------- 
+27-11-2014 11:05:43 INFO  36: 'AfterTests' *===========================================* 
+27-11-2014 11:05:43 INFO  37: 'AfterTests' *       Finish running test cases...        * 
+27-11-2014 11:05:43 INFO  38: 'AfterTests' *===========================================* 
+27-11-2014 11:05:43 INFO  39: 'AfterTests' 
+ 
+27-11-2014 12:09:28 INFO  22: 'BeforeTests' *===========================================* 
+27-11-2014 12:09:28 INFO  23: 'BeforeTests' *        Start running test cases...        * 
+27-11-2014 12:09:28 INFO  24: 'BeforeTests' *===========================================* 
+27-11-2014 12:09:39 INFO  737: 'checkDefaultActivity' <<========Started running=====<< 
+27-11-2014 12:09:39 INFO  741: 'checkDefaultActivity' |Sending session to the server... 
+27-11-2014 12:09:39 INFO  63: 'AppLogin' |username is fortestgl+1@gmail.com 
+27-11-2014 12:09:40 INFO  77: 'AppLogin' |Output from Server... 
+27-11-2014 12:09:40 INFO  83: 'AppLogin' |{  "success": true,  "user": {    "token": "9a5378b5450746a0300b4797eb174ecb8ab57d82",    "user": "63f0a8a3bea4d4ecd726ff0956e3d3b5"  }} 
+27-11-2014 12:09:40 INFO  91: 'AppLogin' |UserID is: 63f0a8a3bea4d4ecd726ff0956e3d3b5 
+27-11-2014 12:09:40 INFO  93: 'AppLogin' |User token is: 9a5378b5450746a0300b4797eb174ecb8ab57d82 
+27-11-2014 12:09:40 INFO  130: 'PostSession' |Executing request: POST http://staging-web-664817575.us-west-2.elb.amazonaws.com/user/unpack HTTP/1.1 
+27-11-2014 12:09:41 INFO  36: 'AfterTests' *===========================================* 
+27-11-2014 12:09:41 INFO  37: 'AfterTests' *       Finish running test cases...        * 
+27-11-2014 12:09:41 INFO  38: 'AfterTests' *===========================================* 
+27-11-2014 12:09:41 INFO  39: 'AfterTests' 
+ 
+27-11-2014 12:10:22 INFO  22: 'BeforeTests' *===========================================* 
+27-11-2014 12:10:22 INFO  23: 'BeforeTests' *        Start running test cases...        * 
+27-11-2014 12:10:22 INFO  24: 'BeforeTests' *===========================================* 
+27-11-2014 12:11:30 INFO  737: 'checkDefaultActivity' <<========Started running=====<< 
+27-11-2014 12:11:30 INFO  741: 'checkDefaultActivity' |Sending session to the server... 
+27-11-2014 12:11:30 INFO  63: 'AppLogin' |username is fortestgl+1@gmail.com 
+27-11-2014 12:11:30 INFO  77: 'AppLogin' |Output from Server... 
+27-11-2014 12:11:30 INFO  83: 'AppLogin' |{  "success": true,  "user": {    "token": "9a5378b5450746a0300b4797eb174ecb8ab57d82",    "user": "63f0a8a3bea4d4ecd726ff0956e3d3b5"  }} 
+27-11-2014 12:11:30 INFO  91: 'AppLogin' |UserID is: 63f0a8a3bea4d4ecd726ff0956e3d3b5 
+27-11-2014 12:11:30 INFO  93: 'AppLogin' |User token is: 9a5378b5450746a0300b4797eb174ecb8ab57d82 
+27-11-2014 12:11:30 INFO  130: 'PostSession' |Executing request: POST http://staging-web-664817575.us-west-2.elb.amazonaws.com/user/unpack HTTP/1.1 
+27-11-2014 12:11:32 INFO  133: 'PostSession' |Status of request is: HTTP/1.1 200 OK 
+27-11-2014 12:11:32 INFO  134: 'PostSession' |Response is: HttpResponseProxy{HTTP/1.1 200 OK [Content-Type: application/json; charset=utf-8, Date: Thu, 27 Nov 2014 10:11:33 GMT, Set-Cookie: i18next=en-US; path=/; expires=Fri, 27 Nov 2015 10:11:33 GMT, Set-Cookie: connect.sid=s%3Ajarp1SVdoHq0dtMz430boLNM.moUYJeNicX%2F2yyGMyrJut%2Bw9mSqkdb%2FymNpNqCFci%2FI; Path=/; HttpOnly, Set-Cookie: AWSELB=03FF654F188040D73460A02429CC778A1C99C4084F6A4E25DD68A8013F77F02C968942FA7120975E8AA1725B5098F968AB54E4E0133CFE65B6AA7A1750D8CA9316E9250C7A1B8B0B2186A81D4E206E7CC47AF2B727;PATH=/;HTTPONLY, Vary: Accept-Encoding, X-Powered-By: Express, Content-Length: 21, Connection: keep-alive]} 
+27-11-2014 12:11:32 INFO  137: 'PostSession' |Response content length: 21 
+27-11-2014 12:11:32 INFO  744: 'checkDefaultActivity' |Logging in... 
+27-11-2014 12:11:46 INFO  749: 'checkDefaultActivity' |Check if user logged in 
+27-11-2014 12:11:50 INFO  36: 'AfterTests' *===========================================* 
+27-11-2014 12:11:50 INFO  37: 'AfterTests' *       Finish running test cases...        * 
+27-11-2014 12:11:50 INFO  38: 'AfterTests' *===========================================* 
+27-11-2014 12:11:50 INFO  39: 'AfterTests' 
+ 
+27-11-2014 15:28:21 INFO  22: 'BeforeTests' *===========================================* 
+27-11-2014 15:28:21 INFO  23: 'BeforeTests' *        Start running test cases...        * 
+27-11-2014 15:28:21 INFO  24: 'BeforeTests' *===========================================* 
+27-11-2014 15:28:34 INFO  78: 'UserCanRegister' <<========Started running=====<< 
+27-11-2014 15:28:35 INFO  84: 'UserCanRegister' |Filling in user data... 
+27-11-2014 15:28:42 INFO  87: 'UserCanRegister' |Chossing user's date of birth... 
+27-11-2014 15:28:58 INFO  92: 'UserCanRegister' |Chossing user's country... 
+27-11-2014 15:29:08 INFO  97: 'UserCanRegister' |Checking user email 
+27-11-2014 15:29:10 INFO  101: 'UserCanRegister' |Getting confirmation link from IMAP server... 
+27-11-2014 15:29:12 INFO  32: 'GetConfirmationLink' |Number of Unread Messages : 397 
+27-11-2014 15:29:12 INFO  43: 'GetConfirmationLink' |From: support@instabeat.me 
+27-11-2014 15:29:12 INFO  49: 'GetConfirmationLink' |Reply-to: support@instabeat.me 
+27-11-2014 15:29:12 INFO  55: 'GetConfirmationLink' |To: fortestgl+1876942730@gmail.com 
+27-11-2014 15:29:12 INFO  61: 'GetConfirmationLink' |Subject: Welcome to Instabeat 
+27-11-2014 15:29:12 INFO  66: 'GetConfirmationLink' |Sent: Thu Nov 27 10:16:02 EET 2014 
+27-11-2014 15:29:13 INFO  93: 'GetConfirmationLink' |Link is: staging-web-664817575.us-west-2.elb.amazonaws.com/user/confirm/c14bb2867d1fc2581e43d8d2c77f25bc 
+27-11-2014 15:29:15 INFO  103: 'UserCanRegister' |Check second step of register - Download page 
+27-11-2014 15:30:05 INFO  737: 'checkDefaultActivity' <<========Started running=====<< 
+27-11-2014 15:30:05 INFO  741: 'checkDefaultActivity' |Sending session to the server... 
+27-11-2014 15:30:05 INFO  63: 'AppLogin' |username is fortestgl+1@gmail.com 
+27-11-2014 15:30:06 INFO  77: 'AppLogin' |Output from Server... 
+27-11-2014 15:30:06 INFO  83: 'AppLogin' |{  "success": true,  "user": {    "token": "9a5378b5450746a0300b4797eb174ecb8ab57d82",    "user": "63f0a8a3bea4d4ecd726ff0956e3d3b5"  }} 
+27-11-2014 15:30:06 INFO  91: 'AppLogin' |UserID is: 63f0a8a3bea4d4ecd726ff0956e3d3b5 
+27-11-2014 15:30:06 INFO  93: 'AppLogin' |User token is: 9a5378b5450746a0300b4797eb174ecb8ab57d82 
+27-11-2014 15:30:06 INFO  130: 'PostSession' |Executing request: POST http://staging-web-664817575.us-west-2.elb.amazonaws.com/user/unpack HTTP/1.1 
+27-11-2014 15:30:07 INFO  133: 'PostSession' |Status of request is: HTTP/1.1 200 OK 
+27-11-2014 15:30:07 INFO  134: 'PostSession' |Response is: HttpResponseProxy{HTTP/1.1 200 OK [Content-Type: application/json; charset=utf-8, Date: Thu, 27 Nov 2014 13:30:09 GMT, Set-Cookie: i18next=en-US; path=/; expires=Fri, 27 Nov 2015 13:30:09 GMT, Set-Cookie: connect.sid=s%3AiP4IC3qwvmCIwCANhWiV9qwz.g9mnPvy93emWpBjnNsS7eG865osdOZt3Ch%2BOJMRynBs; Path=/; HttpOnly, Set-Cookie: AWSELB=03FF654F188040D73460A02429CC778A1C99C4084F6D28A567039F8A382EF0509158321A97F40D6B31D9053A59347B5189761EA85D3CFE65B6AA7A1750D8CA9316E9250C7A1B8B0B2186A81D4E206E7CC47AF2B727;PATH=/;HTTPONLY, Vary: Accept-Encoding, X-Powered-By: Express, Content-Length: 21, Connection: keep-alive]} 
+27-11-2014 15:30:07 INFO  137: 'PostSession' |Response content length: 21 
+27-11-2014 15:30:07 INFO  744: 'checkDefaultActivity' |Logging in... 
+27-11-2014 15:30:14 INFO  749: 'checkDefaultActivity' |Check if user logged in 
+27-11-2014 15:30:16 INFO  36: 'AfterTests' *===========================================* 
+27-11-2014 15:30:16 INFO  37: 'AfterTests' *       Finish running test cases...        * 
+27-11-2014 15:30:16 INFO  38: 'AfterTests' *===========================================* 
+27-11-2014 15:30:16 INFO  39: 'AfterTests' 
+ 
+27-11-2014 16:13:48 INFO  22: 'BeforeTests' *===========================================* 
+27-11-2014 16:13:48 INFO  23: 'BeforeTests' *        Start running test cases...        * 
+27-11-2014 16:13:48 INFO  24: 'BeforeTests' *===========================================* 
+27-11-2014 16:14:00 INFO  78: 'UserCanRegister' <<========Started running=====<< 
+27-11-2014 16:14:01 INFO  84: 'UserCanRegister' |Filling in user data... 
+27-11-2014 16:14:06 INFO  87: 'UserCanRegister' |Chossing user's date of birth... 
+27-11-2014 16:14:22 INFO  92: 'UserCanRegister' |Chossing user's country... 
+27-11-2014 16:14:32 INFO  97: 'UserCanRegister' |Checking user email 
+27-11-2014 16:14:32 INFO  101: 'UserCanRegister' |Getting confirmation link from IMAP server... 
+27-11-2014 16:14:34 INFO  32: 'GetConfirmationLink' |Number of Unread Messages : 399 
+27-11-2014 16:14:35 INFO  43: 'GetConfirmationLink' |From: support@instabeat.me 
+27-11-2014 16:14:35 INFO  49: 'GetConfirmationLink' |Reply-to: support@instabeat.me 
+27-11-2014 16:14:35 INFO  55: 'GetConfirmationLink' |To: fortestgl+402446434@gmail.com 
+27-11-2014 16:14:35 INFO  61: 'GetConfirmationLink' |Subject: Welcome to Instabeat 
+27-11-2014 16:14:35 INFO  66: 'GetConfirmationLink' |Sent: Thu Nov 27 16:14:30 EET 2014 
+27-11-2014 16:14:35 INFO  93: 'GetConfirmationLink' |Link is: staging-web-664817575.us-west-2.elb.amazonaws.com/user/confirm/bb83b0dcf66df57fe8265788d00a7f63 
+27-11-2014 16:14:38 INFO  103: 'UserCanRegister' |Check second step of register - Download page 
+27-11-2014 16:14:45 INFO  109: 'UserCanRegister' |Logging from App using new created user... 
+27-11-2014 16:14:45 INFO  63: 'AppLogin' |username is fortestgl+402446434@gmail.com 
+27-11-2014 16:14:46 INFO  77: 'AppLogin' |Output from Server... 
+27-11-2014 16:14:46 INFO  83: 'AppLogin' |{  "success": true,  "user": {    "token": "f2000cbc847f3cb756f91b30c979c5897ecf7cfb",    "user": "1d852c226a95f3a768d83ecb7f172ca8"  }} 
+27-11-2014 16:14:46 INFO  91: 'AppLogin' |UserID is: 1d852c226a95f3a768d83ecb7f172ca8 
+27-11-2014 16:14:46 INFO  93: 'AppLogin' |User token is: f2000cbc847f3cb756f91b30c979c5897ecf7cfb 
+27-11-2014 16:14:48 INFO  111: 'UserCanRegister' |Check for success login from App 
+27-11-2014 16:14:48 INFO  115: 'UserCanRegister' |Filling in RHR data 
+27-11-2014 16:14:49 INFO  119: 'UserCanRegister' |Check if registration is successfully 
+27-11-2014 16:14:53 INFO  467: 'verificationOfElementsOnPages' |Element[[FirefoxDriver: firefox on WINDOWS (1e9e1476-96d8-482f-8941-b235e3e70e21)] -> xpath: .//*[@id='cong-text']]is PRESENT!!! 
+27-11-2014 16:14:58 INFO  124: 'UserCanRegister' |Logging out... 
+27-11-2014 16:14:59 INFO  128: 'UserCanRegister' |Logging by new created Random user 
+27-11-2014 16:15:04 INFO  134: 'UserCanRegister' |Deleting created Random User... 
+27-11-2014 16:15:15 INFO  143: 'UserCanRegister' <<-----Finishing running test-----< 
+--------------------------------------------------- 
+27-11-2014 16:15:15 INFO  737: 'checkDefaultActivity' <<========Started running=====<< 
+27-11-2014 16:15:15 INFO  741: 'checkDefaultActivity' |Sending session to the server... 
+27-11-2014 16:15:15 INFO  63: 'AppLogin' |username is fortestgl+1@gmail.com 
+27-11-2014 16:15:15 INFO  77: 'AppLogin' |Output from Server... 
+27-11-2014 16:15:15 INFO  83: 'AppLogin' |{  "success": true,  "user": {    "token": "9a5378b5450746a0300b4797eb174ecb8ab57d82",    "user": "63f0a8a3bea4d4ecd726ff0956e3d3b5"  }} 
+27-11-2014 16:15:15 INFO  91: 'AppLogin' |UserID is: 63f0a8a3bea4d4ecd726ff0956e3d3b5 
+27-11-2014 16:15:15 INFO  93: 'AppLogin' |User token is: 9a5378b5450746a0300b4797eb174ecb8ab57d82 
+27-11-2014 16:15:15 INFO  130: 'PostSession' |Executing request: POST http://staging-web-664817575.us-west-2.elb.amazonaws.com/user/unpack HTTP/1.1 
+27-11-2014 16:15:16 INFO  133: 'PostSession' |Status of request is: HTTP/1.1 200 OK 
+27-11-2014 16:15:16 INFO  134: 'PostSession' |Response is: HttpResponseProxy{HTTP/1.1 200 OK [Content-Type: application/json; charset=utf-8, Date: Thu, 27 Nov 2014 14:15:18 GMT, Set-Cookie: i18next=en-US; path=/; expires=Fri, 27 Nov 2015 14:15:18 GMT, Set-Cookie: connect.sid=s%3ARpsqlcGRJhNUFJh3t1NggSpW.7WaOWZZIoIp4EvmftzNH8nm%2FhzwFPH0PC6CFhPHwq8o; Path=/; HttpOnly, Set-Cookie: AWSELB=03FF654F188040D73460A02429CC778A1C99C4084FC505169F94B56915D15FB01616F58CF94C6F5CB6EAAECD13C1F6E4350D43E5D1BEE1CC46A42317258C25493694ED62E14EAA1DDA2D6C0200831F6220F8A3612E;PATH=/;HTTPONLY, Vary: Accept-Encoding, X-Powered-By: Express, Content-Length: 21, Connection: keep-alive]} 
+27-11-2014 16:15:16 INFO  137: 'PostSession' |Response content length: 21 
+27-11-2014 16:15:16 INFO  744: 'checkDefaultActivity' |Logging in... 
+27-11-2014 16:15:22 INFO  749: 'checkDefaultActivity' |Check if user logged in 
+27-11-2014 16:15:23 INFO  36: 'AfterTests' *===========================================* 
+27-11-2014 16:15:23 INFO  37: 'AfterTests' *       Finish running test cases...        * 
+27-11-2014 16:15:23 INFO  38: 'AfterTests' *===========================================* 
+27-11-2014 16:15:23 INFO  39: 'AfterTests' 
+ 
+27-11-2014 16:22:07 INFO  22: 'BeforeTests' *===========================================* 
+27-11-2014 16:22:07 INFO  23: 'BeforeTests' *        Start running test cases...        * 
+27-11-2014 16:22:07 INFO  24: 'BeforeTests' *===========================================* 
+27-11-2014 16:22:16 INFO  78: 'UserCanRegister' <<========Started running=====<< 
+27-11-2014 16:22:17 INFO  84: 'UserCanRegister' |Filling in user data... 
+27-11-2014 16:22:19 INFO  37: 'typeUserValues' TestAutoENTRED VALUE!!!!!!!!!! 
+27-11-2014 16:22:19 INFO  37: 'typeUserValues' UserENTRED VALUE!!!!!!!!!! 
+27-11-2014 16:22:20 INFO  37: 'typeUserValues' 243ENTRED VALUE!!!!!!!!!! 
+27-11-2014 16:22:20 INFO  37: 'typeUserValues' 123456ENTRED VALUE!!!!!!!!!! 
+27-11-2014 16:22:20 INFO  37: 'typeUserValues' 123456ENTRED VALUE!!!!!!!!!! 
+27-11-2014 16:22:21 INFO  37: 'typeUserValues' 243ENTRED VALUE!!!!!!!!!! 
+27-11-2014 16:22:22 INFO  37: 'typeUserValues' fortestgl+1995536847@gmail.comENTRED VALUE!!!!!!!!!! 
+27-11-2014 16:22:22 INFO  37: 'typeUserValues' 243ENTRED VALUE!!!!!!!!!! 
+27-11-2014 16:22:22 INFO  87: 'UserCanRegister' |Chossing user's date of birth... 
+27-11-2014 16:22:38 INFO  92: 'UserCanRegister' |Chossing user's country... 
+27-11-2014 16:22:48 INFO  97: 'UserCanRegister' |Checking user email 
+27-11-2014 16:22:48 INFO  101: 'UserCanRegister' |Getting confirmation link from IMAP server... 
+27-11-2014 16:22:50 INFO  32: 'GetConfirmationLink' |Number of Unread Messages : 399 
+27-11-2014 16:22:50 INFO  43: 'GetConfirmationLink' |From: support@instabeat.me 
+27-11-2014 16:22:50 INFO  49: 'GetConfirmationLink' |Reply-to: support@instabeat.me 
+27-11-2014 16:22:50 INFO  55: 'GetConfirmationLink' |To: fortestgl+402446434@gmail.com 
+27-11-2014 16:22:50 INFO  61: 'GetConfirmationLink' |Subject: Welcome to Instabeat 
+27-11-2014 16:22:50 INFO  66: 'GetConfirmationLink' |Sent: Thu Nov 27 16:14:30 EET 2014 
+27-11-2014 16:22:51 INFO  93: 'GetConfirmationLink' |Link is: staging-web-664817575.us-west-2.elb.amazonaws.com/user/confirm/bb83b0dcf66df57fe8265788d00a7f63 
+27-11-2014 16:22:53 INFO  103: 'UserCanRegister' |Check second step of register - Download page 
+27-11-2014 16:23:43 INFO  737: 'checkDefaultActivity' <<========Started running=====<< 
+27-11-2014 16:23:43 INFO  741: 'checkDefaultActivity' |Sending session to the server... 
+27-11-2014 16:23:43 INFO  63: 'AppLogin' |username is fortestgl+1@gmail.com 
+27-11-2014 16:23:43 INFO  77: 'AppLogin' |Output from Server... 
+27-11-2014 16:23:43 INFO  83: 'AppLogin' |{  "success": true,  "user": {    "token": "9a5378b5450746a0300b4797eb174ecb8ab57d82",    "user": "63f0a8a3bea4d4ecd726ff0956e3d3b5"  }} 
+27-11-2014 16:23:43 INFO  91: 'AppLogin' |UserID is: 63f0a8a3bea4d4ecd726ff0956e3d3b5 
+27-11-2014 16:23:43 INFO  93: 'AppLogin' |User token is: 9a5378b5450746a0300b4797eb174ecb8ab57d82 
+27-11-2014 16:23:44 INFO  130: 'PostSession' |Executing request: POST http://staging-web-664817575.us-west-2.elb.amazonaws.com/user/unpack HTTP/1.1 
+27-11-2014 16:23:45 INFO  133: 'PostSession' |Status of request is: HTTP/1.1 200 OK 
+27-11-2014 16:23:45 INFO  134: 'PostSession' |Response is: HttpResponseProxy{HTTP/1.1 200 OK [Content-Type: application/json; charset=utf-8, Date: Thu, 27 Nov 2014 14:23:46 GMT, Set-Cookie: i18next=en-US; path=/; expires=Fri, 27 Nov 2015 14:23:46 GMT, Set-Cookie: connect.sid=s%3AG3PN0Dla9WT5Z50H90Uh8JqU.NltqDHzCW8SB2zQFaPbbr3o%2FitdbuIhbspCh7D37O8A; Path=/; HttpOnly, Set-Cookie: AWSELB=03FF654F188040D73460A02429CC778A1C99C4084FF48ACFDC66E87C9D15214131375D131A51FFCA5E64E1E9715284205CD93467A13CFE65B6AA7A1750D8CA9316E9250C7AAACB326D814D5457634157E025B73E90;PATH=/;HTTPONLY, Vary: Accept-Encoding, X-Powered-By: Express, Content-Length: 21, Connection: keep-alive]} 
+27-11-2014 16:23:45 INFO  137: 'PostSession' |Response content length: 21 
+27-11-2014 16:23:45 INFO  744: 'checkDefaultActivity' |Logging in... 
+27-11-2014 16:23:51 INFO  749: 'checkDefaultActivity' |Check if user logged in 
+27-11-2014 16:23:53 INFO  36: 'AfterTests' *===========================================* 
+27-11-2014 16:23:53 INFO  37: 'AfterTests' *       Finish running test cases...        * 
+27-11-2014 16:23:53 INFO  38: 'AfterTests' *===========================================* 
+27-11-2014 16:23:53 INFO  39: 'AfterTests' 
+ 
+27-11-2014 16:24:18 INFO  22: 'BeforeTests' *===========================================* 
+27-11-2014 16:24:18 INFO  23: 'BeforeTests' *        Start running test cases...        * 
+27-11-2014 16:24:18 INFO  24: 'BeforeTests' *===========================================* 
+27-11-2014 16:24:28 INFO  78: 'UserCanRegister' <<========Started running=====<< 
+27-11-2014 16:24:29 INFO  84: 'UserCanRegister' |Filling in user data... 
+27-11-2014 16:24:31 INFO  37: 'typeUserValues' TestAutoENTRED VALUE!!!!!!!!!! 
+27-11-2014 16:24:31 INFO  37: 'typeUserValues' UserENTRED VALUE!!!!!!!!!! 
+27-11-2014 16:24:32 INFO  37: 'typeUserValues' 153ENTRED VALUE!!!!!!!!!! 
+27-11-2014 16:24:32 INFO  37: 'typeUserValues' 123456ENTRED VALUE!!!!!!!!!! 
+27-11-2014 16:24:32 INFO  37: 'typeUserValues' 123456ENTRED VALUE!!!!!!!!!! 
+27-11-2014 16:24:33 INFO  37: 'typeUserValues' 153ENTRED VALUE!!!!!!!!!! 
+27-11-2014 16:24:34 INFO  37: 'typeUserValues' fortestgl+1098673219@gmail.comENTRED VALUE!!!!!!!!!! 
+27-11-2014 16:24:34 INFO  37: 'typeUserValues' 153ENTRED VALUE!!!!!!!!!! 
+27-11-2014 16:24:34 INFO  87: 'UserCanRegister' |Chossing user's date of birth... 
+27-11-2014 16:24:50 INFO  92: 'UserCanRegister' |Chossing user's country... 
+27-11-2014 16:25:01 INFO  97: 'UserCanRegister' |Checking user email 
+27-11-2014 16:25:01 INFO  101: 'UserCanRegister' |Getting confirmation link from IMAP server... 
+27-11-2014 16:25:02 INFO  32: 'GetConfirmationLink' |Number of Unread Messages : 400 
+27-11-2014 16:25:02 INFO  43: 'GetConfirmationLink' |From: support@instabeat.me 
+27-11-2014 16:25:02 INFO  49: 'GetConfirmationLink' |Reply-to: support@instabeat.me 
+27-11-2014 16:25:02 INFO  55: 'GetConfirmationLink' |To: fortestgl+1995536847@gmail.com 
+27-11-2014 16:25:02 INFO  61: 'GetConfirmationLink' |Subject: Welcome to Instabeat 
+27-11-2014 16:25:03 INFO  66: 'GetConfirmationLink' |Sent: Thu Nov 27 16:22:46 EET 2014 
+27-11-2014 16:25:03 INFO  93: 'GetConfirmationLink' |Link is: staging-web-664817575.us-west-2.elb.amazonaws.com/user/confirm/2947d17693acb23bfeef0fb9b59e3489 
+27-11-2014 16:25:06 INFO  103: 'UserCanRegister' |Check second step of register - Download page 
+27-11-2014 16:25:13 INFO  109: 'UserCanRegister' |Logging from App using new created user... 
+27-11-2014 16:25:13 INFO  63: 'AppLogin' |username is fortestgl+1098673219@gmail.com 
+27-11-2014 16:25:14 INFO  77: 'AppLogin' |Output from Server... 
+27-11-2014 16:25:14 INFO  83: 'AppLogin' |{  "success": true,  "user": {    "token": "ceeeada9bf5df3a006a4b830998eafa4bebb942a",    "user": "8b0c0348d4f37cb15b5de315cb4bcd68"  }} 
+27-11-2014 16:25:14 INFO  91: 'AppLogin' |UserID is: 8b0c0348d4f37cb15b5de315cb4bcd68 
+27-11-2014 16:25:14 INFO  93: 'AppLogin' |User token is: ceeeada9bf5df3a006a4b830998eafa4bebb942a 
+27-11-2014 16:25:16 INFO  111: 'UserCanRegister' |Check for success login from App 
+27-11-2014 16:25:16 INFO  115: 'UserCanRegister' |Filling in RHR data 
+27-11-2014 16:25:16 INFO  119: 'UserCanRegister' |Check if registration is successfully 
+28-11-2014 16:01:30 INFO  22: 'BeforeTests' *===========================================* 
+28-11-2014 16:01:30 INFO  23: 'BeforeTests' *        Start running test cases...        * 
+28-11-2014 16:01:30 INFO  24: 'BeforeTests' *===========================================* 
+28-11-2014 16:01:45 INFO  36: 'UserCanLogin' <<========Started running=====<< 
+28-11-2014 16:01:46 INFO  23: 'verifyPageTitle' |Actual Page is: Login 
+28-11-2014 16:01:48 INFO  42: 'UserCanLogin' |Typing user credentials... 
+28-11-2014 16:01:50 INFO  47: 'UserCanLogin' |Checking if user successfully logged in 
+28-11-2014 16:01:54 INFO  50: 'UserCanLogin' |Logging out... 
+28-11-2014 16:01:59 INFO  53: 'UserCanLogin' <<-----Finishing running test-----< 
+--------------------------------------------------- 
+28-11-2014 16:01:59 INFO  59: 'UserCannotLogin' <<========Started running=====<< 
+28-11-2014 16:01:59 INFO  23: 'verifyPageTitle' |Actual Page is: Login 
+28-11-2014 16:01:59 INFO  64: 'UserCannotLogin' |Typing wrong user credentials... 
+28-11-2014 16:02:05 INFO  70: 'UserCannotLogin' |Checking if error message appear 
+28-11-2014 16:02:05 INFO  73: 'UserCannotLogin' <<-----Finishing running test-----< 
+--------------------------------------------------- 
+28-11-2014 16:02:05 INFO  148: 'UserForgotPassword' <<========Started running=====<< 
+28-11-2014 16:02:06 INFO  154: 'UserForgotPassword' |Filling in user email... 
+28-11-2014 16:02:08 INFO  158: 'UserForgotPassword' |Checking for proper user email 
+28-11-2014 16:02:13 INFO  163: 'UserForgotPassword' |Getting Reset link from IMAP server... 
+28-11-2014 16:02:16 INFO  32: 'GetConfirmationLink' |Number of Unread Messages : 402 
+28-11-2014 16:02:17 INFO  43: 'GetConfirmationLink' |From: Udemy <udemy@email.udemy.com> 
+28-11-2014 16:02:17 INFO  49: 'GetConfirmationLink' |Reply-to: Udemy <reply@email.udemy.com> 
+28-11-2014 16:02:17 INFO  55: 'GetConfirmationLink' |To: fortestgl@gmail.com 
+28-11-2014 16:02:17 INFO  61: 'GetConfirmationLink' |Subject: Gobble Up These Black Friday Deals before They Are Gone! 
+28-11-2014 16:02:17 INFO  66: 'GetConfirmationLink' |Sent: Thu Nov 27 19:48:50 EET 2014 
+28-11-2014 16:02:18 INFO  78: 'UserCanRegister' <<========Started running=====<< 
+28-11-2014 16:02:18 INFO  84: 'UserCanRegister' |Filling in user data... 
+28-11-2014 16:02:20 INFO  37: 'typeUserValues' TestAutoENTRED VALUE!!!!!!!!!! 
+28-11-2014 16:02:21 INFO  37: 'typeUserValues' UserENTRED VALUE!!!!!!!!!! 
+28-11-2014 16:02:21 INFO  37: 'typeUserValues' 185ENTRED VALUE!!!!!!!!!! 
+28-11-2014 16:02:21 INFO  37: 'typeUserValues' 123456ENTRED VALUE!!!!!!!!!! 
+28-11-2014 16:02:22 INFO  37: 'typeUserValues' 123456ENTRED VALUE!!!!!!!!!! 
+28-11-2014 16:02:22 INFO  37: 'typeUserValues' 185ENTRED VALUE!!!!!!!!!! 
+28-11-2014 16:02:23 INFO  37: 'typeUserValues' fortestgl+1585272373@gmail.comENTRED VALUE!!!!!!!!!! 
+28-11-2014 16:02:23 INFO  37: 'typeUserValues' 185ENTRED VALUE!!!!!!!!!! 
+28-11-2014 16:02:23 INFO  87: 'UserCanRegister' |Chossing user's date of birth... 
+28-11-2014 16:02:39 INFO  92: 'UserCanRegister' |Chossing user's country... 
+28-11-2014 16:02:49 INFO  97: 'UserCanRegister' |Checking user email 
+28-11-2014 16:02:49 INFO  101: 'UserCanRegister' |Getting confirmation link from IMAP server... 
+28-11-2014 16:02:50 INFO  32: 'GetConfirmationLink' |Number of Unread Messages : 403 
+28-11-2014 16:02:51 INFO  43: 'GetConfirmationLink' |From: support@instabeat.me 
+28-11-2014 16:02:51 INFO  49: 'GetConfirmationLink' |Reply-to: support@instabeat.me 
+28-11-2014 16:02:51 INFO  55: 'GetConfirmationLink' |To: fortestgl+1@gmail.com 
+28-11-2014 16:02:51 INFO  61: 'GetConfirmationLink' |Subject: Instabeat Password Reset 
+28-11-2014 16:02:51 INFO  66: 'GetConfirmationLink' |Sent: Fri Nov 28 16:02:12 EET 2014 
+28-11-2014 16:02:51 INFO  93: 'GetConfirmationLink' |Link is: staging-web-664817575.us-west-2.elb.amazonaws.com/user/passrestore/b4f40af03381888aa8c899309a6c6a0d 
+28-11-2014 16:02:53 INFO  103: 'UserCanRegister' |Check second step of register - Download page 
+28-11-2014 16:03:44 INFO  183: 'UserCanChooseExistSession' <<========Started running=====<< 
+28-11-2014 16:03:44 INFO  185: 'UserCanChooseExistSession' |Logging in... 
+28-11-2014 16:04:03 INFO  22: 'BeforeTests' *===========================================* 
+28-11-2014 16:04:03 INFO  23: 'BeforeTests' *        Start running test cases...        * 
+28-11-2014 16:04:03 INFO  24: 'BeforeTests' *===========================================* 
+28-11-2014 16:04:13 INFO  36: 'UserCanLogin' <<========Started running=====<< 
+28-11-2014 16:04:13 INFO  23: 'verifyPageTitle' |Actual Page is: Login 
+28-11-2014 16:04:15 INFO  42: 'UserCanLogin' |Typing user credentials... 
+28-11-2014 16:04:16 INFO  47: 'UserCanLogin' |Checking if user successfully logged in 
+28-11-2014 16:04:20 INFO  50: 'UserCanLogin' |Logging out... 
+28-11-2014 16:04:25 INFO  53: 'UserCanLogin' <<-----Finishing running test-----< 
+--------------------------------------------------- 
+28-11-2014 16:04:25 INFO  59: 'UserCannotLogin' <<========Started running=====<< 
+28-11-2014 16:04:25 INFO  23: 'verifyPageTitle' |Actual Page is: Login 
+28-11-2014 16:04:25 INFO  64: 'UserCannotLogin' |Typing wrong user credentials... 
+28-11-2014 16:04:31 INFO  70: 'UserCannotLogin' |Checking if error message appear 
+28-11-2014 16:04:32 INFO  73: 'UserCannotLogin' <<-----Finishing running test-----< 
+--------------------------------------------------- 
+28-11-2014 16:04:32 INFO  148: 'UserForgotPassword' <<========Started running=====<< 
+28-11-2014 16:04:32 INFO  154: 'UserForgotPassword' |Filling in user email... 
+28-11-2014 16:04:34 INFO  158: 'UserForgotPassword' |Checking for proper user email 
+28-11-2014 16:04:39 INFO  163: 'UserForgotPassword' |Getting Reset link from IMAP server... 
+28-11-2014 16:04:40 INFO  32: 'GetConfirmationLink' |Number of Unread Messages : 405 
+28-11-2014 16:04:41 INFO  43: 'GetConfirmationLink' |From: support@instabeat.me 
+28-11-2014 16:04:41 INFO  49: 'GetConfirmationLink' |Reply-to: support@instabeat.me 
+28-11-2014 16:04:41 INFO  55: 'GetConfirmationLink' |To: fortestgl+1@gmail.com 
+28-11-2014 16:04:41 INFO  61: 'GetConfirmationLink' |Subject: Instabeat Password Reset 
+28-11-2014 16:04:41 INFO  66: 'GetConfirmationLink' |Sent: Fri Nov 28 16:04:37 EET 2014 
+28-11-2014 16:04:41 INFO  93: 'GetConfirmationLink' |Link is: staging-web-664817575.us-west-2.elb.amazonaws.com/user/passrestore/e4c6b1773c1f46b9251e375ac6aff52e 
+28-11-2014 16:04:44 INFO  166: 'UserForgotPassword' |Check for proper page 
+28-11-2014 16:04:44 INFO  170: 'UserForgotPassword' |Filling in new password 
+28-11-2014 16:04:46 INFO  178: 'UserForgotPassword' <<-----Finishing running test-----< 
+--------------------------------------------------- 
+28-11-2014 16:04:46 INFO  78: 'UserCanRegister' <<========Started running=====<< 
+28-11-2014 16:04:46 INFO  84: 'UserCanRegister' |Filling in user data... 
+28-11-2014 16:04:49 INFO  37: 'typeUserValues' TestAutoENTRED VALUE!!!!!!!!!! 
+28-11-2014 16:04:49 INFO  37: 'typeUserValues' UserENTRED VALUE!!!!!!!!!! 
+28-11-2014 16:04:49 INFO  37: 'typeUserValues' 178ENTRED VALUE!!!!!!!!!! 
+28-11-2014 16:04:50 INFO  37: 'typeUserValues' 123456ENTRED VALUE!!!!!!!!!! 
+28-11-2014 16:04:50 INFO  37: 'typeUserValues' 123456ENTRED VALUE!!!!!!!!!! 
+28-11-2014 16:04:50 INFO  37: 'typeUserValues' 178ENTRED VALUE!!!!!!!!!! 
+28-11-2014 16:04:51 INFO  37: 'typeUserValues' fortestgl+707777865@gmail.comENTRED VALUE!!!!!!!!!! 
+28-11-2014 16:04:51 INFO  37: 'typeUserValues' 178ENTRED VALUE!!!!!!!!!! 
+28-11-2014 16:04:51 INFO  87: 'UserCanRegister' |Chossing user's date of birth... 
+28-11-2014 16:05:07 INFO  92: 'UserCanRegister' |Chossing user's country... 
+28-11-2014 16:05:17 INFO  97: 'UserCanRegister' |Checking user email 
+28-11-2014 16:05:18 INFO  101: 'UserCanRegister' |Getting confirmation link from IMAP server... 
+28-11-2014 16:05:19 INFO  32: 'GetConfirmationLink' |Number of Unread Messages : 405 
+28-11-2014 16:05:19 INFO  43: 'GetConfirmationLink' |From: support@instabeat.me 
+28-11-2014 16:05:19 INFO  49: 'GetConfirmationLink' |Reply-to: support@instabeat.me 
+28-11-2014 16:05:19 INFO  55: 'GetConfirmationLink' |To: fortestgl+1@gmail.com 
+28-11-2014 16:05:19 INFO  61: 'GetConfirmationLink' |Subject: Instabeat Password Reset 
+28-11-2014 16:05:19 INFO  66: 'GetConfirmationLink' |Sent: Fri Nov 28 16:04:37 EET 2014 
+28-11-2014 16:05:20 INFO  93: 'GetConfirmationLink' |Link is: staging-web-664817575.us-west-2.elb.amazonaws.com/user/passrestore/e4c6b1773c1f46b9251e375ac6aff52e 
+28-11-2014 16:05:22 INFO  103: 'UserCanRegister' |Check second step of register - Download page 
+28-11-2014 16:06:12 INFO  183: 'UserCanChooseExistSession' <<========Started running=====<< 
+28-11-2014 16:06:12 INFO  185: 'UserCanChooseExistSession' |Logging in... 
+28-11-2014 16:06:18 INFO  191: 'UserCanChooseExistSession' |Check if user logged in 
+28-11-2014 16:06:18 INFO  467: 'verificationOfElementsOnPages' |Element[[FirefoxDriver: firefox on WINDOWS (f90586ff-15e4-44d0-8907-7eb081d7265a)] -> xpath: //div[@class='float-right calendar']]is PRESENT!!! 
+28-11-2014 16:06:18 INFO  195: 'UserCanChooseExistSession' |Check if user has date with sessions... 
+28-11-2014 16:06:19 INFO  199: 'UserCanChooseExistSession' |Choosing date with sessions... 
+28-11-2014 16:06:19 INFO  47: 'showDatesWithSessions' |Active month is: November 2014 
+28-11-2014 16:06:19 INFO  49: 'showDatesWithSessions' |This is a day with sessions:  4 November 2014 
+28-11-2014 16:06:19 INFO  49: 'showDatesWithSessions' |This is a day with sessions:  5 November 2014 
+28-11-2014 16:06:19 INFO  49: 'showDatesWithSessions' |This is a day with sessions:  6 November 2014 
+28-11-2014 16:06:19 INFO  49: 'showDatesWithSessions' |This is a day with sessions:  7 November 2014 
+28-11-2014 16:06:19 INFO  49: 'showDatesWithSessions' |This is a day with sessions:  8 November 2014 
+28-11-2014 16:06:19 INFO  49: 'showDatesWithSessions' |This is a day with sessions:  12 November 2014 
+28-11-2014 16:06:19 INFO  49: 'showDatesWithSessions' |This is a day with sessions:  13 November 2014 
+28-11-2014 16:06:19 INFO  49: 'showDatesWithSessions' |This is a day with sessions:  18 November 2014 
+28-11-2014 16:06:19 INFO  49: 'showDatesWithSessions' |This is a day with sessions:  25 November 2014 
+28-11-2014 16:06:19 INFO  51: 'showDatesWithSessions' |This is an active day with sessions: 26 November 2014 
+28-11-2014 16:06:19 INFO  54: 'showDatesWithSessions' |Number of days with sessions in November 2014 are: 10 
+28-11-2014 16:06:24 INFO  205: 'UserCanChooseExistSession' |Choose session 
+28-11-2014 16:06:30 INFO  210: 'UserCanChooseExistSession' |Logging out... 
+28-11-2014 16:06:30 INFO  212: 'UserCanChooseExistSession' <<-----Finishing running test-----< 
+--------------------------------------------------- 
+28-11-2014 16:06:30 INFO  217: 'UserCanUpdateProfile' <<========Started running=====<< 
+28-11-2014 16:06:30 INFO  220: 'UserCanUpdateProfile' |Logging in... 
+28-11-2014 16:06:38 INFO  226: 'UserCanUpdateProfile' |Check if user logged in 
+28-11-2014 16:06:39 INFO  231: 'UserCanUpdateProfile' |Updating user data... 
+28-11-2014 16:07:03 INFO  244: 'UserCanUpdateProfile' |Check if updating successfull 
+28-11-2014 16:07:03 INFO  467: 'verificationOfElementsOnPages' |Element[[FirefoxDriver: firefox on WINDOWS (f90586ff-15e4-44d0-8907-7eb081d7265a)] -> xpath: //span[@class = 'glyphicon glyphicon-exclamation-sign']]is PRESENT!!! 
+28-11-2014 16:07:03 INFO  249: 'UserCanUpdateProfile' |Uploading new user's profile picture 
+28-11-2014 16:07:39 INFO  252: 'UserCanUpdateProfile' |Logging out... 
+28-11-2014 16:07:40 INFO  254: 'UserCanUpdateProfile' <<-----Finishing running test-----< 
+--------------------------------------------------- 
+28-11-2014 16:07:40 INFO  259: 'userCanChangePassword' <<========Started running=====<< 
+28-11-2014 16:07:40 INFO  262: 'userCanChangePassword' |Logging in... 
+28-11-2014 16:07:48 INFO  267: 'userCanChangePassword' |Check if user logged in 
+28-11-2014 16:07:49 INFO  273: 'userCanChangePassword' |Changing user's password... 
+28-11-2014 16:07:55 INFO  281: 'userCanChangePassword' |Password was successfully changed 
+28-11-2014 16:07:55 INFO  283: 'userCanChangePassword' |Logging out... 
+28-11-2014 16:07:55 INFO  285: 'userCanChangePassword' <<-----Finishing running test-----< 
+--------------------------------------------------- 
+28-11-2014 16:07:55 INFO  290: 'userCanUpdateProfileSettings' <<========Started running=====<< 
+28-11-2014 16:07:55 INFO  293: 'userCanUpdateProfileSettings' |Logging in... 
+28-11-2014 16:08:04 INFO  298: 'userCanUpdateProfileSettings' |Check if user logged in 
+28-11-2014 16:08:04 INFO  304: 'userCanUpdateProfileSettings' |Updating profile settings 
+28-11-2014 16:08:12 INFO  309: 'userCanUpdateProfileSettings' |Logging out... 
+28-11-2014 16:08:12 INFO  311: 'userCanUpdateProfileSettings' <<-----Finishing running test-----< 
+--------------------------------------------------- 
+28-11-2014 16:08:12 INFO  349: 'userCanUpdateHRZPage' <<========Started running=====<< 
+28-11-2014 16:08:12 INFO  352: 'userCanUpdateHRZPage' |Logging in... 
+28-11-2014 16:08:19 INFO  359: 'userCanUpdateHRZPage' |Change HR zones using RHR field 
+28-11-2014 16:08:22 INFO  364: 'userCanUpdateHRZPage' |Check if HR updated 
+28-11-2014 16:08:22 INFO  513: 'ValidateValuesInFooter' <<========Started running=====<< 
+28-11-2014 16:08:22 INFO  517: 'ValidateValuesInFooter' |Sending session to the server... 
+28-11-2014 16:08:22 INFO  63: 'AppLogin' |username is fortestgl+1@gmail.com 
+28-11-2014 16:08:23 INFO  77: 'AppLogin' |Output from Server... 
+28-11-2014 16:08:23 INFO  83: 'AppLogin' |{  "success": true,  "user": {    "token": "9a5378b5450746a0300b4797eb174ecb8ab57d82",    "user": "63f0a8a3bea4d4ecd726ff0956e3d3b5"  }} 
+28-11-2014 16:08:23 INFO  91: 'AppLogin' |UserID is: 63f0a8a3bea4d4ecd726ff0956e3d3b5 
+28-11-2014 16:08:23 INFO  93: 'AppLogin' |User token is: 9a5378b5450746a0300b4797eb174ecb8ab57d82 
+28-11-2014 16:08:23 INFO  130: 'PostSession' |Executing request: POST http://staging-web-664817575.us-west-2.elb.amazonaws.com/user/unpack HTTP/1.1 
+28-11-2014 16:08:24 INFO  133: 'PostSession' |Status of request is: HTTP/1.1 200 OK 
+28-11-2014 16:08:24 INFO  134: 'PostSession' |Response is: HttpResponseProxy{HTTP/1.1 200 OK [Content-Type: application/json; charset=utf-8, Date: Fri, 28 Nov 2014 14:08:25 GMT, Set-Cookie: i18next=en-US; path=/; expires=Sat, 28 Nov 2015 14:08:25 GMT, Set-Cookie: connect.sid=s%3ARNqNK99SeKsHVZHgmZQriZvY.m1lGbqX5Z5JDCFavZIOUAmfCZJKrxlAYrYTu3sWhFFE; Path=/; HttpOnly, Set-Cookie: AWSELB=03FF654F188040D73460A02429CC778A1C99C4084F494513460BE7161DCCEEFAE0A97BE82EC457A26DE6A3A8CD40CBA03FE201EEBE3CFE65B6AA7A1750D8CA9316E9250C7A2733FEBF4B15F31FE0CEAE95CE275E73;PATH=/;HTTPONLY, Vary: Accept-Encoding, X-Powered-By: Express, Content-Length: 21, Connection: keep-alive]} 
+28-11-2014 16:08:24 INFO  137: 'PostSession' |Response content length: 21 
+28-11-2014 16:08:24 INFO  520: 'ValidateValuesInFooter' |Logging in... 
+28-11-2014 16:09:14 INFO  556: 'checkIfHeightIsProperAfterChanges' <<========Started running=====<< 
+28-11-2014 16:09:14 INFO  559: 'checkIfHeightIsProperAfterChanges' |Logging in... 
+28-11-2014 16:10:36 INFO  22: 'BeforeTests' *===========================================* 
+28-11-2014 16:10:36 INFO  23: 'BeforeTests' *        Start running test cases...        * 
+28-11-2014 16:10:36 INFO  24: 'BeforeTests' *===========================================* 
+28-11-2014 16:10:46 INFO  78: 'UserCanRegister' <<========Started running=====<< 
+28-11-2014 16:10:47 INFO  84: 'UserCanRegister' |Filling in user data... 
+28-11-2014 16:10:49 INFO  37: 'typeUserValues' TestAutoENTRED VALUE!!!!!!!!!! 
+28-11-2014 16:10:50 INFO  37: 'typeUserValues' UserENTRED VALUE!!!!!!!!!! 
+28-11-2014 16:10:50 INFO  37: 'typeUserValues' 101ENTRED VALUE!!!!!!!!!! 
+28-11-2014 16:10:50 INFO  37: 'typeUserValues' 123456ENTRED VALUE!!!!!!!!!! 
+28-11-2014 16:10:50 INFO  37: 'typeUserValues' 123456ENTRED VALUE!!!!!!!!!! 
+28-11-2014 16:10:51 INFO  37: 'typeUserValues' 101ENTRED VALUE!!!!!!!!!! 
+28-11-2014 16:10:52 INFO  37: 'typeUserValues' fortestgl+1389841849@gmail.comENTRED VALUE!!!!!!!!!! 
+28-11-2014 16:10:52 INFO  37: 'typeUserValues' 101ENTRED VALUE!!!!!!!!!! 
+28-11-2014 16:10:52 INFO  87: 'UserCanRegister' |Chossing user's date of birth... 
+28-11-2014 16:11:08 INFO  92: 'UserCanRegister' |Chossing user's country... 
+28-11-2014 16:11:18 INFO  97: 'UserCanRegister' |Checking user email 
+28-11-2014 16:11:19 INFO  101: 'UserCanRegister' |Getting confirmation link from IMAP server... 
+28-11-2014 16:11:20 INFO  32: 'GetConfirmationLink' |Number of Unread Messages : 407 
+28-11-2014 16:11:21 INFO  43: 'GetConfirmationLink' |From: support@instabeat.me 
+28-11-2014 16:11:21 INFO  49: 'GetConfirmationLink' |Reply-to: support@instabeat.me 
+28-11-2014 16:11:21 INFO  55: 'GetConfirmationLink' |To: fortestgl+1389841849@gmail.com 
+28-11-2014 16:11:21 INFO  61: 'GetConfirmationLink' |Subject: Welcome to Instabeat 
+28-11-2014 16:11:21 INFO  66: 'GetConfirmationLink' |Sent: Fri Nov 28 16:11:16 EET 2014 
+28-11-2014 16:11:21 INFO  93: 'GetConfirmationLink' |Link is: staging-web-664817575.us-west-2.elb.amazonaws.com/user/confirm/4b67fa117495403527e3de6f5cd1cc76 
+28-11-2014 16:11:23 INFO  103: 'UserCanRegister' |Check second step of register - Download page 
+28-11-2014 16:11:31 INFO  109: 'UserCanRegister' |Logging from App using new created user... 
+28-11-2014 16:11:31 INFO  63: 'AppLogin' |username is fortestgl+1389841849@gmail.com 
+28-11-2014 16:11:32 INFO  77: 'AppLogin' |Output from Server... 
+28-11-2014 16:11:32 INFO  83: 'AppLogin' |{  "success": true,  "user": {    "token": "28959c8bd24fbdcf3345421d71170e4b6b702c24",    "user": "22dbebfa54d05bc8388b44ab173acf8a"  }} 
+28-11-2014 16:11:32 INFO  91: 'AppLogin' |UserID is: 22dbebfa54d05bc8388b44ab173acf8a 
+28-11-2014 16:11:32 INFO  93: 'AppLogin' |User token is: 28959c8bd24fbdcf3345421d71170e4b6b702c24 
+28-11-2014 16:11:34 INFO  111: 'UserCanRegister' |Check for success login from App 
+28-11-2014 16:11:34 INFO  115: 'UserCanRegister' |Filling in RHR data 
+28-11-2014 16:11:34 INFO  119: 'UserCanRegister' |Check if registration is successfully 
+28-11-2014 16:11:38 INFO  467: 'verificationOfElementsOnPages' |Element[[FirefoxDriver: firefox on WINDOWS (fadffe5f-21bd-438b-a79e-2e139418a065)] -> xpath: .//*[@id='cong-text']]is PRESENT!!! 
+28-11-2014 16:11:43 INFO  124: 'UserCanRegister' |Logging out... 
+28-11-2014 16:11:44 INFO  128: 'UserCanRegister' |Logging by new created Random user 
+28-11-2014 16:11:49 INFO  134: 'UserCanRegister' |Deleting created Random User... 
+28-11-2014 16:11:59 INFO  143: 'UserCanRegister' <<-----Finishing running test-----< 
+--------------------------------------------------- 
+28-11-2014 16:11:59 INFO  349: 'userCanUpdateHRZPage' <<========Started running=====<< 
+28-11-2014 16:11:59 INFO  352: 'userCanUpdateHRZPage' |Logging in... 
+28-11-2014 16:12:04 INFO  359: 'userCanUpdateHRZPage' |Change HR zones using RHR field 
+28-11-2014 16:12:07 INFO  364: 'userCanUpdateHRZPage' |Check if HR updated 
+28-11-2014 16:12:07 INFO  368: 'userCanUpdateHRZPage' |Change HR zones using boxes with random data 
+28-11-2014 16:12:14 INFO  372: 'userCanUpdateHRZPage' |Check if HR updated 
+28-11-2014 16:12:14 INFO  375: 'userCanUpdateHRZPage' |Logging out... 
+28-11-2014 16:12:14 INFO  377: 'userCanUpdateHRZPage' <<-----Finishing running test-----< 
+--------------------------------------------------- 
+28-11-2014 16:12:14 INFO  513: 'ValidateValuesInFooter' <<========Started running=====<< 
+28-11-2014 16:12:14 INFO  517: 'ValidateValuesInFooter' |Sending session to the server... 
+28-11-2014 16:12:14 INFO  63: 'AppLogin' |username is fortestgl+1@gmail.com 
+28-11-2014 16:12:15 INFO  77: 'AppLogin' |Output from Server... 
+28-11-2014 16:12:15 INFO  83: 'AppLogin' |{  "success": true,  "user": {    "token": "9a5378b5450746a0300b4797eb174ecb8ab57d82",    "user": "63f0a8a3bea4d4ecd726ff0956e3d3b5"  }} 
+28-11-2014 16:12:15 INFO  91: 'AppLogin' |UserID is: 63f0a8a3bea4d4ecd726ff0956e3d3b5 
+28-11-2014 16:12:15 INFO  93: 'AppLogin' |User token is: 9a5378b5450746a0300b4797eb174ecb8ab57d82 
+28-11-2014 16:12:15 INFO  130: 'PostSession' |Executing request: POST http://staging-web-664817575.us-west-2.elb.amazonaws.com/user/unpack HTTP/1.1 
+28-11-2014 16:12:16 INFO  133: 'PostSession' |Status of request is: HTTP/1.1 200 OK 
+28-11-2014 16:12:16 INFO  134: 'PostSession' |Response is: HttpResponseProxy{HTTP/1.1 200 OK [Content-Type: application/json; charset=utf-8, Date: Fri, 28 Nov 2014 14:12:17 GMT, Set-Cookie: i18next=en-US; path=/; expires=Sat, 28 Nov 2015 14:12:17 GMT, Set-Cookie: connect.sid=s%3AU8aNyyvKyGFmDZXKE3xnSNHu.hbb36XEMBKxbBXAMcvHXq84GBt8Z55KB85%2BquITJadw; Path=/; HttpOnly, Set-Cookie: AWSELB=03FF654F188040D73460A02429CC778A1C99C4084F1958249DFC2760128C074EE9859E2C5AD1B5451630AB7D4B26890D158DE947083CFE65B6AA7A1750D8CA9316E9250C7A2733FEBF4B15F31FE0CEAE95CE275E73;PATH=/;HTTPONLY, Vary: Accept-Encoding, X-Powered-By: Express, Content-Length: 21, Connection: keep-alive]} 
+28-11-2014 16:12:16 INFO  137: 'PostSession' |Response content length: 21 
+28-11-2014 16:12:16 INFO  520: 'ValidateValuesInFooter' |Logging in... 
+28-11-2014 16:12:17 INFO  524: 'ValidateValuesInFooter' |Checking if duration time is proper... 
+28-11-2014 16:12:21 INFO  527: 'ValidateValuesInFooter' |Checking if total distance is proper... 
+28-11-2014 16:12:21 INFO  138: 'chheckIfTotalDistanceIsProper' |Pool is activated - checking total distance 
+28-11-2014 16:12:21 INFO  151: 'chheckIfTotalDistanceIsProper' |Total distance is proper 
+28-11-2014 16:12:21 INFO  533: 'ValidateValuesInFooter' |Logging out... 
+28-11-2014 16:12:21 INFO  535: 'ValidateValuesInFooter' <<-----Finishing running test-----< 
+--------------------------------------------------- 
+28-11-2014 16:12:21 INFO  36: 'AfterTests' *===========================================* 
+28-11-2014 16:12:21 INFO  37: 'AfterTests' *       Finish running test cases...        * 
+28-11-2014 16:12:21 INFO  38: 'AfterTests' *===========================================* 
+28-11-2014 16:12:21 INFO  39: 'AfterTests' 
+ 
+28-11-2014 16:13:20 INFO  22: 'BeforeTests' *===========================================* 
+28-11-2014 16:13:20 INFO  23: 'BeforeTests' *        Start running test cases...        * 
+28-11-2014 16:13:20 INFO  24: 'BeforeTests' *===========================================* 
+28-11-2014 16:13:31 INFO  78: 'UserCanRegister' <<========Started running=====<< 
+28-11-2014 16:13:32 INFO  84: 'UserCanRegister' |Filling in user data... 
+28-11-2014 16:13:37 INFO  37: 'typeUserValues' TestAutoENTRED VALUE!!!!!!!!!! 
+28-11-2014 16:13:37 INFO  37: 'typeUserValues' UserENTRED VALUE!!!!!!!!!! 
+28-11-2014 16:13:37 INFO  37: 'typeUserValues' 178ENTRED VALUE!!!!!!!!!! 
+28-11-2014 16:13:38 INFO  37: 'typeUserValues' 123456ENTRED VALUE!!!!!!!!!! 
+28-11-2014 16:13:38 INFO  37: 'typeUserValues' 123456ENTRED VALUE!!!!!!!!!! 
+28-11-2014 16:13:39 INFO  37: 'typeUserValues' 178ENTRED VALUE!!!!!!!!!! 
+28-11-2014 16:13:40 INFO  37: 'typeUserValues' fortestgl+1583501766@gmail.comENTRED VALUE!!!!!!!!!! 
+28-11-2014 16:13:40 INFO  37: 'typeUserValues' 178ENTRED VALUE!!!!!!!!!! 
+28-11-2014 16:13:40 INFO  87: 'UserCanRegister' |Chossing user's date of birth... 
+28-11-2014 16:13:56 INFO  92: 'UserCanRegister' |Chossing user's country... 
+28-11-2014 16:14:06 INFO  97: 'UserCanRegister' |Checking user email 
+28-11-2014 16:14:06 INFO  101: 'UserCanRegister' |Getting confirmation link from IMAP server... 
+28-11-2014 16:14:08 INFO  32: 'GetConfirmationLink' |Number of Unread Messages : 408 
+28-11-2014 16:14:08 INFO  43: 'GetConfirmationLink' |From: support@instabeat.me 
+28-11-2014 16:14:08 INFO  49: 'GetConfirmationLink' |Reply-to: support@instabeat.me 
+28-11-2014 16:14:08 INFO  55: 'GetConfirmationLink' |To: fortestgl+1583501766@gmail.com 
+28-11-2014 16:14:08 INFO  61: 'GetConfirmationLink' |Subject: Welcome to Instabeat 
+28-11-2014 16:14:08 INFO  66: 'GetConfirmationLink' |Sent: Fri Nov 28 16:14:04 EET 2014 
+28-11-2014 16:14:09 INFO  93: 'GetConfirmationLink' |Link is: staging-web-664817575.us-west-2.elb.amazonaws.com/user/confirm/9ee8963499e6990ab45873c5b326a869 
+28-11-2014 16:14:11 INFO  103: 'UserCanRegister' |Check second step of register - Download page 
+28-11-2014 16:14:18 INFO  109: 'UserCanRegister' |Logging from App using new created user... 
+28-11-2014 16:14:18 INFO  63: 'AppLogin' |username is fortestgl+1583501766@gmail.com 
+28-11-2014 16:14:19 INFO  77: 'AppLogin' |Output from Server... 
+28-11-2014 16:14:19 INFO  83: 'AppLogin' |{  "success": true,  "user": {    "token": "82eff3fc33f1c871f9c81ff2b5e6353886ebf2be",    "user": "b112c85f1df0fb3b5a5fdea4753022ae"  }} 
+28-11-2014 16:14:19 INFO  91: 'AppLogin' |UserID is: b112c85f1df0fb3b5a5fdea4753022ae 
+28-11-2014 16:14:19 INFO  93: 'AppLogin' |User token is: 82eff3fc33f1c871f9c81ff2b5e6353886ebf2be 
+28-11-2014 16:14:21 INFO  111: 'UserCanRegister' |Check for success login from App 
+28-11-2014 16:14:21 INFO  115: 'UserCanRegister' |Filling in RHR data 
+28-11-2014 16:14:22 INFO  119: 'UserCanRegister' |Check if registration is successfully 
+28-11-2014 16:14:26 INFO  467: 'verificationOfElementsOnPages' |Element[[FirefoxDriver: firefox on WINDOWS (b3cf6888-6cba-44cc-b856-920a35825268)] -> xpath: .//*[@id='cong-text']]is PRESENT!!! 
+28-11-2014 16:14:31 INFO  124: 'UserCanRegister' |Logging out... 
+28-11-2014 16:14:31 INFO  128: 'UserCanRegister' |Logging by new created Random user 
+28-11-2014 16:14:35 INFO  134: 'UserCanRegister' |Deleting created Random User... 
+28-11-2014 16:14:47 INFO  143: 'UserCanRegister' <<-----Finishing running test-----< 
+--------------------------------------------------- 
+28-11-2014 16:14:47 INFO  349: 'userCanUpdateHRZPage' <<========Started running=====<< 
+28-11-2014 16:14:47 INFO  352: 'userCanUpdateHRZPage' |Logging in... 
+28-11-2014 16:14:51 INFO  359: 'userCanUpdateHRZPage' |Change HR zones using RHR field 
+28-11-2014 16:14:54 INFO  364: 'userCanUpdateHRZPage' |Check if HR updated 
+28-11-2014 16:14:54 INFO  513: 'ValidateValuesInFooter' <<========Started running=====<< 
+28-11-2014 16:14:54 INFO  517: 'ValidateValuesInFooter' |Sending session to the server... 
+28-11-2014 16:14:54 INFO  63: 'AppLogin' |username is fortestgl+1@gmail.com 
+28-11-2014 16:14:55 INFO  77: 'AppLogin' |Output from Server... 
+28-11-2014 16:14:55 INFO  83: 'AppLogin' |{  "success": true,  "user": {    "token": "9a5378b5450746a0300b4797eb174ecb8ab57d82",    "user": "63f0a8a3bea4d4ecd726ff0956e3d3b5"  }} 
+28-11-2014 16:14:55 INFO  91: 'AppLogin' |UserID is: 63f0a8a3bea4d4ecd726ff0956e3d3b5 
+28-11-2014 16:14:55 INFO  93: 'AppLogin' |User token is: 9a5378b5450746a0300b4797eb174ecb8ab57d82 
+28-11-2014 16:14:55 INFO  130: 'PostSession' |Executing request: POST http://staging-web-664817575.us-west-2.elb.amazonaws.com/user/unpack HTTP/1.1 
+28-11-2014 16:14:56 INFO  133: 'PostSession' |Status of request is: HTTP/1.1 200 OK 
+28-11-2014 16:14:56 INFO  134: 'PostSession' |Response is: HttpResponseProxy{HTTP/1.1 200 OK [Content-Type: application/json; charset=utf-8, Date: Fri, 28 Nov 2014 14:14:57 GMT, Set-Cookie: i18next=en-US; path=/; expires=Sat, 28 Nov 2015 14:14:57 GMT, Set-Cookie: connect.sid=s%3A1Zhji3yolDRMGscG0Y2W3VOw.xvbVSgt5l7wWp6xmw0DgWPgyTNTnAkvgJP3KfEtG1es; Path=/; HttpOnly, Set-Cookie: AWSELB=03FF654F188040D73460A02429CC778A1C99C4084FC386F452DA6E429B8916441E8B323A15105BB9D5F0726CDF014E0B706E7CB03D8603A6E322058378A9BF0677A1FD131E3EDFCBAE5C6762311D608F6012708ED9;PATH=/;HTTPONLY, Vary: Accept-Encoding, X-Powered-By: Express, Content-Length: 21, Connection: keep-alive]} 
+28-11-2014 16:14:56 INFO  137: 'PostSession' |Response content length: 21 
+28-11-2014 16:14:56 INFO  520: 'ValidateValuesInFooter' |Logging in... 
+28-11-2014 16:15:46 INFO  36: 'AfterTests' *===========================================* 
+28-11-2014 16:15:46 INFO  37: 'AfterTests' *       Finish running test cases...        * 
+28-11-2014 16:15:46 INFO  38: 'AfterTests' *===========================================* 
+28-11-2014 16:15:46 INFO  39: 'AfterTests' 
+ 
+28-11-2014 16:31:27 INFO  22: 'BeforeTests' *===========================================* 
+28-11-2014 16:31:27 INFO  23: 'BeforeTests' *        Start running test cases...        * 
+28-11-2014 16:31:27 INFO  24: 'BeforeTests' *===========================================* 
+28-11-2014 16:31:37 INFO  78: 'UserCanRegister' <<========Started running=====<< 
+28-11-2014 16:31:37 INFO  84: 'UserCanRegister' |Filling in user data... 
+28-11-2014 16:31:40 INFO  37: 'typeUserValues' TestAutoENTRED VALUE!!!!!!!!!! 
+28-11-2014 16:31:40 INFO  37: 'typeUserValues' UserENTRED VALUE!!!!!!!!!! 
+28-11-2014 16:31:40 INFO  37: 'typeUserValues' 171ENTRED VALUE!!!!!!!!!! 
+28-11-2014 16:31:41 INFO  37: 'typeUserValues' 123456ENTRED VALUE!!!!!!!!!! 
+28-11-2014 16:31:41 INFO  37: 'typeUserValues' 123456ENTRED VALUE!!!!!!!!!! 
+28-11-2014 16:31:42 INFO  37: 'typeUserValues' 171ENTRED VALUE!!!!!!!!!! 
+28-11-2014 16:31:43 INFO  37: 'typeUserValues' fortestgl+763114571@gmail.comENTRED VALUE!!!!!!!!!! 
+28-11-2014 16:31:43 INFO  37: 'typeUserValues' 171ENTRED VALUE!!!!!!!!!! 
+28-11-2014 16:31:43 INFO  87: 'UserCanRegister' |Chossing user's date of birth... 
+28-11-2014 16:31:59 INFO  92: 'UserCanRegister' |Chossing user's country... 
+28-11-2014 16:32:09 INFO  97: 'UserCanRegister' |Checking user email 
+28-11-2014 16:32:09 INFO  101: 'UserCanRegister' |Getting confirmation link from IMAP server... 
+28-11-2014 16:32:11 INFO  32: 'GetConfirmationLink' |Number of Unread Messages : 409 
+28-11-2014 16:32:11 INFO  43: 'GetConfirmationLink' |From: support@instabeat.me 
+28-11-2014 16:32:11 INFO  49: 'GetConfirmationLink' |Reply-to: support@instabeat.me 
+28-11-2014 16:32:11 INFO  55: 'GetConfirmationLink' |To: fortestgl+763114571@gmail.com 
+28-11-2014 16:32:11 INFO  61: 'GetConfirmationLink' |Subject: Welcome to Instabeat 
+28-11-2014 16:32:11 INFO  66: 'GetConfirmationLink' |Sent: Fri Nov 28 16:32:07 EET 2014 
+28-11-2014 16:32:11 INFO  93: 'GetConfirmationLink' |Link is: staging-web-664817575.us-west-2.elb.amazonaws.com/user/confirm/767ddb7167ae6f93f026e8b926b2bb50 
+28-11-2014 16:32:14 INFO  103: 'UserCanRegister' |Check second step of register - Download page 
+28-11-2014 16:32:21 INFO  109: 'UserCanRegister' |Logging from App using new created user... 
+28-11-2014 16:32:21 INFO  63: 'AppLogin' |username is fortestgl+763114571@gmail.com 
+28-11-2014 16:32:22 INFO  77: 'AppLogin' |Output from Server... 
+28-11-2014 16:32:22 INFO  83: 'AppLogin' |{  "success": true,  "user": {    "token": "f470b4a41c2cecc60a9f38e3332a792a990efeb1",    "user": "daea39a4af9b8d2f01e072c2fcf2a55f"  }} 
+28-11-2014 16:32:22 INFO  91: 'AppLogin' |UserID is: daea39a4af9b8d2f01e072c2fcf2a55f 
+28-11-2014 16:32:22 INFO  93: 'AppLogin' |User token is: f470b4a41c2cecc60a9f38e3332a792a990efeb1 
+28-11-2014 16:32:24 INFO  111: 'UserCanRegister' |Check for success login from App 
+28-11-2014 16:32:24 INFO  115: 'UserCanRegister' |Filling in RHR data 
+28-11-2014 16:32:24 INFO  119: 'UserCanRegister' |Check if registration is successfully 
+28-11-2014 16:32:29 INFO  467: 'verificationOfElementsOnPages' |Element[[FirefoxDriver: firefox on WINDOWS (800b6c14-a9cf-4a3b-a889-9e386a3ab9ce)] -> xpath: .//*[@id='cong-text']]is PRESENT!!! 
+28-11-2014 16:32:34 INFO  124: 'UserCanRegister' |Logging out... 
+28-11-2014 16:32:34 INFO  128: 'UserCanRegister' |Logging by new created Random user 
+28-11-2014 16:32:38 INFO  134: 'UserCanRegister' |Deleting created Random User... 
+28-11-2014 16:32:48 INFO  143: 'UserCanRegister' <<-----Finishing running test-----< 
+--------------------------------------------------- 
+28-11-2014 16:32:48 INFO  349: 'userCanUpdateHRZPage' <<========Started running=====<< 
+28-11-2014 16:32:48 INFO  352: 'userCanUpdateHRZPage' |Logging in... 
+28-11-2014 16:32:53 INFO  359: 'userCanUpdateHRZPage' |Change HR zones using RHR field 
+28-11-2014 16:32:56 INFO  364: 'userCanUpdateHRZPage' |Check if HR updated 
+28-11-2014 16:32:56 INFO  36: 'AfterTests' *===========================================* 
+28-11-2014 16:32:56 INFO  37: 'AfterTests' *       Finish running test cases...        * 
+28-11-2014 16:32:56 INFO  38: 'AfterTests' *===========================================* 
+28-11-2014 16:32:56 INFO  39: 'AfterTests' 
+ 
+28-11-2014 20:12:46 INFO  22: 'BeforeTests' *===========================================* 
+28-11-2014 20:12:46 INFO  23: 'BeforeTests' *        Start running test cases...        * 
+28-11-2014 20:12:46 INFO  24: 'BeforeTests' *===========================================* 
+28-11-2014 20:12:56 INFO  36: 'UserCanLogin' <<========Started running=====<< 
+28-11-2014 20:12:56 INFO  23: 'verifyPageTitle' |Actual Page is: Login 
+28-11-2014 20:12:58 INFO  42: 'UserCanLogin' |Typing user credentials... 
+28-11-2014 20:12:59 INFO  47: 'UserCanLogin' |Checking if user successfully logged in 
+28-11-2014 20:13:04 INFO  50: 'UserCanLogin' |Logging out... 
+28-11-2014 20:13:09 INFO  53: 'UserCanLogin' <<-----Finishing running test-----< 
+--------------------------------------------------- 
+28-11-2014 20:13:09 INFO  59: 'UserCannotLogin' <<========Started running=====<< 
+28-11-2014 20:13:09 INFO  23: 'verifyPageTitle' |Actual Page is: Login 
+28-11-2014 20:13:09 INFO  64: 'UserCannotLogin' |Typing wrong user credentials... 
+28-11-2014 20:13:15 INFO  70: 'UserCannotLogin' |Checking if error message appear 
+28-11-2014 20:13:15 INFO  73: 'UserCannotLogin' <<-----Finishing running test-----< 
+--------------------------------------------------- 
+28-11-2014 20:13:15 INFO  148: 'UserForgotPassword' <<========Started running=====<< 
+28-11-2014 20:13:15 INFO  154: 'UserForgotPassword' |Filling in user email... 
+28-11-2014 20:13:18 INFO  158: 'UserForgotPassword' |Checking for proper user email 
+28-11-2014 20:13:23 INFO  163: 'UserForgotPassword' |Getting Reset link from IMAP server... 
+28-11-2014 20:13:24 INFO  32: 'GetConfirmationLink' |Number of Unread Messages : 406 
+28-11-2014 20:13:25 INFO  43: 'GetConfirmationLink' |From: Udemy <udemy@email.udemy.com> 
+28-11-2014 20:13:25 INFO  49: 'GetConfirmationLink' |Reply-to: Udemy <reply@email.udemy.com> 
+28-11-2014 20:13:25 INFO  55: 'GetConfirmationLink' |To: fortestgl@gmail.com 
+28-11-2014 20:13:25 INFO  61: 'GetConfirmationLink' |Subject: Hurry! Our Black Friday Sale Ends Tonight! 
+28-11-2014 20:13:25 INFO  66: 'GetConfirmationLink' |Sent: Fri Nov 28 19:32:00 EET 2014 
+28-11-2014 20:13:26 INFO  78: 'UserCanRegister' <<========Started running=====<< 
+28-11-2014 20:13:26 INFO  84: 'UserCanRegister' |Filling in user data... 
+28-11-2014 20:13:29 INFO  37: 'typeUserValues' TestAutoENTRED VALUE!!!!!!!!!! 
+28-11-2014 20:13:29 INFO  37: 'typeUserValues' UserENTRED VALUE!!!!!!!!!! 
+28-11-2014 20:13:29 INFO  37: 'typeUserValues' 131ENTRED VALUE!!!!!!!!!! 
+28-11-2014 20:13:30 INFO  37: 'typeUserValues' 123456ENTRED VALUE!!!!!!!!!! 
+28-11-2014 20:13:30 INFO  37: 'typeUserValues' 123456ENTRED VALUE!!!!!!!!!! 
+28-11-2014 20:13:30 INFO  37: 'typeUserValues' 131ENTRED VALUE!!!!!!!!!! 
+28-11-2014 20:13:31 INFO  37: 'typeUserValues' fortestgl+1849773824@gmail.comENTRED VALUE!!!!!!!!!! 
+28-11-2014 20:13:32 INFO  37: 'typeUserValues' 131ENTRED VALUE!!!!!!!!!! 
+28-11-2014 20:13:32 INFO  87: 'UserCanRegister' |Chossing user's date of birth... 
+28-11-2014 20:13:47 INFO  92: 'UserCanRegister' |Chossing user's country... 
+28-11-2014 20:13:58 INFO  97: 'UserCanRegister' |Checking user email 
+28-11-2014 20:13:58 INFO  101: 'UserCanRegister' |Getting confirmation link from IMAP server... 
+28-11-2014 20:13:59 INFO  32: 'GetConfirmationLink' |Number of Unread Messages : 407 
+28-11-2014 20:13:59 INFO  43: 'GetConfirmationLink' |From: support@instabeat.me 
+28-11-2014 20:13:59 INFO  49: 'GetConfirmationLink' |Reply-to: support@instabeat.me 
+28-11-2014 20:13:59 INFO  55: 'GetConfirmationLink' |To: fortestgl+1@gmail.com 
+28-11-2014 20:13:59 INFO  61: 'GetConfirmationLink' |Subject: Instabeat Password Reset 
+28-11-2014 20:13:59 INFO  66: 'GetConfirmationLink' |Sent: Fri Nov 28 20:13:21 EET 2014 
+28-11-2014 20:14:00 INFO  93: 'GetConfirmationLink' |Link is: staging-web-664817575.us-west-2.elb.amazonaws.com/user/passrestore/ce8a10b6fa7a6b8b06b888c06ad6f164 
+28-11-2014 20:14:02 INFO  103: 'UserCanRegister' |Check second step of register - Download page 
+28-11-2014 20:14:52 INFO  183: 'UserCanChooseExistSession' <<========Started running=====<< 
+28-11-2014 20:14:52 INFO  185: 'UserCanChooseExistSession' |Logging in... 
+28-11-2014 20:15:42 INFO  217: 'UserCanUpdateProfile' <<========Started running=====<< 
+28-11-2014 20:15:42 INFO  220: 'UserCanUpdateProfile' |Logging in... 
+28-11-2014 20:16:08 INFO  22: 'BeforeTests' *===========================================* 
+28-11-2014 20:16:08 INFO  23: 'BeforeTests' *        Start running test cases...        * 
+28-11-2014 20:16:08 INFO  24: 'BeforeTests' *===========================================* 
+28-11-2014 20:16:22 INFO  36: 'UserCanLogin' <<========Started running=====<< 
+28-11-2014 20:16:22 INFO  23: 'verifyPageTitle' |Actual Page is: Login 
+28-11-2014 20:16:24 INFO  42: 'UserCanLogin' |Typing user credentials... 
+28-11-2014 20:16:25 INFO  47: 'UserCanLogin' |Checking if user successfully logged in 
+28-11-2014 20:16:29 INFO  50: 'UserCanLogin' |Logging out... 
+28-11-2014 20:16:34 INFO  53: 'UserCanLogin' <<-----Finishing running test-----< 
+--------------------------------------------------- 
+28-11-2014 20:16:34 INFO  59: 'UserCannotLogin' <<========Started running=====<< 
+28-11-2014 20:16:35 INFO  23: 'verifyPageTitle' |Actual Page is: Login 
+28-11-2014 20:16:35 INFO  64: 'UserCannotLogin' |Typing wrong user credentials... 
+28-11-2014 20:16:40 INFO  70: 'UserCannotLogin' |Checking if error message appear 
+28-11-2014 20:16:40 INFO  73: 'UserCannotLogin' <<-----Finishing running test-----< 
+--------------------------------------------------- 
+28-11-2014 20:16:40 INFO  148: 'UserForgotPassword' <<========Started running=====<< 
+28-11-2014 20:16:41 INFO  154: 'UserForgotPassword' |Filling in user email... 
+28-11-2014 20:16:43 INFO  158: 'UserForgotPassword' |Checking for proper user email 
+28-11-2014 20:16:48 INFO  163: 'UserForgotPassword' |Getting Reset link from IMAP server... 
+28-11-2014 20:16:50 INFO  32: 'GetConfirmationLink' |Number of Unread Messages : 409 
+28-11-2014 20:16:50 INFO  43: 'GetConfirmationLink' |From: support@instabeat.me 
+28-11-2014 20:16:50 INFO  49: 'GetConfirmationLink' |Reply-to: support@instabeat.me 
+28-11-2014 20:16:50 INFO  55: 'GetConfirmationLink' |To: fortestgl+1@gmail.com 
+28-11-2014 20:16:50 INFO  61: 'GetConfirmationLink' |Subject: Instabeat Password Reset 
+28-11-2014 20:16:50 INFO  66: 'GetConfirmationLink' |Sent: Fri Nov 28 20:16:46 EET 2014 
+28-11-2014 20:16:50 INFO  93: 'GetConfirmationLink' |Link is: staging-web-664817575.us-west-2.elb.amazonaws.com/user/passrestore/62525853c05285f26ae5b2cbe91d1fbe 
+28-11-2014 20:16:52 INFO  166: 'UserForgotPassword' |Check for proper page 
+28-11-2014 20:16:52 INFO  170: 'UserForgotPassword' |Filling in new password 
+28-11-2014 20:16:55 INFO  178: 'UserForgotPassword' <<-----Finishing running test-----< 
+--------------------------------------------------- 
+28-11-2014 20:16:55 INFO  78: 'UserCanRegister' <<========Started running=====<< 
+28-11-2014 20:16:55 INFO  84: 'UserCanRegister' |Filling in user data... 
+28-11-2014 20:16:58 INFO  37: 'typeUserValues' TestAutoENTRED VALUE!!!!!!!!!! 
+28-11-2014 20:16:58 INFO  37: 'typeUserValues' UserENTRED VALUE!!!!!!!!!! 
+28-11-2014 20:16:58 INFO  37: 'typeUserValues' 168ENTRED VALUE!!!!!!!!!! 
+28-11-2014 20:16:58 INFO  37: 'typeUserValues' 123456ENTRED VALUE!!!!!!!!!! 
+28-11-2014 20:16:59 INFO  37: 'typeUserValues' 123456ENTRED VALUE!!!!!!!!!! 
+28-11-2014 20:16:59 INFO  37: 'typeUserValues' 168ENTRED VALUE!!!!!!!!!! 
+28-11-2014 20:17:00 INFO  37: 'typeUserValues' fortestgl+1405616914@gmail.comENTRED VALUE!!!!!!!!!! 
+28-11-2014 20:17:00 INFO  37: 'typeUserValues' 168ENTRED VALUE!!!!!!!!!! 
+28-11-2014 20:17:00 INFO  87: 'UserCanRegister' |Chossing user's date of birth... 
+28-11-2014 20:17:16 INFO  92: 'UserCanRegister' |Chossing user's country... 
+28-11-2014 20:17:27 INFO  97: 'UserCanRegister' |Checking user email 
+28-11-2014 20:17:27 INFO  101: 'UserCanRegister' |Getting confirmation link from IMAP server... 
+28-11-2014 20:17:28 INFO  32: 'GetConfirmationLink' |Number of Unread Messages : 410 
+28-11-2014 20:17:28 INFO  43: 'GetConfirmationLink' |From: support@instabeat.me 
+28-11-2014 20:17:28 INFO  49: 'GetConfirmationLink' |Reply-to: support@instabeat.me 
+28-11-2014 20:17:28 INFO  55: 'GetConfirmationLink' |To: fortestgl+1405616914@gmail.com 
+28-11-2014 20:17:28 INFO  61: 'GetConfirmationLink' |Subject: Welcome to Instabeat 
+28-11-2014 20:17:28 INFO  66: 'GetConfirmationLink' |Sent: Fri Nov 28 20:17:24 EET 2014 
+28-11-2014 20:17:28 INFO  93: 'GetConfirmationLink' |Link is: staging-web-664817575.us-west-2.elb.amazonaws.com/user/confirm/d4d16896d64251cc6f2b8f418ff32fd9 
+28-11-2014 20:17:31 INFO  103: 'UserCanRegister' |Check second step of register - Download page 
+28-11-2014 20:17:38 INFO  109: 'UserCanRegister' |Logging from App using new created user... 
+28-11-2014 20:17:38 INFO  63: 'AppLogin' |username is fortestgl+1405616914@gmail.com 
+28-11-2014 20:17:39 INFO  77: 'AppLogin' |Output from Server... 
+28-11-2014 20:17:39 INFO  83: 'AppLogin' |{  "success": true,  "user": {    "token": "419f5764077c2e0c9a9e8f7acf0c0d452436e0b8",    "user": "4804b37f42a73205422c6cec60a17232"  }} 
+28-11-2014 20:17:39 INFO  91: 'AppLogin' |UserID is: 4804b37f42a73205422c6cec60a17232 
+28-11-2014 20:17:39 INFO  93: 'AppLogin' |User token is: 419f5764077c2e0c9a9e8f7acf0c0d452436e0b8 
+28-11-2014 20:17:41 INFO  111: 'UserCanRegister' |Check for success login from App 
+28-11-2014 20:17:41 INFO  115: 'UserCanRegister' |Filling in RHR data 
+28-11-2014 20:17:42 INFO  119: 'UserCanRegister' |Check if registration is successfully 
+28-11-2014 20:17:45 INFO  467: 'verificationOfElementsOnPages' |Element[[FirefoxDriver: firefox on WINDOWS (42c9f46b-b21a-4f5b-b3dc-4a45fefefe21)] -> xpath: .//*[@id='cong-text']]is PRESENT!!! 
+28-11-2014 20:17:50 INFO  124: 'UserCanRegister' |Logging out... 
+28-11-2014 20:17:50 INFO  128: 'UserCanRegister' |Logging by new created Random user 
+28-11-2014 20:17:54 INFO  134: 'UserCanRegister' |Deleting created Random User... 
+28-11-2014 20:18:05 INFO  143: 'UserCanRegister' <<-----Finishing running test-----< 
+--------------------------------------------------- 
+28-11-2014 20:18:05 INFO  183: 'UserCanChooseExistSession' <<========Started running=====<< 
+28-11-2014 20:18:05 INFO  185: 'UserCanChooseExistSession' |Logging in... 
+28-11-2014 20:18:11 INFO  191: 'UserCanChooseExistSession' |Check if user logged in 
+28-11-2014 20:18:12 INFO  467: 'verificationOfElementsOnPages' |Element[[FirefoxDriver: firefox on WINDOWS (42c9f46b-b21a-4f5b-b3dc-4a45fefefe21)] -> xpath: //div[@class='float-right calendar']]is PRESENT!!! 
+28-11-2014 20:18:12 INFO  195: 'UserCanChooseExistSession' |Check if user has date with sessions... 
+28-11-2014 20:18:12 INFO  199: 'UserCanChooseExistSession' |Choosing date with sessions... 
+28-11-2014 20:18:12 INFO  47: 'showDatesWithSessions' |Active month is: November 2014 
+28-11-2014 20:18:12 INFO  49: 'showDatesWithSessions' |This is a day with sessions:  4 November 2014 
+28-11-2014 20:18:12 INFO  49: 'showDatesWithSessions' |This is a day with sessions:  5 November 2014 
+28-11-2014 20:18:12 INFO  49: 'showDatesWithSessions' |This is a day with sessions:  6 November 2014 
+28-11-2014 20:18:12 INFO  49: 'showDatesWithSessions' |This is a day with sessions:  7 November 2014 
+28-11-2014 20:18:12 INFO  49: 'showDatesWithSessions' |This is a day with sessions:  8 November 2014 
+28-11-2014 20:18:12 INFO  49: 'showDatesWithSessions' |This is a day with sessions:  12 November 2014 
+28-11-2014 20:18:12 INFO  49: 'showDatesWithSessions' |This is a day with sessions:  13 November 2014 
+28-11-2014 20:18:12 INFO  49: 'showDatesWithSessions' |This is a day with sessions:  18 November 2014 
+28-11-2014 20:18:12 INFO  49: 'showDatesWithSessions' |This is a day with sessions:  25 November 2014 
+28-11-2014 20:18:12 INFO  49: 'showDatesWithSessions' |This is a day with sessions:  26 November 2014 
+28-11-2014 20:18:12 INFO  51: 'showDatesWithSessions' |This is an active day with sessions: 28 November 2014 
+28-11-2014 20:18:12 INFO  54: 'showDatesWithSessions' |Number of days with sessions in November 2014 are: 11 
+28-11-2014 20:18:18 INFO  205: 'UserCanChooseExistSession' |Choose session 
+28-11-2014 20:18:23 INFO  210: 'UserCanChooseExistSession' |Logging out... 
+28-11-2014 20:18:23 INFO  212: 'UserCanChooseExistSession' <<-----Finishing running test-----< 
+--------------------------------------------------- 
+28-11-2014 20:18:23 INFO  217: 'UserCanUpdateProfile' <<========Started running=====<< 
+28-11-2014 20:18:23 INFO  220: 'UserCanUpdateProfile' |Logging in... 
+28-11-2014 20:18:31 INFO  226: 'UserCanUpdateProfile' |Check if user logged in 
+28-11-2014 20:18:32 INFO  231: 'UserCanUpdateProfile' |Updating user data... 
+28-11-2014 20:18:55 INFO  244: 'UserCanUpdateProfile' |Check if updating successfull 
+28-11-2014 20:18:56 INFO  467: 'verificationOfElementsOnPages' |Element[[FirefoxDriver: firefox on WINDOWS (42c9f46b-b21a-4f5b-b3dc-4a45fefefe21)] -> xpath: //span[@class = 'glyphicon glyphicon-exclamation-sign']]is PRESENT!!! 
+28-11-2014 20:18:56 INFO  249: 'UserCanUpdateProfile' |Uploading new user's profile picture 
+28-11-2014 20:19:03 INFO  252: 'UserCanUpdateProfile' |Logging out... 
+28-11-2014 20:19:06 INFO  254: 'UserCanUpdateProfile' <<-----Finishing running test-----< 
+--------------------------------------------------- 
+28-11-2014 20:19:06 INFO  259: 'userCanChangePassword' <<========Started running=====<< 
+28-11-2014 20:19:06 INFO  262: 'userCanChangePassword' |Logging in... 
+28-11-2014 20:19:14 INFO  267: 'userCanChangePassword' |Check if user logged in 
+28-11-2014 20:19:15 INFO  273: 'userCanChangePassword' |Changing user's password... 
+28-11-2014 20:19:21 INFO  281: 'userCanChangePassword' |Password was successfully changed 
+28-11-2014 20:19:21 INFO  283: 'userCanChangePassword' |Logging out... 
+28-11-2014 20:19:21 INFO  285: 'userCanChangePassword' <<-----Finishing running test-----< 
+--------------------------------------------------- 
+28-11-2014 20:19:21 INFO  290: 'userCanUpdateProfileSettings' <<========Started running=====<< 
+28-11-2014 20:19:21 INFO  293: 'userCanUpdateProfileSettings' |Logging in... 
+28-11-2014 20:19:29 INFO  298: 'userCanUpdateProfileSettings' |Check if user logged in 
+28-11-2014 20:19:30 INFO  304: 'userCanUpdateProfileSettings' |Updating profile settings 
+28-11-2014 20:19:38 INFO  309: 'userCanUpdateProfileSettings' |Logging out... 
+28-11-2014 20:19:38 INFO  311: 'userCanUpdateProfileSettings' <<-----Finishing running test-----< 
+--------------------------------------------------- 
+28-11-2014 20:19:38 INFO  349: 'userCanUpdateHRZPage' <<========Started running=====<< 
+28-11-2014 20:19:38 INFO  352: 'userCanUpdateHRZPage' |Logging in... 
+28-11-2014 20:19:44 INFO  359: 'userCanUpdateHRZPage' |Change HR zones using RHR field 
+28-11-2014 20:19:47 INFO  364: 'userCanUpdateHRZPage' |Check if HR updated 
+28-11-2014 20:19:47 INFO  368: 'userCanUpdateHRZPage' |Change HR zones using boxes with random data 
+28-11-2014 20:19:54 INFO  372: 'userCanUpdateHRZPage' |Check if HR updated 
+28-11-2014 20:19:54 INFO  375: 'userCanUpdateHRZPage' |Logging out... 
+28-11-2014 20:19:54 INFO  377: 'userCanUpdateHRZPage' <<-----Finishing running test-----< 
+--------------------------------------------------- 
+28-11-2014 20:19:54 INFO  36: 'AfterTests' *===========================================* 
+28-11-2014 20:19:54 INFO  37: 'AfterTests' *       Finish running test cases...        * 
+28-11-2014 20:19:54 INFO  38: 'AfterTests' *===========================================* 
+28-11-2014 20:19:54 INFO  39: 'AfterTests' 
+ 
+04-12-2014 16:26:52 INFO  22: 'BeforeTests' *===========================================* 
+04-12-2014 16:26:52 INFO  23: 'BeforeTests' *        Start running test cases...        * 
+04-12-2014 16:26:52 INFO  24: 'BeforeTests' *===========================================* 
+04-12-2014 16:27:04 INFO  737: 'checkDefaultActivity' <<========Started running=====<< 
+04-12-2014 16:27:04 INFO  741: 'checkDefaultActivity' |Sending session to the server... 
+04-12-2014 16:27:04 INFO  63: 'AppLogin' |username is fortestgl+1@gmail.com 
+04-12-2014 16:27:05 INFO  77: 'AppLogin' |Output from Server... 
+04-12-2014 16:27:05 INFO  83: 'AppLogin' |{  "success": true,  "user": {    "token": "9a5378b5450746a0300b4797eb174ecb8ab57d82",    "user": "63f0a8a3bea4d4ecd726ff0956e3d3b5"  }} 
+04-12-2014 16:27:05 INFO  91: 'AppLogin' |UserID is: 63f0a8a3bea4d4ecd726ff0956e3d3b5 
+04-12-2014 16:27:05 INFO  93: 'AppLogin' |User token is: 9a5378b5450746a0300b4797eb174ecb8ab57d82 
+04-12-2014 16:27:05 INFO  130: 'PostSession' |Executing request: POST http://staging-web-664817575.us-west-2.elb.amazonaws.com/user/unpack HTTP/1.1 
+04-12-2014 16:27:06 INFO  36: 'AfterTests' *===========================================* 
+04-12-2014 16:27:06 INFO  37: 'AfterTests' *       Finish running test cases...        * 
+04-12-2014 16:27:06 INFO  38: 'AfterTests' *===========================================* 
+04-12-2014 16:27:06 INFO  39: 'AfterTests' 
+ 
+04-12-2014 16:27:50 INFO  22: 'BeforeTests' *===========================================* 
+04-12-2014 16:27:50 INFO  23: 'BeforeTests' *        Start running test cases...        * 
+04-12-2014 16:27:50 INFO  24: 'BeforeTests' *===========================================* 
+04-12-2014 16:27:59 INFO  737: 'checkDefaultActivity' <<========Started running=====<< 
+04-12-2014 16:28:00 INFO  741: 'checkDefaultActivity' |Sending session to the server... 
+04-12-2014 16:28:00 INFO  63: 'AppLogin' |username is fortestgl+1@gmail.com 
+04-12-2014 16:28:00 INFO  77: 'AppLogin' |Output from Server... 
+04-12-2014 16:28:00 INFO  83: 'AppLogin' |{  "success": true,  "user": {    "token": "9a5378b5450746a0300b4797eb174ecb8ab57d82",    "user": "63f0a8a3bea4d4ecd726ff0956e3d3b5"  }} 
+04-12-2014 16:28:00 INFO  91: 'AppLogin' |UserID is: 63f0a8a3bea4d4ecd726ff0956e3d3b5 
+04-12-2014 16:28:00 INFO  93: 'AppLogin' |User token is: 9a5378b5450746a0300b4797eb174ecb8ab57d82 
+04-12-2014 16:28:00 INFO  130: 'PostSession' |Executing request: POST http://staging-web-664817575.us-west-2.elb.amazonaws.com/user/unpack HTTP/1.1 
+04-12-2014 16:28:02 INFO  133: 'PostSession' |Status of request is: HTTP/1.1 200 OK 
+04-12-2014 16:28:02 INFO  134: 'PostSession' |Response is: HttpResponseProxy{HTTP/1.1 200 OK [Content-Type: application/json; charset=utf-8, Date: Thu, 04 Dec 2014 14:28:03 GMT, Set-Cookie: i18next=en-US; path=/; expires=Fri, 04 Dec 2015 14:28:02 GMT, Set-Cookie: connect.sid=s%3AmrdTOiH2RfKy9rYiaJZCphbC.4K%2FAPMgElVcRScZSsr4o01PGLDVJATbnC2BwvklJc5k; Path=/; HttpOnly, Set-Cookie: AWSELB=03FF654F188040D73460A02429CC778A1C99C4084FB194A5A0A93BAAFFD7913A75286DB728A90A64FD90A6B3253811394CE809473FA647B53A1FF156D444620EE036BCA34494030631984B0CC7153B8286D80C73F8;PATH=/;HTTPONLY, Vary: Accept-Encoding, X-Powered-By: Express, Content-Length: 21, Connection: keep-alive]} 
+04-12-2014 16:28:02 INFO  137: 'PostSession' |Response content length: 21 
+04-12-2014 16:28:02 INFO  744: 'checkDefaultActivity' |Logging in... 
+04-12-2014 16:28:09 INFO  749: 'checkDefaultActivity' |Check if user logged in 
+04-12-2014 16:28:11 INFO  36: 'AfterTests' *===========================================* 
+04-12-2014 16:28:11 INFO  37: 'AfterTests' *       Finish running test cases...        * 
+04-12-2014 16:28:11 INFO  38: 'AfterTests' *===========================================* 
+04-12-2014 16:28:11 INFO  39: 'AfterTests' 
+ 
+04-12-2014 18:10:33 INFO  22: 'BeforeTests' *===========================================* 
+04-12-2014 18:10:33 INFO  23: 'BeforeTests' *        Start running test cases...        * 
+04-12-2014 18:10:33 INFO  24: 'BeforeTests' *===========================================* 
+04-12-2014 18:10:43 INFO  737: 'checkDefaultActivity' <<========Started running=====<< 
+04-12-2014 18:10:43 INFO  741: 'checkDefaultActivity' |Sending session to the server... 
+04-12-2014 18:10:43 INFO  63: 'AppLogin' |username is fortestgl+1@gmail.com 
+04-12-2014 18:10:44 INFO  77: 'AppLogin' |Output from Server... 
+04-12-2014 18:10:44 INFO  83: 'AppLogin' |{  "success": true,  "user": {    "token": "9a5378b5450746a0300b4797eb174ecb8ab57d82",    "user": "63f0a8a3bea4d4ecd726ff0956e3d3b5"  }} 
+04-12-2014 18:10:44 INFO  91: 'AppLogin' |UserID is: 63f0a8a3bea4d4ecd726ff0956e3d3b5 
+04-12-2014 18:10:44 INFO  93: 'AppLogin' |User token is: 9a5378b5450746a0300b4797eb174ecb8ab57d82 
+04-12-2014 18:10:44 INFO  130: 'PostSession' |Executing request: POST http://staging-web-664817575.us-west-2.elb.amazonaws.com/user/unpack HTTP/1.1 
+04-12-2014 18:10:45 INFO  133: 'PostSession' |Status of request is: HTTP/1.1 200 OK 
+04-12-2014 18:10:45 INFO  134: 'PostSession' |Response is: HttpResponseProxy{HTTP/1.1 200 OK [Content-Type: application/json; charset=utf-8, Date: Thu, 04 Dec 2014 16:10:47 GMT, Set-Cookie: i18next=en-US; path=/; expires=Fri, 04 Dec 2015 16:10:46 GMT, Set-Cookie: connect.sid=s%3A7UupHU2NeMHEmMpRq2FAHx4X.t2CtZanIebciqLaGNd1KjsDCVMUBcA9k7JtqAGkBhbg; Path=/; HttpOnly, Set-Cookie: AWSELB=03FF654F188040D73460A02429CC778A1C99C4084F5A903E07C8BC069FE17CDAA37A476C93D0A2B96D1C268AAEACD7414B71755A3753C7D353C0CC3A6AFD0BAF977C43B86B94030631984B0CC7153B8286D80C73F8;PATH=/;HTTPONLY, Vary: Accept-Encoding, X-Powered-By: Express, Content-Length: 21, Connection: keep-alive]} 
+04-12-2014 18:10:45 INFO  137: 'PostSession' |Response content length: 21 
+04-12-2014 18:10:46 INFO  744: 'checkDefaultActivity' |Logging in... 
+04-12-2014 18:10:52 INFO  749: 'checkDefaultActivity' |Check if user logged in 
+04-12-2014 18:11:12 INFO  773: 'checkDefaultActivity' |Sending session to the server... 
+04-12-2014 18:11:12 INFO  63: 'AppLogin' |username is fortestgl+1@gmail.com 
+04-12-2014 18:11:12 INFO  77: 'AppLogin' |Output from Server... 
+04-12-2014 18:11:12 INFO  83: 'AppLogin' |{  "success": true,  "user": {    "token": "9a5378b5450746a0300b4797eb174ecb8ab57d82",    "user": "63f0a8a3bea4d4ecd726ff0956e3d3b5"  }} 
+04-12-2014 18:11:12 INFO  91: 'AppLogin' |UserID is: 63f0a8a3bea4d4ecd726ff0956e3d3b5 
+04-12-2014 18:11:12 INFO  93: 'AppLogin' |User token is: 9a5378b5450746a0300b4797eb174ecb8ab57d82 
+04-12-2014 18:11:12 INFO  130: 'PostSession' |Executing request: POST http://staging-web-664817575.us-west-2.elb.amazonaws.com/user/unpack HTTP/1.1 
+04-12-2014 18:11:13 INFO  133: 'PostSession' |Status of request is: HTTP/1.1 200 OK 
+04-12-2014 18:11:13 INFO  134: 'PostSession' |Response is: HttpResponseProxy{HTTP/1.1 200 OK [Content-Type: application/json; charset=utf-8, Date: Thu, 04 Dec 2014 16:11:14 GMT, Set-Cookie: i18next=en-US; path=/; expires=Fri, 04 Dec 2015 16:11:14 GMT, Set-Cookie: connect.sid=s%3AzIdL42IfzlBgqfxvIfvMeetx.WojGJb2no2ISdAHa0xkNYEqO7qKnRHKFuIYAWwtlUeM; Path=/; HttpOnly, Set-Cookie: AWSELB=03FF654F188040D73460A02429CC778A1C99C4084F3962E0E851610A3B1C197F25548E9E0BDD96B4945A84977127090DA7F99BD94E53C7D353C0CC3A6AFD0BAF977C43B86BCFEA7FA085228A26C03C1932278B037C;PATH=/;HTTPONLY, Vary: Accept-Encoding, X-Powered-By: Express, Content-Length: 21, Connection: keep-alive]} 
+04-12-2014 18:11:13 INFO  137: 'PostSession' |Response content length: 21 
+04-12-2014 18:11:25 INFO  36: 'AfterTests' *===========================================* 
+04-12-2014 18:11:25 INFO  37: 'AfterTests' *       Finish running test cases...        * 
+04-12-2014 18:11:25 INFO  38: 'AfterTests' *===========================================* 
+04-12-2014 18:11:25 INFO  39: 'AfterTests' 
+ 
+04-12-2014 18:14:27 INFO  22: 'BeforeTests' *===========================================* 
+04-12-2014 18:14:27 INFO  23: 'BeforeTests' *        Start running test cases...        * 
+04-12-2014 18:14:27 INFO  24: 'BeforeTests' *===========================================* 
+04-12-2014 18:14:37 INFO  737: 'checkDefaultActivity' <<========Started running=====<< 
+04-12-2014 18:14:37 INFO  741: 'checkDefaultActivity' |Sending session to the server... 
+04-12-2014 18:14:37 INFO  63: 'AppLogin' |username is fortestgl+1@gmail.com 
+04-12-2014 18:14:39 INFO  77: 'AppLogin' |Output from Server... 
+04-12-2014 18:14:39 INFO  83: 'AppLogin' |{  "success": true,  "user": {    "token": "9a5378b5450746a0300b4797eb174ecb8ab57d82",    "user": "63f0a8a3bea4d4ecd726ff0956e3d3b5"  }} 
+04-12-2014 18:14:39 INFO  91: 'AppLogin' |UserID is: 63f0a8a3bea4d4ecd726ff0956e3d3b5 
+04-12-2014 18:14:39 INFO  93: 'AppLogin' |User token is: 9a5378b5450746a0300b4797eb174ecb8ab57d82 
+04-12-2014 18:14:39 INFO  130: 'PostSession' |Executing request: POST http://staging-web-664817575.us-west-2.elb.amazonaws.com/user/unpack HTTP/1.1 
+04-12-2014 18:14:40 INFO  133: 'PostSession' |Status of request is: HTTP/1.1 200 OK 
+04-12-2014 18:14:40 INFO  134: 'PostSession' |Response is: HttpResponseProxy{HTTP/1.1 200 OK [Content-Type: application/json; charset=utf-8, Date: Thu, 04 Dec 2014 16:14:41 GMT, Set-Cookie: i18next=en-US; path=/; expires=Fri, 04 Dec 2015 16:14:41 GMT, Set-Cookie: connect.sid=s%3A4SNE9opu3HpB8lMx7aUPOIBE.SSITkCIBNbfvufrnsa9X37LX7BSipP1sVDppX61H1dE; Path=/; HttpOnly, Set-Cookie: AWSELB=03FF654F188040D73460A02429CC778A1C99C4084FFDB6A510852FE7767372CBD684D41F98410D06046F442C26393B1327B852A7668603A6E322058378A9BF0677A1FD131E10A84D8E2C9D832EA609ED44B4A07F81;PATH=/;HTTPONLY, Vary: Accept-Encoding, X-Powered-By: Express, Content-Length: 21, Connection: keep-alive]} 
+04-12-2014 18:14:40 INFO  137: 'PostSession' |Response content length: 21 
+04-12-2014 18:14:40 INFO  744: 'checkDefaultActivity' |Logging in... 
+04-12-2014 18:14:47 INFO  749: 'checkDefaultActivity' |Check if user logged in 
+04-12-2014 18:14:48 INFO  265: 'compareIfTheActivityIsProperAfterSessionDownload' |Something went wrong! Go check it out! 
+04-12-2014 18:15:02 INFO  773: 'checkDefaultActivity' |Sending session to the server... 
+04-12-2014 18:15:02 INFO  63: 'AppLogin' |username is fortestgl+1@gmail.com 
+04-12-2014 18:15:03 INFO  77: 'AppLogin' |Output from Server... 
+04-12-2014 18:15:03 INFO  83: 'AppLogin' |{  "success": true,  "user": {    "token": "9a5378b5450746a0300b4797eb174ecb8ab57d82",    "user": "63f0a8a3bea4d4ecd726ff0956e3d3b5"  }} 
+04-12-2014 18:15:03 INFO  91: 'AppLogin' |UserID is: 63f0a8a3bea4d4ecd726ff0956e3d3b5 
+04-12-2014 18:15:03 INFO  93: 'AppLogin' |User token is: 9a5378b5450746a0300b4797eb174ecb8ab57d82 
+04-12-2014 18:15:03 INFO  130: 'PostSession' |Executing request: POST http://staging-web-664817575.us-west-2.elb.amazonaws.com/user/unpack HTTP/1.1 
+04-12-2014 18:15:04 INFO  133: 'PostSession' |Status of request is: HTTP/1.1 200 OK 
+04-12-2014 18:15:04 INFO  134: 'PostSession' |Response is: HttpResponseProxy{HTTP/1.1 200 OK [Content-Type: application/json; charset=utf-8, Date: Thu, 04 Dec 2014 16:15:05 GMT, Set-Cookie: i18next=en-US; path=/; expires=Fri, 04 Dec 2015 16:15:05 GMT, Set-Cookie: connect.sid=s%3ApuKZyBz8foqw5ni8GYeIf2ls.tteuVXLVguA2w%2B%2FyNAWMqqntZI%2F2FE73KFHN%2FTO0mdE; Path=/; HttpOnly, Set-Cookie: AWSELB=03FF654F188040D73460A02429CC778A1C99C4084F3C88642D2E69AB4C335963F3D2B2E5767316DA69363653BE8CF4DCAA02A9F4E43CFE65B6AA7A1750D8CA9316E9250C7A29B2D20AC6A8F7C5C9E4658BDBB03C98;PATH=/;HTTPONLY, Vary: Accept-Encoding, X-Powered-By: Express, Content-Length: 21, Connection: keep-alive]} 
+04-12-2014 18:15:04 INFO  137: 'PostSession' |Response content length: 21 
+04-12-2014 18:15:15 INFO  36: 'AfterTests' *===========================================* 
+04-12-2014 18:15:15 INFO  37: 'AfterTests' *       Finish running test cases...        * 
+04-12-2014 18:15:15 INFO  38: 'AfterTests' *===========================================* 
+04-12-2014 18:15:15 INFO  39: 'AfterTests' 
+ 
+04-12-2014 18:21:35 INFO  22: 'BeforeTests' *===========================================* 
+04-12-2014 18:21:35 INFO  23: 'BeforeTests' *        Start running test cases...        * 
+04-12-2014 18:21:35 INFO  24: 'BeforeTests' *===========================================* 
+04-12-2014 18:21:46 INFO  737: 'checkDefaultActivity' <<========Started running=====<< 
+04-12-2014 18:21:46 INFO  741: 'checkDefaultActivity' |Sending session to the server... 
+04-12-2014 18:21:46 INFO  63: 'AppLogin' |username is fortestgl+1@gmail.com 
+04-12-2014 18:21:47 INFO  77: 'AppLogin' |Output from Server... 
+04-12-2014 18:21:47 INFO  83: 'AppLogin' |{  "success": true,  "user": {    "token": "9a5378b5450746a0300b4797eb174ecb8ab57d82",    "user": "63f0a8a3bea4d4ecd726ff0956e3d3b5"  }} 
+04-12-2014 18:21:47 INFO  91: 'AppLogin' |UserID is: 63f0a8a3bea4d4ecd726ff0956e3d3b5 
+04-12-2014 18:21:47 INFO  93: 'AppLogin' |User token is: 9a5378b5450746a0300b4797eb174ecb8ab57d82 
+04-12-2014 18:21:47 INFO  130: 'PostSession' |Executing request: POST http://staging-web-664817575.us-west-2.elb.amazonaws.com/user/unpack HTTP/1.1 
+04-12-2014 18:21:48 INFO  133: 'PostSession' |Status of request is: HTTP/1.1 200 OK 
+04-12-2014 18:21:48 INFO  134: 'PostSession' |Response is: HttpResponseProxy{HTTP/1.1 200 OK [Content-Type: application/json; charset=utf-8, Date: Thu, 04 Dec 2014 16:21:49 GMT, Set-Cookie: i18next=en-US; path=/; expires=Fri, 04 Dec 2015 16:21:49 GMT, Set-Cookie: connect.sid=s%3AN51uxBIt0S9HAQRDOefF4542.9elTiEiWOXkUm2OXQFgf98wfCIk4ElFs7rMEZ5cVUvo; Path=/; HttpOnly, Set-Cookie: AWSELB=03FF654F188040D73460A02429CC778A1C99C4084FD28C6B4D5CF9551269963361CD4C30312A6E0E6F815E5BDA46EE139142B8868E3CFE65B6AA7A1750D8CA9316E9250C7A561B4F9B60D14771F82AD3C9E593D9F2;PATH=/;HTTPONLY, Vary: Accept-Encoding, X-Powered-By: Express, Content-Length: 21, Connection: keep-alive]} 
+04-12-2014 18:21:48 INFO  137: 'PostSession' |Response content length: 21 
+04-12-2014 18:21:48 INFO  744: 'checkDefaultActivity' |Logging in... 
+04-12-2014 18:21:54 INFO  749: 'checkDefaultActivity' |Check if user logged in 
+04-12-2014 18:22:04 INFO  265: 'compareIfTheActivityIsProperAfterSessionDownload' |Something went wrong! Go check it out! 
+04-12-2014 18:22:18 INFO  773: 'checkDefaultActivity' |Sending session to the server... 
+04-12-2014 18:22:18 INFO  63: 'AppLogin' |username is fortestgl+1@gmail.com 
+04-12-2014 18:22:18 INFO  77: 'AppLogin' |Output from Server... 
+04-12-2014 18:22:18 INFO  83: 'AppLogin' |{  "success": true,  "user": {    "token": "9a5378b5450746a0300b4797eb174ecb8ab57d82",    "user": "63f0a8a3bea4d4ecd726ff0956e3d3b5"  }} 
+04-12-2014 18:22:18 INFO  91: 'AppLogin' |UserID is: 63f0a8a3bea4d4ecd726ff0956e3d3b5 
+04-12-2014 18:22:18 INFO  93: 'AppLogin' |User token is: 9a5378b5450746a0300b4797eb174ecb8ab57d82 
+04-12-2014 18:22:18 INFO  130: 'PostSession' |Executing request: POST http://staging-web-664817575.us-west-2.elb.amazonaws.com/user/unpack HTTP/1.1 
+04-12-2014 18:22:20 INFO  133: 'PostSession' |Status of request is: HTTP/1.1 200 OK 
+04-12-2014 18:22:20 INFO  134: 'PostSession' |Response is: HttpResponseProxy{HTTP/1.1 200 OK [Content-Type: application/json; charset=utf-8, Date: Thu, 04 Dec 2014 16:22:21 GMT, Set-Cookie: i18next=en-US; path=/; expires=Fri, 04 Dec 2015 16:22:21 GMT, Set-Cookie: connect.sid=s%3Aw4UfFCyB2StW9mqZO7oCCgMH.2fOB3IpAlt7Hr1Q7a1Vp6n78ZC%2Fi9rGHJdM47E4Cbos; Path=/; HttpOnly, Set-Cookie: AWSELB=03FF654F188040D73460A02429CC778A1C99C4084F5E941C7B89C0E8D1592106DC528D0D0191C667FC55899D3404F38C49CF8DF0E3D4CA01A7FD8A242253AFEF373456D1C32DCA133C095AD37EAC873C73B0037B9D;PATH=/;HTTPONLY, Vary: Accept-Encoding, X-Powered-By: Express, Content-Length: 21, Connection: keep-alive]} 
+04-12-2014 18:22:20 INFO  137: 'PostSession' |Response content length: 21 
+04-12-2014 18:22:30 INFO  36: 'AfterTests' *===========================================* 
+04-12-2014 18:22:30 INFO  37: 'AfterTests' *       Finish running test cases...        * 
+04-12-2014 18:22:30 INFO  38: 'AfterTests' *===========================================* 
+04-12-2014 18:22:30 INFO  39: 'AfterTests' 
+ 
+04-12-2014 18:24:33 INFO  22: 'BeforeTests' *===========================================* 
+04-12-2014 18:24:33 INFO  23: 'BeforeTests' *        Start running test cases...        * 
+04-12-2014 18:24:33 INFO  24: 'BeforeTests' *===========================================* 
+04-12-2014 18:24:43 INFO  737: 'checkDefaultActivity' <<========Started running=====<< 
+04-12-2014 18:24:43 INFO  741: 'checkDefaultActivity' |Sending session to the server... 
+04-12-2014 18:24:44 INFO  63: 'AppLogin' |username is fortestgl+1@gmail.com 
+04-12-2014 18:24:44 INFO  77: 'AppLogin' |Output from Server... 
+04-12-2014 18:24:44 INFO  83: 'AppLogin' |{  "success": true,  "user": {    "token": "9a5378b5450746a0300b4797eb174ecb8ab57d82",    "user": "63f0a8a3bea4d4ecd726ff0956e3d3b5"  }} 
+04-12-2014 18:24:44 INFO  91: 'AppLogin' |UserID is: 63f0a8a3bea4d4ecd726ff0956e3d3b5 
+04-12-2014 18:24:44 INFO  93: 'AppLogin' |User token is: 9a5378b5450746a0300b4797eb174ecb8ab57d82 
+04-12-2014 18:24:44 INFO  130: 'PostSession' |Executing request: POST http://staging-web-664817575.us-west-2.elb.amazonaws.com/user/unpack HTTP/1.1 
+04-12-2014 18:24:45 INFO  133: 'PostSession' |Status of request is: HTTP/1.1 200 OK 
+04-12-2014 18:24:45 INFO  134: 'PostSession' |Response is: HttpResponseProxy{HTTP/1.1 200 OK [Content-Type: application/json; charset=utf-8, Date: Thu, 04 Dec 2014 16:24:46 GMT, Set-Cookie: i18next=en-US; path=/; expires=Fri, 04 Dec 2015 16:24:46 GMT, Set-Cookie: connect.sid=s%3AlnHlbjOs5aP3SADdzyOoMUQY.jhz25kdZ%2FzYlYpL6wlfmOwWJ9Tj8uH7t980JodFiasQ; Path=/; HttpOnly, Set-Cookie: AWSELB=03FF654F188040D73460A02429CC778A1C99C4084F0B360303D9F98ACFBA5BBFBB1FDC01EAA74506BB4FBD460BFC9B324B8BA2D654D4CA01A7FD8A242253AFEF373456D1C39CCD7929FC3C43C20C461D87E69840D7;PATH=/;HTTPONLY, Vary: Accept-Encoding, X-Powered-By: Express, Content-Length: 21, Connection: keep-alive]} 
+04-12-2014 18:24:45 INFO  137: 'PostSession' |Response content length: 21 
+04-12-2014 18:24:45 INFO  744: 'checkDefaultActivity' |Logging in... 
+04-12-2014 18:24:52 INFO  749: 'checkDefaultActivity' |Check if user logged in 
+04-12-2014 18:24:54 INFO  265: 'compareIfTheActivityIsProperAfterSessionDownload' |Something went wrong! Go check it out! 
+04-12-2014 18:25:08 INFO  773: 'checkDefaultActivity' |Sending session to the server... 
+04-12-2014 18:25:08 INFO  63: 'AppLogin' |username is fortestgl+1@gmail.com 
+04-12-2014 18:25:09 INFO  77: 'AppLogin' |Output from Server... 
+04-12-2014 18:25:09 INFO  83: 'AppLogin' |{  "success": true,  "user": {    "token": "9a5378b5450746a0300b4797eb174ecb8ab57d82",    "user": "63f0a8a3bea4d4ecd726ff0956e3d3b5"  }} 
+04-12-2014 18:25:09 INFO  91: 'AppLogin' |UserID is: 63f0a8a3bea4d4ecd726ff0956e3d3b5 
+04-12-2014 18:25:09 INFO  93: 'AppLogin' |User token is: 9a5378b5450746a0300b4797eb174ecb8ab57d82 
+04-12-2014 18:25:09 INFO  130: 'PostSession' |Executing request: POST http://staging-web-664817575.us-west-2.elb.amazonaws.com/user/unpack HTTP/1.1 
+04-12-2014 18:25:10 INFO  133: 'PostSession' |Status of request is: HTTP/1.1 200 OK 
+04-12-2014 18:25:10 INFO  134: 'PostSession' |Response is: HttpResponseProxy{HTTP/1.1 200 OK [Content-Type: application/json; charset=utf-8, Date: Thu, 04 Dec 2014 16:25:11 GMT, Set-Cookie: i18next=en-US; path=/; expires=Fri, 04 Dec 2015 16:25:11 GMT, Set-Cookie: connect.sid=s%3AGOBCmvkxRSsHMXnlAIwPWCiQ.xplaaxF1D1gs%2B2VszGQgety8UZnenegcUt5vEq8rVrs; Path=/; HttpOnly, Set-Cookie: AWSELB=03FF654F188040D73460A02429CC778A1C99C4084FE3F4B28D864869A7EC85F5DDC61F7DB60ACE5541DFCA5C9D975F9B8DDBB8C3C83CFE65B6AA7A1750D8CA9316E9250C7A29B2D20AC6A8F7C5C9E4658BDBB03C98;PATH=/;HTTPONLY, Vary: Accept-Encoding, X-Powered-By: Express, Content-Length: 21, Connection: keep-alive]} 
+04-12-2014 18:25:10 INFO  137: 'PostSession' |Response content length: 21 
+04-12-2014 18:25:20 INFO  36: 'AfterTests' *===========================================* 
+04-12-2014 18:25:20 INFO  37: 'AfterTests' *       Finish running test cases...        * 
+04-12-2014 18:25:20 INFO  38: 'AfterTests' *===========================================* 
+04-12-2014 18:25:20 INFO  39: 'AfterTests' 
+ 
+04-12-2014 18:28:18 INFO  22: 'BeforeTests' *===========================================* 
+04-12-2014 18:28:18 INFO  23: 'BeforeTests' *        Start running test cases...        * 
+04-12-2014 18:28:18 INFO  24: 'BeforeTests' *===========================================* 
+04-12-2014 18:28:27 INFO  737: 'checkDefaultActivity' <<========Started running=====<< 
+04-12-2014 18:28:27 INFO  741: 'checkDefaultActivity' |Sending session to the server... 
+04-12-2014 18:28:27 INFO  63: 'AppLogin' |username is fortestgl+1@gmail.com 
+04-12-2014 18:28:28 INFO  77: 'AppLogin' |Output from Server... 
+04-12-2014 18:28:28 INFO  83: 'AppLogin' |{  "success": true,  "user": {    "token": "9a5378b5450746a0300b4797eb174ecb8ab57d82",    "user": "63f0a8a3bea4d4ecd726ff0956e3d3b5"  }} 
+04-12-2014 18:28:28 INFO  91: 'AppLogin' |UserID is: 63f0a8a3bea4d4ecd726ff0956e3d3b5 
+04-12-2014 18:28:28 INFO  93: 'AppLogin' |User token is: 9a5378b5450746a0300b4797eb174ecb8ab57d82 
+04-12-2014 18:28:28 INFO  130: 'PostSession' |Executing request: POST http://staging-web-664817575.us-west-2.elb.amazonaws.com/user/unpack HTTP/1.1 
+04-12-2014 18:28:29 INFO  133: 'PostSession' |Status of request is: HTTP/1.1 200 OK 
+04-12-2014 18:28:29 INFO  134: 'PostSession' |Response is: HttpResponseProxy{HTTP/1.1 200 OK [Content-Type: application/json; charset=utf-8, Date: Thu, 04 Dec 2014 16:28:30 GMT, Set-Cookie: i18next=en-US; path=/; expires=Fri, 04 Dec 2015 16:28:30 GMT, Set-Cookie: connect.sid=s%3A366KaI8y61UdZy9jF3ECb4j6.%2Bdajh9T813G845ZjOhf6Sgu2CeebMKTTdLT%2BzruTTZU; Path=/; HttpOnly, Set-Cookie: AWSELB=03FF654F188040D73460A02429CC778A1C99C4084F547D0790B00F6A1897C1BA480B1423F467F10B564E6D14949198624D8DEAA5329CF59A5ED57EF5FC26340FC6D29115EC561B4F9B60D14771F82AD3C9E593D9F2;PATH=/;HTTPONLY, Vary: Accept-Encoding, X-Powered-By: Express, Content-Length: 21, Connection: keep-alive]} 
+04-12-2014 18:28:29 INFO  137: 'PostSession' |Response content length: 21 
+04-12-2014 18:28:29 INFO  744: 'checkDefaultActivity' |Logging in... 
+04-12-2014 18:28:35 INFO  749: 'checkDefaultActivity' |Check if user logged in 
+04-12-2014 18:28:35 INFO  36: 'AfterTests' *===========================================* 
+04-12-2014 18:28:35 INFO  37: 'AfterTests' *       Finish running test cases...        * 
+04-12-2014 18:28:35 INFO  38: 'AfterTests' *===========================================* 
+04-12-2014 18:28:35 INFO  39: 'AfterTests' 
+ 
+04-12-2014 18:28:56 INFO  22: 'BeforeTests' *===========================================* 
+04-12-2014 18:28:56 INFO  23: 'BeforeTests' *        Start running test cases...        * 
+04-12-2014 18:28:56 INFO  24: 'BeforeTests' *===========================================* 
+04-12-2014 18:29:06 INFO  737: 'checkDefaultActivity' <<========Started running=====<< 
+04-12-2014 18:29:06 INFO  741: 'checkDefaultActivity' |Sending session to the server... 
+04-12-2014 18:29:06 INFO  63: 'AppLogin' |username is fortestgl+1@gmail.com 
+04-12-2014 18:29:06 INFO  77: 'AppLogin' |Output from Server... 
+04-12-2014 18:29:06 INFO  83: 'AppLogin' |{  "success": true,  "user": {    "token": "9a5378b5450746a0300b4797eb174ecb8ab57d82",    "user": "63f0a8a3bea4d4ecd726ff0956e3d3b5"  }} 
+04-12-2014 18:29:06 INFO  91: 'AppLogin' |UserID is: 63f0a8a3bea4d4ecd726ff0956e3d3b5 
+04-12-2014 18:29:06 INFO  93: 'AppLogin' |User token is: 9a5378b5450746a0300b4797eb174ecb8ab57d82 
+04-12-2014 18:29:06 INFO  130: 'PostSession' |Executing request: POST http://staging-web-664817575.us-west-2.elb.amazonaws.com/user/unpack HTTP/1.1 
+04-12-2014 18:29:07 INFO  133: 'PostSession' |Status of request is: HTTP/1.1 200 OK 
+04-12-2014 18:29:07 INFO  134: 'PostSession' |Response is: HttpResponseProxy{HTTP/1.1 200 OK [Content-Type: application/json; charset=utf-8, Date: Thu, 04 Dec 2014 16:29:09 GMT, Set-Cookie: i18next=en-US; path=/; expires=Fri, 04 Dec 2015 16:29:08 GMT, Set-Cookie: connect.sid=s%3A3iJWKRuL1IxhmNjOle7FBxge.6qe%2Fh94A4HowG%2FouKx%2FOg5xPJQsJNQiNN%2B9Y6V01LHE; Path=/; HttpOnly, Set-Cookie: AWSELB=03FF654F188040D73460A02429CC778A1C99C4084F0236CE288098C0A7584DDEFF448A1315EE7A500C935C2E76B3C815437094D8BDF41DD22ECEA4E0B55E1D6A3AC2C0E1F59CCD7929FC3C43C20C461D87E69840D7;PATH=/;HTTPONLY, Vary: Accept-Encoding, X-Powered-By: Express, Content-Length: 21, Connection: keep-alive]} 
+04-12-2014 18:29:07 INFO  137: 'PostSession' |Response content length: 21 
+04-12-2014 18:29:08 INFO  744: 'checkDefaultActivity' |Logging in... 
+04-12-2014 18:29:14 INFO  749: 'checkDefaultActivity' |Check if user logged in 
+04-12-2014 18:29:30 INFO  773: 'checkDefaultActivity' |Sending session to the server... 
+04-12-2014 18:29:30 INFO  63: 'AppLogin' |username is fortestgl+1@gmail.com 
+04-12-2014 18:29:30 INFO  77: 'AppLogin' |Output from Server... 
+04-12-2014 18:29:30 INFO  83: 'AppLogin' |{  "success": true,  "user": {    "token": "9a5378b5450746a0300b4797eb174ecb8ab57d82",    "user": "63f0a8a3bea4d4ecd726ff0956e3d3b5"  }} 
+04-12-2014 18:29:30 INFO  91: 'AppLogin' |UserID is: 63f0a8a3bea4d4ecd726ff0956e3d3b5 
+04-12-2014 18:29:30 INFO  93: 'AppLogin' |User token is: 9a5378b5450746a0300b4797eb174ecb8ab57d82 
+04-12-2014 18:29:30 INFO  130: 'PostSession' |Executing request: POST http://staging-web-664817575.us-west-2.elb.amazonaws.com/user/unpack HTTP/1.1 
+04-12-2014 18:29:31 INFO  133: 'PostSession' |Status of request is: HTTP/1.1 200 OK 
+04-12-2014 18:29:31 INFO  134: 'PostSession' |Response is: HttpResponseProxy{HTTP/1.1 200 OK [Content-Type: application/json; charset=utf-8, Date: Thu, 04 Dec 2014 16:29:32 GMT, Set-Cookie: i18next=en-US; path=/; expires=Fri, 04 Dec 2015 16:29:32 GMT, Set-Cookie: connect.sid=s%3A6Yzfy3vtsbzfbKlrdUbUFwL1.COomdoXi93Jk24pTnVclOypi9BE45ozsTrXkqpS4R%2Bc; Path=/; HttpOnly, Set-Cookie: AWSELB=03FF654F188040D73460A02429CC778A1C99C4084F08D6D3F97ECD786275E47C2DAC4B9A0664FB34E2351B75C4470373F74D56D21353C7D353C0CC3A6AFD0BAF977C43B86B94030631984B0CC7153B8286D80C73F8;PATH=/;HTTPONLY, Vary: Accept-Encoding, X-Powered-By: Express, Content-Length: 21, Connection: keep-alive]} 
+04-12-2014 18:29:31 INFO  137: 'PostSession' |Response content length: 21 
+04-12-2014 18:29:42 INFO  36: 'AfterTests' *===========================================* 
+04-12-2014 18:29:42 INFO  37: 'AfterTests' *       Finish running test cases...        * 
+04-12-2014 18:29:42 INFO  38: 'AfterTests' *===========================================* 
+04-12-2014 18:29:42 INFO  39: 'AfterTests' 
+ 
+04-12-2014 18:31:11 INFO  22: 'BeforeTests' *===========================================* 
+04-12-2014 18:31:11 INFO  23: 'BeforeTests' *        Start running test cases...        * 
+04-12-2014 18:31:11 INFO  24: 'BeforeTests' *===========================================* 
+04-12-2014 18:31:21 INFO  737: 'checkDefaultActivity' <<========Started running=====<< 
+04-12-2014 18:31:21 INFO  741: 'checkDefaultActivity' |Sending session to the server... 
+04-12-2014 18:31:21 INFO  63: 'AppLogin' |username is fortestgl+1@gmail.com 
+04-12-2014 18:31:22 INFO  77: 'AppLogin' |Output from Server... 
+04-12-2014 18:31:22 INFO  83: 'AppLogin' |{  "success": true,  "user": {    "token": "9a5378b5450746a0300b4797eb174ecb8ab57d82",    "user": "63f0a8a3bea4d4ecd726ff0956e3d3b5"  }} 
+04-12-2014 18:31:22 INFO  91: 'AppLogin' |UserID is: 63f0a8a3bea4d4ecd726ff0956e3d3b5 
+04-12-2014 18:31:22 INFO  93: 'AppLogin' |User token is: 9a5378b5450746a0300b4797eb174ecb8ab57d82 
+04-12-2014 18:31:22 INFO  130: 'PostSession' |Executing request: POST http://staging-web-664817575.us-west-2.elb.amazonaws.com/user/unpack HTTP/1.1 
+04-12-2014 18:31:23 INFO  133: 'PostSession' |Status of request is: HTTP/1.1 200 OK 
+04-12-2014 18:31:23 INFO  134: 'PostSession' |Response is: HttpResponseProxy{HTTP/1.1 200 OK [Content-Type: application/json; charset=utf-8, Date: Thu, 04 Dec 2014 16:31:24 GMT, Set-Cookie: i18next=en-US; path=/; expires=Fri, 04 Dec 2015 16:31:24 GMT, Set-Cookie: connect.sid=s%3AhuQQlEm4PsgAA0YXrbuQHcfX.UCRyTgPvo3d1temlaNpW%2FnyyUpVSoOnsfYsuGZqwHJ0; Path=/; HttpOnly, Set-Cookie: AWSELB=03FF654F188040D73460A02429CC778A1C99C4084F27C4BD393E49B6E06B818331A0BECC2A787CD3B7634A845B77FE7B8AD6ED95C63CFE65B6AA7A1750D8CA9316E9250C7A29B2D20AC6A8F7C5C9E4658BDBB03C98;PATH=/;HTTPONLY, Vary: Accept-Encoding, X-Powered-By: Express, Content-Length: 21, Connection: keep-alive]} 
+04-12-2014 18:31:23 INFO  137: 'PostSession' |Response content length: 21 
+04-12-2014 18:31:23 INFO  744: 'checkDefaultActivity' |Logging in... 
+04-12-2014 18:31:30 INFO  749: 'checkDefaultActivity' |Check if user logged in 
+04-12-2014 18:31:32 INFO  265: 'compareIfTheActivityIsProperAfterSessionDownload' |Something went wrong! Go check it out! 
+04-12-2014 18:31:46 INFO  773: 'checkDefaultActivity' |Sending session to the server... 
+04-12-2014 18:31:46 INFO  63: 'AppLogin' |username is fortestgl+1@gmail.com 
+04-12-2014 18:31:46 INFO  77: 'AppLogin' |Output from Server... 
+04-12-2014 18:31:46 INFO  83: 'AppLogin' |{  "success": true,  "user": {    "token": "9a5378b5450746a0300b4797eb174ecb8ab57d82",    "user": "63f0a8a3bea4d4ecd726ff0956e3d3b5"  }} 
+04-12-2014 18:31:46 INFO  91: 'AppLogin' |UserID is: 63f0a8a3bea4d4ecd726ff0956e3d3b5 
+04-12-2014 18:31:46 INFO  93: 'AppLogin' |User token is: 9a5378b5450746a0300b4797eb174ecb8ab57d82 
+04-12-2014 18:31:46 INFO  130: 'PostSession' |Executing request: POST http://staging-web-664817575.us-west-2.elb.amazonaws.com/user/unpack HTTP/1.1 
+04-12-2014 18:31:47 INFO  133: 'PostSession' |Status of request is: HTTP/1.1 200 OK 
+04-12-2014 18:31:47 INFO  134: 'PostSession' |Response is: HttpResponseProxy{HTTP/1.1 200 OK [Content-Type: application/json; charset=utf-8, Date: Thu, 04 Dec 2014 16:31:48 GMT, Set-Cookie: i18next=en-US; path=/; expires=Fri, 04 Dec 2015 16:31:48 GMT, Set-Cookie: connect.sid=s%3AR7SGb6n6ZSsFqGyD68uEnGrc.%2FLuL8Er%2FgHx4Li7l%2FiHriE0S93VxpPgGJPayEXKFBJ4; Path=/; HttpOnly, Set-Cookie: AWSELB=03FF654F188040D73460A02429CC778A1C99C4084F6F3C216E2BB26E8B6F169D6B0BE95A12C073BFF8497C8328888B1C6499F7561C3CFE65B6AA7A1750D8CA9316E9250C7A29B2D20AC6A8F7C5C9E4658BDBB03C98;PATH=/;HTTPONLY, Vary: Accept-Encoding, X-Powered-By: Express, Content-Length: 21, Connection: keep-alive]} 
+04-12-2014 18:31:47 INFO  137: 'PostSession' |Response content length: 21 
+04-12-2014 18:31:58 INFO  36: 'AfterTests' *===========================================* 
+04-12-2014 18:31:58 INFO  37: 'AfterTests' *       Finish running test cases...        * 
+04-12-2014 18:31:58 INFO  38: 'AfterTests' *===========================================* 
+04-12-2014 18:31:58 INFO  39: 'AfterTests' 
+ 
+04-12-2014 18:33:05 INFO  22: 'BeforeTests' *===========================================* 
+04-12-2014 18:33:05 INFO  23: 'BeforeTests' *        Start running test cases...        * 
+04-12-2014 18:33:05 INFO  24: 'BeforeTests' *===========================================* 
+04-12-2014 18:33:14 INFO  737: 'checkDefaultActivity' <<========Started running=====<< 
+04-12-2014 18:33:14 INFO  741: 'checkDefaultActivity' |Sending session to the server... 
+04-12-2014 18:33:15 INFO  63: 'AppLogin' |username is fortestgl+1@gmail.com 
+04-12-2014 18:33:15 INFO  77: 'AppLogin' |Output from Server... 
+04-12-2014 18:33:15 INFO  83: 'AppLogin' |{  "success": true,  "user": {    "token": "9a5378b5450746a0300b4797eb174ecb8ab57d82",    "user": "63f0a8a3bea4d4ecd726ff0956e3d3b5"  }} 
+04-12-2014 18:33:15 INFO  91: 'AppLogin' |UserID is: 63f0a8a3bea4d4ecd726ff0956e3d3b5 
+04-12-2014 18:33:15 INFO  93: 'AppLogin' |User token is: 9a5378b5450746a0300b4797eb174ecb8ab57d82 
+04-12-2014 18:33:15 INFO  130: 'PostSession' |Executing request: POST http://staging-web-664817575.us-west-2.elb.amazonaws.com/user/unpack HTTP/1.1 
+04-12-2014 18:33:17 INFO  133: 'PostSession' |Status of request is: HTTP/1.1 200 OK 
+04-12-2014 18:33:17 INFO  134: 'PostSession' |Response is: HttpResponseProxy{HTTP/1.1 200 OK [Content-Type: application/json; charset=utf-8, Date: Thu, 04 Dec 2014 16:33:18 GMT, Set-Cookie: i18next=en-US; path=/; expires=Fri, 04 Dec 2015 16:33:18 GMT, Set-Cookie: connect.sid=s%3AiAKhmcngnX7v9nUrPCXhAJOR.zFRePznn8VQVidYyyTyw2ibe257HUePpxAD6GfO8I%2Bo; Path=/; HttpOnly, Set-Cookie: AWSELB=03FF654F188040D73460A02429CC778A1C99C4084F3C0CB01D9A428B9F19BC1E98AEC6FD1E112032A2EFBC357238B385EF2198BEC353C7D353C0CC3A6AFD0BAF977C43B86B94030631984B0CC7153B8286D80C73F8;PATH=/;HTTPONLY, Vary: Accept-Encoding, X-Powered-By: Express, Content-Length: 21, Connection: keep-alive]} 
+04-12-2014 18:33:17 INFO  137: 'PostSession' |Response content length: 21 
+04-12-2014 18:33:17 INFO  744: 'checkDefaultActivity' |Logging in... 
+04-12-2014 18:33:23 INFO  749: 'checkDefaultActivity' |Check if user logged in 
+04-12-2014 18:33:24 INFO  36: 'AfterTests' *===========================================* 
+04-12-2014 18:33:24 INFO  37: 'AfterTests' *       Finish running test cases...        * 
+04-12-2014 18:33:24 INFO  38: 'AfterTests' *===========================================* 
+04-12-2014 18:33:24 INFO  39: 'AfterTests' 
+ 
+04-12-2014 18:34:35 INFO  22: 'BeforeTests' *===========================================* 
+04-12-2014 18:34:35 INFO  23: 'BeforeTests' *        Start running test cases...        * 
+04-12-2014 18:34:35 INFO  24: 'BeforeTests' *===========================================* 
+04-12-2014 18:34:45 INFO  737: 'checkDefaultActivity' <<========Started running=====<< 
+04-12-2014 18:34:46 INFO  741: 'checkDefaultActivity' |Sending session to the server... 
+04-12-2014 18:34:46 INFO  63: 'AppLogin' |username is fortestgl+1@gmail.com 
+04-12-2014 18:34:46 INFO  77: 'AppLogin' |Output from Server... 
+04-12-2014 18:34:46 INFO  83: 'AppLogin' |{  "success": true,  "user": {    "token": "9a5378b5450746a0300b4797eb174ecb8ab57d82",    "user": "63f0a8a3bea4d4ecd726ff0956e3d3b5"  }} 
+04-12-2014 18:34:46 INFO  91: 'AppLogin' |UserID is: 63f0a8a3bea4d4ecd726ff0956e3d3b5 
+04-12-2014 18:34:46 INFO  93: 'AppLogin' |User token is: 9a5378b5450746a0300b4797eb174ecb8ab57d82 
+04-12-2014 18:34:46 INFO  130: 'PostSession' |Executing request: POST http://staging-web-664817575.us-west-2.elb.amazonaws.com/user/unpack HTTP/1.1 
+04-12-2014 18:34:47 INFO  133: 'PostSession' |Status of request is: HTTP/1.1 200 OK 
+04-12-2014 18:34:47 INFO  134: 'PostSession' |Response is: HttpResponseProxy{HTTP/1.1 200 OK [Content-Type: application/json; charset=utf-8, Date: Thu, 04 Dec 2014 16:34:48 GMT, Set-Cookie: i18next=en-US; path=/; expires=Fri, 04 Dec 2015 16:34:48 GMT, Set-Cookie: connect.sid=s%3ANSB3DtAWH5CB9wPDfga3KLpm.leWNTielZ1hUoSTy7kOlCPLE9DEM0%2BV1duWQL79rDBc; Path=/; HttpOnly, Set-Cookie: AWSELB=03FF654F188040D73460A02429CC778A1C99C4084F3A52A1847416E5D098EFE665D62B9FFB785F0F8662DD36C71AB259D77CA0DE5F9CF59A5ED57EF5FC26340FC6D29115EC29B2D20AC6A8F7C5C9E4658BDBB03C98;PATH=/;HTTPONLY, Vary: Accept-Encoding, X-Powered-By: Express, Content-Length: 21, Connection: keep-alive]} 
+04-12-2014 18:34:47 INFO  137: 'PostSession' |Response content length: 21 
+04-12-2014 18:34:47 INFO  744: 'checkDefaultActivity' |Logging in... 
+04-12-2014 18:34:54 INFO  749: 'checkDefaultActivity' |Check if user logged in 
+04-12-2014 18:34:54 INFO  36: 'AfterTests' *===========================================* 
+04-12-2014 18:34:54 INFO  37: 'AfterTests' *       Finish running test cases...        * 
+04-12-2014 18:34:54 INFO  38: 'AfterTests' *===========================================* 
+04-12-2014 18:34:54 INFO  39: 'AfterTests' 
+ 
+04-12-2014 18:35:17 INFO  22: 'BeforeTests' *===========================================* 
+04-12-2014 18:35:17 INFO  23: 'BeforeTests' *        Start running test cases...        * 
+04-12-2014 18:35:17 INFO  24: 'BeforeTests' *===========================================* 
+04-12-2014 18:35:26 INFO  737: 'checkDefaultActivity' <<========Started running=====<< 
+04-12-2014 18:35:26 INFO  741: 'checkDefaultActivity' |Sending session to the server... 
+04-12-2014 18:35:26 INFO  63: 'AppLogin' |username is fortestgl+1@gmail.com 
+04-12-2014 18:35:27 INFO  77: 'AppLogin' |Output from Server... 
+04-12-2014 18:35:27 INFO  83: 'AppLogin' |{  "success": true,  "user": {    "token": "9a5378b5450746a0300b4797eb174ecb8ab57d82",    "user": "63f0a8a3bea4d4ecd726ff0956e3d3b5"  }} 
+04-12-2014 18:35:27 INFO  91: 'AppLogin' |UserID is: 63f0a8a3bea4d4ecd726ff0956e3d3b5 
+04-12-2014 18:35:27 INFO  93: 'AppLogin' |User token is: 9a5378b5450746a0300b4797eb174ecb8ab57d82 
+04-12-2014 18:35:27 INFO  130: 'PostSession' |Executing request: POST http://staging-web-664817575.us-west-2.elb.amazonaws.com/user/unpack HTTP/1.1 
+04-12-2014 18:35:28 INFO  133: 'PostSession' |Status of request is: HTTP/1.1 200 OK 
+04-12-2014 18:35:28 INFO  134: 'PostSession' |Response is: HttpResponseProxy{HTTP/1.1 200 OK [Content-Type: application/json; charset=utf-8, Date: Thu, 04 Dec 2014 16:35:29 GMT, Set-Cookie: i18next=en-US; path=/; expires=Fri, 04 Dec 2015 16:35:29 GMT, Set-Cookie: connect.sid=s%3Ajke4dHiXZzDDekmA2Iob6URA.%2Bg5HMINHgsClQcl7mTgTAwmZBQYgH1bOwLxWY5O0lvk; Path=/; HttpOnly, Set-Cookie: AWSELB=03FF654F188040D73460A02429CC778A1C99C4084F547D0790B00F6A1897C1BA480B1423F4CCFC3E65FBCC7E7478981755012A228F9CF59A5ED57EF5FC26340FC6D29115EC561B4F9B60D14771F82AD3C9E593D9F2;PATH=/;HTTPONLY, Vary: Accept-Encoding, X-Powered-By: Express, Content-Length: 21, Connection: keep-alive]} 
+04-12-2014 18:35:28 INFO  137: 'PostSession' |Response content length: 21 
+04-12-2014 18:35:28 INFO  744: 'checkDefaultActivity' |Logging in... 
+04-12-2014 18:35:34 INFO  749: 'checkDefaultActivity' |Check if user logged in 
+04-12-2014 18:35:34 INFO  36: 'AfterTests' *===========================================* 
+04-12-2014 18:35:34 INFO  37: 'AfterTests' *       Finish running test cases...        * 
+04-12-2014 18:35:34 INFO  38: 'AfterTests' *===========================================* 
+04-12-2014 18:35:34 INFO  39: 'AfterTests' 
+ 
+04-12-2014 18:38:48 INFO  22: 'BeforeTests' *===========================================* 
+04-12-2014 18:38:48 INFO  23: 'BeforeTests' *        Start running test cases...        * 
+04-12-2014 18:38:48 INFO  24: 'BeforeTests' *===========================================* 
+04-12-2014 18:38:58 INFO  737: 'checkDefaultActivity' <<========Started running=====<< 
+04-12-2014 18:38:58 INFO  741: 'checkDefaultActivity' |Sending session to the server... 
+04-12-2014 18:38:58 INFO  63: 'AppLogin' |username is fortestgl+1@gmail.com 
+04-12-2014 18:38:59 INFO  77: 'AppLogin' |Output from Server... 
+04-12-2014 18:38:59 INFO  83: 'AppLogin' |{  "success": true,  "user": {    "token": "9a5378b5450746a0300b4797eb174ecb8ab57d82",    "user": "63f0a8a3bea4d4ecd726ff0956e3d3b5"  }} 
+04-12-2014 18:38:59 INFO  91: 'AppLogin' |UserID is: 63f0a8a3bea4d4ecd726ff0956e3d3b5 
+04-12-2014 18:38:59 INFO  93: 'AppLogin' |User token is: 9a5378b5450746a0300b4797eb174ecb8ab57d82 
+04-12-2014 18:38:59 INFO  130: 'PostSession' |Executing request: POST http://staging-web-664817575.us-west-2.elb.amazonaws.com/user/unpack HTTP/1.1 
+04-12-2014 18:39:00 INFO  133: 'PostSession' |Status of request is: HTTP/1.1 200 OK 
+04-12-2014 18:39:00 INFO  134: 'PostSession' |Response is: HttpResponseProxy{HTTP/1.1 200 OK [Content-Type: application/json; charset=utf-8, Date: Thu, 04 Dec 2014 16:39:01 GMT, Set-Cookie: i18next=en-US; path=/; expires=Fri, 04 Dec 2015 16:39:01 GMT, Set-Cookie: connect.sid=s%3AIOSNdNG4HE58FdxR2tNZFOk3.IjOM4dvZbf%2BBO7mNoJeKoqPgyVl9VyE3larH2VsITd0; Path=/; HttpOnly, Set-Cookie: AWSELB=03FF654F188040D73460A02429CC778A1C99C4084FDFC297721ACD1DA6C60129F4521EAEEE2500E6C939CFA8F2E7CD0764300E6A7B9CF59A5ED57EF5FC26340FC6D29115EC29B2D20AC6A8F7C5C9E4658BDBB03C98;PATH=/;HTTPONLY, Vary: Accept-Encoding, X-Powered-By: Express, Content-Length: 21, Connection: keep-alive]} 
+04-12-2014 18:39:00 INFO  137: 'PostSession' |Response content length: 21 
+04-12-2014 18:39:00 INFO  744: 'checkDefaultActivity' |Logging in... 
+04-12-2014 18:39:07 INFO  749: 'checkDefaultActivity' |Check if user logged in 
+04-12-2014 18:39:07 INFO  36: 'AfterTests' *===========================================* 
+04-12-2014 18:39:07 INFO  37: 'AfterTests' *       Finish running test cases...        * 
+04-12-2014 18:39:07 INFO  38: 'AfterTests' *===========================================* 
+04-12-2014 18:39:07 INFO  39: 'AfterTests' 
+ 
+04-12-2014 18:40:26 INFO  22: 'BeforeTests' *===========================================* 
+04-12-2014 18:40:26 INFO  23: 'BeforeTests' *        Start running test cases...        * 
+04-12-2014 18:40:26 INFO  24: 'BeforeTests' *===========================================* 
+04-12-2014 18:40:35 INFO  737: 'checkDefaultActivity' <<========Started running=====<< 
+04-12-2014 18:40:35 INFO  741: 'checkDefaultActivity' |Sending session to the server... 
+04-12-2014 18:40:35 INFO  63: 'AppLogin' |username is fortestgl+1@gmail.com 
+04-12-2014 18:40:36 INFO  77: 'AppLogin' |Output from Server... 
+04-12-2014 18:40:36 INFO  83: 'AppLogin' |{  "success": true,  "user": {    "token": "9a5378b5450746a0300b4797eb174ecb8ab57d82",    "user": "63f0a8a3bea4d4ecd726ff0956e3d3b5"  }} 
+04-12-2014 18:40:36 INFO  91: 'AppLogin' |UserID is: 63f0a8a3bea4d4ecd726ff0956e3d3b5 
+04-12-2014 18:40:36 INFO  93: 'AppLogin' |User token is: 9a5378b5450746a0300b4797eb174ecb8ab57d82 
+04-12-2014 18:40:36 INFO  130: 'PostSession' |Executing request: POST http://staging-web-664817575.us-west-2.elb.amazonaws.com/user/unpack HTTP/1.1 
+04-12-2014 18:40:37 INFO  133: 'PostSession' |Status of request is: HTTP/1.1 200 OK 
+04-12-2014 18:40:37 INFO  134: 'PostSession' |Response is: HttpResponseProxy{HTTP/1.1 200 OK [Content-Type: application/json; charset=utf-8, Date: Thu, 04 Dec 2014 16:40:38 GMT, Set-Cookie: i18next=en-US; path=/; expires=Fri, 04 Dec 2015 16:40:38 GMT, Set-Cookie: connect.sid=s%3AGzIiCVAddQRIrWVjV6BqINms.lfqb0sGY5Iu5h8Bk9haln4zTDK6HyikORpjyrxkX0I0; Path=/; HttpOnly, Set-Cookie: AWSELB=03FF654F188040D73460A02429CC778A1C99C4084F39104F56A9FD3D628B12D2889DF20BBE48620CC1618A8B6BE86DEB6763EA5D363CFE65B6AA7A1750D8CA9316E9250C7A561B4F9B60D14771F82AD3C9E593D9F2;PATH=/;HTTPONLY, Vary: Accept-Encoding, X-Powered-By: Express, Content-Length: 21, Connection: keep-alive]} 
+04-12-2014 18:40:37 INFO  137: 'PostSession' |Response content length: 21 
+04-12-2014 18:40:37 INFO  744: 'checkDefaultActivity' |Logging in... 
+04-12-2014 18:40:43 INFO  749: 'checkDefaultActivity' |Check if user logged in 
+04-12-2014 18:40:44 INFO  36: 'AfterTests' *===========================================* 
+04-12-2014 18:40:44 INFO  37: 'AfterTests' *       Finish running test cases...        * 
+04-12-2014 18:40:44 INFO  38: 'AfterTests' *===========================================* 
+04-12-2014 18:40:44 INFO  39: 'AfterTests' 
+ 
+04-12-2014 18:41:32 INFO  22: 'BeforeTests' *===========================================* 
+04-12-2014 18:41:32 INFO  23: 'BeforeTests' *        Start running test cases...        * 
+04-12-2014 18:41:32 INFO  24: 'BeforeTests' *===========================================* 
+04-12-2014 18:41:42 INFO  737: 'checkDefaultActivity' <<========Started running=====<< 
+04-12-2014 18:41:42 INFO  741: 'checkDefaultActivity' |Sending session to the server... 
+04-12-2014 18:41:42 INFO  63: 'AppLogin' |username is fortestgl+1@gmail.com 
+04-12-2014 18:41:43 INFO  77: 'AppLogin' |Output from Server... 
+04-12-2014 18:41:43 INFO  83: 'AppLogin' |{  "success": true,  "user": {    "token": "9a5378b5450746a0300b4797eb174ecb8ab57d82",    "user": "63f0a8a3bea4d4ecd726ff0956e3d3b5"  }} 
+04-12-2014 18:41:43 INFO  91: 'AppLogin' |UserID is: 63f0a8a3bea4d4ecd726ff0956e3d3b5 
+04-12-2014 18:41:43 INFO  93: 'AppLogin' |User token is: 9a5378b5450746a0300b4797eb174ecb8ab57d82 
+04-12-2014 18:41:43 INFO  130: 'PostSession' |Executing request: POST http://staging-web-664817575.us-west-2.elb.amazonaws.com/user/unpack HTTP/1.1 
+04-12-2014 18:41:44 INFO  133: 'PostSession' |Status of request is: HTTP/1.1 200 OK 
+04-12-2014 18:41:44 INFO  134: 'PostSession' |Response is: HttpResponseProxy{HTTP/1.1 200 OK [Content-Type: application/json; charset=utf-8, Date: Thu, 04 Dec 2014 16:41:45 GMT, Set-Cookie: i18next=en-US; path=/; expires=Fri, 04 Dec 2015 16:41:45 GMT, Set-Cookie: connect.sid=s%3AwFB4CwQC906Y4JI4znbjZPng.r8QcstMDWwj9b%2FDq4GgGaz3AkZFzV19kq0j%2BcfOcgNQ; Path=/; HttpOnly, Set-Cookie: AWSELB=03FF654F188040D73460A02429CC778A1C99C4084F4F317D1B0297B242C7F760383A7409C267F090CDB9C369E1326D65AD92C14CB1BEE1CC46A42317258C25493694ED62E1A123510B9AD5F964FEF73C58B381A6C8;PATH=/;HTTPONLY, Vary: Accept-Encoding, X-Powered-By: Express, Content-Length: 21, Connection: keep-alive]} 
+04-12-2014 18:41:44 INFO  137: 'PostSession' |Response content length: 21 
+04-12-2014 18:41:44 INFO  744: 'checkDefaultActivity' |Logging in... 
+04-12-2014 18:41:51 INFO  749: 'checkDefaultActivity' |Check if user logged in 
+04-12-2014 18:41:51 INFO  36: 'AfterTests' *===========================================* 
+04-12-2014 18:41:51 INFO  37: 'AfterTests' *       Finish running test cases...        * 
+04-12-2014 18:41:51 INFO  38: 'AfterTests' *===========================================* 
+04-12-2014 18:41:51 INFO  39: 'AfterTests' 
+ 
+05-12-2014 08:46:44 INFO  22: 'BeforeTests' *===========================================* 
+05-12-2014 08:46:44 INFO  23: 'BeforeTests' *        Start running test cases...        * 
+05-12-2014 08:46:44 INFO  24: 'BeforeTests' *===========================================* 
+05-12-2014 08:46:55 INFO  737: 'checkDefaultActivity' <<========Started running=====<< 
+05-12-2014 08:46:55 INFO  741: 'checkDefaultActivity' |Sending session to the server... 
+05-12-2014 08:46:55 INFO  63: 'AppLogin' |username is fortestgl+1@gmail.com 
+05-12-2014 08:46:56 INFO  77: 'AppLogin' |Output from Server... 
+05-12-2014 08:46:56 INFO  83: 'AppLogin' |{  "success": true,  "user": {    "token": "9a5378b5450746a0300b4797eb174ecb8ab57d82",    "user": "63f0a8a3bea4d4ecd726ff0956e3d3b5"  }} 
+05-12-2014 08:46:56 INFO  91: 'AppLogin' |UserID is: 63f0a8a3bea4d4ecd726ff0956e3d3b5 
+05-12-2014 08:46:56 INFO  93: 'AppLogin' |User token is: 9a5378b5450746a0300b4797eb174ecb8ab57d82 
+05-12-2014 08:46:56 INFO  130: 'PostSession' |Executing request: POST http://staging-web-664817575.us-west-2.elb.amazonaws.com/user/unpack HTTP/1.1 
+05-12-2014 08:46:57 INFO  133: 'PostSession' |Status of request is: HTTP/1.1 200 OK 
+05-12-2014 08:46:57 INFO  134: 'PostSession' |Response is: HttpResponseProxy{HTTP/1.1 200 OK [Content-Type: application/json; charset=utf-8, Date: Fri, 05 Dec 2014 06:46:58 GMT, Set-Cookie: i18next=en-US; path=/; expires=Sat, 05 Dec 2015 06:46:58 GMT, Set-Cookie: connect.sid=s%3AEARUmiaGCZkrEqQrDIZCr4MT.n3q8UQMajo2Ckc3KWUBEyjDLM6jxrbum33mXvxAC%2Buc; Path=/; HttpOnly, Set-Cookie: AWSELB=03FF654F188040D73460A02429CC778A1C99C4084F5FA15EE419D17CB8B542AC13F517D5BC24D165B78AA9E14E508BD77647B167688603A6E322058378A9BF0677A1FD131E10A84D8E2C9D832EA609ED44B4A07F81;PATH=/;HTTPONLY, Vary: Accept-Encoding, X-Powered-By: Express, Content-Length: 21, Connection: keep-alive]} 
+05-12-2014 08:46:57 INFO  137: 'PostSession' |Response content length: 21 
+05-12-2014 08:46:57 INFO  744: 'checkDefaultActivity' |Logging in... 
+05-12-2014 08:47:04 INFO  749: 'checkDefaultActivity' |Check if user logged in 
+05-12-2014 08:47:05 INFO  36: 'AfterTests' *===========================================* 
+05-12-2014 08:47:05 INFO  37: 'AfterTests' *       Finish running test cases...        * 
+05-12-2014 08:47:05 INFO  38: 'AfterTests' *===========================================* 
+05-12-2014 08:47:05 INFO  39: 'AfterTests' 
+ 
+05-12-2014 13:37:22 INFO  22: 'BeforeTests' *===========================================* 
+05-12-2014 13:37:22 INFO  23: 'BeforeTests' *        Start running test cases...        * 
+05-12-2014 13:37:22 INFO  24: 'BeforeTests' *===========================================* 
+05-12-2014 13:37:31 INFO  737: 'checkDefaultActivity' <<========Started running=====<< 
+05-12-2014 13:37:31 INFO  741: 'checkDefaultActivity' |Sending session to the server... 
+05-12-2014 13:37:31 INFO  63: 'AppLogin' |username is fortestgl+1@gmail.com 
+05-12-2014 13:37:32 INFO  77: 'AppLogin' |Output from Server... 
+05-12-2014 13:37:32 INFO  83: 'AppLogin' |{  "success": true,  "user": {    "token": "9a5378b5450746a0300b4797eb174ecb8ab57d82",    "user": "63f0a8a3bea4d4ecd726ff0956e3d3b5"  }} 
+05-12-2014 13:37:32 INFO  91: 'AppLogin' |UserID is: 63f0a8a3bea4d4ecd726ff0956e3d3b5 
+05-12-2014 13:37:32 INFO  93: 'AppLogin' |User token is: 9a5378b5450746a0300b4797eb174ecb8ab57d82 
+05-12-2014 13:37:32 INFO  130: 'PostSession' |Executing request: POST http://staging-web-664817575.us-west-2.elb.amazonaws.com/user/unpack HTTP/1.1 
+05-12-2014 13:37:34 INFO  133: 'PostSession' |Status of request is: HTTP/1.1 200 OK 
+05-12-2014 13:37:34 INFO  134: 'PostSession' |Response is: HttpResponseProxy{HTTP/1.1 200 OK [Content-Type: application/json; charset=utf-8, Date: Fri, 05 Dec 2014 11:37:35 GMT, Set-Cookie: i18next=en-US; path=/; expires=Sat, 05 Dec 2015 11:37:35 GMT, Set-Cookie: connect.sid=s%3AugGhAzSF6LCdyRGGZMjYIElr.BCzeWXInqI6iXXJp3bw%2BpsXMNQ8308JlfDbPPWrDPsk; Path=/; HttpOnly, Set-Cookie: AWSELB=03FF654F188040D73460A02429CC778A1C99C4084F9F6AE8877542261E68735152A2B27FAC20B6FFE5417580F00841340FE631909853C7D353C0CC3A6AFD0BAF977C43B86B94030631984B0CC7153B8286D80C73F8;PATH=/;HTTPONLY, Vary: Accept-Encoding, X-Powered-By: Express, Content-Length: 21, Connection: keep-alive]} 
+05-12-2014 13:37:34 INFO  137: 'PostSession' |Response content length: 21 
+05-12-2014 13:37:34 INFO  744: 'checkDefaultActivity' |Logging in... 
+05-12-2014 13:37:40 INFO  749: 'checkDefaultActivity' |Check if user logged in 
+05-12-2014 13:37:40 INFO  38: 'AfterTests' *===========================================* 
+05-12-2014 13:37:40 INFO  39: 'AfterTests' *       Finish running test cases...        * 
+05-12-2014 13:37:40 INFO  40: 'AfterTests' *===========================================* 
+05-12-2014 13:37:40 INFO  41: 'AfterTests' 
+ 
+05-12-2014 17:12:04 INFO  23: 'BeforeTests' *===========================================* 
+05-12-2014 17:12:04 INFO  24: 'BeforeTests' *        Start running test cases...        * 
+05-12-2014 17:12:04 INFO  25: 'BeforeTests' *===========================================* 
+05-12-2014 17:12:15 INFO  28: 'checkAllLinksOnWebPage' <<========Started running=====<< 
+05-12-2014 17:12:21 INFO  432: 'GetAllLinksOnPage' |Got to page ~Instabeat~ by link http://www.instabeat.me/ 
+05-12-2014 17:12:24 INFO  432: 'GetAllLinksOnPage' |Got to page ~Instabeat~ by link http://www.instabeat.me/preorder 
+05-12-2014 17:12:29 INFO  432: 'GetAllLinksOnPage' |Got to page ~Instabeat~ by link http://www.instabeat.me/about 
+05-12-2014 17:12:33 INFO  432: 'GetAllLinksOnPage' |Got to page ~Instabeat~ by link http://www.instabeat.me/pressroom 
+05-12-2014 17:12:39 INFO  432: 'GetAllLinksOnPage' |Got to page ~Instabeat~ by link http://www.instabeat.me/blog 
+05-12-2014 17:12:41 INFO  432: 'GetAllLinksOnPage' |Got to page ~Registration~ by link http://staging-web-664817575.us-west-2.elb.amazonaws.com/go 
+05-12-2014 17:12:42 INFO  432: 'GetAllLinksOnPage' |Got to page ~Registration~ by link http://staging-web-664817575.us-west-2.elb.amazonaws.com/user/# 
+05-12-2014 17:12:43 INFO  432: 'GetAllLinksOnPage' |Got to page ~Instabeat~ by link http://www.instabeat.me/preorder 
+05-12-2014 17:12:45 INFO  432: 'GetAllLinksOnPage' |Got to page ~Registration~ by link http://staging-web-664817575.us-west-2.elb.amazonaws.com/go 
+05-12-2014 17:12:47 INFO  432: 'GetAllLinksOnPage' |Got to page ~~ by link http://staging-web-664817575.us-west-2.elb.amazonaws.com/user/restore 
+05-12-2014 17:12:49 INFO  432: 'GetAllLinksOnPage' |Got to page ~Instabeat~ by link http://www.instabeat.me/about 
+05-12-2014 17:12:51 INFO  432: 'GetAllLinksOnPage' |Got to page ~Instabeat~ by link http://www.instabeat.me/preorder 
+05-12-2014 17:12:55 INFO  432: 'GetAllLinksOnPage' |Got to page ~Instabeat~ by link http://www.instabeat.me/careers 
+05-12-2014 17:12:57 INFO  432: 'GetAllLinksOnPage' |Got to page ~Instabeat~ by link http://www.instabeat.me/pressroom 
+05-12-2014 17:12:59 INFO  432: 'GetAllLinksOnPage' |Got to page ~Instabeat~ by link http://www.instabeat.me/blog 
+05-12-2014 17:13:02 INFO  432: 'GetAllLinksOnPage' |Got to page ~Instabeat~ by link https://myinstabeat.zendesk.com/hc/en-us 
+05-12-2014 17:13:03 INFO  432: 'GetAllLinksOnPage' |Got to page ~Instabeat User Manual.pdf~ by link http://staging-web-664817575.us-west-2.elb.amazonaws.com/user/files/Instabeat%20User%20Manual.pdf 
+05-12-2014 17:13:04 INFO  432: 'GetAllLinksOnPage' |Got to page ~Download~ by link http://staging-web-664817575.us-west-2.elb.amazonaws.com/downloads 
+05-12-2014 17:13:05 INFO  432: 'GetAllLinksOnPage' |Got to page ~Terms and Conditions of Sale – Instabeat~ by link https://myinstabeat.zendesk.com/hc/en-us/articles/200686132-Terms-and-Conditions-of-Sale 
+05-12-2014 17:13:06 INFO  432: 'GetAllLinksOnPage' |Got to page ~Privacy Policy – Instabeat~ by link https://myinstabeat.zendesk.com/hc/en-us/articles/200686202-Privacy-Policy 
+05-12-2014 17:13:06 INFO  432: 'GetAllLinksOnPage' |Got to page ~Terms and Conditions of Use – Instabeat~ by link https://myinstabeat.zendesk.com/hc/en-us/articles/200686122-Terms-and-Conditions-of-Use 
+05-12-2014 17:13:12 INFO  432: 'GetAllLinksOnPage' |Got to page ~Instabeat - Β³δεξ - Google+~ by link https://plus.google.com/105815489580555106540/ 
+05-12-2014 17:13:14 INFO  432: 'GetAllLinksOnPage' |Got to page ~Instabeat on Vimeo~ by link http://vimeo.com/instabeat 
+05-12-2014 17:13:18 INFO  432: 'GetAllLinksOnPage' |Got to page ~myinstabeat on Instagram~ by link http://instagram.com/myinstabeat# 
+05-12-2014 17:13:23 INFO  432: 'GetAllLinksOnPage' |Got to page ~Instabeat | Facebook~ by link https://www.facebook.com/myinstabeat 
+05-12-2014 17:13:29 INFO  432: 'GetAllLinksOnPage' |Got to page ~Instabeat (@myinstabeat) | Twitter~ by link https://twitter.com/myinstabeat 
+05-12-2014 17:13:38 INFO  432: 'GetAllLinksOnPage' |Got to page ~Instabeat | LinkedIn~ by link http://www.linkedin.com/company/2562190?goback=.fcs_GLHD_instabeat_false_*2_*2_*2_*2_*2_*2_*2_*2_*2_*2_*2_*2&trk=ncsrch_hits 
+05-12-2014 17:13:38 INFO  435: 'GetAllLinksOnPage' |An amount of links on the page are: 27 
+05-12-2014 17:13:38 INFO  436: 'GetAllLinksOnPage' |An amount of passed links are: 27 
+05-12-2014 17:13:40 INFO  31: 'checkAllLinksOnWebPage' <<-----Finishing running test-----< 
+--------------------------------------------------- 
+05-12-2014 17:13:40 INFO  36: 'UserCanLogin' <<========Started running=====<< 
+05-12-2014 17:13:40 INFO  23: 'verifyPageTitle' |Actual Page is: Login 
+05-12-2014 17:13:42 INFO  42: 'UserCanLogin' |Typing user credentials... 
+05-12-2014 17:13:44 INFO  47: 'UserCanLogin' |Checking if user successfully logged in 
+05-12-2014 17:13:48 INFO  50: 'UserCanLogin' |Logging out... 
+05-12-2014 17:13:53 INFO  53: 'UserCanLogin' <<-----Finishing running test-----< 
+--------------------------------------------------- 
+05-12-2014 17:13:53 INFO  59: 'UserCannotLogin' <<========Started running=====<< 
+05-12-2014 17:13:53 INFO  23: 'verifyPageTitle' |Actual Page is: Login 
+05-12-2014 17:13:53 INFO  64: 'UserCannotLogin' |Typing wrong user credentials... 
+05-12-2014 17:13:59 INFO  70: 'UserCannotLogin' |Checking if error message appear 
+05-12-2014 17:14:00 INFO  73: 'UserCannotLogin' <<-----Finishing running test-----< 
+--------------------------------------------------- 
+05-12-2014 17:14:00 INFO  148: 'UserForgotPassword' <<========Started running=====<< 
+05-12-2014 17:14:00 INFO  154: 'UserForgotPassword' |Filling in user email... 
+05-12-2014 17:14:02 INFO  158: 'UserForgotPassword' |Checking for proper user email 
+05-12-2014 17:14:07 INFO  163: 'UserForgotPassword' |Getting Reset link from IMAP server... 
+05-12-2014 17:14:09 INFO  32: 'GetConfirmationLink' |Number of Unread Messages : 419 
+05-12-2014 17:14:09 INFO  43: 'GetConfirmationLink' |From: support@instabeat.me 
+05-12-2014 17:14:09 INFO  49: 'GetConfirmationLink' |Reply-to: support@instabeat.me 
+05-12-2014 17:14:09 INFO  55: 'GetConfirmationLink' |To: fortestgl+1@gmail.com 
+05-12-2014 17:14:09 INFO  61: 'GetConfirmationLink' |Subject: Instabeat Password Reset 
+05-12-2014 17:14:09 INFO  66: 'GetConfirmationLink' |Sent: Fri Dec 05 17:14:06 EET 2014 
+05-12-2014 17:14:10 INFO  93: 'GetConfirmationLink' |Link is: staging-web-664817575.us-west-2.elb.amazonaws.com/user/passrestore/520b949d855d76d9fa3275538cca5851 
+05-12-2014 17:14:12 INFO  166: 'UserForgotPassword' |Check for proper page 
+05-12-2014 17:14:12 INFO  170: 'UserForgotPassword' |Filling in new password 
+05-12-2014 17:14:15 INFO  178: 'UserForgotPassword' <<-----Finishing running test-----< 
+--------------------------------------------------- 
+05-12-2014 17:14:15 INFO  78: 'UserCanRegister' <<========Started running=====<< 
+05-12-2014 17:14:15 INFO  84: 'UserCanRegister' |Filling in user data... 
+05-12-2014 17:14:17 INFO  37: 'typeUserValues' TestAutoENTRED VALUE!!!!!!!!!! 
+05-12-2014 17:14:18 INFO  37: 'typeUserValues' UserENTRED VALUE!!!!!!!!!! 
+05-12-2014 17:14:18 INFO  37: 'typeUserValues' 247ENTRED VALUE!!!!!!!!!! 
+05-12-2014 17:14:18 INFO  37: 'typeUserValues' 123456ENTRED VALUE!!!!!!!!!! 
+05-12-2014 17:14:19 INFO  37: 'typeUserValues' 123456ENTRED VALUE!!!!!!!!!! 
+05-12-2014 17:14:19 INFO  37: 'typeUserValues' 247ENTRED VALUE!!!!!!!!!! 
+05-12-2014 17:14:20 INFO  37: 'typeUserValues' fortestgl+650188051@gmail.comENTRED VALUE!!!!!!!!!! 
+05-12-2014 17:14:21 INFO  37: 'typeUserValues' 247ENTRED VALUE!!!!!!!!!! 
+05-12-2014 17:14:21 INFO  87: 'UserCanRegister' |Chossing user's date of birth... 
+05-12-2014 17:14:36 INFO  92: 'UserCanRegister' |Chossing user's country... 
+05-12-2014 17:14:47 INFO  97: 'UserCanRegister' |Checking user email 
+05-12-2014 17:14:47 INFO  101: 'UserCanRegister' |Getting confirmation link from IMAP server... 
+05-12-2014 17:14:48 INFO  32: 'GetConfirmationLink' |Number of Unread Messages : 420 
+05-12-2014 17:14:48 INFO  43: 'GetConfirmationLink' |From: support@instabeat.me 
+05-12-2014 17:14:48 INFO  49: 'GetConfirmationLink' |Reply-to: support@instabeat.me 
+05-12-2014 17:14:48 INFO  55: 'GetConfirmationLink' |To: fortestgl+650188051@gmail.com 
+05-12-2014 17:14:48 INFO  61: 'GetConfirmationLink' |Subject: Welcome to Instabeat 
+05-12-2014 17:14:48 INFO  66: 'GetConfirmationLink' |Sent: Fri Dec 05 17:14:46 EET 2014 
+05-12-2014 17:14:48 INFO  93: 'GetConfirmationLink' |Link is: staging-web-664817575.us-west-2.elb.amazonaws.com/user/confirm/6286fbccf4496d2a7d4674e4637b1385 
+05-12-2014 17:14:51 INFO  103: 'UserCanRegister' |Check second step of register - Download page 
+05-12-2014 17:14:58 INFO  109: 'UserCanRegister' |Logging from App using new created user... 
+05-12-2014 17:14:58 INFO  63: 'AppLogin' |username is fortestgl+650188051@gmail.com 
+05-12-2014 17:14:59 INFO  77: 'AppLogin' |Output from Server... 
+05-12-2014 17:14:59 INFO  83: 'AppLogin' |{  "success": true,  "user": {    "token": "b81b2d6da60ac42e6ed2f3ab9274adbad154a794",    "user": "9a6f89ca50174b56d53175677b9d67a3"  }} 
+05-12-2014 17:14:59 INFO  91: 'AppLogin' |UserID is: 9a6f89ca50174b56d53175677b9d67a3 
+05-12-2014 17:14:59 INFO  93: 'AppLogin' |User token is: b81b2d6da60ac42e6ed2f3ab9274adbad154a794 
+05-12-2014 17:15:02 INFO  111: 'UserCanRegister' |Check for success login from App 
+05-12-2014 17:15:02 INFO  115: 'UserCanRegister' |Filling in RHR data 
+05-12-2014 17:15:03 INFO  119: 'UserCanRegister' |Check if registration is successfully 
+05-12-2014 17:15:06 INFO  467: 'verificationOfElementsOnPages' |Element[[FirefoxDriver: firefox on WINDOWS (c56f603f-ab55-45f2-9cb5-30bfdd725cc0)] -> xpath: .//*[@id='cong-text']]is PRESENT!!! 
+05-12-2014 17:15:11 INFO  124: 'UserCanRegister' |Logging out... 
+05-12-2014 17:15:11 INFO  128: 'UserCanRegister' |Logging by new created Random user 
+05-12-2014 17:15:15 INFO  134: 'UserCanRegister' |Deleting created Random User... 
+05-12-2014 17:15:26 INFO  143: 'UserCanRegister' <<-----Finishing running test-----< 
+--------------------------------------------------- 
+05-12-2014 17:15:26 INFO  183: 'UserCanChooseExistSession' <<========Started running=====<< 
+05-12-2014 17:15:26 INFO  185: 'UserCanChooseExistSession' |Logging in... 
+05-12-2014 17:15:32 INFO  191: 'UserCanChooseExistSession' |Check if user logged in 
+05-12-2014 17:15:32 INFO  467: 'verificationOfElementsOnPages' |Element[[FirefoxDriver: firefox on WINDOWS (c56f603f-ab55-45f2-9cb5-30bfdd725cc0)] -> xpath: //div[@class='float-right calendar']]is PRESENT!!! 
+05-12-2014 17:15:32 INFO  195: 'UserCanChooseExistSession' |Check if user has date with sessions... 
+05-12-2014 17:15:32 INFO  199: 'UserCanChooseExistSession' |Choosing date with sessions... 
+05-12-2014 17:15:32 INFO  48: 'showDatesWithSessions' |Active month is: November 2014 
+05-12-2014 17:15:32 INFO  50: 'showDatesWithSessions' |This is a day with sessions:  1 November 2014 
+05-12-2014 17:15:33 INFO  50: 'showDatesWithSessions' |This is a day with sessions:  4 November 2014 
+05-12-2014 17:15:33 INFO  50: 'showDatesWithSessions' |This is a day with sessions:  5 November 2014 
+05-12-2014 17:15:33 INFO  50: 'showDatesWithSessions' |This is a day with sessions:  6 November 2014 
+05-12-2014 17:15:33 INFO  50: 'showDatesWithSessions' |This is a day with sessions:  7 November 2014 
+05-12-2014 17:15:33 INFO  50: 'showDatesWithSessions' |This is a day with sessions:  8 November 2014 
+05-12-2014 17:15:33 INFO  50: 'showDatesWithSessions' |This is a day with sessions:  12 November 2014 
+05-12-2014 17:15:33 INFO  50: 'showDatesWithSessions' |This is a day with sessions:  13 November 2014 
+05-12-2014 17:15:33 INFO  52: 'showDatesWithSessions' |This is an active day with sessions: 18 November 2014 
+05-12-2014 17:15:33 INFO  55: 'showDatesWithSessions' |Number of days with sessions in November 2014 are: 9 
+05-12-2014 17:15:38 INFO  205: 'UserCanChooseExistSession' |Choose session 
+05-12-2014 17:15:44 INFO  210: 'UserCanChooseExistSession' |Logging out... 
+05-12-2014 17:15:44 INFO  212: 'UserCanChooseExistSession' <<-----Finishing running test-----< 
+--------------------------------------------------- 
+05-12-2014 17:15:44 INFO  217: 'UserCanUpdateProfile' <<========Started running=====<< 
+05-12-2014 17:15:44 INFO  220: 'UserCanUpdateProfile' |Logging in... 
+05-12-2014 17:15:52 INFO  226: 'UserCanUpdateProfile' |Check if user logged in 
+05-12-2014 17:15:52 INFO  231: 'UserCanUpdateProfile' |Updating user data... 
+05-12-2014 17:16:43 INFO  259: 'userCanChangePassword' <<========Started running=====<< 
+05-12-2014 17:16:43 INFO  262: 'userCanChangePassword' |Logging in... 
+05-12-2014 17:17:01 INFO  267: 'userCanChangePassword' |Check if user logged in 
+05-12-2014 17:17:02 INFO  273: 'userCanChangePassword' |Changing user's password... 
+05-12-2014 17:17:08 INFO  281: 'userCanChangePassword' |Password was successfully changed 
+05-12-2014 17:17:08 INFO  283: 'userCanChangePassword' |Logging out... 
+05-12-2014 17:17:08 INFO  285: 'userCanChangePassword' <<-----Finishing running test-----< 
+--------------------------------------------------- 
+05-12-2014 17:17:08 INFO  290: 'userCanUpdateProfileSettings' <<========Started running=====<< 
+05-12-2014 17:17:08 INFO  293: 'userCanUpdateProfileSettings' |Logging in... 
+05-12-2014 17:17:16 INFO  298: 'userCanUpdateProfileSettings' |Check if user logged in 
+05-12-2014 17:17:17 INFO  304: 'userCanUpdateProfileSettings' |Updating profile settings 
+05-12-2014 17:17:25 INFO  309: 'userCanUpdateProfileSettings' |Logging out... 
+05-12-2014 17:17:25 INFO  311: 'userCanUpdateProfileSettings' <<-----Finishing running test-----< 
+--------------------------------------------------- 
+05-12-2014 17:17:25 INFO  349: 'userCanUpdateHRZPage' <<========Started running=====<< 
+05-12-2014 17:17:25 INFO  352: 'userCanUpdateHRZPage' |Logging in... 
+05-12-2014 17:17:32 INFO  359: 'userCanUpdateHRZPage' |Change HR zones using RHR field 
+05-12-2014 17:17:35 INFO  364: 'userCanUpdateHRZPage' |Check if HR updated 
+05-12-2014 17:17:35 INFO  368: 'userCanUpdateHRZPage' |Change HR zones using boxes with random data 
+05-12-2014 17:17:42 INFO  372: 'userCanUpdateHRZPage' |Check if HR updated 
+05-12-2014 17:17:42 INFO  375: 'userCanUpdateHRZPage' |Logging out... 
+05-12-2014 17:17:42 INFO  377: 'userCanUpdateHRZPage' <<-----Finishing running test-----< 
+--------------------------------------------------- 
+05-12-2014 17:17:42 INFO  513: 'ValidateValuesInFooter' <<========Started running=====<< 
+05-12-2014 17:17:42 INFO  517: 'ValidateValuesInFooter' |Sending session to the server... 
+05-12-2014 17:17:42 INFO  63: 'AppLogin' |username is fortestgl+1@gmail.com 
+05-12-2014 17:17:43 INFO  77: 'AppLogin' |Output from Server... 
+05-12-2014 17:17:43 INFO  83: 'AppLogin' |{  "success": true,  "user": {    "token": "9a5378b5450746a0300b4797eb174ecb8ab57d82",    "user": "63f0a8a3bea4d4ecd726ff0956e3d3b5"  }} 
+05-12-2014 17:17:43 INFO  91: 'AppLogin' |UserID is: 63f0a8a3bea4d4ecd726ff0956e3d3b5 
+05-12-2014 17:17:43 INFO  93: 'AppLogin' |User token is: 9a5378b5450746a0300b4797eb174ecb8ab57d82 
+05-12-2014 17:17:43 INFO  130: 'PostSession' |Executing request: POST http://staging-web-664817575.us-west-2.elb.amazonaws.com/user/unpack HTTP/1.1 
+05-12-2014 17:17:44 INFO  133: 'PostSession' |Status of request is: HTTP/1.1 200 OK 
+05-12-2014 17:17:44 INFO  134: 'PostSession' |Response is: HttpResponseProxy{HTTP/1.1 200 OK [Content-Type: application/json; charset=utf-8, Date: Fri, 05 Dec 2014 15:17:47 GMT, Set-Cookie: i18next=en-US; path=/; expires=Sat, 05 Dec 2015 15:17:47 GMT, Set-Cookie: connect.sid=s%3AcEqieyGla7TX34XQunBlYnwk.5RjPV9r%2FpV5VAfn0k6E3yP%2BHaHMoi8ms4%2B%2FapaGeBV0; Path=/; HttpOnly, Set-Cookie: AWSELB=03FF654F188040D73460A02429CC778A1C99C4084F6967F92A7F3B4EC8980149E71EFB74C688A16A18A5E9DDD8B9EF4BA008BDA1A61B1C936DC7C66B86ECB6041C9CEF44BC465D066EF0E58C43DF84C7B84F7E1785;PATH=/;HTTPONLY, Vary: Accept-Encoding, X-Powered-By: Express, Content-Length: 21, Connection: keep-alive]} 
+05-12-2014 17:17:44 INFO  137: 'PostSession' |Response content length: 21 
+05-12-2014 17:17:44 INFO  520: 'ValidateValuesInFooter' |Logging in... 
+05-12-2014 17:17:46 INFO  524: 'ValidateValuesInFooter' |Checking if duration time is proper... 
+05-12-2014 17:17:50 INFO  527: 'ValidateValuesInFooter' |Checking if total distance is proper... 
+05-12-2014 17:17:50 INFO  155: 'chheckIfTotalDistanceIsProper' |Open water is activated - nothing to check 
+05-12-2014 17:17:50 INFO  533: 'ValidateValuesInFooter' |Logging out... 
+05-12-2014 17:17:50 INFO  535: 'ValidateValuesInFooter' <<-----Finishing running test-----< 
+--------------------------------------------------- 
+05-12-2014 17:17:50 INFO  556: 'checkIfHeightIsProperAfterChanges' <<========Started running=====<< 
+05-12-2014 17:17:50 INFO  559: 'checkIfHeightIsProperAfterChanges' |Logging in... 
+05-12-2014 17:17:58 INFO  566: 'checkIfHeightIsProperAfterChanges' |Check if user logged in 
+05-12-2014 17:17:58 INFO  570: 'checkIfHeightIsProperAfterChanges' |Getting value from the Height field... 
+05-12-2014 17:18:49 INFO  169: 'getValuesFromHeightFieldFtAndInch' |The value from Height field in Ft is: 6 
+05-12-2014 17:18:49 INFO  172: 'getValuesFromHeightFieldFtAndInch' |The value from Height field in In is: 6 
+05-12-2014 17:18:49 INFO  175: 'getValuesFromHeightFieldFtAndInch' |The result value from Height Feet and Inch fields are: 6 ft 6 inch 
+05-12-2014 17:18:49 INFO  574: 'checkIfHeightIsProperAfterChanges' |Change Height metric 
+05-12-2014 17:18:49 INFO  64: 'changeHeightUnit' |Height is changed to: cm 
+05-12-2014 17:18:55 INFO  582: 'checkIfHeightIsProperAfterChanges' |Check if the Height metric is proper in the Profile page after changes 
+05-12-2014 17:18:59 INFO  64: 'changeHeightUnit' |Height is changed to: ft 
+05-12-2014 17:20:47 INFO  169: 'getValuesFromHeightFieldFtAndInch' |The value from Height field in Ft is: 6 
+05-12-2014 17:20:47 INFO  172: 'getValuesFromHeightFieldFtAndInch' |The value from Height field in In is: 6 
+05-12-2014 17:20:47 INFO  175: 'getValuesFromHeightFieldFtAndInch' |The result value from Height Feet and Inch fields are: 6 ft 6 inch 
+05-12-2014 17:20:47 INFO  169: 'getValuesFromHeightFieldFtAndInch' |The value from Height field in Ft is: 6 
+05-12-2014 17:20:47 INFO  172: 'getValuesFromHeightFieldFtAndInch' |The value from Height field in In is: 6 
+05-12-2014 17:20:47 INFO  175: 'getValuesFromHeightFieldFtAndInch' |The result value from Height Feet and Inch fields are: 6 ft 6 inch 
+05-12-2014 17:20:47 INFO  593: 'checkIfHeightIsProperAfterChanges' |The Height metric was proper changed (is the same) 
+05-12-2014 17:20:52 INFO  597: 'checkIfHeightIsProperAfterChanges' |Logging out... 
+05-12-2014 17:20:52 INFO  599: 'checkIfHeightIsProperAfterChanges' <<-----Finishing running test-----< 
+--------------------------------------------------- 
+05-12-2014 17:20:52 INFO  604: 'checkIfHeightIsProperConverted' <<========Started running=====<< 
+05-12-2014 17:20:52 INFO  607: 'checkIfHeightIsProperConverted' |Logging in... 
+05-12-2014 17:21:01 INFO  614: 'checkIfHeightIsProperConverted' |Check if user logged in 
+05-12-2014 17:21:02 INFO  618: 'checkIfHeightIsProperConverted' |Getting value from the Height field... 
+05-12-2014 17:21:52 INFO  169: 'getValuesFromHeightFieldFtAndInch' |The value from Height field in Ft is: 6 
+05-12-2014 17:21:52 INFO  172: 'getValuesFromHeightFieldFtAndInch' |The value from Height field in In is: 6 
+05-12-2014 17:21:52 INFO  175: 'getValuesFromHeightFieldFtAndInch' |The result value from Height Feet and Inch fields are: 6 ft 6 inch 
+05-12-2014 17:21:52 INFO  622: 'checkIfHeightIsProperConverted' |Change Height metric 
+05-12-2014 17:21:53 INFO  64: 'changeHeightUnit' |Height is changed to: cm 
+05-12-2014 17:21:58 INFO  630: 'checkIfHeightIsProperConverted' |Check if the Height metric is proper converted in the Profile page after changes 
+05-12-2014 17:22:01 INFO  154: 'getTheValueFromHeightField' |The value from Height field is: 198 
+05-12-2014 17:22:01 INFO  183: 'checkConvertedValues' |Comparing the values that was given from field 
+05-12-2014 17:22:01 INFO  184: 'checkConvertedValues' |Converting Cm into Feets and Inches... 
+05-12-2014 17:22:01 INFO  173: 'conversion' |Converting values ...  
+05-12-2014 17:22:01 INFO  180: 'conversion' |Ft: 6.496062992125984 
+05-12-2014 17:22:01 INFO  183: 'conversion' |Inch: 5.9527559055118076 
+05-12-2014 17:22:01 INFO  189: 'conversion' |Result of converting is: 6 ft 6 inch 
+05-12-2014 17:22:01 INFO  635: 'checkIfHeightIsProperConverted' |The Height value was proper converted 
+05-12-2014 17:22:06 INFO  639: 'checkIfHeightIsProperConverted' |Logging out... 
+05-12-2014 17:22:06 INFO  641: 'checkIfHeightIsProperConverted' <<-----Finishing running test-----< 
+--------------------------------------------------- 
+05-12-2014 17:22:06 INFO  646: 'checkIfWeightIsProperAfterChanges' <<========Started running=====<< 
+05-12-2014 17:22:06 INFO  649: 'checkIfWeightIsProperAfterChanges' |Logging in... 
+05-12-2014 17:22:14 INFO  655: 'checkIfWeightIsProperAfterChanges' |Check if user logged in 
+05-12-2014 17:22:14 INFO  659: 'checkIfWeightIsProperAfterChanges' |Getting value from the Weight field... 
+05-12-2014 17:22:15 INFO  205: 'getTheValueFromWeightField' |The lbs metric is active 
+05-12-2014 17:22:15 INFO  207: 'getTheValueFromWeightField' |The value from Weight field is: 198 
+05-12-2014 17:22:20 INFO  666: 'checkIfWeightIsProperAfterChanges' |Change Weight metric 
+05-12-2014 17:22:20 INFO  69: 'changeWeightUnit' |Weight is changed to: kg 
+05-12-2014 17:22:26 INFO  671: 'checkIfWeightIsProperAfterChanges' |Check if the Weight metric is proper in the Profile page 
+05-12-2014 17:22:30 INFO  69: 'changeWeightUnit' |Weight is changed to: lbs 
+05-12-2014 17:22:39 INFO  681: 'checkIfWeightIsProperAfterChanges' |The Weight metric was proper changed (is the same) 
+05-12-2014 17:22:44 INFO  685: 'checkIfWeightIsProperAfterChanges' |Logging out... 
+05-12-2014 17:22:44 INFO  687: 'checkIfWeightIsProperAfterChanges' <<-----Finishing running test-----< 
+--------------------------------------------------- 
+05-12-2014 17:22:44 INFO  692: 'checkIfWeightIsProperConverted' <<========Started running=====<< 
+05-12-2014 17:22:44 INFO  695: 'checkIfWeightIsProperConverted' |Logging in... 
+05-12-2014 17:22:52 INFO  702: 'checkIfWeightIsProperConverted' |Check if user logged in 
+05-12-2014 17:22:53 INFO  706: 'checkIfWeightIsProperConverted' |Getting value from the Weight field... 
+05-12-2014 17:22:53 INFO  205: 'getTheValueFromWeightField' |The lbs metric is active 
+05-12-2014 17:22:53 INFO  207: 'getTheValueFromWeightField' |The value from Weight field is: 198 
+05-12-2014 17:22:58 INFO  714: 'checkIfWeightIsProperConverted' |Change Weight metric 
+05-12-2014 17:22:58 INFO  69: 'changeWeightUnit' |Weight is changed to: kg 
+05-12-2014 17:23:04 INFO  720: 'checkIfWeightIsProperConverted' |Check if the Weight metric is proper converted in the Profile page after changes 
+05-12-2014 17:23:07 INFO  199: 'getTheValueFromWeightField' |The kg metric is active 
+05-12-2014 17:23:07 INFO  201: 'getTheValueFromWeightField' |The value from Weight field is: 89 
+05-12-2014 17:23:07 INFO  223: 'checkChangesInWeightAfterConvert' |Converting Kg into Lbs... 
+05-12-2014 17:23:07 INFO  173: 'conversion' |Converting values ...  
+05-12-2014 17:23:07 INFO  225: 'conversion' |Lbs: 196.2114133402 
+05-12-2014 17:23:07 INFO  231: 'conversion' |Result of converting is: 196 lbs 
+05-12-2014 17:23:07 INFO  737: 'checkDefaultActivity' <<========Started running=====<< 
+05-12-2014 17:23:07 INFO  741: 'checkDefaultActivity' |Sending session to the server... 
+05-12-2014 17:23:07 INFO  63: 'AppLogin' |username is fortestgl+1@gmail.com 
+05-12-2014 17:23:08 INFO  77: 'AppLogin' |Output from Server... 
+05-12-2014 17:23:08 INFO  83: 'AppLogin' |{  "success": true,  "user": {    "token": "9a5378b5450746a0300b4797eb174ecb8ab57d82",    "user": "63f0a8a3bea4d4ecd726ff0956e3d3b5"  }} 
+05-12-2014 17:23:08 INFO  91: 'AppLogin' |UserID is: 63f0a8a3bea4d4ecd726ff0956e3d3b5 
+05-12-2014 17:23:08 INFO  93: 'AppLogin' |User token is: 9a5378b5450746a0300b4797eb174ecb8ab57d82 
+05-12-2014 17:23:08 INFO  130: 'PostSession' |Executing request: POST http://staging-web-664817575.us-west-2.elb.amazonaws.com/user/unpack HTTP/1.1 
+05-12-2014 17:23:09 INFO  133: 'PostSession' |Status of request is: HTTP/1.1 200 OK 
+05-12-2014 17:23:09 INFO  134: 'PostSession' |Response is: HttpResponseProxy{HTTP/1.1 200 OK [Content-Type: application/json; charset=utf-8, Date: Fri, 05 Dec 2014 15:23:12 GMT, Set-Cookie: i18next=en-US; path=/; expires=Sat, 05 Dec 2015 15:23:12 GMT, Set-Cookie: connect.sid=s%3AvsrVALqjWgazhr4Yj2LxNBbs.BBeFFf8z27o9MTaqNpijibOqv0SLp57swqss1HN3Q20; Path=/; HttpOnly, Set-Cookie: AWSELB=03FF654F188040D73460A02429CC778A1C99C4084F6417429850D89EF7BE2926C5FFC40D7DD665726D6813AAACC470A9DD0007662755628D80E87AB1E853C84FBA44BB680CDECDB1455416F114D14A2044D30AF196;PATH=/;HTTPONLY, Vary: Accept-Encoding, X-Powered-By: Express, Content-Length: 21, Connection: keep-alive]} 
+05-12-2014 17:23:09 INFO  137: 'PostSession' |Response content length: 21 
+05-12-2014 17:23:09 INFO  744: 'checkDefaultActivity' |Logging in... 
+05-12-2014 17:23:59 INFO  38: 'AfterTests' *===========================================* 
+05-12-2014 17:23:59 INFO  39: 'AfterTests' *       Finish running test cases...        * 
+05-12-2014 17:23:59 INFO  40: 'AfterTests' *===========================================* 
+05-12-2014 17:23:59 INFO  41: 'AfterTests' 
+ 
+08-12-2014 16:01:45 INFO  23: 'BeforeTests' *===========================================* 
+08-12-2014 16:01:45 INFO  24: 'BeforeTests' *        Start running test cases...        * 
+08-12-2014 16:01:45 INFO  25: 'BeforeTests' *===========================================* 

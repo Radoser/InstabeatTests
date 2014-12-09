@@ -23,7 +23,7 @@ public class SanityTestNG extends AbstractTestClass /*ParallelBrowserSanity*/ {
 	
 	
 		
-	@Test(priority = 0, enabled = false)
+	@Test(groups = {"Sanity"}, priority = 0, enabled = true)
 	public void checkAllLinksOnWebPage() {
 		Utils.Log.info("<<========Started running=====<<");
 		LoginPage onLoginPage = new LoginPage(driver);
@@ -54,7 +54,7 @@ public class SanityTestNG extends AbstractTestClass /*ParallelBrowserSanity*/ {
 //		throw new SkipException("Skipping - This is not ready for testing ");
 	}
 
-	@Test(priority = 2, enabled = false)
+	@Test(priority = 2, enabled = true)
 	public void UserCannotLogin() {
 		Utils.Log.info("<<========Started running=====<<");
 		LoginPage onLoginPage = new LoginPage(driver);
@@ -73,7 +73,7 @@ public class SanityTestNG extends AbstractTestClass /*ParallelBrowserSanity*/ {
 		Utils.Log.info("<<-----Finishing running test-----< \n---------------------------------------------------");
 	}
 	
-	@Test(priority = 4, enabled = false)
+	@Test(priority = 4, enabled = true)
 	public void UserCanRegister() throws Exception {
 		Utils.Log.info("<<========Started running=====<<");
 		
@@ -143,7 +143,7 @@ public class SanityTestNG extends AbstractTestClass /*ParallelBrowserSanity*/ {
 		Utils.Log.info("<<-----Finishing running test-----< \n---------------------------------------------------");
 	}
 
-	@Test(priority = 3, enabled = false)
+	@Test(priority = 3, enabled = true)
 	public void UserForgotPassword() throws Exception {
 		Utils.Log.info("<<========Started running=====<<");
 		
@@ -178,7 +178,7 @@ public class SanityTestNG extends AbstractTestClass /*ParallelBrowserSanity*/ {
 		Utils.Log.info("<<-----Finishing running test-----< \n---------------------------------------------------");
 	}
 	
-	@Test(priority = 5, enabled = false)
+	@Test(priority = 5, enabled = true)
 	public void UserCanChooseExistSession() {
 		Utils.Log.info("<<========Started running=====<<");
 		
@@ -212,7 +212,7 @@ public class SanityTestNG extends AbstractTestClass /*ParallelBrowserSanity*/ {
 		Utils.Log.info("<<-----Finishing running test-----< \n---------------------------------------------------");
 	}
 	
-	@Test(priority = 6, enabled = false) //=====> need to check random numbers for weight and height
+	@Test(priority = 6, enabled = true) //=====> need to check random numbers for weight and height
 	public void UserCanUpdateProfile() throws IOException{
 		Utils.Log.info("<<========Started running=====<<");
 		
@@ -254,7 +254,7 @@ public class SanityTestNG extends AbstractTestClass /*ParallelBrowserSanity*/ {
 		Utils.Log.info("<<-----Finishing running test-----< \n---------------------------------------------------");
 	}
 	
-	@Test(priority = 7, enabled = false)
+	@Test(priority = 7, enabled = true)
 	public void userCanChangePassword(){
 		Utils.Log.info("<<========Started running=====<<");
 		
@@ -285,7 +285,7 @@ public class SanityTestNG extends AbstractTestClass /*ParallelBrowserSanity*/ {
 		Utils.Log.info("<<-----Finishing running test-----< \n---------------------------------------------------");
 	}
 	
-	@Test(priority = 8, enabled = false)
+	@Test(priority = 8, enabled = true)
 	public void userCanUpdateProfileSettings(){
 		Utils.Log.info("<<========Started running=====<<");
 		
@@ -344,7 +344,7 @@ public class SanityTestNG extends AbstractTestClass /*ParallelBrowserSanity*/ {
 		Utils.Log.info("<<-----Finishing running test-----< \n---------------------------------------------------");
 	}
 	
-	@Test(priority = 10, enabled = false)
+	@Test(priority = 10, enabled = true)
 	public void userCanUpdateHRZPage(){
 		Utils.Log.info("<<========Started running=====<<");
 		
@@ -508,7 +508,7 @@ public class SanityTestNG extends AbstractTestClass /*ParallelBrowserSanity*/ {
 		Utils.Log.info("<<-----Finishing running test-----< \n---------------------------------------------------");
 	}
 	
-	@Test(priority = 14, enabled = false)
+	@Test(priority = 14, enabled = true)
 	public void ValidateValuesInFooter() throws Exception{
 		Utils.Log.info("<<========Started running=====<<");
 		
@@ -551,7 +551,7 @@ public class SanityTestNG extends AbstractTestClass /*ParallelBrowserSanity*/ {
 		/*........*/
 	}
 	
-	@Test(priority = 16, enabled = false)
+	@Test(priority = 16, enabled = true)
 	public void checkIfHeightIsProperAfterChanges() throws Exception {
 		Utils.Log.info("<<========Started running=====<<");
 		
@@ -599,7 +599,7 @@ public class SanityTestNG extends AbstractTestClass /*ParallelBrowserSanity*/ {
 		Utils.Log.info("<<-----Finishing running test-----< \n---------------------------------------------------");
 	}
 	
-	@Test(priority = 17, enabled = false) 					 
+	@Test(priority = 17, enabled = true) 					 
 	public void checkIfHeightIsProperConverted() throws Exception {
 		Utils.Log.info("<<========Started running=====<<");
 		
@@ -641,7 +641,7 @@ public class SanityTestNG extends AbstractTestClass /*ParallelBrowserSanity*/ {
 		Utils.Log.info("<<-----Finishing running test-----< \n---------------------------------------------------");
 	}
 	
-	@Test(priority = 18, enabled = false)
+	@Test(priority = 18, enabled = true)
 	public void checkIfWeightIsProperAfterChanges() throws Exception{
 		Utils.Log.info("<<========Started running=====<<");
 		
@@ -687,7 +687,7 @@ public class SanityTestNG extends AbstractTestClass /*ParallelBrowserSanity*/ {
 		Utils.Log.info("<<-----Finishing running test-----< \n---------------------------------------------------");
 	}
 	
-	@Test(priority = 19, enabled = false) //NEED to add test: check the weight and height after click on Update BUT only after developer fix it
+	@Test(priority = 19, enabled = true) //NEED to add test: check the weight and height after click on Update BUT only after developer fix it
 	public void checkIfWeightIsProperConverted() {
 		Utils.Log.info("<<========Started running=====<<");
 		
@@ -732,7 +732,7 @@ public class SanityTestNG extends AbstractTestClass /*ParallelBrowserSanity*/ {
 		Utils.Log.info("<<-----Finishing running test-----< \n---------------------------------------------------");
 	}
 	
-	@Test(priority = 20, enabled = false)
+	@Test(priority = 20, enabled = true)
 	public void checkDefaultActivity () throws Exception {
 		Utils.Log.info("<<========Started running=====<<");
 		

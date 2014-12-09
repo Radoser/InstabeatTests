@@ -429,8 +429,8 @@ public class MainPagesFunc {
 
 		for (int a = 0; a<elements.length; a++){
 			driver.navigate().to(elements[a]);
-			Utils.Log.info("|Got to page " + driver.getTitle() + " by link " + elements[a]);
-			driver.navigate().back();
+			Utils.Log.info("|Got to page " + "~" + driver.getTitle() + "~" + " by link " + elements[a]);
+//			driver.navigate().back();
 		}
 		Utils.Log.info("|An amount of links on the page are: "+linkElement.size());
 		Utils.Log.info("|An amount of passed links are: "+elements.length);

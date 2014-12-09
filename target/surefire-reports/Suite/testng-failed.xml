@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite verbose="0" name="Failed suite [Suite]">
-  <test name="instabeatSanity.Tests(failed)" preserve-order="false">
+  <test name="instabeatSanity.Tests(failed)">
     <classes>
       <class name="InstabeatSanity.Tests.SanityTestNG">
         <methods>
-          <include name="UserCannotLogin"/>
-          <include name="UserCanLogin"/>
+          <include name="BeforeTests"/>
+          <include name="UserCanRegister"/>
+          <include name="AfterTests"/>
         </methods>
-      </class>
+      </class> <!-- InstabeatSanity.Tests.SanityTestNG -->
     </classes>
-  </test>
-</suite>
+  </test> <!-- instabeatSanity.Tests(failed) -->
+</suite> <!-- Failed suite [Suite] -->
