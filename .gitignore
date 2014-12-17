@@ -1,6 +1,7 @@
 .test-output
 .logfile.log
 .pom.xml.versionsBackup
+.target
 # Windows image file caches
 Thumbs.db
 ehthumbs.db
