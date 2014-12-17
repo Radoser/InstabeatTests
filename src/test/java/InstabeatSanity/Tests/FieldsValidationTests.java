@@ -11,7 +11,7 @@ import instabeat.utils.Utils;
 
 import org.testng.annotations.Test;
 
-public class FieldsValidationTests extends /*ParallelBrowserSanity*/ AbstractTestClass {
+public class FieldsValidationTests extends /*ParallelBrowserSanity*/ MainTestClass {
 
 	
 	@Test(priority = 1, enabled = true)

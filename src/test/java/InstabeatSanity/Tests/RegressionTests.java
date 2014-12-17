@@ -19,20 +19,29 @@ import java.io.IOException;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class SanityTestNG extends AbstractTestClass /*ParallelBrowserSanity*/ {
+public class RegressionTests extends MainTestClass /*ParallelBrowserSanity*/ {
+	
+		/*public SanityTestNG(WebDriver driver){
+		Utils.logFile();
+		BeforeMethod();
+		AfterTests();
+		this.driver = driver;
+	}*/
 	
 	
-		
-	@Test(groups = {"Sanity"}, priority = 0, enabled = true)
+	@Test(groups = {"Smoke"}, priority = 0, enabled = false)
 	public void checkAllLinksOnWebPage() {
+		
 		Utils.Log.info("<<========Started running=====<<");
 		LoginPage onLoginPage = new LoginPage(driver);
 		onLoginPage.checkAllLinksFromLoginPage();
 		Utils.Log.info("<<-----Finishing running test-----< \n---------------------------------------------------");
+		
 	}
 
-	@Test(priority = 1, enabled = true)
-	public void UserCanLogin() {
+	@Test(groups = {"Sanity"}, priority = 1)
+	public  void UserCanLogin() {
+		
 		Utils.Log.info("<<========Started running=====<<");
 		LoginPage onLoginPage = new LoginPage(driver);
 		
@@ -52,9 +61,10 @@ public class SanityTestNG extends AbstractTestClass /*ParallelBrowserSanity*/ {
 		Utils.waitPage();
 		Utils.Log.info("<<-----Finishing running test-----< \n---------------------------------------------------");
 //		throw new SkipException("Skipping - This is not ready for testing ");
+		
 	}
 
-	@Test(priority = 2, enabled = true)
+	@Test(groups = {"Smoke"}, priority = 2)
 	public void UserCannotLogin() {
 		Utils.Log.info("<<========Started running=====<<");
 		LoginPage onLoginPage = new LoginPage(driver);
@@ -73,7 +83,7 @@ public class SanityTestNG extends AbstractTestClass /*ParallelBrowserSanity*/ {
 		Utils.Log.info("<<-----Finishing running test-----< \n---------------------------------------------------");
 	}
 	
-	@Test(priority = 4, enabled = true)
+	@Test(groups = {"Sanity"}, priority = 4, enabled = true)
 	public void UserCanRegister() throws Exception {
 		Utils.Log.info("<<========Started running=====<<");
 		
@@ -143,7 +153,7 @@ public class SanityTestNG extends AbstractTestClass /*ParallelBrowserSanity*/ {
 		Utils.Log.info("<<-----Finishing running test-----< \n---------------------------------------------------");
 	}
 
-	@Test(priority = 3, enabled = true)
+	@Test(priority = 3, enabled = false)
 	public void UserForgotPassword() throws Exception {
 		Utils.Log.info("<<========Started running=====<<");
 		

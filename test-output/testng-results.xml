@@ -1,268 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="3" total="16" passed="13">
+<testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="717073" started-at="2014-12-05T15:12:04Z" finished-at="2014-12-05T15:24:01Z">
+  <suite name="InstabeatTests by groups" duration-ms="93834" started-at="2014-12-12T15:27:50Z" finished-at="2014-12-12T15:29:24Z">
     <groups>
       <group name="Sanity">
-        <method signature="SanityTestNG.checkAllLinksOnWebPage()[pri:0, instance:InstabeatSanity.Tests.SanityTestNG@11531931]" name="checkAllLinksOnWebPage" class="InstabeatSanity.Tests.SanityTestNG"/>
+        <method signature="RegressionTests.UserCanLogin()[pri:0, instance:InstabeatSanity.Tests.RegressionTests@2ff4f00f]" name="UserCanLogin" class="InstabeatSanity.Tests.RegressionTests"/>
+        <method signature="RegressionTests.UserCanRegister()[pri:0, instance:InstabeatSanity.Tests.RegressionTests@2ff4f00f]" name="UserCanRegister" class="InstabeatSanity.Tests.RegressionTests"/>
       </group> <!-- Sanity -->
     </groups>
-    <test name="Default test" duration-ms="717073" started-at="2014-12-05T15:12:04Z" finished-at="2014-12-05T15:24:01Z">
-      <class name="InstabeatSanity.Tests.SanityTestNG">
-        <test-method status="PASS" signature="BeforeTests()[pri:0, instance:InstabeatSanity.Tests.SanityTestNG@11531931]" name="BeforeTests" is-config="true" duration-ms="11382" started-at="2014-12-05T17:12:04Z" finished-at="2014-12-05T17:12:15Z">
+    <test name="GRP-Sanity" duration-ms="93834" started-at="2014-12-12T15:27:50Z" finished-at="2014-12-12T15:29:24Z">
+      <class name="InstabeatSanity.Tests.RegressionTests">
+        <test-method status="PASS" signature="BeforeGroup()[pri:0, instance:InstabeatSanity.Tests.RegressionTests@2ff4f00f]" name="BeforeGroup" is-config="true" duration-ms="9923" started-at="2014-12-12T17:27:50Z" finished-at="2014-12-12T17:28:00Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- BeforeTests -->
-        <test-method status="PASS" signature="checkAllLinksOnWebPage()[pri:0, instance:InstabeatSanity.Tests.SanityTestNG@11531931]" name="checkAllLinksOnWebPage" duration-ms="84752" started-at="2014-12-05T17:12:15Z" finished-at="2014-12-05T17:13:40Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkAllLinksOnWebPage -->
-        <test-method status="PASS" signature="UserCanLogin()[pri:0, instance:InstabeatSanity.Tests.SanityTestNG@11531931]" name="UserCanLogin" duration-ms="13208" started-at="2014-12-05T17:13:40Z" finished-at="2014-12-05T17:13:53Z">
+        </test-method> <!-- BeforeGroup -->
+        <test-method status="PASS" signature="UserCanLogin()[pri:0, instance:InstabeatSanity.Tests.RegressionTests@2ff4f00f]" name="UserCanLogin" duration-ms="12705" started-at="2014-12-12T17:28:00Z" finished-at="2014-12-12T17:28:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UserCanLogin -->
-        <test-method status="PASS" signature="UserCannotLogin()[pri:0, instance:InstabeatSanity.Tests.SanityTestNG@11531931]" name="UserCannotLogin" duration-ms="6144" started-at="2014-12-05T17:13:53Z" finished-at="2014-12-05T17:14:00Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- UserCannotLogin -->
-        <test-method status="PASS" signature="UserForgotPassword()[pri:0, instance:InstabeatSanity.Tests.SanityTestNG@11531931]" name="UserForgotPassword" duration-ms="15195" started-at="2014-12-05T17:14:00Z" finished-at="2014-12-05T17:14:15Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- UserForgotPassword -->
-        <test-method status="PASS" signature="UserCanRegister()[pri:0, instance:InstabeatSanity.Tests.SanityTestNG@11531931]" name="UserCanRegister" duration-ms="71388" started-at="2014-12-05T17:14:15Z" finished-at="2014-12-05T17:15:26Z">
+        <test-method status="PASS" signature="UserCanRegister()[pri:0, instance:InstabeatSanity.Tests.RegressionTests@2ff4f00f]" name="UserCanRegister" duration-ms="70235" started-at="2014-12-12T17:28:12Z" finished-at="2014-12-12T17:29:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UserCanRegister -->
-        <test-method status="PASS" signature="UserCanChooseExistSession()[pri:0, instance:InstabeatSanity.Tests.SanityTestNG@11531931]" name="UserCanChooseExistSession" duration-ms="17657" started-at="2014-12-05T17:15:26Z" finished-at="2014-12-05T17:15:44Z">
+        <test-method status="PASS" signature="AfterGroup()[pri:0, instance:InstabeatSanity.Tests.RegressionTests@2ff4f00f]" name="AfterGroup" is-config="true" duration-ms="937" started-at="2014-12-12T17:29:23Z" finished-at="2014-12-12T17:29:24Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- UserCanChooseExistSession -->
-        <test-method status="FAIL" signature="UserCanUpdateProfile()[pri:0, instance:InstabeatSanity.Tests.SanityTestNG@11531931]" name="UserCanUpdateProfile" duration-ms="59699" started-at="2014-12-05T17:15:44Z" finished-at="2014-12-05T17:16:43Z">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[Unable to locate element: {"method":"id","selector":"heightCm"}
-Command duration or timeout: 50.02 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '2.44.0', revision: '76d78cf323ce037c5f92db6c1bba601c2ac43ad8', time: '2014-10-23 13:11:40'
-System info: host: 'LWO1-LHP-F49053', ip: '172.24.223.107', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_25'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=33.1, platform=WINDOWS, nativeEvents=true, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: c56f603f-ab55-45f2-9cb5-30bfdd725cc0]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"id","selector":"heightCm"}
-Command duration or timeout: 50.02 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '2.44.0', revision: '76d78cf323ce037c5f92db6c1bba601c2ac43ad8', time: '2014-10-23 13:11:40'
-System info: host: 'LWO1-LHP-F49053', ip: '172.24.223.107', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_25'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=33.1, platform=WINDOWS, nativeEvents=true, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: c56f603f-ab55-45f2-9cb5-30bfdd725cc0
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:393)
-	at org.openqa.selenium.By$ById.findElement(By.java:214)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:59)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:37)
-	at com.sun.proxy.$Proxy6.sendKeys(Unknown Source)
-	at instabeat.dashboard.ProfilePage.updateHeightfield(ProfilePage.java:50)
-	at InstabeatSanity.Tests.SanityTestNG.UserCanUpdateProfile(SanityTestNG.java:234)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
-	at org.testng.TestNG.run(TestNG.java:1057)
-	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
-Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"id","selector":"heightCm"}
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '2.44.0', revision: '76d78cf323ce037c5f92db6c1bba601c2ac43ad8', time: '2014-10-23 13:11:40'
-System info: host: 'LWO1-LHP-F49053', ip: '172.24.223.107', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_25'
-Driver info: driver.version: unknown
-	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/ROMAN~1.MYK/AppData/Local/Temp/anonymous8840698428538962997webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:9641:26)
-	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/ROMAN~1.MYK/AppData/Local/Temp/anonymous8840698428538962997webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:548:5)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- UserCanUpdateProfile -->
-        <test-method status="PASS" signature="userCanChangePassword()[pri:0, instance:InstabeatSanity.Tests.SanityTestNG@11531931]" name="userCanChangePassword" duration-ms="24496" started-at="2014-12-05T17:16:43Z" finished-at="2014-12-05T17:17:08Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- userCanChangePassword -->
-        <test-method status="PASS" signature="userCanUpdateProfileSettings()[pri:0, instance:InstabeatSanity.Tests.SanityTestNG@11531931]" name="userCanUpdateProfileSettings" duration-ms="16761" started-at="2014-12-05T17:17:08Z" finished-at="2014-12-05T17:17:25Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- userCanUpdateProfileSettings -->
-        <test-method status="PASS" signature="userCanUpdateHRZPage()[pri:0, instance:InstabeatSanity.Tests.SanityTestNG@11531931]" name="userCanUpdateHRZPage" duration-ms="17692" started-at="2014-12-05T17:17:25Z" finished-at="2014-12-05T17:17:42Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- userCanUpdateHRZPage -->
-        <test-method status="PASS" signature="ValidateValuesInFooter()[pri:0, instance:InstabeatSanity.Tests.SanityTestNG@11531931]" name="ValidateValuesInFooter" duration-ms="7307" started-at="2014-12-05T17:17:42Z" finished-at="2014-12-05T17:17:50Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ValidateValuesInFooter -->
-        <test-method status="PASS" signature="checkIfHeightIsProperAfterChanges()[pri:0, instance:InstabeatSanity.Tests.SanityTestNG@11531931]" name="checkIfHeightIsProperAfterChanges" duration-ms="182745" started-at="2014-12-05T17:17:50Z" finished-at="2014-12-05T17:20:52Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkIfHeightIsProperAfterChanges -->
-        <test-method status="PASS" signature="checkIfHeightIsProperConverted()[pri:0, instance:InstabeatSanity.Tests.SanityTestNG@11531931]" name="checkIfHeightIsProperConverted" duration-ms="73606" started-at="2014-12-05T17:20:52Z" finished-at="2014-12-05T17:22:06Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkIfHeightIsProperConverted -->
-        <test-method status="PASS" signature="checkIfWeightIsProperAfterChanges()[pri:0, instance:InstabeatSanity.Tests.SanityTestNG@11531931]" name="checkIfWeightIsProperAfterChanges" duration-ms="37987" started-at="2014-12-05T17:22:06Z" finished-at="2014-12-05T17:22:44Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkIfWeightIsProperAfterChanges -->
-        <test-method status="FAIL" signature="checkIfWeightIsProperConverted()[pri:0, instance:InstabeatSanity.Tests.SanityTestNG@11531931]" name="checkIfWeightIsProperConverted" duration-ms="23199" started-at="2014-12-05T17:22:44Z" finished-at="2014-12-05T17:23:07Z">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [198] but found [196]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [198] but found [196]
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.failNotEquals(Assert.java:494)
-	at org.testng.Assert.assertEquals(Assert.java:123)
-	at org.testng.Assert.assertEquals(Assert.java:176)
-	at org.testng.Assert.assertEquals(Assert.java:186)
-	at instabeat.dashboard.ProfilePage.checkChangesInWeightAfterConvert(ProfilePage.java:224)
-	at InstabeatSanity.Tests.SanityTestNG.checkIfWeightIsProperConverted(SanityTestNG.java:724)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
-	at org.testng.TestNG.run(TestNG.java:1057)
-	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkIfWeightIsProperConverted -->
-        <test-method status="FAIL" signature="checkDefaultActivity()[pri:0, instance:InstabeatSanity.Tests.SanityTestNG@11531931]" name="checkDefaultActivity" duration-ms="51889" started-at="2014-12-05T17:23:07Z" finished-at="2014-12-05T17:23:59Z">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[Unable to locate element: {"method":"id","selector":"email"}
-Command duration or timeout: 50.08 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '2.44.0', revision: '76d78cf323ce037c5f92db6c1bba601c2ac43ad8', time: '2014-10-23 13:11:40'
-System info: host: 'LWO1-LHP-F49053', ip: '172.24.223.107', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_25'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=33.1, platform=WINDOWS, nativeEvents=true, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: c56f603f-ab55-45f2-9cb5-30bfdd725cc0]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"id","selector":"email"}
-Command duration or timeout: 50.08 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '2.44.0', revision: '76d78cf323ce037c5f92db6c1bba601c2ac43ad8', time: '2014-10-23 13:11:40'
-System info: host: 'LWO1-LHP-F49053', ip: '172.24.223.107', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_25'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=33.1, platform=WINDOWS, nativeEvents=true, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: c56f603f-ab55-45f2-9cb5-30bfdd725cc0
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:393)
-	at org.openqa.selenium.By$ById.findElement(By.java:214)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:59)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:37)
-	at com.sun.proxy.$Proxy6.sendKeys(Unknown Source)
-	at instabeat.pages.LoginPage.fullLogin(LoginPage.java:54)
-	at InstabeatSanity.Tests.SanityTestNG.checkDefaultActivity(SanityTestNG.java:745)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
-	at org.testng.TestNG.run(TestNG.java:1057)
-	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
-Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"id","selector":"email"}
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '2.44.0', revision: '76d78cf323ce037c5f92db6c1bba601c2ac43ad8', time: '2014-10-23 13:11:40'
-System info: host: 'LWO1-LHP-F49053', ip: '172.24.223.107', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_25'
-Driver info: driver.version: unknown
-	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/ROMAN~1.MYK/AppData/Local/Temp/anonymous8840698428538962997webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:9641:26)
-	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/ROMAN~1.MYK/AppData/Local/Temp/anonymous8840698428538962997webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:548:5)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkDefaultActivity -->
-        <test-method status="PASS" signature="AfterTests()[pri:0, instance:InstabeatSanity.Tests.SanityTestNG@11531931]" name="AfterTests" is-config="true" duration-ms="1932" started-at="2014-12-05T17:23:59Z" finished-at="2014-12-05T17:24:01Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AfterTests -->
-      </class> <!-- InstabeatSanity.Tests.SanityTestNG -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- AfterGroup -->
+      </class> <!-- InstabeatSanity.Tests.RegressionTests -->
+    </test> <!-- GRP-Sanity -->
+  </suite> <!-- InstabeatTests by groups -->
 </testng-results>

@@ -3,15 +3,16 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="InstabeatSanity.Tests.SanityTestNG">
+      <class name="InstabeatSanity.Tests.RegressionTests">
         <methods>
-          <include name="checkIfWeightIsProperConverted"/>
-          <include name="BeforeTests"/>
-          <include name="UserCanUpdateProfile"/>
-          <include name="checkDefaultActivity"/>
+          <include name="BeforeGroup"/>
+          <include name="UserCanRegister"/>
+          <include name="BeforeMethod"/>
+          <include name="AfterGroup"/>
           <include name="AfterTests"/>
+          <include name="checkDefaultActivity"/>
         </methods>
-      </class> <!-- InstabeatSanity.Tests.SanityTestNG -->
+      </class> <!-- InstabeatSanity.Tests.RegressionTests -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

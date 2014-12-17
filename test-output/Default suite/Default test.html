@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>13/3/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>13/2/0</td>
 </tr><tr>
-<td>Started on:</td><td>Fri Dec 05 17:12:04 EET 2014</td>
+<td>Started on:</td><td>Fri Dec 12 16:56:14 EET 2014</td>
 </tr>
-<tr><td>Total time:</td><td>717 seconds (717073 ms)</td>
+<tr><td>Total time:</td><td>709 seconds (709905 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,15 +75,15 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='InstabeatSanity.Tests.SanityTestNG.UserCanUpdateProfile()'><b>UserCanUpdateProfile</b><br>Test class: InstabeatSanity.Tests.SanityTestNG</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;heightCm&quot;}
-Command duration or timeout: 50.02 seconds
+<td title='InstabeatSanity.Tests.RegressionTests.UserCanRegister()'><b>UserCanRegister</b><br>Test class: InstabeatSanity.Tests.RegressionTests</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;WINDOWS&quot;}
+Command duration or timeout: 50.03 seconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf323ce037c5f92db6c1bba601c2ac43ad8&apos;, time: &apos;2014-10-23 13:11:40&apos;
 System info: host: &apos;LWO1-LHP-F49053&apos;, ip: &apos;172.24.223.107&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_25&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=33.1, platform=WINDOWS, nativeEvents=true, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: c56f603f-ab55-45f2-9cb5-30bfdd725cc0
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=34.0.5, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: a229a1ff-1b3b-44e8-8cfb-92a4a3bfa38e
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -92,14 +92,11 @@ Session ID: c56f603f-ab55-45f2-9cb5-30bfdd725cc0
 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:393)
-	at org.openqa.selenium.By$ById.findElement(By.java:214)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:401)
+	at org.openqa.selenium.By$ByLinkText.findElement(By.java:242)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:59)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:37)
-	at com.sun.proxy.$Proxy6.sendKeys(Unknown Source)
-	at instabeat.dashboard.ProfilePage.updateHeightfield(ProfilePage.java:50)
-	at InstabeatSanity.Tests.SanityTestNG.UserCanUpdateProfile(SanityTestNG.java:234)
+	at instabeat.pages.GetStartedSecondStep.downloadApp(GetStartedSecondStep.java:28)
+	at InstabeatSanity.Tests.RegressionTests.UserCanRegister(RegressionTests.java:115)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -124,22 +121,22 @@ Session ID: c56f603f-ab55-45f2-9cb5-30bfdd725cc0
 	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
-Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;heightCm&quot;}
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;WINDOWS&quot;}
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf323ce037c5f92db6c1bba601c2ac43ad8&apos;, time: &apos;2014-10-23 13:11:40&apos;
 System info: host: &apos;LWO1-LHP-F49053&apos;, ip: &apos;172.24.223.107&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_25&apos;
 Driver info: driver.version: unknown
-	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/ROMAN~1.MYK/AppData/Local/Temp/anonymous8840698428538962997webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:9641:26)
-	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/Users/ROMAN~1.MYK/AppData/Local/Temp/anonymous8840698428538962997webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:548:5)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1862994526", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1862994526'><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;heightCm&quot;}
-Command duration or timeout: 50.02 seconds
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/ROMAN~1.MYK/AppData/Local/Temp/anonymous6110439559810685242webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:9641:26)
+	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/Users/ROMAN~1.MYK/AppData/Local/Temp/anonymous6110439559810685242webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:548:5)
+</pre></div><a href='#' onClick='toggleBox("stack-trace146874094", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace146874094'><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;WINDOWS&quot;}
+Command duration or timeout: 50.03 seconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf323ce037c5f92db6c1bba601c2ac43ad8&apos;, time: &apos;2014-10-23 13:11:40&apos;
 System info: host: &apos;LWO1-LHP-F49053&apos;, ip: &apos;172.24.223.107&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_25&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=33.1, platform=WINDOWS, nativeEvents=true, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: c56f603f-ab55-45f2-9cb5-30bfdd725cc0
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=34.0.5, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: a229a1ff-1b3b-44e8-8cfb-92a4a3bfa38e
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -148,14 +145,11 @@ Session ID: c56f603f-ab55-45f2-9cb5-30bfdd725cc0
 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:393)
-	at org.openqa.selenium.By$ById.findElement(By.java:214)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:401)
+	at org.openqa.selenium.By$ByLinkText.findElement(By.java:242)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:59)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:37)
-	at com.sun.proxy.$Proxy6.sendKeys(Unknown Source)
-	at instabeat.dashboard.ProfilePage.updateHeightfield(ProfilePage.java:50)
-	at InstabeatSanity.Tests.SanityTestNG.UserCanUpdateProfile(SanityTestNG.java:234)
+	at instabeat.pages.GetStartedSecondStep.downloadApp(GetStartedSecondStep.java:28)
+	at InstabeatSanity.Tests.RegressionTests.UserCanRegister(RegressionTests.java:115)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -180,42 +174,21 @@ Session ID: c56f603f-ab55-45f2-9cb5-30bfdd725cc0
 	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
-Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;heightCm&quot;}
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;WINDOWS&quot;}
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf323ce037c5f92db6c1bba601c2ac43ad8&apos;, time: &apos;2014-10-23 13:11:40&apos;
 System info: host: &apos;LWO1-LHP-F49053&apos;, ip: &apos;172.24.223.107&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_25&apos;
 Driver info: driver.version: unknown
-	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/ROMAN~1.MYK/AppData/Local/Temp/anonymous8840698428538962997webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:9641:26)
-	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/Users/ROMAN~1.MYK/AppData/Local/Temp/anonymous8840698428538962997webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:548:5)
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/ROMAN~1.MYK/AppData/Local/Temp/anonymous6110439559810685242webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:9641:26)
+	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/Users/ROMAN~1.MYK/AppData/Local/Temp/anonymous6110439559810685242webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:548:5)
 </pre></div></td>
-<td>59</td>
-<td>InstabeatSanity.Tests.SanityTestNG@11531931</td></tr>
+<td>84</td>
+<td>InstabeatSanity.Tests.RegressionTests@6debcae2</td></tr>
 <tr>
-<td title='InstabeatSanity.Tests.SanityTestNG.checkDefaultActivity()'><b>checkDefaultActivity</b><br>Test class: InstabeatSanity.Tests.SanityTestNG</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;email&quot;}
-Command duration or timeout: 50.08 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf323ce037c5f92db6c1bba601c2ac43ad8&apos;, time: &apos;2014-10-23 13:11:40&apos;
-System info: host: &apos;LWO1-LHP-F49053&apos;, ip: &apos;172.24.223.107&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_25&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=33.1, platform=WINDOWS, nativeEvents=true, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: c56f603f-ab55-45f2-9cb5-30bfdd725cc0
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:393)
-	at org.openqa.selenium.By$ById.findElement(By.java:214)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:59)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:37)
-	at com.sun.proxy.$Proxy6.sendKeys(Unknown Source)
-	at instabeat.pages.LoginPage.fullLogin(LoginPage.java:54)
-	at InstabeatSanity.Tests.SanityTestNG.checkDefaultActivity(SanityTestNG.java:745)
+<td title='InstabeatSanity.Tests.RegressionTests.checkDefaultActivity()'><b>checkDefaultActivity</b><br>Test class: InstabeatSanity.Tests.RegressionTests</td>
+<td><div><pre>java.lang.ArrayIndexOutOfBoundsException: 2
+	at instabeat.dashboard.HomePage.getDefaultActivityFromHomePage(HomePage.java:211)
+	at InstabeatSanity.Tests.RegressionTests.checkDefaultActivity(RegressionTests.java:762)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -240,115 +213,10 @@ Session ID: c56f603f-ab55-45f2-9cb5-30bfdd725cc0
 	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
-Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;email&quot;}
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf323ce037c5f92db6c1bba601c2ac43ad8&apos;, time: &apos;2014-10-23 13:11:40&apos;
-System info: host: &apos;LWO1-LHP-F49053&apos;, ip: &apos;172.24.223.107&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_25&apos;
-Driver info: driver.version: unknown
-	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/ROMAN~1.MYK/AppData/Local/Temp/anonymous8840698428538962997webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:9641:26)
-	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/Users/ROMAN~1.MYK/AppData/Local/Temp/anonymous8840698428538962997webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:548:5)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1924990666", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1924990666'><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;email&quot;}
-Command duration or timeout: 50.08 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf323ce037c5f92db6c1bba601c2ac43ad8&apos;, time: &apos;2014-10-23 13:11:40&apos;
-System info: host: &apos;LWO1-LHP-F49053&apos;, ip: &apos;172.24.223.107&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_25&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=33.1, platform=WINDOWS, nativeEvents=true, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: c56f603f-ab55-45f2-9cb5-30bfdd725cc0
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:393)
-	at org.openqa.selenium.By$ById.findElement(By.java:214)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:59)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:37)
-	at com.sun.proxy.$Proxy6.sendKeys(Unknown Source)
-	at instabeat.pages.LoginPage.fullLogin(LoginPage.java:54)
-	at InstabeatSanity.Tests.SanityTestNG.checkDefaultActivity(SanityTestNG.java:745)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
-	at org.testng.TestNG.run(TestNG.java:1057)
-	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
-Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;email&quot;}
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf323ce037c5f92db6c1bba601c2ac43ad8&apos;, time: &apos;2014-10-23 13:11:40&apos;
-System info: host: &apos;LWO1-LHP-F49053&apos;, ip: &apos;172.24.223.107&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_25&apos;
-Driver info: driver.version: unknown
-	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/ROMAN~1.MYK/AppData/Local/Temp/anonymous8840698428538962997webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:9641:26)
-	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/Users/ROMAN~1.MYK/AppData/Local/Temp/anonymous8840698428538962997webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:548:5)
-</pre></div></td>
-<td>51</td>
-<td>InstabeatSanity.Tests.SanityTestNG@11531931</td></tr>
-<tr>
-<td title='InstabeatSanity.Tests.SanityTestNG.checkIfWeightIsProperConverted()'><b>checkIfWeightIsProperConverted</b><br>Test class: InstabeatSanity.Tests.SanityTestNG</td>
-<td><div><pre>java.lang.AssertionError: expected [198] but found [196]
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.failNotEquals(Assert.java:494)
-	at org.testng.Assert.assertEquals(Assert.java:123)
-	at org.testng.Assert.assertEquals(Assert.java:176)
-	at org.testng.Assert.assertEquals(Assert.java:186)
-	at instabeat.dashboard.ProfilePage.checkChangesInWeightAfterConvert(ProfilePage.java:224)
-	at InstabeatSanity.Tests.SanityTestNG.checkIfWeightIsProperConverted(SanityTestNG.java:724)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
-	at org.testng.TestNG.run(TestNG.java:1057)
-	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
-</pre></div><a href='#' onClick='toggleBox("stack-trace2144067911", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace2144067911'><pre>java.lang.AssertionError: expected [198] but found [196]
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.failNotEquals(Assert.java:494)
-	at org.testng.Assert.assertEquals(Assert.java:123)
-	at org.testng.Assert.assertEquals(Assert.java:176)
-	at org.testng.Assert.assertEquals(Assert.java:186)
-	at instabeat.dashboard.ProfilePage.checkChangesInWeightAfterConvert(ProfilePage.java:224)
-	at InstabeatSanity.Tests.SanityTestNG.checkIfWeightIsProperConverted(SanityTestNG.java:724)
+</pre></div><a href='#' onClick='toggleBox("stack-trace2080643905", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2080643905'><pre>java.lang.ArrayIndexOutOfBoundsException: 2
+	at instabeat.dashboard.HomePage.getDefaultActivityFromHomePage(HomePage.java:211)
+	at InstabeatSanity.Tests.RegressionTests.checkDefaultActivity(RegressionTests.java:762)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -374,8 +242,8 @@ Driver info: driver.version: unknown
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
 </pre></div></td>
-<td>23</td>
-<td>InstabeatSanity.Tests.SanityTestNG@11531931</td></tr>
+<td>8</td>
+<td>InstabeatSanity.Tests.RegressionTests@6debcae2</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -385,70 +253,70 @@ Driver info: driver.version: unknown
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='InstabeatSanity.Tests.SanityTestNG.UserCanChooseExistSession()'><b>UserCanChooseExistSession</b><br>Test class: InstabeatSanity.Tests.SanityTestNG</td>
+<td title='InstabeatSanity.Tests.RegressionTests.UserCanChooseExistSession()'><b>UserCanChooseExistSession</b><br>Test class: InstabeatSanity.Tests.RegressionTests</td>
 <td></td>
 <td>17</td>
-<td>InstabeatSanity.Tests.SanityTestNG@11531931</td></tr>
+<td>InstabeatSanity.Tests.RegressionTests@6debcae2</td></tr>
 <tr>
-<td title='InstabeatSanity.Tests.SanityTestNG.UserCanLogin()'><b>UserCanLogin</b><br>Test class: InstabeatSanity.Tests.SanityTestNG</td>
+<td title='InstabeatSanity.Tests.RegressionTests.UserCanLogin()'><b>UserCanLogin</b><br>Test class: InstabeatSanity.Tests.RegressionTests</td>
 <td></td>
 <td>13</td>
-<td>InstabeatSanity.Tests.SanityTestNG@11531931</td></tr>
+<td>InstabeatSanity.Tests.RegressionTests@6debcae2</td></tr>
 <tr>
-<td title='InstabeatSanity.Tests.SanityTestNG.UserCanRegister()'><b>UserCanRegister</b><br>Test class: InstabeatSanity.Tests.SanityTestNG</td>
+<td title='InstabeatSanity.Tests.RegressionTests.UserCanUpdateProfile()'><b>UserCanUpdateProfile</b><br>Test class: InstabeatSanity.Tests.RegressionTests</td>
 <td></td>
-<td>71</td>
-<td>InstabeatSanity.Tests.SanityTestNG@11531931</td></tr>
+<td>39</td>
+<td>InstabeatSanity.Tests.RegressionTests@6debcae2</td></tr>
 <tr>
-<td title='InstabeatSanity.Tests.SanityTestNG.UserCannotLogin()'><b>UserCannotLogin</b><br>Test class: InstabeatSanity.Tests.SanityTestNG</td>
+<td title='InstabeatSanity.Tests.RegressionTests.UserCannotLogin()'><b>UserCannotLogin</b><br>Test class: InstabeatSanity.Tests.RegressionTests</td>
 <td></td>
 <td>6</td>
-<td>InstabeatSanity.Tests.SanityTestNG@11531931</td></tr>
+<td>InstabeatSanity.Tests.RegressionTests@6debcae2</td></tr>
 <tr>
-<td title='InstabeatSanity.Tests.SanityTestNG.UserForgotPassword()'><b>UserForgotPassword</b><br>Test class: InstabeatSanity.Tests.SanityTestNG</td>
+<td title='InstabeatSanity.Tests.RegressionTests.UserForgotPassword()'><b>UserForgotPassword</b><br>Test class: InstabeatSanity.Tests.RegressionTests</td>
 <td></td>
-<td>15</td>
-<td>InstabeatSanity.Tests.SanityTestNG@11531931</td></tr>
+<td>14</td>
+<td>InstabeatSanity.Tests.RegressionTests@6debcae2</td></tr>
 <tr>
-<td title='InstabeatSanity.Tests.SanityTestNG.ValidateValuesInFooter()'><b>ValidateValuesInFooter</b><br>Test class: InstabeatSanity.Tests.SanityTestNG</td>
+<td title='InstabeatSanity.Tests.RegressionTests.ValidateValuesInFooter()'><b>ValidateValuesInFooter</b><br>Test class: InstabeatSanity.Tests.RegressionTests</td>
 <td></td>
 <td>7</td>
-<td>InstabeatSanity.Tests.SanityTestNG@11531931</td></tr>
+<td>InstabeatSanity.Tests.RegressionTests@6debcae2</td></tr>
 <tr>
-<td title='InstabeatSanity.Tests.SanityTestNG.checkAllLinksOnWebPage()'><b>checkAllLinksOnWebPage</b><br>Test class: InstabeatSanity.Tests.SanityTestNG</td>
+<td title='InstabeatSanity.Tests.RegressionTests.checkIfHeightIsProperAfterChanges()'><b>checkIfHeightIsProperAfterChanges</b><br>Test class: InstabeatSanity.Tests.RegressionTests</td>
 <td></td>
-<td>84</td>
-<td>InstabeatSanity.Tests.SanityTestNG@11531931</td></tr>
+<td>180</td>
+<td>InstabeatSanity.Tests.RegressionTests@6debcae2</td></tr>
 <tr>
-<td title='InstabeatSanity.Tests.SanityTestNG.checkIfHeightIsProperAfterChanges()'><b>checkIfHeightIsProperAfterChanges</b><br>Test class: InstabeatSanity.Tests.SanityTestNG</td>
+<td title='InstabeatSanity.Tests.RegressionTests.checkIfHeightIsProperConverted()'><b>checkIfHeightIsProperConverted</b><br>Test class: InstabeatSanity.Tests.RegressionTests</td>
 <td></td>
-<td>182</td>
-<td>InstabeatSanity.Tests.SanityTestNG@11531931</td></tr>
+<td>76</td>
+<td>InstabeatSanity.Tests.RegressionTests@6debcae2</td></tr>
 <tr>
-<td title='InstabeatSanity.Tests.SanityTestNG.checkIfHeightIsProperConverted()'><b>checkIfHeightIsProperConverted</b><br>Test class: InstabeatSanity.Tests.SanityTestNG</td>
+<td title='InstabeatSanity.Tests.RegressionTests.checkIfWeightIsProperAfterChanges()'><b>checkIfWeightIsProperAfterChanges</b><br>Test class: InstabeatSanity.Tests.RegressionTests</td>
 <td></td>
-<td>73</td>
-<td>InstabeatSanity.Tests.SanityTestNG@11531931</td></tr>
+<td>34</td>
+<td>InstabeatSanity.Tests.RegressionTests@6debcae2</td></tr>
 <tr>
-<td title='InstabeatSanity.Tests.SanityTestNG.checkIfWeightIsProperAfterChanges()'><b>checkIfWeightIsProperAfterChanges</b><br>Test class: InstabeatSanity.Tests.SanityTestNG</td>
+<td title='InstabeatSanity.Tests.RegressionTests.checkIfWeightIsProperConverted()'><b>checkIfWeightIsProperConverted</b><br>Test class: InstabeatSanity.Tests.RegressionTests</td>
 <td></td>
-<td>37</td>
-<td>InstabeatSanity.Tests.SanityTestNG@11531931</td></tr>
+<td>25</td>
+<td>InstabeatSanity.Tests.RegressionTests@6debcae2</td></tr>
 <tr>
-<td title='InstabeatSanity.Tests.SanityTestNG.userCanChangePassword()'><b>userCanChangePassword</b><br>Test class: InstabeatSanity.Tests.SanityTestNG</td>
+<td title='InstabeatSanity.Tests.RegressionTests.userCanChangePassword()'><b>userCanChangePassword</b><br>Test class: InstabeatSanity.Tests.RegressionTests</td>
 <td></td>
-<td>24</td>
-<td>InstabeatSanity.Tests.SanityTestNG@11531931</td></tr>
+<td>13</td>
+<td>InstabeatSanity.Tests.RegressionTests@6debcae2</td></tr>
 <tr>
-<td title='InstabeatSanity.Tests.SanityTestNG.userCanUpdateHRZPage()'><b>userCanUpdateHRZPage</b><br>Test class: InstabeatSanity.Tests.SanityTestNG</td>
+<td title='InstabeatSanity.Tests.RegressionTests.userCanUpdateHRZPage()'><b>userCanUpdateHRZPage</b><br>Test class: InstabeatSanity.Tests.RegressionTests</td>
 <td></td>
-<td>17</td>
-<td>InstabeatSanity.Tests.SanityTestNG@11531931</td></tr>
+<td>15</td>
+<td>InstabeatSanity.Tests.RegressionTests@6debcae2</td></tr>
 <tr>
-<td title='InstabeatSanity.Tests.SanityTestNG.userCanUpdateProfileSettings()'><b>userCanUpdateProfileSettings</b><br>Test class: InstabeatSanity.Tests.SanityTestNG</td>
+<td title='InstabeatSanity.Tests.RegressionTests.userCanUpdateProfileSettings()'><b>userCanUpdateProfileSettings</b><br>Test class: InstabeatSanity.Tests.RegressionTests</td>
 <td></td>
-<td>16</td>
-<td>InstabeatSanity.Tests.SanityTestNG@11531931</td></tr>
+<td>15</td>
+<td>InstabeatSanity.Tests.RegressionTests@6debcae2</td></tr>
 </table><p>
 </body>
 </html>

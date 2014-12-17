@@ -17,11 +17,13 @@ import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
 
+import InstabeatSanity.Tests.MainTestClass;
+
 //import org.apache.commons.lang.RandomStringUtils;
 
-public class MainPagesFunc {
+public class MainPagesFunc extends MainTestClass{
 
-	protected WebDriver driver;
+//	protected WebDriver driver;
 	protected ParametersManager parameters;
 	Random random = new Random();
 	// RandomStringUtils randomForLetters = new RandomStringUtils();

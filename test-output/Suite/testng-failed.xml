@@ -1,15 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]">
-  <test name="instabeatSanity.Tests(failed)">
+  <test name="Sanity(failed)">
+    <groups>
+      <run>
+        <include name="Sanity"/>
+      </run>
+    </groups>
     <classes>
       <class name="InstabeatSanity.Tests.SanityTestNG">
         <methods>
-          <include name="BeforeTests"/>
-          <include name="checkDefaultActivity"/>
+          <include name="BeforeMethod"/>
           <include name="AfterTests"/>
+          <include name="UserCanLogin"/>
         </methods>
       </class> <!-- InstabeatSanity.Tests.SanityTestNG -->
     </classes>
-  </test> <!-- instabeatSanity.Tests(failed) -->
+  </test> <!-- Sanity(failed) -->
 </suite> <!-- Failed suite [Suite] -->
